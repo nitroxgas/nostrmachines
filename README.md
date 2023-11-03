@@ -17,7 +17,7 @@ To-Do:
 * Implement pubkey validation with Zaps
 * Build other examples;
 
-* Special shoutout to the LNbits and MakerBits communities, Ben Arc, BlackCoffe, and Calle for the amazing work and collaboration, and also to Abdre Neves for the mentoring!
+* Special shoutout to the LNbits and MakerBits communities, Ben Arc, BlackCoffe, and Calle for the amazing work and collaboration, and also to Andre Neves for the mentoring!
 
 * Project built and presented at SatsHack São Paulo on November 3, 2023. Presentation: https://docs.google.com/presentation/d/1dhbu2fdxXNxrFq2Rap_0n3heBFkCwFHG/edit?usp=sharing&ouid=103025837986292071011&rtpof=true&sd=true
 
