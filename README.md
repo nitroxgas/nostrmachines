@@ -3,6 +3,9 @@
 #1 Safe Box: An example of how to use DM and Zaps to interact with IoT devices
 First example: A Multi-DM Safe Box
 
+A Lilygo T-Display S3 will serve as our Safe Box for this time-limited competition; hence, it should be waiting for the previously hard-coded pubkeys to send it a DM;
+It should become orange on the display when one of the DM is identified, suggesting that another pubkey needs to DM as well; It should flash green as soon as the other pubkey DM arrives, indicating that the conditions are met; it could then send a signal to the safe box itself to open the door; And for now, that's it;
+
 To-Do:
 * Sure, tidy the code;
 * Add support to NIP-5, Zaps, and passphrase at the DM;
