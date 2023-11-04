@@ -18,8 +18,8 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
-const char* ssid     = "EurekaCoworking"; // wifi SSID here "GeorgeHome"; //
-const char* password =  "conectandopessoas"; // wifi password here "Cz1mwyh."; //
+const char* ssid     = "EurekaCoworking"; // wifi SSID here 
+const char* password =  "conectandopessoas"; // wifi password here 
 
 NostrEvent nostr;
 NostrRelayManager nostrRelayManager;
