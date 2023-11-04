@@ -128,37 +128,15 @@ void MachineControlTask(void *pvParameters) {
       if ((config1_time>0) && (config2_time>0)) {
         // received both messages
         tft.fillScreen(TFT_GREEN);
-        /* background.fillScreen(TFT_GREEN);
-        background.drawString("OPEN", 50, 70);
-        background.pushSprite(0,0); */
         hasmessage = false;
       } else if (config1_time>0) {
         // received 1 
-        tft.fillScreen(TFT_ORANGE);
-        //clockticker = getUnixTimestamp();
-        //if (config1_time < (getUnixTimestamp() + 120)) hasmessage = false;
-        //writeToDisplay("     George");
-        //tft.setTextSize(2);
-        /* background.fillScreen(TFT_ORANGE);
-        background.drawString("WAITING NEXT APROVAL", 50, 70);
-        background.pushSprite(0,0,TFT_BLACK); */
+        tft.fillScreen(TFT_ORANGE); 
        } else if (config2_time>0) {
         // received 2 
         tft.fillScreen(TFT_ORANGE);
-        /* tft.setTextSize(2);
-        background.fillScreen(TFT_ORANGE);
-        background.drawString("WAITING NEXT APROVAL", 50, 70);
-        background.setFreeFont()
-        background.pushSprite(0,0,TFT_BLACK); */
-        //writeToDisplay("     Mihai");
-        //if (config2_time < (getUnixTimestamp() + 120)) hasmessage = false;        
+             
       }       
-      /* if (!hasmessage) {
-        config1_time = 0;
-        config2_time = 0;
-        tft.fillScreen(TFT_BLACK);
-        writeToDisplay("     Rearmed!");
-      } */
     } 
 
 
@@ -205,15 +183,7 @@ void createZapEventRequest() {
 void relayConnectedEvent(const std::string& key, const std::string& message) {
   socketDisconnectedCount = 0;
   Serial.println("Relay connected: ");
- /*  click(225);
-  delay(100);
-  click(225);
-  delay(100);
-  click(225);
- */
   Serial.print(F("Requesting events:"));
- // Serial.println(serialisedEventRequest);
- // nostrRelayManager.broadcastEvent(serialisedEventRequest);
 }
 
 
@@ -243,7 +213,7 @@ String lastPayload = "";
 void relayDisonnectedEvent(const std::string& key, const std::string& message) {
   Serial.println("Relay disconnected: ");
   socketDisconnectedCount++;
-  // reboot after 3 socketDisconnectedCount subsequenet messages
+  // reboot after 6 socketDisconnectedCount subsequenet messages
   if(socketDisconnectedCount >= 6) {
     Serial.println("Too many socket disconnections. Restarting");
     // restart device
@@ -589,6 +559,6 @@ void loop() {
   // reboot every hour
   if (millis() > 3600000) {
     Serial.println("Rebooting");
-   // ESP.restart();
+    ESP.restart();
   }
 }
