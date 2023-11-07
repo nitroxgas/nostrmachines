@@ -7,7 +7,7 @@ It should become orange on the display when one of the DM is identified, suggest
 
 ![WhatsApp Image 2023-11-03 at 16 33 15](https://github.com/nitroxgas/nostrmachine/assets/6924947/6b8db513-9de9-42f5-8eed-76a7eb09679e)
 
-## 2: A Garage door controler
+## 2: A Garage door controller
 A garage door controller to open, close, and notify a user using Nostr DM to proof of authority ( a work in progress );
 
 ## 3: A Nostr remote sensor
