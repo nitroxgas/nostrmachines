@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "safebox"
+		},
+		{
+			"name": "nostr_sensors",
+			"path": "nostr_sensors"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"tfminiplus.h": "c",
+			"lidar_tfminiplus.h": "c"
+		}
+	}
+}

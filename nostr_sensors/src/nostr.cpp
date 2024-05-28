@@ -1,11 +1,12 @@
-#include <Arduino.h>
+
+#include "nostr.h"
+/* #include <Arduino.h>
 #include "WiFiClientSecure.h"
 #include "time.h"
 #include <NostrEvent.h>
 #include <NostrRelayManager.h>
-#include <TFT_eSPI.h>
 #include <vector>
-//#include <WiFi.h>
+
 #include <NostrRequestOptions.h>
 #include <Wire.h>
 #include "Bitcoin.h"
@@ -16,10 +17,7 @@
 
 // freertos
 #include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-
-const char* ssid     = "EurekaCoworking"; // wifi SSID here 
-const char* password =  "conectandopessoas"; // wifi password here 
+#include "freertos/task.h" */
 
 NostrEvent nostr;
 NostrRelayManager nostrRelayManager;
@@ -49,11 +47,8 @@ int minFlashDelay = 100; // Minimum delay between flashes (in milliseconds)
 int maxFlashDelay = 5000; // Maximum delay between flashes (in milliseconds)
 int lightBrightness = 20; // The brightness of the LED (0-255)
 
-TFT_eSPI tft = TFT_eSPI(TFT_WIDTH, TFT_HEIGHT);
-TFT_eSprite background = TFT_eSprite(&tft);
-
-char const *nsecHex = "d3871668e532102ca5293649d8e9f0e9085dd58e161cf93bee6037abb5b8a3fb"; //"nsec16wr3v689xggzefffxeya360sayy9m4vwzcw0jwlwvqm6hddc50asuz27w9"; // sender private key in hex e.g. bdd19cecdXXXXXXXXXXXXXXXXXXXXXXXXXX
-char const *npubHex = "8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0"; // sender public key in hex e.g. d0bfc94bd4324f7df2a7601c4177209828047c4d3904d64009a3c67fb5d5e7ca
+char const *nsecHex = "d3871668e532102ca5293649d8e9f0e9085dd58e161cf93bee6037abb5b8a3fb"; 
+char const *npubHex = "8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0"; 
 
 String config_pubkey = "8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0"; 
 String config1_pubkey = "20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb";
@@ -80,12 +75,13 @@ struct KeyValue {
     String value;
 };
 
+bool hasmessage = false;
+unsigned long clockticker = 0;
 
 #define BUTTON_PIN 0 // change this to the pin your button is connected to
 #define DOUBLE_TAP_DELAY 250 // delay for double tap in milliseconds
 volatile unsigned long lastButtonPress = 0;
 volatile bool doubleTapDetected = false;
-
 
 void IRAM_ATTR handleButtonInterrupt() {
   unsigned long now = millis();
@@ -95,13 +91,6 @@ void IRAM_ATTR handleButtonInterrupt() {
   lastButtonPress = now;
 }
 
-void writeToDisplay(String text) {
-    tft.setTextSize(2);
-    tft.fillScreen(TFT_BLACK);
-    tft.setTextWrap(true, true);
-    tft.drawString(text, 5, 5);
-}
-
 unsigned long getUnixTimestamp() {
   time_t now;
   struct tm timeinfo;
@@ -109,16 +98,14 @@ unsigned long getUnixTimestamp() {
     Serial.println("Failed to obtain time");
     return 0;
   } else {
-    Serial.println("Got timestamp of " + String(now));
-    //writeToDisplay("Got timestamp of " + String(now));
+    Serial.println("Got timestamp of " + String(now));    
   }
   time(&now);
   return now;
 }
 
-bool hasmessage = false;
-unsigned long clockticker = 0;
-//free rtos task for lamp control
+
+//free rtos task for control
 void MachineControlTask(void *pvParameters) {
   Serial.println("Starting control task");
   //attachInterrupt(digitalPinToInterrupt(BUTTON_PIN), handleButtonInterrupt, FALLING);
@@ -127,49 +114,18 @@ void MachineControlTask(void *pvParameters) {
      if(hasmessage) {
       if ((config1_time>0) && (config2_time>0)) {
         // received both messages
-        tft.fillScreen(TFT_GREEN);
+        
         hasmessage = false;
       } else if (config1_time>0) {
         // received 1 
-        tft.fillScreen(TFT_ORANGE); 
+        
        } else if (config2_time>0) {
-        // received 2 
-        tft.fillScreen(TFT_ORANGE);
+        // received 2         
              
       }       
     } 
       vTaskDelay(500 / portTICK_PERIOD_MS);    
   }
-}
-
-/**
- * @brief Create a Zap Event Request object
- *
- */
-void createZapEventRequest() {
-  // Create the REQ
-  eventRequestOptions = new NostrRequestOptions();
-  // Populate kinds
-  int kinds[] = {9735,9534};
-  eventRequestOptions->kinds = kinds;
-  eventRequestOptions->kinds_count = sizeof(kinds) / sizeof(kinds[0]);
-
-  // // Populate #p
-  Serial.println("npubHexString is |" + config_pubkey + "|");
-  if(config_pubkey != "") {
-    Serial.println("npub is specified");
-    String* pubkeys = new String[1];  // Allocate memory dynamically
-    pubkeys[0] = config_pubkey;
-    eventRequestOptions->p = pubkeys;
-    eventRequestOptions->p_count = 1;
-  }
-
-  eventRequestOptions->limit = 0;
-
-  // We store this here for sending this request again if a socket reconnects
-  serialisedEventRequest = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\"," + eventRequestOptions->toJson() + "]";
-
-  delete eventRequestOptions;
 }
 
 /**
@@ -183,24 +139,6 @@ void relayConnectedEvent(const std::string& key, const std::string& message) {
   Serial.println("Relay connected: ");
   Serial.print(F("Requesting events:"));
 }
-
-
-/**
- * @brief Flash the LED a random number of times with a random delay between flashes
- *
- * @param numFlashes
- */
-void signalWithLightning(int numFlashes, int duration = 500) {
-  for (int i = 0; i < numFlashes; i++) {
-    digitalWrite(ledPin, HIGH);
-    delay(duration);
-
-    digitalWrite(ledPin, LOW);
-    delay(duration);
-  }
-}
-
-String lastPayload = "";
 
 /**
  * @brief Event callback for when a relay disconnects
@@ -219,8 +157,9 @@ void relayDisonnectedEvent(const std::string& key, const std::string& message) {
   }
 }
 
-void okEvent(const std::string& key, const char* payload) {    
-    writeToDisplay("OK event");
+String lastPayload = "";
+
+void okEvent(const std::string& key, const char* payload) {        
     if(lastPayload != payload) { // Prevent duplicate events from multiple relays triggering the same logic
       lastPayload = payload;
       Serial.println("payload is: ");
@@ -377,7 +316,7 @@ void zapReceiptEvent(const std::string& key, const char* payload) {
       // Choose a random phrase from the array
       int randomPhraseIndex = getRandomNum(0, sizeof(zapPhrases) / sizeof(zapPhrases[0]) - 1);
       Serial.println(zapPhrases[randomPhraseIndex] + " " + String(amountInSatoshis) + " sats");
-      writeToDisplay(zapPhrases[randomPhraseIndex] + " " + String(amountInSatoshis) + " sats");
+      // writeToDisplay(zapPhrases[randomPhraseIndex] + " " + String(amountInSatoshis) + " sats");
       //flashLightning(amountInSatoshis);
     }
 }
@@ -386,9 +325,9 @@ void nip01Event(const std::string& key, const char* payload) {
     Serial.println("NIP01 event");
     Serial.println("payload is: ");
     Serial.println(payload);
-    writeToDisplay("NIP01");
+    
     delay(1000);
-    writeToDisplay(payload);
+    // writeToDisplay(payload);
 }
 
 const char* previousPayload = "";
@@ -401,13 +340,13 @@ void nip04Event(const std::string& key, const char* payload) {
     temp = getpubKeyFromEvent(payload);
     Serial.println(temp);
     if (temp==config2_pubkey) {
-      writeToDisplay("NIP04 from: Mihai");
+      // writeToDisplay("NIP04 from: Mihai");
       Serial.println(" Mihai");
       config2_time = getUnixTimestamp();
       hasmessage = true;
     } else
     if (temp==config1_pubkey) {
-      writeToDisplay("NIP04 from: George");
+      // writeToDisplay("NIP04 from: George");
       Serial.println(" George");
       config1_time = getUnixTimestamp();
       hasmessage = true;
@@ -464,8 +403,9 @@ void connectToNostrRelays() {
   nostrRelayManager.connect();
 }
 
+
 /**
- * @brief Initialise the lamp
+ * @brief Initialise the nostr machine task
  * 
  */
 void initMachine() {
@@ -483,23 +423,9 @@ void initMachine() {
     1);               /* Core where the task should run */
 }
 
-
-
-void setup() {
-  Serial.begin(115200);
-  
-  tft.init();
-  tft.setRotation(3);
-  tft.setTextSize(2);
-  tft.setSwapBytes(true); // Swap the colour byte order when rendering
-  
-  background.createSprite(TFT_WIDTH, TFT_HEIGHT); // Background Sprite
-  background.setSwapBytes(true);
-  
-  writeToDisplay("NOSTR Machine! SAFE BOX!");
+void setup_machine() {
   pinMode(buttonPin, INPUT_PULLUP); 
-  WiFi.begin(ssid, password);
-
+  // WiFi.begin(ssid, password);
   int wifiConnectTimer = 0;
     while (WiFi.status() != WL_CONNECTED && wifiConnectTimer < 15000) {
       delay(100);
@@ -530,7 +456,7 @@ void setup() {
   
   connectToNostrRelays();
   
-  createZapEventRequest();
+  // createZapEventRequest();
 
  
 
@@ -549,14 +475,4 @@ void setup() {
  /*  subscriptionString = nostr.getEncryptedDm(nsecHex, npubHex, testRecipientPubKeyHex, timestamp, "Running NIP04!");
   nostrRelayManager.enqueueMessage(subscriptionString.c_str()); */
 
-}
-
-void loop() {
-  nostrRelayManager.loop();
-  nostrRelayManager.broadcastEvents();
-  // reboot every hour
-  if (millis() > 3600000) {
-    Serial.println("Rebooting");
-    ESP.restart();
-  }
 }
