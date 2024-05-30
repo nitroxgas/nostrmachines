@@ -1,6 +1,20 @@
 #ifdef LIDAR_TFMINIPlus
     #include "sensors/lidar_tfminiplus.h"
+    unsigned long lidar_previousMillis = 0;
+    #ifndef LIDAR_TIME
+        #define LIDAR_TIME 5000
+    #endif
+#endif
+#ifdef LIDAR_TFMINIPlusNoLib
+    #include "sensors/lidar_tfminiplusnolib.h"
+    unsigned long lidar_previousMillis = 0;
+    #ifndef LIDAR_TIME
+        #define LIDAR_TIME 5000
+    #endif
 #endif
 #ifdef PLUV
     #include "sensors/pluviometer_bascar.h"
+    unsigned long pluv_previousMillis = 0;
 #endif
+
+unsigned long currentMillis = 0;

@@ -6,6 +6,7 @@
 
 #include "sensors.h"
 #include "wManager.h"
+// #include "timers.h"
 
 String read_tmp;
 
@@ -17,15 +18,44 @@ void setup() {
     Serial.println("SETUP LIDAR");
     tfmini_init();
   #endif
+  #ifdef LIDAR_TFMINIPlusNoLib
+    Serial.println("SETUP LIDAR");
+    tfmininl_init();
+  #endif
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  
+  // put your main code here, to run repeatedly:    
+  currentMillis = millis();
+
   #ifdef LIDAR_TFMINIPlus
+    //Serial.println("READ LIDAR");     
+    if ( currentMillis >= lidar_previousMillis + LIDAR_TIME ) {
+      tfmini_read(currentMillis);    
+      lidar_previousMillis = currentMillis;      
+      Serial.print("Distance:");
+      Serial.print(LidarData.distance);
+      Serial.print("cm, Avg 15m:");
+      Serial.print(LidarData.avg15);
+      Serial.print("cm, Avg 1h:");
+      Serial.print(LidarData.avg1Hour);
+      Serial.print("cm, Avg 1d:");
+      Serial.print(LidarData.avg1Day);
+      Serial.print("cm, strength:");
+      Serial.print(LidarData.strength);
+      Serial.print(", temperature:");
+      Serial.println(LidarData.temperature);
+    }
+  #endif
+  #ifdef LIDAR_TFMINIPlusNoLib
     //Serial.println("READ LIDAR");
-    read_tmp = tfmini_read();    
-    Serial.println(read_tmp);
+    tfmininl_read();    
+    Serial.print("Distance: ");
+    Serial.print(LidarData.distance);
+    Serial.print(" cm, strength: ");
+    Serial.print(LidarData.strength);
+    Serial.print(", temperature: ");
+    Serial.println(LidarData.temperature);
   #endif 
   // reboot every hour
   /* 
@@ -38,5 +68,6 @@ void loop() {
     nostrRelayManager.loop();
     nostrRelayManager.broadcastEvents();
   #endif
-  vTaskDelay(1000);
+  // Serial.println(".");
+  // vTaskDelay(1000 / portTICK_PERIOD_MS);
 }

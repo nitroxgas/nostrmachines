@@ -36,4 +36,5 @@ struct TSettings
 	long zapvalue{ DEFAULT_ZAPVALUE };
 };
 
+
 #endif // _GLOBAL_H_
