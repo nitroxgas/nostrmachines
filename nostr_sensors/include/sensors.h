@@ -16,5 +16,10 @@
     #include "sensors/pluviometer_bascar.h"
     unsigned long pluv_previousMillis = 0;
 #endif
+#ifdef DHT22_SENSOR
+    #include "sensors/temp_dht22.h"
+    unsigned long dht22_previousMillis = 0;
+#endif
+
 
 unsigned long currentMillis = 0;
