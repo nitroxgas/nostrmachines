@@ -43,6 +43,135 @@ int calculateAverage(int* array, int size) {
   return sum / valids;
 }
 
+/// @brief Load settings from config file located in SPIFFS.
+/// @param TLidarData* Struct to update with new settings.
+/// @return true on success
+bool loadConfig(TLidarData* Settings)
+{
+    // Load existing configuration file
+    // Read configuration from FS json
+    if (init_spiffs())
+    {
+        if (SPIFFS.exists("/lidar_tfmini.json"))
+        {
+            // The file exists, reading and loading
+            File configFile = SPIFFS.open("/lidar_tfmini.json", "r");
+            if (configFile)
+            {
+                Serial.println("LIDAR: Loading LIDAR data file");
+                StaticJsonDocument<1024> json;
+                DeserializationError error = deserializeJson(json, configFile);
+                configFile.close();
+                serializeJson(json, Serial);
+                Serial.print('\n');
+                if (!error)
+                {
+                  if (json.containsKey("seconds")) {
+                        JsonArray arraySeconds = json["seconds"];                        
+                        for (int i = 0; i < vINTERVAL_1_MINUTE; i++){
+                          distancesSeconds[i] = arraySeconds[i];
+                        }
+                  }
+                  if (json.containsKey("1_minute")) {
+                        JsonArray arrayJSON = json["1_minute"];                        
+                        for (int i = 0; i < vINTERVAL_15_MINUTES; i++){
+                          distances1Minute[i] = arrayJSON[i];
+                        }
+                  }
+                  if (json.containsKey("15_minutes")) {
+                        JsonArray arrayJSON = json["15_minutes"];                        
+                        for (int i = 0; i < vINTERVAL_1_HOUR; i++){
+                          distances15Minutes[i] = arrayJSON[i];
+                        }
+                  }
+                  if (json.containsKey("1_hour")) {
+                        JsonArray arrayJSON = json["1_hour"];                        
+                        for (int i = 0; i < vINTERVAL_1_DAY; i++){
+                          distances1Hour[i] = arrayJSON[i];
+                        }
+                  }        
+                    return true;
+                }
+                else
+                {
+                    // Error loading JSON data
+                    Serial.println("LIDAR: Error parsing config file!");
+                }
+            }
+            else
+            {
+                Serial.println("LIDAR: Error opening config file!");
+            }
+        }
+        else
+        {
+            Serial.println("LIDAR: No config file available! Starting with zeros!");            
+        }
+    }
+    memset(distancesSeconds, 0, sizeof(distancesSeconds));
+    memset(distances1Minute, 0, sizeof(distances1Minute));
+    memset(distances15Minutes, 0, sizeof(distances15Minutes));
+    memset(distances1Hour, 0, sizeof(distances1Hour));
+
+    LidarData.avg15 = 0;
+    LidarData.avg1Day = 0;
+    LidarData.avg1Hour = 0;
+    LidarData.temperature = 0;
+    LidarData.distance = 0;
+    LidarData.strength = 0;                             
+    return false;
+}
+
+bool saveConfig(){
+  if (init_spiffs())
+    {
+      StaticJsonDocument<1024> doc;
+      JsonArray arraySeconds = doc.createNestedArray("seconds");
+      JsonArray array1Minute = doc.createNestedArray("1_minute");
+      JsonArray array15Minutes = doc.createNestedArray("15_minutes");
+      JsonArray array1Hour = doc.createNestedArray("1_hour");
+
+      for (int i = 0; i < vINTERVAL_1_MINUTE; i++) {
+        arraySeconds.add(distancesSeconds[i]);
+      }
+
+      for (int i = 0; i < vINTERVAL_15_MINUTES; i++) {
+        array1Minute.add(distances1Minute[i]);
+      }
+
+      for (int i = 0; i < vINTERVAL_1_HOUR; i++) {
+        array15Minutes.add(distances15Minutes[i]);
+      }
+
+      for (int i = 0; i < vINTERVAL_1_DAY; i++) {
+        array1Hour.add(distances1Hour[i]);
+      }
+
+      File configFile = SPIFFS.open("/lidar_tfmini.json", "w");
+        if (!configFile)
+        {
+            // Error, file did not open
+            Serial.println("LIDAR: Failed to open config file for writing");
+            return false;
+        }
+
+        // Serialize JSON data to write to file
+        // serializeJsonPretty(doc, Serial);
+        // Serial.print('\n');
+        if (serializeJson(doc, configFile) == 0)
+        {
+            // Error writing file
+            Serial.println(F("LIDAR: Failed to write to file"));
+            return false;
+        }
+        // Close file
+        configFile.close();
+        Serial.println(F("LIDAR: Success to write to file"));
+        return true;        
+    }
+    return false;
+}
+
 void tfmini_init() {
   // Start serial port to communicate with the TFMini
   // Default baud rate is 115200  
@@ -90,20 +219,11 @@ void tfmini_init() {
 
   // Persist configuration into the device otherwise will be reset with the next  
   tfmini.saveSettings();
+
+  loadConfig(&LidarData);
+
   Serial.println("SETUP LIDAR END");
-
-  memset(distancesSeconds, 0, sizeof(distancesSeconds));
-  memset(distances1Minute, 0, sizeof(distances1Minute));
-  memset(distances15Minutes, 0, sizeof(distances15Minutes));
-  memset(distances1Hour, 0, sizeof(distances1Hour));
-
-  LidarData.avg15 = 0;
-  LidarData.avg1Day = 0;
-  LidarData.avg1Hour = 0;
-  LidarData.temperature = 0;
-  LidarData.distance = 0;
-  LidarData.strength = 0;
-
+  
 }
 
 void tfmini_PrintJson(){
@@ -156,7 +276,8 @@ void tfmini_read(unsigned long Lidar_currentMillis) {
         if (index1Minute == 0) {
           LidarData.avg15 = calculateAverage(distances1Minute, vINTERVAL_15_MINUTES);
           distances15Minutes[index15Minutes] = LidarData.avg15;
-          index15Minutes = (index15Minutes + 1) % vINTERVAL_1_HOUR;          
+          index15Minutes = (index15Minutes + 1) % vINTERVAL_1_HOUR;    
+          saveConfig();
 
           // Calcular a média das leituras de 1 hora
           if (index15Minutes == 0) {

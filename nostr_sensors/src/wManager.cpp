@@ -1,14 +1,10 @@
-#define ESP_DRD_USE_SPIFFS true
-
 // Include Libraries
 //#include ".h"
 
 #include <WiFi.h>
 #include <WiFiManager.h>
-#include <SPIFFS.h>
-#include <FS.h>
 #include <ArduinoJson.h>
-
+#include "storage.h"
 #include "wManager.h"
 #include "global.h"
 
@@ -21,25 +17,6 @@ TSettings Settings;
 // Define WiFiManager Object
 WiFiManager wm;
 
-bool SPIFFS_Initialized_;
-
-/// @brief Prepare and mount SPIFFS
-/// @return true on success
-bool init_spiffs()
-{
-    if (!SPIFFS_Initialized_)
-    {
-        Serial.println("SPIFS: Mounting File System...");
-        // May need to make it begin(true) first time you are using SPIFFS
-        SPIFFS_Initialized_ = SPIFFS.begin(false) || SPIFFS.begin(true);
-        SPIFFS_Initialized_ ? Serial.println("SPIFS: Mounted") : Serial.println("SPIFS: Mounting failed.");
-    }
-    else
-    {
-        Serial.println("SPIFS: Already Mounted");
-    }
-    return SPIFFS_Initialized_;
-};
 
 /// @brief Load settings from config file located in SPIFFS.
 /// @param TSettings* Struct to update with new settings.
@@ -51,7 +28,6 @@ bool loadConfig(TSettings* Settings)
 
     // Load existing configuration file
     // Read configuration from FS json
-
     if (init_spiffs())
     {
         if (SPIFFS.exists(JSON_CONFIG_FILE))
@@ -61,7 +37,7 @@ bool loadConfig(TSettings* Settings)
             if (configFile)
             {
                 Serial.println("SPIFS: Loading config file");
-                StaticJsonDocument<512> json;
+                StaticJsonDocument<1024> json;
                 DeserializationError error = deserializeJson(json, configFile);
                 configFile.close();
                 serializeJsonPretty(json, Serial);
@@ -145,7 +121,7 @@ bool saveConfig(TSettings* Settings)
         // Close file
         configFile.close();
         return true;
-    };
+    }
     return false;
 }
 
@@ -211,6 +187,12 @@ void init_WifiManager()
 #endif
     // Explicitly set WiFi mode
     WiFi.mode(WIFI_STA);
+
+    if (!loadConfig(&Settings))
+    {            
+        //No config file. Starting wifi config server.
+        forceConfig = true;            
+    }
 
     // Reset settings (only for development)
     //wm.resetSettings();

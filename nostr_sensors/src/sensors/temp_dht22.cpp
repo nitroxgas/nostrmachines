@@ -58,7 +58,7 @@ void dht22_init() {
 }
 
 void dht22_PrintJson(){
-    StaticJsonDocument<512> doc;
+    StaticJsonDocument<1024> doc;
     JsonArray arrayTemp1Minute = doc.createNestedArray("temp_1_minute");    
     JsonArray arrayTemp15Minutes = doc.createNestedArray("temp_15_minutes");
     JsonArray arrayTemp1Hour = doc.createNestedArray("temp_1_hour");
