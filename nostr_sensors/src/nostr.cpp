@@ -65,6 +65,9 @@ unsigned long start_timer = 0;
 
 char const *testRecipientPubKeyHex = "20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb"; //npub1yrmhlvasagpzzmxstuu0y7zwvc7mqtp75t3gtmdql7ayqtrzrn4setw7nt"; // e.g. // sender public key 683211bd155c7b764e4b99ba263a151d81209be7a566a2bb1971dc1bbd3b715e
 
+String relayString = "nostr.bitcoiner.social,relay.nsecbunker.com"; //relay.plebstr.com,nostr.bitcoiner.social,nos.lol,offchain.pub,relay.nostr.band,172.29.22.40";
+  
+
 SemaphoreHandle_t zapMutex;
 
 // create a vector for storing zap amount for the flash queue
@@ -138,6 +141,12 @@ void relayConnectedEvent(const std::string& key, const std::string& message) {
   socketDisconnectedCount = 0;
   Serial.println("Relay connected: ");
   Serial.print(F("Requesting events:"));
+  
+  String subscriptionString = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\", {\"authors\": [\"20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb\",\"8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0\",\"kinds\": [1], \"limit\": 1}]";
+  nostrRelayManager.enqueueMessage(subscriptionString.c_str());
+
+  subscriptionString = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\", {\"#p\": [\"20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb\"], \"kinds\": [4], \"limit\": 1}]";
+  nostrRelayManager.enqueueMessage(subscriptionString.c_str());
 }
 
 /**
@@ -147,13 +156,14 @@ void relayConnectedEvent(const std::string& key, const std::string& message) {
  * @param message 
  */
 void relayDisonnectedEvent(const std::string& key, const std::string& message) {
-  Serial.println("Relay disconnected: ");
+  Serial.print("Relay disconnected: Heap:");
   socketDisconnectedCount++;
+  Serial.println(ESP.getFreeHeap());
   // reboot after 6 socketDisconnectedCount subsequenet messages
-  if(socketDisconnectedCount >= 6) {
+  if(socketDisconnectedCount >= 16) {
     Serial.println("Too many socket disconnections. Restarting");
     // restart device
-    ESP.restart();
+    // ESP.restart();
   }
 }
 
@@ -324,8 +334,7 @@ void zapReceiptEvent(const std::string& key, const char* payload) {
 void nip01Event(const std::string& key, const char* payload) {
     Serial.println("NIP01 event");
     Serial.println("payload is: ");
-    Serial.println(payload);
-    
+    Serial.println(payload);    
     delay(1000);
     // writeToDisplay(payload);
 }
@@ -362,6 +371,21 @@ void nip04Event(const std::string& key, const char* payload) {
    delay(2000); //writeToDisplay(dmMessage);
 }
 
+std::vector<String> split(const String &str, char delimiter) {
+  std::vector<String> tokens;
+  int start = 0;
+  int end = str.indexOf(delimiter);
+  
+  while (end != -1) {
+    tokens.push_back(str.substring(start, end));
+    start = end + 1;
+    end = str.indexOf(delimiter, start);
+  }
+  
+  tokens.push_back(str.substring(start));
+  
+  return tokens;
+}
 
 /**
  * @brief Connect to the Nostr relays
@@ -370,10 +394,11 @@ void nip04Event(const std::string& key, const char* payload) {
 void connectToNostrRelays() {
   // first disconnect from all relays
   nostrRelayManager.disconnect();
-  Serial.println("Requesting Zap notifications");
+  // Serial.println("Requesting Zap notifications");
 
   // split relays by comma into vector
-  std::vector<String> relays = {
+  std::vector<String> relays = split(relayString, ',');
+  /* {
     "nostr.bitcoiner.social",
     "relay.plebstr.com",
     "nos.lol",
@@ -381,7 +406,7 @@ void connectToNostrRelays() {
   //  "relay.current.fyi",
   //  "relay.nostr.bg",
   //  "offchain.pub"
-  };
+  }; */
     
   // no need to convert to char* anymore
   nostr.setLogging(true);
@@ -391,13 +416,12 @@ void connectToNostrRelays() {
   // Set some event specific callbacks here
   Serial.println("Setting callbacks");
   nostrRelayManager.setEventCallback("ok", okEvent);
-  //nostrRelayManager.setEventCallback("connected", relayConnectedEvent);
+  nostrRelayManager.setEventCallback("connected", relayConnectedEvent);
   nostrRelayManager.setEventCallback("disconnected", relayDisonnectedEvent);
-  nostrRelayManager.setEventCallback(9735, zapReceiptEvent);
-  nostrRelayManager.setEventCallback(9734, zapReceiptEvent);
-  nostrRelayManager.setEventCallback("nip01", nip01Event);
-  nostrRelayManager.setEventCallback("nip04", nip04Event);
-  nostrRelayManager.setEventCallback(4, nip04Event);
+  //nostrRelayManager.setEventCallback(9735, zapReceiptEvent);
+  //nostrRelayManager.setEventCallback(9734, zapReceiptEvent);
+  //nostrRelayManager.setEventCallback(1, nip01Event);
+  //nostrRelayManager.setEventCallback(4, nip04Event);  
 
   Serial.println("connecting");
   nostrRelayManager.connect();
@@ -424,8 +448,12 @@ void initMachine() {
 }
 
 void setup_machine() {
-  pinMode(buttonPin, INPUT_PULLUP); 
+  // pinMode(buttonPin, INPUT_PULLUP); 
   // WiFi.begin(ssid, password);
+
+  // Change defaults to wManager configured parameters;
+
+
   int wifiConnectTimer = 0;
     while (WiFi.status() != WL_CONNECTED && wifiConnectTimer < 15000) {
       delay(100);
@@ -435,22 +463,19 @@ void setup_machine() {
     }
     if(WiFi.status() == WL_CONNECTED) {
       hasInternetConnection = true;
+      
     }
     else {
       hasInternetConnection = false;      
     }
-  Serial.println("");
-  Serial.println("WiFi connected");
-  Serial.println("IP address: ");
-  Serial.println(WiFi.localIP());
-
+  
   configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
 
   long timestamp = getUnixTimestamp();
   
-  initMachine();
+  // initMachine();
 
-  zapMutex = xSemaphoreCreateMutex();
+  // zapMutex = xSemaphoreCreateMutex();
 
   //randomSeed(analogRead(0)); // Seed the random number generator 
   
@@ -458,21 +483,19 @@ void setup_machine() {
   
   // createZapEventRequest();
 
- 
-
-  String subscriptionString = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\", {\"authors\": [\"20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb\",\"8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0\",\"39c98bdd84c9f84d0cb085babb3e24d042ca531d6173b6c13cc902a5bc7652e3\"], \"kinds\": [1], \"limit\": 1}]";
+  /* subscriptionString = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\", {\"#p\": [\"8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0\"], \"kinds\": [4], \"limit\": 1}]";
   nostrRelayManager.enqueueMessage(subscriptionString.c_str());
-
-  subscriptionString = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\", {\"#p\": [\"20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb\"], \"kinds\": [4], \"limit\": 1}]";
-  nostrRelayManager.enqueueMessage(subscriptionString.c_str());
-
-  subscriptionString = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\", {\"#p\": [\"8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0\"], \"kinds\": [4], \"limit\": 1}]";
-  nostrRelayManager.enqueueMessage(subscriptionString.c_str());
-
-  subscriptionString = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\", {\"#p\": [\"39c98bdd84c9f84d0cb085babb3e24d042ca531d6173b6c13cc902a5bc7652e3\"], \"kinds\": [4], \"limit\": 1}]";
-  nostrRelayManager.enqueueMessage(subscriptionString.c_str());
+ */
+  /* subscriptionString = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\", {\"#p\": [\"39c98bdd84c9f84d0cb085babb3e24d042ca531d6173b6c13cc902a5bc7652e3\"], \"kinds\": [4], \"limit\": 1}]";
+  nostrRelayManager.enqueueMessage(subscriptionString.c_str()); */
 
  /*  subscriptionString = nostr.getEncryptedDm(nsecHex, npubHex, testRecipientPubKeyHex, timestamp, "Running NIP04!");
   nostrRelayManager.enqueueMessage(subscriptionString.c_str()); */
 
+}
+
+void sendPublicMessage(String message_to_send){
+  long timestamp = getUnixTimestamp();
+  String noteString = nostr.getNote(nsecHex, npubHex, timestamp, message_to_send);
+  nostrRelayManager.enqueueMessage(noteString.c_str());
 }

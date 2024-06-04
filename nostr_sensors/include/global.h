@@ -36,5 +36,6 @@ struct TSettings
 	long zapvalue{ DEFAULT_ZAPVALUE };
 };
 
+extern TSettings Settings;
 
 #endif // _GLOBAL_H_

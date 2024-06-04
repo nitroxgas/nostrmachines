@@ -2,6 +2,7 @@
 #include <ArduinoJson.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "storage.h"
 
 #ifndef PLUV_PIN
     #define PLUV_PIN=32

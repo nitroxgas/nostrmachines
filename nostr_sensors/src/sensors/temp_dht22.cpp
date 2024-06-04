@@ -57,7 +57,7 @@ void dht22_init() {
     DhtData.havg1Day = 0;
 }
 
-void dht22_PrintJson(){
+bool dht22_PrintJson(bool saveconfig){
     StaticJsonDocument<1024> doc;
     JsonArray arrayTemp1Minute = doc.createNestedArray("temp_1_minute");    
     JsonArray arrayTemp15Minutes = doc.createNestedArray("temp_15_minutes");
@@ -66,23 +66,45 @@ void dht22_PrintJson(){
     JsonArray arrayHumidity15Minutes = doc.createNestedArray("humidity_15_minutes");    
     JsonArray arrayHumidity1Hour = doc.createNestedArray("humidity_1_hour");
 
-    for (int i = 0; i < 15; i++) {
+    for (int i = 0; i < vINTERVAL_15_MINUTES; i++) {
       arrayTemp1Minute.add(temp1Minute[i]);
       arrayHumidity1Minute.add(humidity1Minute[i]);
     }
 
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < vINTERVAL_1_HOUR; i++) {
       arrayTemp15Minutes.add(temp15Minutes[i]);
       arrayHumidity15Minutes.add(humidity15Minutes[i]);
     }
 
-    for (int i = 0; i < 24; i++) {
+    for (int i = 0; i < vINTERVAL_1_DAY; i++) {
       arrayTemp1Hour.add(temp1Hour[i]);
       arrayHumidity1Hour.add(humidity1Hour[i]);
     }
-
+    if (saveconfig){
+      if (init_spiffs()){
+        File configFile = SPIFFS.open("/dht22.json", "w");
+        if (!configFile)
+        {
+            // Error, file did not open
+            Serial.println("DHT22: Failed to open config file for writing");
+            return false;
+        }
+        if (serializeJson(doc, configFile) == 0)
+        {
+            // Error writing file
+            Serial.println(F("DHT22: Failed to write to file"));
+            return false;
+        }
+        // Close file
+        configFile.close();
+        Serial.println(F("DHT22: Success to write to file"));
+        return true;
+     }
+   } else {    
     serializeJson(doc, Serial);
     Serial.println();
+   }
+  return false;
 }
 
 void dht22_read(unsigned long dht22_currentMillis) {  
@@ -110,6 +132,7 @@ void dht22_read(unsigned long dht22_currentMillis) {
       temp15Minutes[dindex15Minutes] = avgTemp15;
       humidity15Minutes[dindex15Minutes] = avgHumidity15;
       dindex15Minutes = (dindex15Minutes + 1) % vINTERVAL_1_HOUR;
+      dht22_PrintJson(true);
 
       // Calcular a média das leituras de 1 hora
       if (dindex15Minutes == 0) {

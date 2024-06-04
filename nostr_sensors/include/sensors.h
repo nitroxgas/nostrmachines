@@ -20,6 +20,5 @@
     #include "sensors/temp_dht22.h"
     unsigned long dht22_previousMillis = 0;
 #endif
-
-
+unsigned long nostr_previousMillis = 0;
 unsigned long currentMillis = 0;

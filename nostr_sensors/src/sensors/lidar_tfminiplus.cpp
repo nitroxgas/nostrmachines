@@ -13,6 +13,7 @@ const int vINTERVAL_15_MINUTES = 15;
 const int vINTERVAL_1_HOUR = 4;
 const int vINTERVAL_1_DAY = 24; */
 
+unsigned long previousMillisSeconds = 0;
 unsigned long previousMillis1Minute = 0;
 
 // Vetores para armazenar as leituras
@@ -258,7 +259,9 @@ void tfmini_PrintJson(){
 void tfmini_read(unsigned long Lidar_currentMillis) {  
   // read the data frame sent by the mini
   // Enable readings
-  tfmini.setEnabled(false); 
+  if ( Lidar_currentMillis >= previousMillisSeconds + LIDAR_TIME ) {
+    previousMillisSeconds = millis();
+    tfmini.setEnabled(false); 
     if (tfmini.readData()) {
       LidarData.distance = tfmini.getDistance();
       LidarData.strength = tfmini.getSignalStrength();
@@ -293,27 +296,10 @@ void tfmini_read(unsigned long Lidar_currentMillis) {
 
         LidarData.avg15 = calculateAverage(distancesSeconds, vINTERVAL_1_MINUTE);
         LidarData.avg1Day = calculateAverage(distances1Hour, vINTERVAL_1_DAY);
-        LidarData.avg1Hour = calculateAverage(distances15Minutes, vINTERVAL_1_HOUR);
-
-        #ifdef DEBUG_PRINT_SENSOR
-          Serial.print("Distance:");
-          Serial.print(LidarData.distance);
-          Serial.print(" cm, Avg 15m:");
-          Serial.print(LidarData.avg15);
-          Serial.print(" Avg 1h:");
-          Serial.print(LidarData.avg1Hour);
-          Serial.print(" Avg 1d:");
-          Serial.print(LidarData.avg1Day);
-          Serial.print(" strength:");
-          Serial.print(LidarData.strength);
-          Serial.print(", temperature:");
-          Serial.println(LidarData.temperature);
-          Serial.print("Dados Rio:");
-          tfmini_PrintJson();
-        #endif
-
+        LidarData.avg1Hour = calculateAverage(distances15Minutes, vINTERVAL_1_HOUR);        
       }
     }     
   // Disable readings, reduces temperature and readings buffer  
   tfmini.setEnabled(true); 
+  }
 }

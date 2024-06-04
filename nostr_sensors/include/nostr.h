@@ -22,5 +22,11 @@
 extern NostrEvent nostr;
 extern NostrRelayManager nostrRelayManager;
 extern NostrQueueProcessor nostrQueue;
+extern char const *nsecHex;
+extern char const *npubHex;
+extern String relayString;
+
+void setup_machine();
+void sendPublicMessage(String message_to_send);
 
 #endif // _NOSTR_H_

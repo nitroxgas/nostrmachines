@@ -39,6 +39,117 @@ float calculateSum(float* array, int size) {
   return sum;
 }
 
+/// @brief Load settings from config file located in SPIFFS.
+/// @return true on success
+bool pluviometer_loadConfig()
+{
+    // Load existing configuration file
+    // Read configuration from FS json
+    if (init_spiffs())
+    {
+        if (SPIFFS.exists("/pluviometer.json"))
+        {
+            // The file exists, reading and loading
+            File configFile = SPIFFS.open("/pluviometer.json", "r");
+            if (configFile)
+            {
+                Serial.println("PLUV: Loading Pluviometer data file");
+                StaticJsonDocument<1024> json;
+                DeserializationError error = deserializeJson(json, configFile);
+                configFile.close();
+                serializeJson(json, Serial);
+                Serial.print('\n');
+                if (!error)
+                {
+                  if (json.containsKey("1_minute")) {
+                        JsonArray arraySeconds = json["1_minute"];                        
+                        for (int i = 0; i < vINTERVAL_1_MINUTE; i++){
+                          volume1Minute[i] = arraySeconds[i];
+                        }
+                  }                  
+                  if (json.containsKey("15_minutes")) {
+                        JsonArray arrayJSON = json["15_minutes"];                        
+                        for (int i = 0; i < vINTERVAL_1_HOUR; i++){
+                          volume15Minutes[i] = arrayJSON[i];
+                        }
+                  }
+                  if (json.containsKey("1_hour")) {
+                        JsonArray arrayJSON = json["1_hour"];                        
+                        for (int i = 0; i < vINTERVAL_1_DAY; i++){
+                          volume1Hour[i] = arrayJSON[i];
+                        }
+                  }        
+                    return true;
+                }
+                else
+                {
+                    // Error loading JSON data
+                    Serial.println("PLUV: Error parsing config file!");
+                }
+            }
+            else
+            {
+                Serial.println("PLUV: Error opening config file!");
+            }
+        }
+        else
+        {
+            Serial.println("PLUV: No config file available! Starting with zeros!");            
+        }
+    }
+    memset(volume1Minute, 0, sizeof(volume1Minute));
+    memset(volume15Minutes, 0, sizeof(volume15Minutes));
+    memset(volume1Hour, 0, sizeof(volume1Hour));
+
+    PluvData.sum15 = 0;
+    PluvData.sum1Day = 0;
+    PluvData.sum1Hour = 0;
+    PluvData.volume = 0;                                 
+    return false;
+}
+
+bool pluviometer_saveConfig(){
+  if (init_spiffs())
+    {
+      // Serializar e imprimir os dados em formato JSON
+      StaticJsonDocument<1024> doc;
+      JsonArray array1Minute = doc.createNestedArray("1_minute");
+      JsonArray array15Minutes = doc.createNestedArray("15_minutes");
+      JsonArray array1Hour = doc.createNestedArray("1_hour");
+
+      for (int i = 0; i < pl_vINTERVAL_15_MINUTES; i++) {
+        array1Minute.add(volume1Minute[i]);
+      }
+
+      for (int i = 0; i < pl_vINTERVAL_1_HOUR; i++) {
+        array15Minutes.add(volume15Minutes[i]);
+      }
+
+      for (int i = 0; i < pl_vINTERVAL_1_DAY; i++) {
+        array1Hour.add(volume1Hour[i]);
+      }
+
+      File configFile = SPIFFS.open("/pluviometer.json", "w");
+      if (!configFile)
+      {
+          // Error, file did not open
+          Serial.println("PLUV: Failed to open config file for writing");
+          return false;
+      }
+      if (serializeJson(doc, configFile) == 0)
+      {
+          // Error writing file
+          Serial.println(F("PLUV: Failed to write to file"));
+          return false;
+      }
+      // Close file
+      configFile.close();
+      Serial.println(F("PLUV: Success to write to file"));
+      return true;
+  }
+  return false;
+}
+
 void pluviometer_PrintJson(){
    // Serializar e imprimir os dados em formato JSON
     StaticJsonDocument<1024> doc;
@@ -60,7 +171,7 @@ void pluviometer_PrintJson(){
 
     serializeJson(doc, Serial);
     // serializeJsonPretty(doc, Serial);    
-    Serial.println(); // Para separar cada conjunto de dados
+    Serial.println(); // Para separar cada conjunto de dados    
 }
 
 void IRAM_ATTR pulseCounter()
@@ -78,19 +189,12 @@ void pluviometer_init(){
     disableCore0WDT();
     pinMode(PLUV_PIN, INPUT_PULLUP);        
     attachInterrupt(digitalPinToInterrupt(PLUV_PIN), pulseCounter, HIGH);
-    // attachInterrupt(digitalPinToInterrupt(PLUV_PIN), pulseCounter, FALLING);    
-    memset(volume1Minute, 0, sizeof(volume1Minute));
-    memset(volume15Minutes, 0, sizeof(volume15Minutes));
-    memset(volume1Hour, 0, sizeof(volume1Hour));
-    PluvData.volume = 0;
-    PluvData.sum15 = 0;
-    PluvData.sum1Hour = 0;
-    PluvData.sum1Day = 0;
+    // attachInterrupt(digitalPinToInterrupt(PLUV_PIN), pulseCounter, FALLING);
+    pluviometer_loadConfig();        
     Serial.println("SETUP PLUVIOMETER");  
 }
 
 void pluviometer_read(unsigned long pl_currentMillis){
-
     if (pl_currentMillis - pl_previousMillis1Minute >= INTERVAL_1_MINUTE) {
         pl_previousMillis1Minute = pl_currentMillis;
         int reading_tmp;
@@ -98,10 +202,10 @@ void pluviometer_read(unsigned long pl_currentMillis){
         reading_tmp = readings;
         readings = 0;
         portEXIT_CRITICAL_ISR(&spinlock);
-        Serial.print("Leituras:");
-        Serial.println(reading_tmp);          
+        /* Serial.print("Leituras:");
+        Serial.println(reading_tmp);   */        
         // Calcular o volume atual com base nos pulsos
-        PluvData.volume = reading_tmp * PLUV_VOL;             
+        PluvData.volume = reading_tmp * PLUV_VOL;
 
         // Armazenar o volume no vetor de 1 minuto
         volume1Minute[pindex1Minute] = PluvData.volume;
@@ -112,6 +216,7 @@ void pluviometer_read(unsigned long pl_currentMillis){
             float sum15Minutes = calculateSum(volume1Minute, pl_vINTERVAL_15_MINUTES);
             volume15Minutes[pindex15Minutes] = sum15Minutes;      
             pindex15Minutes = (pindex15Minutes + 1) % pl_vINTERVAL_1_HOUR;
+            pluviometer_saveConfig();
 
             // Calcular a soma dos volumes da última 1 hora
             if (pindex15Minutes == 0) {

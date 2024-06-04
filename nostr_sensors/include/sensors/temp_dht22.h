@@ -2,10 +2,11 @@
 #include "timers.h"
 #include <DHT.h>
 #include <DHT_U.h>
+#include "storage.h"
 // #include <Adafruit_Sensor.h>
 
 void dht22_init();
-void dht22_PrintJson();
+bool dht22_PrintJson(bool saveconfig);
 void dht22_read(unsigned long dht22_currentMillis);
 
 typedef struct TDHT22Data
@@ -18,6 +19,6 @@ typedef struct TDHT22Data
     volatile float havg15;
     volatile float havg1Hour;
     volatile float havg1Day;
-} TDHTData ;
+} TDHTData;
 
 extern TDHTData DhtData;
