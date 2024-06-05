@@ -22,3 +22,7 @@
 #endif
 unsigned long nostr_previousMillis = 0;
 unsigned long currentMillis = 0;
+
+#ifdef MQTT
+    #include "mqtt.h"
+#endif

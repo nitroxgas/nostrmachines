@@ -35,6 +35,9 @@ void setup() {
     npubHex = Settings.pubkey.c_str();
     setup_machine();
   #endif
+  #ifdef MQTT
+    mqtt_init();
+  #endif
 }
 String message_data = "";
 
@@ -66,6 +69,12 @@ void loop() {
       char temp_message[40];
       sprintf(temp_message,"D:%d,a15:%d,a1h:%d,a1d:%d", LidarData.distance, LidarData.avg15, LidarData.avg1Hour, LidarData.avg1Day);
       message_data+=temp_message;
+      #ifdef MQTT
+        sprintf(temp_message, "%d", LidarData.distance);
+        mqtt_publish("nostrmachines/lidar/distance", temp_message);
+        sprintf(temp_message, "%d", LidarData.temperature);
+        mqtt_publish("nostrmachines/lidar/temperature", temp_message);
+      #endif
     }  
   #endif
   #ifdef LIDAR_TFMINIPlusNoLib
@@ -94,9 +103,14 @@ void loop() {
           Serial.print("Dados Chuvas:");
           pluviometer_PrintJson();
       #endif      
-      char temp_message[40];
+      char temp_message[105];
       sprintf(temp_message," V:%.2f,s15:%.2f,s1h:%.2f,s1d:%.2f", PluvData.volume, PluvData.sum15, PluvData.sum1Hour, PluvData.sum1Day);
       message_data+=temp_message;
+      #ifdef MQTT
+        sprintf(temp_message,"{\"sn\":{\"Pluviometer\":{\"volume\":%.2f,\"15min\":%.2f,\"1h\":%.2f,\"1d\":%.2f},\"Unit\":\"mm\"},\"ver\":1}", PluvData.volume, PluvData.sum15, PluvData.sum1Hour, PluvData.sum1Day);
+        Serial.println(temp_message);
+        mqtt_publish("nostrmachines/pluviometer/sensors", temp_message);
+      #endif
     }
   #endif 
   #ifdef DHT22_SENSOR
@@ -129,20 +143,30 @@ void loop() {
       message_data+=temp_message;
       sprintf(temp_message," H:%.2f,a15:%.2f,a1h:%.2f,a1d:%.2f", DhtData.humidity, DhtData.havg15, DhtData.havg1Hour, DhtData.havg1Day);
       message_data+=temp_message;
+      #ifdef MQTT
+        sprintf(temp_message, "%.2f", DhtData.temperature);
+        mqtt_publish("nostrmachines/dht22/temperature", temp_message);
+        sprintf(temp_message, "%.2f", DhtData.humidity);
+        mqtt_publish("nostrmachines/dht22/humidity", temp_message);
+      #endif
     }
   #endif   
   #ifdef NOSTR
     if ( currentMillis >= nostr_previousMillis + INTERVAL_1_MINUTE ) {
       nostr_previousMillis = currentMillis;
+      // Serial.println(message_data);
       sendPublicMessage(message_data);
       message_data = "";          
-    } else {
+    }// else {
       // if (currentMillis >= nostr_previousMillis + 30000) {
         nostrRelayManager.loop();
         nostrRelayManager.broadcastEvents();
       // }
-    }
+    // }    
+  #endif
+  #ifdef MQTT
+   mqtt_loop();
   #endif
   // Serial.println(".");
-  vTaskDelay(1000 / portTICK_PERIOD_MS);
+  // vTaskDelay(500 / portTICK_PERIOD_MS);
 }

@@ -201,12 +201,11 @@ void pluviometer_read(unsigned long pl_currentMillis){
         portENTER_CRITICAL_ISR(&spinlock);  
         reading_tmp = readings;
         readings = 0;
+        // Calcular o volume atual com base nos pulsos
+        PluvData.volume = reading_tmp * PLUV_VOL;
         portEXIT_CRITICAL_ISR(&spinlock);
         /* Serial.print("Leituras:");
         Serial.println(reading_tmp);   */        
-        // Calcular o volume atual com base nos pulsos
-        PluvData.volume = reading_tmp * PLUV_VOL;
-
         // Armazenar o volume no vetor de 1 minuto
         volume1Minute[pindex1Minute] = PluvData.volume;
         pindex1Minute = (pindex1Minute + 1) % pl_vINTERVAL_15_MINUTES;
@@ -230,8 +229,10 @@ void pluviometer_read(unsigned long pl_currentMillis){
                 } */
             }
         }
+        portENTER_CRITICAL_ISR(&spinlock);
         PluvData.sum15 = calculateSum(volume1Minute, pl_vINTERVAL_15_MINUTES);
         PluvData.sum1Hour = calculateSum(volume15Minutes, pl_vINTERVAL_1_HOUR);
         PluvData.sum1Day = calculateSum(volume1Hour, pl_vINTERVAL_1_DAY); 
+        portEXIT_CRITICAL_ISR(&spinlock);
     }
 }

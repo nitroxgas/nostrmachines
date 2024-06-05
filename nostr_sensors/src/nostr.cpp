@@ -409,7 +409,7 @@ void connectToNostrRelays() {
   }; */
     
   // no need to convert to char* anymore
-  nostr.setLogging(true);
+  nostr.setLogging(false);
   nostrRelayManager.setRelays(relays);
   nostrRelayManager.setMinRelaysAndTimeout(1,10000);
 
