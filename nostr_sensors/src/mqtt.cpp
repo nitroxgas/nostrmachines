@@ -5,18 +5,17 @@ PubSubClient client(espClient);
 
 const char* mqtt_server = "192.168.1.11";
 const int mqtt_port = 1883;
-const char* mqtt_user = "xxxx";
-const char* mqtt_password = "xxxxx";
+const char* mqtt_user = "nitroxgas";
+const char* mqtt_password = "Cz1mwyh.";
 
 void mqtt_reconnect() {
   while (!client.connected()) {
-    Serial.print("Attempting MQTT connection...");
+    debug("Attempting MQTT connection...");
     if (client.connect("NostrMachines", mqtt_user, mqtt_password)) {
-      Serial.println("connected");
+      debugln("connected");
     } else {
-      Serial.print("failed, rc=");
-      Serial.print(client.state());
-      Serial.println(" try again in 5 seconds");
+      debugf("failed, rc=%d",client.state());      
+      debugln(" try again in 5 seconds");
       delay(5000);
     }
   }

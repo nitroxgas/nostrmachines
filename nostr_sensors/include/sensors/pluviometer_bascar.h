@@ -3,6 +3,7 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "storage.h"
+#include "debug.h"
 
 #ifndef PLUV_PIN
     #define PLUV_PIN=32

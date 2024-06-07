@@ -3,6 +3,7 @@
 #include <DHT.h>
 #include <DHT_U.h>
 #include "storage.h"
+#include "debug.h"
 // #include <Adafruit_Sensor.h>
 
 void dht22_init();

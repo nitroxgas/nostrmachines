@@ -53,12 +53,12 @@ bool pluviometer_loadConfig()
             File configFile = SPIFFS.open("/pluviometer.json", "r");
             if (configFile)
             {
-                Serial.println("PLUV: Loading Pluviometer data file");
+                debugln("PLUV: Loading Pluviometer data file");
                 StaticJsonDocument<1024> json;
                 DeserializationError error = deserializeJson(json, configFile);
                 configFile.close();
                 serializeJson(json, Serial);
-                Serial.print('\n');
+                debugln_(' ');
                 if (!error)
                 {
                   if (json.containsKey("1_minute")) {
@@ -84,17 +84,17 @@ bool pluviometer_loadConfig()
                 else
                 {
                     // Error loading JSON data
-                    Serial.println("PLUV: Error parsing config file!");
+                    debugln("PLUV: Error parsing config file!");
                 }
             }
             else
             {
-                Serial.println("PLUV: Error opening config file!");
+                debugln("PLUV: Error opening config file!");
             }
         }
         else
         {
-            Serial.println("PLUV: No config file available! Starting with zeros!");            
+            debugln("PLUV: No config file available! Starting with zeros!");            
         }
     }
     memset(volume1Minute, 0, sizeof(volume1Minute));
@@ -133,18 +133,18 @@ bool pluviometer_saveConfig(){
       if (!configFile)
       {
           // Error, file did not open
-          Serial.println("PLUV: Failed to open config file for writing");
+          debugln("PLUV: Failed to open config file for writing");
           return false;
       }
       if (serializeJson(doc, configFile) == 0)
       {
           // Error writing file
-          Serial.println(F("PLUV: Failed to write to file"));
+          debugln("PLUV: Failed to write to file");
           return false;
       }
       // Close file
       configFile.close();
-      Serial.println(F("PLUV: Success to write to file"));
+      debugln("PLUV: Success to write to file");
       return true;
   }
   return false;
@@ -171,7 +171,7 @@ void pluviometer_PrintJson(){
 
     serializeJson(doc, Serial);
     // serializeJsonPretty(doc, Serial);    
-    Serial.println(); // Para separar cada conjunto de dados    
+    debugln(" "); // Para separar cada conjunto de dados    
 }
 
 void IRAM_ATTR pulseCounter()
@@ -191,7 +191,7 @@ void pluviometer_init(){
     attachInterrupt(digitalPinToInterrupt(PLUV_PIN), pulseCounter, HIGH);
     // attachInterrupt(digitalPinToInterrupt(PLUV_PIN), pulseCounter, FALLING);
     pluviometer_loadConfig();        
-    Serial.println("SETUP PLUVIOMETER");  
+    debugln("SETUP PLUVIOMETER");  
 }
 
 void pluviometer_read(unsigned long pl_currentMillis){
@@ -204,8 +204,8 @@ void pluviometer_read(unsigned long pl_currentMillis){
         // Calcular o volume atual com base nos pulsos
         PluvData.volume = reading_tmp * PLUV_VOL;
         portEXIT_CRITICAL_ISR(&spinlock);
-        /* Serial.print("Leituras:");
-        Serial.println(reading_tmp);   */        
+        /* debug("Leituras:");
+        debugln(reading_tmp);   */        
         // Armazenar o volume no vetor de 1 minuto
         volume1Minute[pindex1Minute] = PluvData.volume;
         pindex1Minute = (pindex1Minute + 1) % pl_vINTERVAL_15_MINUTES;

@@ -20,9 +20,12 @@
     #include "sensors/temp_dht22.h"
     unsigned long dht22_previousMillis = 0;
 #endif
-unsigned long nostr_previousMillis = 0;
-unsigned long currentMillis = 0;
-
+#ifdef HAS_BATTERY
+    unsigned long bat_previousMillis = 0;
+#endif
 #ifdef MQTT
     #include "mqtt.h"
 #endif
+
+unsigned long nostr_previousMillis = 0;
+unsigned long currentMillis = 0;

@@ -36,12 +36,12 @@ bool loadConfig(TSettings* Settings)
             File configFile = SPIFFS.open(JSON_CONFIG_FILE, "r");
             if (configFile)
             {
-                Serial.println("SPIFS: Loading config file");
+                debugln("SPIFS: Loading config file");
                 StaticJsonDocument<1024> json;
                 DeserializationError error = deserializeJson(json, configFile);
                 configFile.close();
                 serializeJsonPretty(json, Serial);
-                Serial.print('\n');
+                debugln(" ");
                 if (!error)
                 {
                     Settings->privkey       = json[JSON_KEY_PRIV]     | Settings->privkey;
@@ -57,17 +57,17 @@ bool loadConfig(TSettings* Settings)
                 else
                 {
                     // Error loading JSON data
-                    Serial.println("SPIFS: Error parsing config file!");
+                    debugln("SPIFS: Error parsing config file!");
                 }
             }
             else
             {
-                Serial.println("SPIFS: Error opening config file!");
+                debugln("SPIFS: Error opening config file!");
             }
         }
         else
         {
-            Serial.println("SPIFS: No config file available!");
+            debugln("SPIFS: No config file available!");
         }
     }
     return false;
@@ -77,7 +77,7 @@ bool loadConfig(TSettings* Settings)
 /// @return true on successs
 bool deleteConfig()
 {
-    Serial.println("SPIFS: Erasing config file..");
+    debugln("SPIFS: Erasing config file..");
     return SPIFFS.remove(JSON_CONFIG_FILE); //Borramos fichero
 }
 
@@ -89,7 +89,7 @@ bool saveConfig(TSettings* Settings)
     if (init_spiffs())
     {
         // Save Config in JSON format
-        Serial.println(F("SPIFS: Saving configuration."));
+        debugln(F("SPIFS: Saving configuration."));
 
         // Create a JSON document
         StaticJsonDocument<512> json;
@@ -105,17 +105,17 @@ bool saveConfig(TSettings* Settings)
         if (!configFile)
         {
             // Error, file did not open
-            Serial.println("SPIFS: Failed to open config file for writing");
+            debugln("SPIFS: Failed to open config file for writing");
             return false;
         }
 
         // Serialize JSON data to write to file
         serializeJsonPretty(json, Serial);
-        Serial.print('\n');
+        debugln(" ");
         if (serializeJson(json, configFile) == 0)
         {
             // Error writing file
-            Serial.println(F("SPIFS: Failed to write to file"));
+            debugln("SPIFS: Failed to write to file");
             return false;
         }
         // Close file
@@ -128,7 +128,7 @@ bool saveConfig(TSettings* Settings)
 void saveConfigCallback()
 // Callback notifying us of the need to save configuration
 {
-    Serial.println("Should save config");
+    debugln("Should save config");
     shouldSaveConfig = true;    
     //wm.setConfigPortalBlocking(false);
 }
@@ -136,7 +136,7 @@ void saveConfigCallback()
 /* void saveParamsCallback()
 // Callback notifying us of the need to save configuration
 {
-    Serial.println("Should save config");
+    debugln("Should save config");
     shouldSaveConfig = true;
     nvMem.saveConfig(&Settings);
 } */
@@ -144,16 +144,16 @@ void saveConfigCallback()
 void configModeCallback(WiFiManager* myWiFiManager)
 // Called when config mode launched
 {
-    Serial.println("Entered Configuration Mode");    
-    Serial.print("Config SSID: ");
-    Serial.println(myWiFiManager->getConfigPortalSSID());
-    Serial.print("Config IP Address: ");
-    Serial.println(WiFi.softAPIP());
+    debugln("Entered Configuration Mode");    
+    debug("Config SSID: ");
+    debugf("%c", myWiFiManager->getConfigPortalSSID());
+    debug("Config IP Address: ");
+    debugf("%c",WiFi.softAPIP());
 }
 
 void reset_configuration()
 {
-    Serial.println("Erasing Config, restarting");
+    debugln("Erasing Config, restarting");
     deleteConfig();
     wm.resetSettings();
     ESP.restart();
@@ -180,7 +180,7 @@ void init_WifiManager()
 #if defined(PIN_BUTTON_2)
     // Check if button2 is pressed to enter configMode with actual configuration
     if (!digitalRead(PIN_BUTTON_2)) {
-        Serial.println(F("Button pressed to force start config mode"));
+        debugln("Button pressed to force start config mode");
         forceConfig = true;
         wm.setBreakAfterConfig(true); //Set to detect config edition and save
     }
@@ -241,7 +241,7 @@ void init_WifiManager()
     wm.addParameter(&zap_text_box_num);
     wm.addParameter(&time_text_box_num);
 
-    Serial.println("AllDone: ");
+    debugln("AllDone: ");
     if (forceConfig)    
     {
         // Run if we need a configuration
@@ -250,7 +250,7 @@ void init_WifiManager()
         if (!wm.startConfigPortal(DEFAULT_SSID, DEFAULT_WIFIPW))
         {
             //Could be break forced after edditing, so save new config
-            Serial.println("failed to connect and hit timeout");
+            debugln("failed to connect and hit timeout");
             Settings.privkey = privkey_text_box.getValue();            
             Settings.privkey = privkey_text_box.getValue();
             Settings.pubkey  = pubkey_text_box.getValue();
@@ -272,7 +272,7 @@ void init_WifiManager()
         // if (!wm.autoConnect(Settings.WifiSSID.c_str(), Settings.WifiPW.c_str()))
         if (!wm.autoConnect(DEFAULT_SSID, DEFAULT_WIFIPW))
         {
-            Serial.println("Failed to connect to configured WIFI, and hit timeout");
+            debugln("Failed to connect to configured WIFI, and hit timeout");
             if (shouldSaveConfig) {
                 // Save new config            
                 Settings.privkey = privkey_text_box.getValue();            
@@ -291,10 +291,10 @@ void init_WifiManager()
     //Conectado a la red Wifi
     if (WiFi.status() == WL_CONNECTED) {
         //tft.pushImage(0, 0, MinerWidth, MinerHeight, MinerScreen);
-        Serial.println("");
-        Serial.println("WiFi connected");
-        Serial.print("IP address: ");
-        Serial.println(WiFi.localIP());
+        debugln("");
+        debugln("WiFi connected");
+        debug("IP address: ");
+        debugln_(WiFi.localIP().toString());
 
         // Lets deal with the user config values
         // Copy the string value
@@ -305,20 +305,20 @@ void init_WifiManager()
         Settings.Timezone = atoi(time_text_box_num.getValue());
         Settings.zapvalue = atol(zap_text_box_num.getValue());
 
-        Serial.print("Private Key: ");
-        Serial.println(Settings.privkey);
+        debug("Private Key: ");
+        debugln_(Settings.privkey);
                 
-        Serial.print("Public Key: ");
-        Serial.println(Settings.pubkey);
+        debug("Public Key: ");
+        debugln_(Settings.pubkey);
         
-        Serial.print("Relays: ");
-        Serial.println(Settings.nrelays);
+        debug("Relays: ");
+        debugln_(Settings.nrelays);
         
-        Serial.print("Master Pub Key: ");
-        Serial.println(Settings.masterpub);
+        debug("Master Pub Key: ");
+        debugln_(Settings.masterpub);
                 
-        Serial.print("TimeZone fromUTC: ");
-        Serial.println(Settings.Timezone);
+        debug("TimeZone fromUTC: ");
+        debugln_(Settings.Timezone);
     }
 
     // Save the custom parameters to FS
@@ -338,10 +338,10 @@ void wifiManagerProcess() {
     int newStatus = WiFi.status();
     if (newStatus != oldStatus) {
         if (newStatus == WL_CONNECTED) {
-            Serial.println("CONNECTED - Current ip: " + WiFi.localIP().toString());
+            debugf("CONNECTED - Current ip: %c" , WiFi.localIP().toString());
         } else {
-            Serial.print("[Error] - current status: ");
-            Serial.println(newStatus);
+            debug("[Error] - current status: ");
+            debugf("%d", newStatus);
         }
         oldStatus = newStatus;
     }

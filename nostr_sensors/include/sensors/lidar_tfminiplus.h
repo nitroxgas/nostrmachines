@@ -3,6 +3,7 @@
 #include <TFMiniPlusConstants.h>
 #include "timers.h"
 #include "storage.h"
+#include "debug.h"
 
 void tfmini_init();
 void tfmini_PrintJson();

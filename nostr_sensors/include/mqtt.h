@@ -1,5 +1,6 @@
 #include <PubSubClient.h>
 #include <WiFi.h>
+#include "debug.h"
 
 extern const char* mqtt_server;
 extern const int mqtt_port;

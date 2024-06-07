@@ -25,6 +25,7 @@ extern NostrQueueProcessor nostrQueue;
 extern char const *nsecHex;
 extern char const *npubHex;
 extern String relayString;
+extern String master_pubkey;
 
 void setup_machine();
 void sendPublicMessage(String message_to_send);

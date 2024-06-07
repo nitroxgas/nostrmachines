@@ -50,9 +50,9 @@ int lightBrightness = 20; // The brightness of the LED (0-255)
 char const *nsecHex = "d3871668e532102ca5293649d8e9f0e9085dd58e161cf93bee6037abb5b8a3fb"; 
 char const *npubHex = "8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0"; 
 
-String config_pubkey = "8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0"; 
-String config1_pubkey = "20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb";
-String config2_pubkey = "39c98bdd84c9f84d0cb085babb3e24d042ca531d6173b6c13cc902a5bc7652e3";
+String master_pubkey = "20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb";
+// String config1_pubkey = "20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb";
+// String config2_pubkey = "39c98bdd84c9f84d0cb085babb3e24d042ca531d6173b6c13cc902a5bc7652e3";
 
 bool config1_rec = false;
 bool config2_rec = false;
@@ -65,7 +65,7 @@ unsigned long start_timer = 0;
 
 char const *testRecipientPubKeyHex = "20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb"; //npub1yrmhlvasagpzzmxstuu0y7zwvc7mqtp75t3gtmdql7ayqtrzrn4setw7nt"; // e.g. // sender public key 683211bd155c7b764e4b99ba263a151d81209be7a566a2bb1971dc1bbd3b715e
 
-String relayString = "nostr.bitcoiner.social,relay.nsecbunker.com"; //relay.plebstr.com,nostr.bitcoiner.social,nos.lol,offchain.pub,relay.nostr.band,172.29.22.40";
+String relayString = "relay.plebstr.com"; //relay.plebstr.com,nostr.bitcoiner.social,nos.lol,offchain.pub,relay.nostr.band,172.29.22.40";
   
 
 SemaphoreHandle_t zapMutex;
@@ -139,14 +139,18 @@ void MachineControlTask(void *pvParameters) {
  */
 void relayConnectedEvent(const std::string& key, const std::string& message) {
   socketDisconnectedCount = 0;
-  Serial.println("Relay connected: ");
-  Serial.print(F("Requesting events:"));
+  Serial.println(F("Relay connected: "));
+  Serial.println(F("Requesting events:"));
   
-  String subscriptionString = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\", {\"authors\": [\"20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb\",\"8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0\",\"kinds\": [1], \"limit\": 1}]";
+ /*  String subscriptionString = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\", {\"authors\": [\"20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb\",\"8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0\",\"kinds\": [1], \"limit\": 1}]";
   nostrRelayManager.enqueueMessage(subscriptionString.c_str());
-
-  subscriptionString = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\", {\"#p\": [\"20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb\"], \"kinds\": [4], \"limit\": 1}]";
+*/
+  String subscriptionString = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\", {\"#p\": [\""+master_pubkey+"\"], \"kinds\": [4], \"limit\": 1}]";
   nostrRelayManager.enqueueMessage(subscriptionString.c_str());
+ // subscriptionString = "[\"REQ\", \"" + nostrRelayManager.getNewSubscriptionId() + "\", {\"#p\": [\"20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb\"], \"kinds\": [14], \"limit\": 1}]";
+ // nostrRelayManager.enqueueMessage(subscriptionString.c_str());
+ Serial.print("SETUP END:");
+ Serial.println(ESP.getFreeHeap());
 }
 
 /**
@@ -334,27 +338,24 @@ void zapReceiptEvent(const std::string& key, const char* payload) {
 void nip01Event(const std::string& key, const char* payload) {
     Serial.println("NIP01 event");
     Serial.println("payload is: ");
-    Serial.println(payload);    
-    delay(1000);
+    Serial.println(payload);  
+    String temp = "";
+    temp = getpubKeyFromEvent(payload);
+    Serial.println(temp);   
+    // delay(1000);
     // writeToDisplay(payload);
 }
 
 const char* previousPayload = "";
 
 void nip04Event(const std::string& key, const char* payload) {
-  //if ((previousPayload!=payload)&&(millis()>60000)){
-    if (millis()>60000){
+  if ((previousPayload!=payload)&&(millis()>60000)){
+  //  if (millis()>60000){
     Serial.print("NIP04 event: ");
     String temp = "";
     temp = getpubKeyFromEvent(payload);
-    Serial.println(temp);
-    if (temp==config2_pubkey) {
-      // writeToDisplay("NIP04 from: Mihai");
-      Serial.println(" Mihai");
-      config2_time = getUnixTimestamp();
-      hasmessage = true;
-    } else
-    if (temp==config1_pubkey) {
+    Serial.println(temp);    
+    if (temp==master_pubkey) {
       // writeToDisplay("NIP04 from: George");
       Serial.println(" George");
       config1_time = getUnixTimestamp();
@@ -368,7 +369,7 @@ void nip04Event(const std::string& key, const char* payload) {
     Serial.print("Payload:");
     Serial.println(payload);
   }
-   delay(2000); //writeToDisplay(dmMessage);
+  // delay(2000); //writeToDisplay(dmMessage);
 }
 
 std::vector<String> split(const String &str, char delimiter) {
@@ -421,7 +422,8 @@ void connectToNostrRelays() {
   //nostrRelayManager.setEventCallback(9735, zapReceiptEvent);
   //nostrRelayManager.setEventCallback(9734, zapReceiptEvent);
   //nostrRelayManager.setEventCallback(1, nip01Event);
-  //nostrRelayManager.setEventCallback(4, nip04Event);  
+  nostrRelayManager.setEventCallback(4, nip04Event);  
+  nostrRelayManager.setEventCallback(14, nip04Event);
 
   Serial.println("connecting");
   nostrRelayManager.connect();

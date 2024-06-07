@@ -35,11 +35,11 @@ int calculateAverage(int* array, int size) {
     if (array[i]!=0) {
        valids++;
        sum += array[i];
-       // Serial.println(array[i]);
+       // debugln(array[i]);
     }
   }
-  // Serial.println(sum);
-  // Serial.println(valids);
+  // debugln(sum);
+  // debugln(valids);
   if (valids==0) return 0;  
   return sum / valids;
 }
@@ -59,12 +59,12 @@ bool loadConfig(TLidarData* Settings)
             File configFile = SPIFFS.open("/lidar_tfmini.json", "r");
             if (configFile)
             {
-                Serial.println("LIDAR: Loading LIDAR data file");
+                debugln("LIDAR: Loading LIDAR data file");
                 StaticJsonDocument<1024> json;
                 DeserializationError error = deserializeJson(json, configFile);
                 configFile.close();
-                serializeJson(json, Serial);
-                Serial.print('\n');
+                // serializeJson(json, Serial);
+                
                 if (!error)
                 {
                   if (json.containsKey("seconds")) {
@@ -96,17 +96,17 @@ bool loadConfig(TLidarData* Settings)
                 else
                 {
                     // Error loading JSON data
-                    Serial.println("LIDAR: Error parsing config file!");
+                    debugln("LIDAR: Error parsing config file!");
                 }
             }
             else
             {
-                Serial.println("LIDAR: Error opening config file!");
+                debugln("LIDAR: Error opening config file!");
             }
         }
         else
         {
-            Serial.println("LIDAR: No config file available! Starting with zeros!");            
+            debugln("LIDAR: No config file available! Starting with zeros!");            
         }
     }
     memset(distancesSeconds, 0, sizeof(distancesSeconds));
@@ -152,22 +152,22 @@ bool saveConfig(){
         if (!configFile)
         {
             // Error, file did not open
-            Serial.println("LIDAR: Failed to open config file for writing");
+            debugln("LIDAR: Failed to open config file for writing");
             return false;
         }
 
         // Serialize JSON data to write to file
         // serializeJsonPretty(doc, Serial);
-        // Serial.print('\n');
+        // debug('\n');
         if (serializeJson(doc, configFile) == 0)
         {
             // Error writing file
-            Serial.println(F("LIDAR: Failed to write to file"));
+            debugln(F("LIDAR: Failed to write to file"));
             return false;
         }
         // Close file
         configFile.close();
-        Serial.println(F("LIDAR: Success to write to file"));
+        debugln(F("LIDAR: Success to write to file"));
         return true;        
     }
     return false;
@@ -179,7 +179,7 @@ void tfmini_init() {
 
   // Pass the Serial class initialized to the tfmini
   #ifdef LIDAR_SERIAL1
-    Serial1.begin(115200, SERIAL_8N1, RXD2, TXD2);
+    Serial1.begin(115200, SERIAL_8N1, RXD1, TXD1);
     tfmini.begin(&Serial1);
   #elif defined(LIDAR_SERIAL2)
     Serial2.begin(115200, SERIAL_8N1, RXD2, TXD2);
@@ -187,12 +187,12 @@ void tfmini_init() {
   #elif
     tfmini.begin(&Serial);
   #endif
-  Serial.println("SETUP LIDAR START");
+  debugln("SETUP LIDAR START");
   // Set baud rate "Only standard baud rates are supported"
   //tfmini.setBaudRate(115200);
 
   // Get firmware version
-  Serial.println("Versão: "+tfmini.getVersion());
+  debugf("Versão: %s", tfmini.getVersion());
 
   // System Reset
   // tfmini.systemReset();
@@ -223,7 +223,7 @@ void tfmini_init() {
 
   loadConfig(&LidarData);
 
-  Serial.println("SETUP LIDAR END");
+  debugln("SETUP LIDAR END");
   
 }
 
@@ -253,13 +253,15 @@ void tfmini_PrintJson(){
 
     serializeJson(doc, Serial);
     // serializeJsonPretty(doc, Serial);    
-    Serial.println(); // Para separar cada conjunto de dados
+    debugln(" "); // Para separar cada conjunto de dados
 }
 
 void tfmini_read(unsigned long Lidar_currentMillis) {  
   // read the data frame sent by the mini
   // Enable readings
   if ( Lidar_currentMillis >= previousMillisSeconds + LIDAR_TIME ) {
+    debug("LIDAR Antes:");
+    debugf("%d\n", ESP.getFreeHeap());
     previousMillisSeconds = millis();
     tfmini.setEnabled(false); 
     if (tfmini.readData()) {

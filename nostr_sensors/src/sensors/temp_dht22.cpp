@@ -46,7 +46,7 @@ void dht22_init() {
     memset(humidity15Minutes, 0, sizeof(humidity15Minutes));
     memset(temp1Hour, 0, sizeof(temp1Hour));
     memset(humidity1Hour, 0, sizeof(humidity1Hour)); 
-    Serial.println("SETUP DHT22");   
+    debugln("SETUP DHT22");   
     DhtData.temperature = 0;
     DhtData.humidity = 0;
     DhtData.tavg15 = 0;
@@ -86,23 +86,23 @@ bool dht22_PrintJson(bool saveconfig){
         if (!configFile)
         {
             // Error, file did not open
-            Serial.println("DHT22: Failed to open config file for writing");
+            debugln("DHT22: Failed to open config file for writing");
             return false;
         }
         if (serializeJson(doc, configFile) == 0)
         {
             // Error writing file
-            Serial.println(F("DHT22: Failed to write to file"));
+            debugln(F("DHT22: Failed to write to file"));
             return false;
         }
         // Close file
         configFile.close();
-        Serial.println(F("DHT22: Success to write to file"));
+        debugln(F("DHT22: Success to write to file"));
         return true;
      }
    } else {    
     serializeJson(doc, Serial);
-    Serial.println();
+    debugln(" ");
    }
   return false;
 }
@@ -116,7 +116,7 @@ void dht22_read(unsigned long dht22_currentMillis) {
     float humidity = dht.readHumidity();
 
     if (isnan(temp) || isnan(humidity)) {
-      Serial.println("Failed to read from DHT sensor!");
+      debugln("Failed to read from DHT sensor!");
       return;
     }    
 
