@@ -40,7 +40,7 @@ bool loadConfig(TSettings* Settings)
                 StaticJsonDocument<1024> json;
                 DeserializationError error = deserializeJson(json, configFile);
                 configFile.close();
-                serializeJsonPretty(json, Serial);
+                // serializeJsonPretty(json, Serial);
                 debugln(" ");
                 if (!error)
                 {

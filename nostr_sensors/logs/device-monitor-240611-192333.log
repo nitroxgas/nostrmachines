@@ -1,0 +1,41 @@
+[37m19:23:35.744 > Total heap: 263504
+19:23:35.744 > Free heap: 237080
+19:23:35.744 > Total PSRAM: 4192107
+19:23:35.744 > Free PSRAM: 4191847
+19:23:35.744 > SPIFS: Mounting File System...
+19:23:35.744 > SPIFS: Loading config file
+19:23:35.744 >  
+19:23:35.744 > AllDone: 
+19:23:35.744 > *wm:AutoConnect 
+19:23:35.744 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m19:23:35.916 > *[37mw[37mm:AutoConne[37mc[37mt: SUCCESS[37m [37m
+19:23:35.918 > *wm:STA [37mI[37mP Address: [37m1[37m92.168.1.25[37m[37m
+19:23:35.921 > 
+19:23:35.921 > WiFi co[37mn[37mnected
+19:23:35.922 > IP [37ma[37mddress: 19[37m2[37m.168.1.25
+[37m19:23:35.926 > P[37mrivate Key[37m:[37m d3871668e5[37m3[37m2102ca52936[37m4[37m9d8e9f0e90[37m8[37m5dd58e161c[37mf[37m93bee6037ab[37mb[37m5b8a3fb
+19:23:35.932 > P[37mu[37mblic Key: 8[37mc[37meb5dcd9a7be[37m4[37mcb3f399c07[37m3[37md9dad54ace[37mc[37mdebac3176cd[37mb[37m041b36f5be[37m5[37m678e0
+19:23:35.939 > Rela[37my[37ms: nostr.bi[37mt[37mcoiner.soc[37mi[37mal,relay.pl[37me[37mbstr.com,n[37mo[37ms.lol,relay[37m.[37mdamus.io
+[37m19:23:35.946 > M[37master Pub K[37me[37my: 20f77fb[37m3[37mb0ea02216cd[37m0[37m5f38f2784e[37m6[37m63db02c3ea2[37me[37m285eda0ffb[37ma[37m402c621ceb[37m
+[37m19:23:35.947 > TimeZone fr[37mo[37mmUTC: -3
+[37m19:23:35.947 > S[37mETUP LIDAR[37m[37m
+19:23:35.947 > SETUP LIDA[37mR[37m START
+19:23:35.947 > Ve[37mr[37msão: 2.1.5[37m
+[37m19:23:35.997 > S[37mP[37mIFS: Alr[37me[37mady Mounte[37md[37m
+[37m19:23:36.010 > L[37mI[37mDAR:[37m [37mLoading LID[37mA[37mR data file[37m[37m
+19:23:36.010 > SETUP L[37mI[37mDAR END
+19:23:36.010 > SP[37mI[37mFS: Already[37m [37mMounted
+[37m19:23:36.046 > P[37mL[37mUV: Loading[37m [37mPluviomete[37mr[37m data file[37m
+[37m19:23:36.046 > SETUP PLUVI[37mO[37mMETER
+19:23:36.046 > SET[37mU[37mP DHT22
+19:23:36.046 > SE[37mT[37mUP END - H[37mE[37mAP:183236
+19:23:36.057 > A[37mt[37mtempting M[37mQ[37mTT connecti[37mo[37mn...[37mc[37mo[37mnnec[37mt[37med
+[37m19:24:34.123 > F[37ma[37miled to[37m [37mread from [37mD[37mHT sensor![37m
+[37m19:24:34.126 > P[37mublicad[37mo[37m no MQTT: [37m
+[37m19:24:34.126 > HEAP 1 Min[37m:[37m177968
+[37m19:25:34.183 > F[37ma[37miled to read[37m [37mfrom DHT se[37mn[37msor!
+[37m19:25:34.187 > P[37mublic[37ma[37mdo no MQTT[37m:[37m 
+19:25:34.189 > HEAP 1 [37mM[37min:177964
+[37m19:26:35.235 > F[37ma[37miled [37mt[37mo read from[37m [37mDHT sensor[37m![37m
+19:26:35.235 > Pub[37ml[37micado no M[37mQ[37mTT: 
+19:26:35.235 > HEAP [37m1[37m Min:17796[37m4[37m

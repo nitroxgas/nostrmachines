@@ -1,0 +1,1192 @@
+[37m14:46:38.721 > Total heap: 263528
+14:46:38.721 > Free heap: 237104
+14:46:38.721 > Total PSRAM: 4192107
+14:46:38.721 > Free PSRAM: 4191847
+14:46:38.721 > SPIFS: Mounting File System...
+14:46:38.721 > SPIFS: Loading config file
+14:46:38.721 >  
+14:46:38.721 > AllDone: 
+14:46:38.721 > *wm:AutoConnect 
+14:46:38.721 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m14:46:39.426 > *[37mwm:[37mA[37mutoConnect:[37m [37mSUCCESS 
+[37m14:46:39.426 > *[37mwm:STA IP A[37md[37mdress: 192[37m.[37m168.1.25
+14:46:39.426 > [37m
+[37m14:46:39.433 > WiFi conne[37mc[37mted
+14:46:39.433 > IP add[37mr[37mess: 192.1[37m6[37m8.1.25
+14:46:39.435 > Pri[37mv[37mate Key: d[37m3[37m871668e5321[37m0[37m2ca5293649[37md[37m8e9f0e9085d[37md[37m58e161cf93[37mb[37mee6037abb5b[37m8[37ma3fb
+14:46:39.443 > Publ[37mi[37mc Key: 8ceb[37m5[37mdcd9a7be4cb[37m3[37mf399c073d9[37md[37mad54acecde[37mb[37mac3176cdb04[37m1[37mb36f5be567[37m8[37me0
+14:46:39.450 > Relays:[37m [37mnostr.bitco[37mi[37mner.social[37m,[37mrelay.pleb[37ms[37mtr.com,nos.[37ml[37mol,relay.da[37mm[37mus.io
+14:46:39.455 > Mas[37mt[37mer Pub Key:[37m [37m20f77fb3b0[37me[37ma02216cd05f[37m3[37m8f2784e663[37md[37mb02c3ea2e28[37m5[37meda0ffba40[37m2[37mc621ceb
+14:46:39.457 > Ti[37mm[37meZone from[37mU[37mTC: -3
+[37m14:46:41.087 > S[37me[37mtting callb[37ma[37mcks
+14:46:41.087 > connec[37mt[37ming
+14:46:41.087 > Relay[37ms[37m are:
+14:46:41.087 > rela[37my[37m.plebstr.c[37mo[37mm
+14:46:41.087 > Connecti[37mn[37mg to relay:[37m [37mrelay.pleb[37ms[37mtr.com
+[37m14:46:41.590 > S[37mE[37mTUP LIDAR[37m[37m
+14:46:41.592 > SETUP LIDA[37mR[37m START
+14:46:41.593 > Ve[37mr[37msão: 2.1.5[37m
+[37m14:46:41.639 > S[37mPIF[37mS[37m: Already M[37mo[37munted
+[37m14:46:41.651 > L[37mI[37mDAR: Loadin[37mg[37m LIDAR dat[37ma[37m file
+14:46:41.655 > SET[37mU[37mP LIDAR EN[37mD[37m
+14:46:41.657 > SPIFS: Al[37mr[37meady Mount[37me[37md
+14:46:41.658 > PLUV: Lo[37ma[37mding Pluvio[37mm[37meter data [37mf[37mile
+14:46:41.661 > {"1_m[37mi[37mnute":[0,0,[37m0[37m,0,0,0,0,0[37m,[37m0,0,0,0,0,0[37m,[37m0],"15_minu[37mt[37mes":[28.5,[37m0[37m,0,0],"1_h[37mo[37mur":[0,0,0,[37m0[37m,0,0,0,0,0[37m,[37m0,0,0,0,0,0[37m,[37m0,0,0,0,0,0[37m,[37m0,0,0]} 
+[37m14:46:41.673 > S[37mETUP PLUVIO[37mM[37mETER
+14:46:41.674 > SETU[37mP[37m DHT22
+14:46:41.675 > SE[37mT[37mUP END:1821[37m7[37m6
+14:46:41.677 > HEAP:1821[37m7[37m6
+14:46:41.678 > Attempti[37mn[37mg MQTT conn[37me[37mction...[37mc[37mo[37mnnecte[37md[37m
+[37m14:46:44.845 > M[37me[37mssage[37m [37mfrom relay[37m [37mindex:0
+14:46:44.847 > [[37mW[37mSc] Connect[37me[37md to relay[37m:[37m .
+14:46:44.850 > Relay co[37mn[37mnected: 
+14:46:44.851 > m[37me[37mssage
+14:46:44.852 > Req[37mu[37mesting eve[37mn[37mts:
+14:46:44.854 > SETUP [37mE[37mND:136392
+[37m14:46:44.855 > B[37mroadcastin[37mg[37m event: ["R[37mE[37mQ", "6Rjl8[37mV[37mlpCUVZ3b3xe[37mk[37mDWC9YB6Q3w[37mw[37mUQLi9Ap3Ibk[37mx[37maqWgVQsmzc[37mL[37mo1lsY9lXgq9[37mh[37m", {"#p": [37m[[37m"20f77fb3b0[37me[37ma02216cd05[37mf[37m38f2784e663[37md[37mb02c3ea2e2[37m8[37m5eda0ffba40[37m2[37mc621ceb"],[37m [37m"kinds": [4[37m][37m, "limit":[37m [37m1}]
+[37m14:47:37.801 > F[37ma[37mile[37md[37m to read f[37mr[37mom DHT sens[37mo[37mr!
+[37m14:47:37.806 > P[37mublic[37ma[37mdo no MQTT[37m:[37m 
+14:47:37.808 > HEAP 1 M[37mi[37mn:133788
+[37m14:47:45.262 > M[37me[37mssage from [37mr[37melay index:[37m0[37m
+14:47:45.265 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
+14:47:45.268 > Relay disc[37mo[37mnnected: H[37me[37map: 178468[37m
+[37m14:47:45.271 > Message:re[37ml[37may.plebstr.[37mc[37mom
+14:47:45.273 > Key:di[37ms[37mconnected
+[37m14:47:53.129 > M[37messa[37mg[37me from rela[37my[37m index:0
+[37m14:47:53.132 > [[37mWSc] Connec[37mt[37med to relay[37m:[37m .
+14:47:53.133 > Relay c[37mo[37mnnected: [37m
+[37m14:47:53.137 > message
+14:47:53.137 > Re[37mq[37muesting ev[37me[37mnts:
+14:47:53.137 > SETUP[37m [37mEND:135904[37m
+[37m14:47:53.137 > Broadcasti[37mn[37mg event: [[37m"[37mREQ", "xsI4[37mu[37m5xZacHxQji[37mR[37m9OhXuHycwvY[37mf[37mnrjBdP4gIzf[37mP[37m1OEoQNASvY[37mo[37mYOCxXEmCWwe[37mT[37m7", {"#p":[37m [37m["20f77fb3b[37m0[37mea02216cd0[37m5[37mf38f2784e66[37m3[37mdb02c3ea2e[37m2[37m85eda0ffba4[37m0[37m2c621ceb"][37m,[37m "kinds": [[37m4[37m], "limit"[37m:[37m 1}]
+[37m14:47:54.579 > M[37me[37mssage f[37mr[37mom relay i[37mn[37mdex:0
+14:47:54.582 > [WSc[37m][37m: Received[37m [37mtext from r[37me[37mlay .: ["E[37mV[37mENT","xsI4u[37m5[37mxZacHxQjiR[37m9[37mOhXuHycwvYf[37mn[37mrjBdP4gIzfP[37m1[37mOEoQNASvYo[37mY[37mOCxXEmCWwe[37mT[37m7",{"id":"1[37m2[37m907ce04df7[37mb[37m13d921adf83[37m3[37mf6caf8c5fe9[37m0[37mce1f47b164[37m7[37m66e1155d08a[37md[37m0dd2","pub[37mk[37mey":"8ceb5[37md[37mcd9a7be4cb3[37mf[37m399c073d9da[37md[37m54acecdeba[37mc[37m3176cdb041b[37m3[37m6f5be5678e[37m0[37m","created_[37ma[37mt":1699027[37m2[37m32,"kind":4[37m,[37m"tags":[["[37mp[37m","20f77fb3[37mb[37m0ea02216cd[37m0[37m5f38f2784e6[37m6[37m3db02c3ea2[37me[37m285eda0ffba[37m4[37m02c621ceb"[37m][37m],"content"[37m:[37m"libh4xPQSX[37my[37m2Cq05QGVuW[37mA[37m==?iv=6PIn[37mn[37m/iVap8CVWvZ[37mi[37m22N3Q==","s[37mi[37mg":"bf6071[37m7[37ma0e12a80255[37m8[37mc7e1a727b8[37me[37m000aa0b514[37m6[37m81f4f2947c7[37m7[37m72c03d08db[37ma[37m3d585529b65[37md[37m319c79f598e[37m1[37m901f2f5a06[37m5[37m86e8a67245a[37m6[37ma36544cbcb[37m0[37ma0e8b7"}]
+14:47:54.632 > N[37mI[37mP04 event:[37m [37m124684
+14:47:54.634 > Nos[37mt[37mr Antes de[37mc[37mrypt:135072[37m[37m
+14:47:54.637 > 1096
+14:47:54.637 > enc[37mr[37myptedMessag[37me[37mencryptedM[37me[37mssageHexivi[37mv[37mHexGuru Med[37mi[37mtation Err[37mo[37mr: Core  1[37m [37mpanic'ed (D[37mo[37muble except[37mi[37mon). 
+14:47:54.646 > 
+14:47:54.646 > C[37mo[37mre  1 regis[37mt[37mer dump:
+[37m14:47:54.649 > P[37mC      : 0[37mx[37m4008ec9e  P[37mS[37m      : 0x0[37m0[37m040f36  A0[37m [37m     : 0x80[37m0[37me7bed  A1 [37m [37m    : 0x3ff[37mc[37me540  
+14:47:54.656 > A2[37m [37m     : 0x3f[37mf[37me01e0  A3 [37m [37m    : 0x3ff[37mc[37me8c0  A4  [37m [37m   : 0x0000[37m0[37m001  A5   [37m [37m  : 0x3f405[37md[37m34  
+14:47:54.663 > A6  [37m [37m   : 0x3ffc[37me[37ma60  A7    [37m [37m : 0x3ffcea[37m8[37mc  A8    [37m [37m : 0x400800[37m8[37m0  A9     [37m [37m: 0x3ffce69[37m0[37m  
+14:47:54.672 > A10    [37m [37m: 0x000601[37m3[37m6  A11     [37m:[37m 0x0004002[37m6[37m  A12     [37m:[37m 0x3ffc7280[37m [37m A13     : [37m0[37mx3ffc7a00 [37m [37m
+14:47:54.680 > A14     :[37m [37m0xab3760ee[37m [37m A15     : [37m0[37mxfba3b8b5 [37m [37mSAR     : 0[37mx[37m00000010  [37mE[37mXCCAUSE: 0x[37m0[37m0000002  [37m
+[37m14:47:54.688 > EXCVADDR: 0[37mx[37mffffffe0  L[37mB[37mEG    : 0x[37m4[37m00eabc2  L[37mE[37mND    : 0x4[37m0[37m0eabe4  LC[37mO[37mUNT  : 0x00[37m0[37m00000  
+14:47:54.695 > 
+[37m14:47:54.695 > [37m
+14:47:54.696 > Backtrace[37m:[37m 0x4008ec9b[37m:[37m0x3ffce540[37m [37m0x400e7bea[37m:[37m0x3ffce560 [37m0[37mx4008ec9b:0[37mx[37m3ffce580 0[37mx[37m4008ec9b:0x[37m3[37mffce5a0 0x[37m4[37m008ec9b:0x3[37mf[37mfce5c0 0x4[37m0[37m08ec9b:0x3f[37mf[37mce5e0 0x40[37m0[37m8ec9b:0x3ff[37mc[37me600 0x400[37m8[37mec9b:0x3ffc[37me[37m690 0x4008[37m0[37m07d:0x3ffce[37m5[37m40 0x40084[37m1[37m63:0x3ffce5[37m6[37m0 0x4008ec9[37mb[37m:0x3ffce58[37m0[37m 0x4008ec9[37mb[37m:0x3ffce5a0[37m [37m0x4008ec9b:[37m0[37mx3ffce5c0 0[37mx[37m4008ec9b:0[37mx[37m3ffce5e0 0[37mx[37m4008ec9b:0x[37m3[37mffce600 0x[37m4[37m008ec9b:0x3[37mf[37mfce690 0x4[37m0[37m08007d:0x3f[37mf[37mce540 0x40[37m0[37m84163:0x3ff[37mc[37me560 0x400[37m8[37mec9b:0x3ffc[37me[37m580 0x4008[37me[37mc9b:0x3ffce[37m5[37ma0 0x4008e[37mc[37m9b:0x3ffce5[37mc[37m0 0x4008ec[37m9[37mb:0x3ffce5e[37m0[37m 0x4008ec9[37mb[37m:0x3ffce600[37m [37m0x4008ec9b:[37m0[37mx3ffce690 [37m0[37mx4008007d:0[37mx[37m3ffce540 0[37mx[37m40084163:0[37mx[37m3ffce560 0x[37m4[37m008ec9b:0x3[37mf[37mfce580 0x4[37m0[37m08ec9b:0x3f[37mf[37mce5a0 0x40[37m0[37m8ec9b:0x3ff[37mc[37me5c0 0x400[37m8[37mec9b:0x3ffc[37me[37m5e0 0x4008[37me[37mc9b:0x3ffce[37m6[37m00 0x4008e[37mc[37m9b:0x3ffce6[37m9[37m0 0x400800[37m7[37md:0x3ffce54[37m0[37m 0x4008416[37m3[37m:0x3ffce560[37m [37m0x4008ec9b:[37m0[37mx3ffce580 [37m0[37mx4008ec9b:[37m0[37mx3ffce5a0 0[37mx[37m4008ec9b:0[37mx[37m3ffce5c0 0x[37m4[37m008ec9b:0x3[37mf[37mfce5e0 0x4[37m0[37m08ec9b:0x3[37mf[37mfce600 0x40[37m0[37m8ec9b:0x3ff[37mc[37me690 0x400[37m8[37m007d:0x3ffc[37me[37m540 0x40084[37m1[37m63:0x3ffce[37m5[37m60 0x4008e[37mc[37m9b:0x3ffce[37m5[37m80 0x4008ec[37m9[37mb:0x3ffce5a[37m0[37m 0x4008ec9[37mb[37m:0x3ffce5c0[37m [37m0x4008ec9b[37m:[37m0x3ffce5e0 [37m0[37mx4008ec9b:[37m0[37mx3ffce600 0[37mx[37m4008ec9b:0x[37m3[37mffce690 0x[37m4[37m008007d:0x[37m3[37mffce540 0x4[37m0[37m084163:0x3[37mf[37mfce560 0x40[37m0[37m8ec9b:0x3f[37mf[37mce580 0x400[37m8[37mec9b:0x3ff[37mc[37me5a0 0x4008[37me[37mc9b:0x3ffce[37m5[37mc0 0x4008e[37mc[37m9b:0x3ffce5[37me[37m0 0x4008ec[37m9[37mb:0x3ffce60[37m0[37m 0x4008ec9[37mb[37m:0x3ffce690[37m [37m0x4008007d[37m:[37m0x3ffce540 [37m0[37mx40084163:[37m0[37mx3ffce560 0[37mx[37m4008ec9b:0[37mx[37m3ffce580 0x[37m4[37m008ec9b:0x[37m3[37mffce5a0 0x4[37m0[37m08ec9b:0x3f[37mf[37mce5c0 0x40[37m0[37m8ec9b:0x3f[37mf[37mce5e0 0x400[37m8[37mec9b:0x3ff[37mc[37me600 0x4008[37me[37mc9b:0x3ffc[37me[37m690 0x40080[37m0[37m7d:0x3ffce5[37m4[37m0 0x400841[37m6[37m3:0x3ffce56[37m0[37m 0x4008ec9[37mb[37m:0x3ffce58[37m0[37m 0x4008ec9b[37m:[37m0x3ffce5a0 [37m0[37mx4008ec9b:[37m0[37mx3ffce5c0 0[37mx[37m4008ec9b:0x[37m3[37mffce5e0 0x[37m4[37m008ec9b:0x[37m3[37mffce600 0x4[37m0[37m08ec9b:0x3f[37mf[37mce690 0x40[37m0[37m8007d:0x3f[37mf[37mce540 0x400[37m8[37m4163:0x3ff[37mc[37me560 0x4008[37me[37mc9b:0x3ffce[37m5[37m80 0x4008e[37mc[37m9b:0x3ffce[37m5[37ma0 0x4008ec[37m9[37mb:0x3ffce5c[37m0[37m 0x4008ec9[37mb[37m:0x3ffce5e[37m0[37m 0x4008ec9b[37m:[37m0x3ffce600 [37m0[37mx4008ec9b:[37m0[37mx3ffce690 0[37mx[37m4008007d:0[37mx[37m3ffce540 0x[37m4[37m0084163:0x[37m3[37mffce560 0x4[37m0[37m08ec9b:0x3[37mf[37mfce580 0x40[37m0[37m8ec9b:0x3f[37mf[37mce5a0 0x4008[37me[37mc9b:0x3ff[37mc[37me5c0 0x4008[37me[37mc9b:0x3ffc[37me[37m5e0 0x4008e[37mc[37m9b:0x3ffce6[37m0[37m0 0x4008ec[37m9[37mb:0x3ffce6[37m9[37m0 0x4008007[37md[37m:0x3ffce54[37m0[37m 0x40084163[37m:[37m0x3ffce560 [37m0[37mx4008ec9b:[37m0[37mx3ffce580 0[37mx[37m4008ec9b:0[37mx[37m3ffce5a0 0[37mx[37m4008ec9b:0x[37m3[37mffce5c0 0x4[37m0[37m08ec9b:0x3[37mf[37mfce5e0 0x40[37m0[37m8ec9b:0x3f[37mf[37mce600 0x400[37m8[37mec9b:0x3ff[37mc[37me690 0x4008[37m0[37m07d:0x3ffc[37me[37m540 0x40084[37m1[37m63:0x3ffce[37m5[37m60 0x4008ec[37m9[37mb:0x3ffce5[37m8[37m0 0x4008ec9[37mb[37m:0x3ffce5a0[37m [37m0x4008ec9b[37m:[37m0x3ffce5c0[37m [37m|<-CONTINUE[37mS[37m
+14:47:57.935 > 
+14:47:57.935 >   #0  0x4008ec9b:0x3ffce540 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #1  0x400e7bea:0x3ffce560 in PrivateKey::PrivateKey(unsigned char const*, bool, Network const*) at .pio/libdeps/esp-wrover-kit/uBitcoin@src-145273bbae45fe504167fd6fe0ebe9ce/src/Bitcoin.cpp:512
+14:47:57.935 >   #2  0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #3  0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #4  0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #5  0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #6  0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #7  0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #8  0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+14:47:57.935 >   #9  0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+14:47:57.935 >   #10 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #11 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #12 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #13 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #14 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #15 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #16 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+14:47:57.935 >   #17 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+14:47:57.935 >   #18 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #19 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #20 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #21 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #22 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #23 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #24 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+14:47:57.935 >   #25 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+14:47:57.935 >   #26 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #27 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #28 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #29 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #30 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #31 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #32 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+14:47:57.935 >   #33 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+14:47:57.935 >   #34 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #35 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #36 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #37 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #38 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #39 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #40 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+14:47:57.935 >   #41 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+14:47:57.935 >   #42 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #43 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #44 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #45 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #46 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #47 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #48 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+14:47:57.935 >   #49 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+14:47:57.935 >   #50 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #51 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #52 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #53 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #54 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #55 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #56 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+14:47:57.935 >   #57 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+14:47:57.935 >   #58 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #59 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #60 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #61 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #62 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #63 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #64 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+14:47:57.935 >   #65 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+14:47:57.935 >   #66 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #67 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #68 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #69 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #70 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #71 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #72 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+14:47:57.935 >   #73 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+14:47:57.935 >   #74 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #75 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #76 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #77 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #78 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #79 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #80 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+14:47:57.935 >   #81 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+14:47:57.935 >   #82 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #83 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #84 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #85 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #86 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #87 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #88 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+14:47:57.935 >   #89 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+14:47:57.935 >   #90 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #91 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #92 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #93 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #94 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #95 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #96 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+14:47:57.935 >   #97 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+14:47:57.935 >   #98 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #99 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 >   #100 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+14:47:57.935 > 
+14:47:57.935 > 
+14:47:57.935 > 
+14:47:57.935 > 
+[37m14:47:57.941 > ELF file SHA256: 45d2b2068ef7c1f7
+14:47:57.941 > 
+14:47:57.941 > Rebooting...
+14:47:57.941 > ets Jun  8 2016 00:22:57
+14:47:57.941 > 
+14:47:57.941 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:47:57.941 > configsip: 0, SPIWP:0xee
+14:47:57.941 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:47:57.941 > mode:DIO, clock div:2
+14:47:57.941 > load:0x3fff0030,len:1184
+14:47:57.941 > load:0x40078000,len:13232
+14:47:57.941 > load:0x40080400,len:3028
+14:47:57.941 > entry 0x400805e4
+14:47:57.941 > Total heap: 263528
+14:47:57.941 > Free heap: 237104
+14:47:57.941 > Total PSRAM: 4192107
+14:47:57.941 > Free PSRAM: 4191847
+14:47:57.941 > SPIFS: Mounting File System...
+14:47:57.941 > SPIFS: Loading config file
+14:47:57.941 >  
+14:47:57.941 > AllDone: 
+14:47:57.941 > *wm:AutoConnect 
+14:47:57.941 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m14:47:58.551 > *[37mwm:Aut[37mo[37mConnect: S[37mU[37mCCESS 
+14:47:58.554 > *wm[37m:[37mSTA IP Add[37mr[37mess: 192.16[37m8[37m.1.25
+14:47:58.557 > 
+14:47:58.557 > Wi[37mF[37mi connecte[37md[37m
+14:47:58.559 > IP addre[37ms[37ms: 192.168.[37m1[37m.25
+14:47:58.561 > Priva[37mt[37me Key: d387[37m1[37m668e532102c[37ma[37m5293649d8e[37m9[37mf0e9085dd58[37me[37m161cf93bee[37m6[37m037abb5b8a[37m3[37mfb
+14:47:58.568 > Public [37mK[37mey: 8ceb5dc[37md[37m9a7be4cb3f[37m3[37m99c073d9dad[37m5[37m4acecdebac[37m3[37m176cdb041b3[37m6[37mf5be5678e0[37m[37m
+14:47:58.575 > Relays: no[37ms[37mtr.bitcoin[37me[37mr.social,re[37ml[37may.plebstr[37m.[37mcom,nos.lol[37m,[37mrelay.damus[37m.[37mio
+14:47:58.581 > Master[37m [37mPub Key: 2[37m0[37mf77fb3b0ea0[37m2[37m216cd05f38[37mf[37m2784e663db0[37m2[37mc3ea2e285ed[37ma[37m0ffba402c6[37m2[37m1ceb
+14:47:58.588 > TimeZ[37mo[37mne fromUTC[37m:[37m -3
+14:47:58.590 > Setti[37mn[37mg callbacks[37m[37m
+14:47:58.592 > connecting[37m[37m
+14:47:58.593 > Relays ar[37me[37m:
+14:47:58.594 > relay.pl[37me[37mbstr.com
+[37m14:47:58.595 > C[37monnecting t[37mo[37m relay: re[37ml[37may.plebstr.[37mc[37mom
+[37m14:47:59.087 > S[37mE[37mTUP LIDAR
+14:47:59.096 > S[37mE[37mTUP LIDAR [37mS[37mTART
+14:47:59.098 > Vers[37mã[37mo: 2.1.5
+[37m14:47:59.138 > S[37mP[37mIFS: Alre[37ma[37mdy Mounted[37m[37m
+[37m14:47:59.153 > L[37mI[37mDAR: L[37mo[37mading LIDAR[37m [37mdata file[37m
+[37m14:47:59.156 > SETUP LIDA[37mR[37m END
+14:47:59.156 > SPIF[37mS[37m: Already [37mM[37mounted
+14:47:59.156 > PLU[37mV[37m: Loading [37mP[37mluviometer [37md[37mata file
+14:47:59.156 > {[37m"[37m1_minute":[37m[[37m0,0,0,0,0,[37m0[37m,0,0,0,0,0,[37m0[37m,0,0,0],"1[37m5[37m_minutes":[[37m2[37m8.5,0,0,0],[37m"[37m1_hour":[0[37m,[37m0,0,0,0,0,0[37m,[37m0,0,0,0,0,[37m0[37m,0,0,0,0,0,[37m0[37m,0,0,0,0,0[37m][37m} 
+14:47:59.176 > SETUP [37mP[37mLUVIOMETER[37m
+[37m14:47:59.176 > SETUP DHT22[37m[37m
+14:47:59.176 > SETUP END[37m:[37m182352
+14:47:59.176 > HEAP[37m:[37m182352
+14:47:59.176 > Att[37me[37mmpting MQTT[37m [37mconnection[37m.[37m..[37mc[37monn[37me[37mcted
+[37m14:48:04.102 > M[37me[37mss[37ma[37mge from rel[37ma[37my index:0[37m
+[37m14:48:04.105 > [WSc] Conne[37mc[37mted to rel[37ma[37my: .
+14:48:04.107 > Relay [37mc[37monnected: [37m
+[37m14:48:04.109 > message
+14:48:04.109 > R[37me[37mquesting ev[37me[37mnts:
+14:48:04.111 > SETU[37mP[37m END:13639[37m2[37m
+14:48:04.113 > Broadcast[37mi[37mng event: [[37m"[37mREQ", "1f5[37mg[37mHgKAAvVg1FB[37mx[37mCouycPC00c[37mw[37mSaeLrZ2P6C[37mz[37mVf5gB4kygL5[37mW[37mfvGVdfoUDNV[37mE[37mQN", {"#p"[37m:[37m ["20f77fb3[37mb[37m0ea02216cd[37m0[37m5f38f2784e6[37m6[37m3db02c3ea2[37me[37m285eda0ffba[37m4[37m02c621ceb"[37m][37m, "kinds": [37m[[37m4], "limit[37m"[37m: 1}]
+[37m14:48:56.927 > F[37ma[37miled [37mt[37mo read from[37m [37mDHT sensor![37m[37m
+[37m14:48:56.931 > P[37mublicado no[37m [37mMQTT: 
+14:48:56.933 > HEA[37mP[37m 1 Min:133[37m7[37m64
+[37m14:49:04.520 > M[37me[37mssage from[37m [37mrelay index[37m:[37m0
+14:49:04.522 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
+14:49:04.526 > Relay dis[37mc[37monnected: [37mH[37meap: 178452[37m[37m
+14:49:04.529 > Message:re[37ml[37may.plebstr[37m.[37mcom
+14:49:04.531 > Key:di[37ms[37mconnected[37m
+[37m14:49:12.383 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
+14:49:12.386 > [WSc[37m][37m Connected[37m [37mto relay: [37m.[37m
+14:49:12.389 > Relay conn[37me[37mcted: 
+14:49:12.390 > mes[37ms[37mage
+14:49:12.390 > Reque[37ms[37mting events[37m:[37m
+14:49:12.393 > SETUP EN[37mD[37m:135860
+14:49:12.393 > Br[37mo[37madcasting [37me[37mvent: ["REQ[37m"[37m, "Ytn7Y75[37m0[37mZwxTaK5f7Eo[37mB[37mSRe4TnHAiD[37ms[37msxM0lYhSwbT[37mY[37mBELsqngE2e[37mE[37mWzh6dg1rwS"[37m,[37m {"#p": ["2[37m0[37mf77fb3b0ea[37m0[37m2216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285[37me[37mda0ffba402c[37m6[37m21ceb"], "k[37mi[37mnds": [4],[37m [37m"limit": 1}][37m
+[37m14:49:55.928 > F[37ma[37miled to re[37ma[37md from DHT [37ms[37mensor!
+[37m14:49:55.932 > P[37mublica[37md[37mo no MQTT: [37m[37m
+14:49:55.935 > HEAP 1 Mi[37mn[37m:133740
+[37m14:50:12.819 > M[37me[37mssage fr[37mo[37mm relay ind[37me[37mx:0
+14:50:12.821 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
+14:50:12.824 > Relay d[37mi[37msconnected[37m:[37m Heap: 1784[37m4[37m4
+14:50:12.828 > Message[37m:[37mrelay.plebs[37mt[37mr.com
+14:50:12.830 > Key[37m:[37mdisconnecte[37md[37m
+[37m14:50:20.092 > M[37me[37mssa[37mg[37me from rela[37my[37m index:0[37m
+[37m14:50:20.096 > [WSc] Conne[37mc[37mted to rel[37ma[37my: .
+14:50:20.098 > Relay [37mc[37monnected: [37m[37m
+14:50:20.100 > message
+14:50:20.100 > R[37me[37mquesting ev[37me[37mnts:
+14:50:20.102 > SETU[37mP[37m END:135856[37m[37m
+14:50:20.104 > Broadcast[37mi[37mng event: [[37m"[37mREQ", "tjV[37mG[37mPNdUXkwA5I[37mL[37mjPykvrsIpHH[37mk[37mYNcy2rVtNB7[37mp[37mCiUOy8RvL6[37mV[37mvxj4Qb7Vyi8[37mx[37mwt", {"#p"[37m:[37m ["20f77fb3[37mb[37m0ea02216cd[37m0[37m5f38f2784e6[37m6[37m3db02c3ea2[37me[37m285eda0ffba[37m4[37m02c621ceb"[37m][37m, "kinds": [37m[[37m4], "limit[37m"[37m: 1}]
+[37m14:50:55.928 > F[37ma[37mile[37md[37m to read fr[37mo[37mm DHT sens[37mo[37mr!
+[37m14:50:55.932 > P[37mubl[37mi[37mcado no MQT[37mT[37m: 
+14:50:55.934 > HEAP 1[37m [37mMin:133736[37m
+[37m14:51:20.608 > M[37me[37mssage f[37mr[37mom relay [37mi[37mndex:0
+14:51:20.611 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
+14:51:20.614 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m7[37m8432
+14:51:20.616 > Messa[37mg[37me:relay.pl[37me[37mbstr.com
+14:51:20.618 > K[37me[37my:disconne[37mc[37mted
+[37m14:51:28.476 > M[37mess[37ma[37mge from rel[37ma[37my index:0[37m
+[37m14:51:28.479 > [WSc] Conn[37me[37mcted to rel[37ma[37my: .
+14:51:28.481 > Relay[37m [37mconnected: [37m[37m
+14:51:28.483 > message
+14:51:28.483 > R[37me[37mquesting e[37mv[37ments:
+14:51:28.484 > SET[37mU[37mP END:13586[37m0[37m
+14:51:28.487 > Broadcas[37mt[37ming event: [37m[[37m"REQ", "csa[37mo[37mQXlRwmjqBB[37mY[37mI5Qo7g9CLZV[37mH[37mv9y68kcWm6[37mJ[37mzepYbIAUluc[37mR[37mhy1fW1lO6z[37mL[37m1hh", {"#p"[37m:[37m ["20f77fb[37m3[37mb0ea02216cd[37m0[37m5f38f2784e[37m6[37m63db02c3ea2[37me[37m285eda0ffb[37ma[37m402c621ceb"[37m][37m, "kinds":[37m [37m[4], "limit[37m"[37m: 1}]
+[37m14:51:55.927 > F[37ma[37miled to [37mr[37mead from DH[37mT[37m sensor!
+[37m14:51:55.931 > P[37mubli[37mc[37mado no MQTT[37m:[37m 
+14:51:55.933 > HEAP 1 [37mM[37min:133740
+[37m14:52:28.806 > M[37me[37mssage fr[37mo[37mm relay in[37md[37mex:0
+14:52:28.809 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
+14:52:28.812 > Relay [37md[37misconnected[37m:[37m Heap: 178[37m4[37m44
+14:52:28.815 > Message[37m:[37mrelay.pleb[37ms[37mtr.com
+14:52:28.817 > Key[37m:[37mdisconnect[37me[37md
+[37m14:52:36.075 > M[37messa[37mg[37me from rel[37ma[37my index:0
+[37m14:52:36.079 > [[37mWSc] Conne[37mc[37mted to rel[37ma[37my: .
+14:52:36.081 > Relay [37mc[37monnected: [37m
+[37m14:52:36.083 > message
+14:52:36.083 > R[37me[37mquesting ev[37me[37mnts:
+14:52:36.085 > SETU[37mP[37m END:135860[37m[37m
+14:52:36.087 > Broadcast[37mi[37mng event: [[37m"[37mREQ", "wR6[37m9[37mRwdvylyX4FM[37mA[37mVydJ7GSBWJ[37ma[37mi21tbdPWN3s[37ma[37mdz9eQpObWC[37mc[37mhmslW06ciQt[37mR[37m8L", {"#p"[37m:[37m ["20f77fb3[37mb[37m0ea02216cd[37m0[37m5f38f2784e6[37m6[37m3db02c3ea2e[37m2[37m85eda0ffba[37m4[37m02c621ceb"[37m][37m, "kinds": [37m[[37m4], "limit"[37m:[37m 1}]
+[37m14:52:55.927 > F[37ma[37miled to read [37mf[37mrom DHT s[37me[37mnsor!
+[37m14:52:55.930 > P[37mublicad[37mo[37m no MQTT: [37m
+[37m14:52:55.933 > HEAP 1 Min[37m:[37m133740
+[37m14:53:36.390 > M[37me[37mssag[37me[37m from relay[37m [37mindex:0
+14:53:36.392 > [[37mW[37mSc] Disconn[37me[37mcted from r[37me[37mlay: .
+14:53:36.395 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m78444
+14:53:36.398 > Mes[37ms[37mage:relay.p[37ml[37mebstr.com
+[37m14:53:36.400 > K[37mey:disconn[37me[37mcted
+[37m14:53:44.253 > M[37me[37mssage fr[37mo[37mm relay [37mi[37mndex:0
+14:53:44.255 > [WS[37mc[37m] Connecte[37md[37m to relay: [37m.[37m
+14:53:44.258 > Relay conn[37me[37mcted: 
+14:53:44.259 > me[37ms[37msage
+14:53:44.260 > Requ[37me[37msting event[37ms[37m:
+14:53:44.262 > SETUP EN[37mD[37m:135860
+14:53:44.263 > B[37mr[37moadcasting [37me[37mvent: ["RE[37mQ[37m", "J5ysCob[37mx[37mo7kFltdk2p[37ma[37mtIInQOybIwo[37my[37mPCW5UhEIof[37m6[37mkCl5g8pX1XK[37mQ[37mCfUwx4L0oN[37m"[37m, {"#p": ["[37m2[37m0f77fb3b0e[37ma[37m02216cd05f3[37m8[37mf2784e663d[37mb[37m02c3ea2e285[37me[37mda0ffba402[37mc[37m621ceb"], "[37mk[37minds": [4][37m,[37m "limit": 1[37m}[37m]
+[37m14:53:55.926 > F[37ma[37miled [37mt[37mo read from[37m [37mDHT sensor[37m![37m
+[37m14:53:55.931 > P[37mublicad[37mo[37m no MQTT: [37m[37m
+14:53:55.933 > HEAP 1 Mi[37mn[37m:133740
+[37m14:54:44.586 > M[37me[37mssag[37me[37m from rela[37my[37m index:0
+14:54:44.589 > [W[37mS[37mc] Discon[37mn[37mected from [37mr[37melay: .
+14:54:44.592 > Rel[37ma[37my disconne[37mc[37mted: Heap:[37m [37m178444
+14:54:44.595 > Mes[37ms[37mage:relay.[37mp[37mlebstr.com[37m
+[37m14:54:44.598 > Key:disconn[37me[37mcted
+[37m14:54:51.752 > M[37message from r[37me[37mlay index:[37m0[37m
+14:54:51.755 > [WSc] Con[37mn[37mected to r[37me[37mlay: .
+14:54:51.757 > Rela[37my[37m connected[37m:[37m 
+14:54:51.759 > message[37m
+[37m14:54:51.760 > Requesting[37m [37mevents:
+14:54:51.761 > SE[37mT[37mUP END:135[37m8[37m60
+14:54:51.763 > Broadca[37ms[37mting event:[37m [37m["REQ", "x[37m9[37mzjTnKLw843m[37mO[37mnj1OmPcgUs[37mC[37mjrxNObxYCzo[37ml[37mkIH5meYvip[37ma[37mD7EW2LiG5C[37ms[37m5sufH", {"#[37mp[37m": ["20f77f[37mb[37m3b0ea02216[37mc[37md05f38f2784[37me[37m663db02c3e[37ma[37m2e285eda0ff[37mb[37ma402c621ce[37mb[37m"], "kinds"[37m:[37m [4], "lim[37mi[37mt": 1}]
+[37m14:54:55.926 > F[37ma[37miled to re[37ma[37md from DHT[37m [37msensor!
+[37m14:54:55.930 > P[37mu[37mblicado n[37mo[37m MQTT: 
+14:54:55.932 > HE[37mA[37mP 1 Min:13[37m3[37m740
+[37m14:55:52.066 > M[37me[37mssage[37m [37mfrom relay i[37mn[37mdex:0
+14:55:52.070 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
+14:55:52.073 > Rel[37ma[37my disconnec[37mt[37med: Heap: 1[37m7[37m8444
+14:55:52.076 > Mess[37ma[37mge:relay.pl[37me[37mbstr.com
+[37m14:55:52.078 > K[37mey:disconne[37mc[37mted
+[37m14:55:55.925 > F[37maile[37md[37m to read f[37mr[37mom DHT sens[37mo[37mr!
+[37m14:55:55.929 > P[37mublica[37md[37mo no MQTT:[37m [37m
+14:55:55.931 > HEAP 1 Mi[37mn[37m:176552
+[37m14:55:59.933 > M[37mes[37ms[37mage from re[37ml[37may index:0[37m[37m
+14:55:59.936 > [WSc] Con[37mn[37mected to re[37ml[37may: .
+14:55:59.938 > Rela[37my[37m connected:[37m [37m
+14:55:59.940 > message[37m
+[37m14:55:59.942 > Requesting [37me[37mvents:
+14:55:59.943 > SE[37mT[37mUP END:1359[37m0[37m0
+14:55:59.945 > Broadca[37ms[37mting event:[37m [37m["REQ", "bq[37mU[37mzVfQkQDuqO[37mx[37m2ju78AGtkHv[37md[37m4KfFN2bNlN[37me[37mHYsIeZRanP[37mc[37m6piuBPPGOuu[37mL[37mBpC0", {"#p[37m"[37m: ["20f77f[37mb[37m3b0ea02216c[37md[37m05f38f2784[37me[37m663db02c3e[37ma[37m2e285eda0ff[37mb[37ma402c621ceb[37m"[37m], "kinds"[37m:[37m [4], "limi[37mt[37m": 1}]
+[37m14:56:55.924 > F[37ma[37miled to [37mr[37mead from D[37mH[37mT sensor![37m
+[37m14:56:55.929 > P[37mublicado [37mn[37mo MQTT: 
+[37m14:56:55.931 > H[37mEAP 1 Min:1[37m3[37m3780
+[37m14:57:00.264 > M[37me[37mssa[37mg[37me from rela[37my[37m index:0
+[37m14:57:00.268 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
+14:57:00.270 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m178480
+14:57:00.272 > Me[37ms[37msage:relay.[37mp[37mlebstr.com[37m
+[37m14:57:00.276 > Key:discon[37mn[37mected
+[37m14:57:07.841 > M[37me[37mssage fro[37mm[37m relay ind[37me[37mx:0
+14:57:07.844 > [WSc] [37mC[37monnected t[37mo[37m relay: .
+14:57:07.846 > R[37me[37mlay connec[37mt[37med: 
+14:57:07.848 > messa[37mg[37me
+14:57:07.849 > Request[37mi[37mng events:[37m
+[37m14:57:07.852 > SETUP END:1[37m3[37m5860
+14:57:07.852 > Broa[37md[37mcasting eve[37mn[37mt: ["REQ", [37m"[37mP3MAhAcNsY[37mS[37m7MeEJvuuIp[37mp[37m9oUMGBO7HPA[37mP[37mtZIc3MOBxA[37m7[37mbZY1UNjRlxZ[37mS[37m3erZ53O", [37m{[37m"#p": ["20f[37m7[37m7fb3b0ea02[37m2[37m16cd05f38f2[37m7[37m84e663db02[37mc[37m3ea2e285eda[37m0[37mffba402c62[37m1[37mceb"], "kin[37md[37ms": [4], "[37ml[37mimit": 1}]
+[37m14:57:55.923 > F[37ma[37miled to read[37m [37mfrom DHT s[37me[37mnsor!
+[37m14:57:55.928 > P[37mub[37ml[37micado no MQ[37mT[37mT: 
+14:57:55.930 > HEAP [37m1[37m Min:133740[37m
+[37m14:58:08.258 > M[37me[37mssage f[37mr[37mom relay i[37mn[37mdex:0
+14:58:08.261 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
+14:58:08.264 > Relay[37m [37mdisconnecte[37md[37m: Heap: 17[37m8[37m444
+14:58:08.267 > Messag[37me[37m:relay.ple[37mb[37mstr.com
+14:58:08.269 > Ke[37my[37m:disconnec[37mt[37med
+[37m14:58:16.126 > M[37me[37mssage f[37mr[37mom relay i[37mn[37mdex:0
+14:58:16.129 > [WSc[37m][37m Connected[37m [37mto relay: .[37m
+[37m14:58:16.132 > Relay conn[37me[37mcted: 
+14:58:16.133 > me[37ms[37msage
+14:58:16.134 > Reque[37ms[37mting events[37m:[37m
+14:58:16.136 > SETUP EN[37mD[37m:135568
+14:58:16.137 > Br[37mo[37madcasting [37me[37mvent: ["REQ[37m"[37m, "O5MlIQZ[37ms[37mxHV2VmgrUgc[37mC[37mvmqYkGHSKd[37mk[37m6hX46iF8Tch[37mF[37m4koaoRn5Vx[37mO[37mdv17k8rci4"[37m,[37m {"#p": ["2[37m0[37mf77fb3b0ea[37m0[37m2216cd05f38[37mf[37m2784e663db[37m0[37m2c3ea2e285e[37md[37ma0ffba402c[37m6[37m21ceb"], "[37mk[37minds": [4],[37m [37m"limit": 1}[37m][37m
+[37m14:58:21.122 > M[37message fr[37mo[37mm relay in[37md[37mex:0
+14:58:21.125 > [WSc][37m:[37m Received [37mt[37mext from re[37ml[37may .: ["EV[37mE[37mNT","O5MlIQ[37mZ[37msxHV2VmgrU[37mg[37mcCvmqYkGHSK[37md[37mk6hX46iF8T[37mc[37mhF4koaoRn5V[37mx[37mOdv17k8rci[37m4[37m",{"id":"12[37m9[37m07ce04df7b[37m1[37m3d921adf833[37mf[37m6caf8c5fe9[37m0[37mce1f47b1647[37m6[37m6e1155d08ad[37m0[37mdd2","pubk[37me[37my":"8ceb5d[37mc[37md9a7be4cb3f[37m3[37m99c073d9da[37md[37m54acecdebac[37m3[37m176cdb041b3[37m6[37mf5be5678e0[37m"[37m,"created_a[37mt[37m":16990272[37m3[37m2,"kind":4,[37m"[37mtags":[["p[37m"[37m,"20f77fb3b[37m0[37mea02216cd0[37m5[37mf38f2784e66[37m3[37mdb02c3ea2e[37m2[37m85eda0ffba4[37m0[37m2c621ceb"][37m][37m,"content":[37m"[37mlibh4xPQSX[37my[37m2Cq05QGVuWA[37m=[37m=?iv=6PInn[37m/[37miVap8CVWvZi[37m2[37m2N3Q==","s[37mi[37mg":"bf60717[37ma[37m0e12a80255[37m8[37mc7e1a727b8e[37m0[37m00aa0b51468[37m1[37mf4f2947c77[37m7[37m2c03d08dba[37m3[37md585529b65d[37m3[37m19c79f598e[37m1[37m901f2f5a065[37m8[37m6e8a67245a6[37ma[37m36544cbcb0[37ma[37m0e8b7"}]
+14:58:21.174 > N[37mI[37mP04 event: [37m1[37m21456
+14:58:21.174 > Nost[37mr[37m Antes dec[37mr[37mypt:135016[37m
+[37m14:58:21.174 > 1096
+14:58:21.174 > 
+14:58:21.174 > **[37m*[37mERROR*** A [37ms[37mtack overf[37ml[37mow in task [37ml[37moopTask ha[37ms[37m been detec[37mt[37med.
+14:58:21.186 > 
+14:58:21.186 > 
+14:58:21.186 > B[37ma[37mcktrace: 0x[37m4[37m0083991:0x[37m3[37mffce270 0x4[37m0[37m08ea39:0x3f[37mf[37mce290 0x40[37m0[37m91e71:0x3f[37mf[37mce2b0 0x400[37m9[37m05ef:0x3ff[37mc[37me330 0x4008[37me[37mb48:0x3ffce[37m3[37m60 0x4008e[37ma[37mf8:0x3ffdeb[37m4[37m0 0x3ffce1[37ma[37m9:0x306130[37m6[37m2 |<-CORRUP[37mT[37mED
+14:58:21.404 > 
+14:58:21.404 >   #0  0x40083991:0x3ffce270 in panic_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/panic.c:408
+14:58:21.404 >   #1  0x4008ea39:0x3ffce290 in esp_system_abort at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_system/esp_system.c:137
+14:58:21.404 >   #2  0x40091e71:0x3ffce2b0 in vApplicationStackOverflowHook at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/port.c:407
+14:58:21.404 >   #3  0x400905ef:0x3ffce330 in vTaskSwitchContext at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/tasks.c:3504
+14:58:21.404 >   #4  0x4008eb48:0x3ffce360 in _frxt_dispatch at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/portasm.S:436
+14:58:21.404 >   #5  0x4008eaf8:0x3ffdeb40 in _frxt_int_exit at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/portasm.S:231
+14:58:21.404 >   #6  0x3ffce1a9:0x30613062 in ?? ??:0
+14:58:21.404 > 
+14:58:21.404 > 
+14:58:21.404 > 
+14:58:21.404 > [37m
+14:58:21.405 > ELF file SHA256: 45d2b2068ef7c1f7
+14:58:21.405 > 
+[37m14:58:21.609 > R[37me[37mbooti[37mn[37mg...
+[37m14:58:21.611 > e[37mts Jun  8 [37m2[37m016 00:22:[37m5[37m7
+14:58:21.613 > 
+14:58:21.613 > rst:0x[37mc[37m (SW_CPU_R[37mE[37mSET),boot:0[37mx[37m13 (SPI_FA[37mS[37mT_FLASH_BOO[37mT[37m)
+14:58:21.618 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+14:58:21.620 > clk_[37md[37mrv:0x00,q_d[37mr[37mv:0x00,d_d[37mr[37mv:0x00,cs0_[37md[37mrv:0x00,hd_[37md[37mrv:0x00,wp[37m_[37mdrv:0x00
+[37m14:58:21.626 > m[37mode:DIO, cl[37mo[37mck div:2
+14:58:21.627 > l[37mo[37mad:0x3fff0[37m0[37m30,len:1184[37m[37m
+14:58:21.630 > load:0x40[37m0[37m78000,len:[37m1[37m3232
+14:58:21.632 > load:[37m0[37mx40080400,l[37me[37mn:3028
+14:58:21.635 > en[37mt[37mry 0x400805[37me[37m4
+[37m14:58:22.739 > T[37mo[37mtal[37m [37mheap: 2635[37m2[37m8
+14:58:22.741 > Free heap[37m:[37m 237104
+14:58:22.742 > To[37mt[37mal PSRAM: 4[37m1[37m92107
+14:58:22.745 > Free[37m [37mPSRAM: 4191[37m8[37m47
+[37m14:58:22.862 > S[37mPIFS[37m:[37m Mounting F[37mi[37mle System..[37m.[37m
+[37m14:58:22.938 > S[37mP[37mIFS: L[37mo[37mading config[37m [37mfile
+[37m14:58:22.942 >  [37m[37m
+14:58:22.943 > AllD[37mo[37mne: 
+14:58:22.943 > *wm:A[37mu[37mtoConnect [37m[37m
+14:58:22.945 > *wm:Connec[37mt[37ming to SAVE[37mD[37m AP: Georg[37me[37mHomeT
+[37m14:58:24.865 > *[37mw[37mm:Aut[37mo[37mConnect: SUC[37mC[37mESS 
+14:58:24.868 > *wm[37m:[37mSTA IP Add[37mr[37mess: 192.16[37m8[37m.1.25
+14:58:24.871 > 
+14:58:24.871 > W[37mi[37mFi connecte[37md[37m
+14:58:24.873 > IP addre[37ms[37ms: 192.168.[37m1[37m.25
+14:58:24.875 > Priva[37mt[37me Key: d387[37m1[37m668e532102c[37ma[37m5293649d8e[37m9[37mf0e9085dd58[37me[37m161cf93bee[37m6[37m037abb5b8a[37m3[37mfb
+14:58:24.882 > Public [37mK[37mey: 8ceb5dc[37md[37m9a7be4cb3f[37m3[37m99c073d9dad[37m5[37m4acecdebac[37m3[37m176cdb041b3[37m6[37mf5be5678e0[37m[37m
+14:58:24.888 > Relays: no[37ms[37mtr.bitcoin[37me[37mr.social,re[37ml[37may.plebstr[37m.[37mcom,nos.lol[37m,[37mrelay.damu[37ms[37m.io
+14:58:24.894 > Master[37m [37mPub Key: 2[37m0[37mf77fb3b0ea0[37m2[37m216cd05f38f[37m2[37m784e663db0[37m2[37mc3ea2e285ed[37ma[37m0ffba402c6[37m2[37m1ceb
+14:58:24.901 > Time[37mZ[37mone fromUTC[37m:[37m -3
+14:58:24.904 > Setti[37mn[37mg callbacks[37m[37m
+14:58:24.906 > connecting[37m[37m
+14:58:24.907 > Relays ar[37me[37m:
+14:58:24.908 > relay.p[37ml[37mebstr.com
+[37m14:58:24.910 > C[37monnecting t[37mo[37m relay: re[37ml[37may.plebstr.[37mc[37mom
+[37m14:58:25.404 > S[37mE[37mTUP LIDAR
+14:58:25.404 > SE[37mT[37mUP LIDAR [37mS[37mTART
+14:58:25.404 > Vers[37mã[37mo: 2.1.5
+[37m14:58:25.454 > S[37mPIFS[37m:[37m Already Mo[37mu[37mnted
+[37m14:58:25.468 > L[37mI[37mDAR: Loading[37m [37mLIDAR data [37mf[37mile
+14:58:25.468 > SET[37mU[37mP LIDAR END[37m[37m
+14:58:25.468 > SPIFS: Alr[37me[37mady Mounte[37md[37m
+14:58:25.474 > PLUV: Loa[37md[37ming Pluvio[37mm[37meter data f[37mi[37mle
+14:58:25.474 > {"1_mi[37mn[37mute":[0,0,0[37m,[37m0,0,0,0,0,[37m0[37m,0,0,0,0,0,[37m0[37m],"15_minu[37mt[37mes":[28.5,0[37m,[37m0,0],"1_ho[37mu[37mr":[0,0,0,0[37m,[37m0,0,0,0,0,[37m0[37m,0,0,0,0,0,[37m0[37m,0,0,0,0,0,[37m0[37m,0,0]} 
+14:58:25.487 > S[37mE[37mTUP PLUVIO[37mM[37mETER
+14:58:25.487 > SETUP[37m [37mDHT22
+14:58:25.487 > SET[37mU[37mP END:18246[37m8[37m
+14:58:25.494 > HEAP:18246[37m8[37m
+14:58:25.494 > Attemptin[37mg[37m MQTT conne[37mc[37mtion...[37mc[37mo[37mnnected[37m[37m
+[37m14:58:30.374 > M[37me[37mssa[37mg[37me from relay[37m [37mindex:0
+14:58:30.377 > [[37mW[37mSc] Connec[37mt[37med to rela[37my[37m: .
+14:58:30.380 > Relay c[37mo[37mnnected: [37m
+[37m14:58:30.382 > message
+14:58:30.382 > Re[37mq[37muesting ev[37me[37mnts:
+14:58:30.384 > SETUP[37m [37mEND:136420[37m[37m
+14:58:30.386 > Broadcasti[37mn[37mg event: [[37m"[37mREQ", "1f5g[37mH[37mgKAAvVg1FBx[37mC[37mouycPC00cw[37mS[37maeLrZ2P6Cz[37mV[37mf5gB4kygL5W[37mf[37mvGVdfoUDNV[37mE[37mQN", {"#p":[37m [37m["20f77fb3b[37m0[37mea02216cd0[37m5[37mf38f2784e6[37m6[37m3db02c3ea2e[37m2[37m85eda0ffba4[37m0[37m2c621ceb"][37m,[37m "kinds": [[37m4[37m], "limit"[37m:[37m 1}]
+[37m14:58:33.184 > M[37me[37mssage fr[37mo[37mm relay in[37md[37mex:0
+14:58:33.194 > [WSc][37m:[37m Received t[37me[37mxt from re[37ml[37may .: ["EVE[37mN[37mT","1f5gHg[37mK[37mAAvVg1FBxCo[37mu[37mycPC00cwSa[37me[37mLrZ2P6CzVf5[37mg[37mB4kygL5WfvG[37mV[37mdfoUDNVEQN[37m"[37m,{"id":"12[37m9[37m07ce04df7b1[37m3[37md921adf833[37mf[37m6caf8c5fe90[37mc[37me1f47b16476[37m6[37me1155d08ad[37m0[37mdd2","pubk[37me[37my":"8ceb5dc[37md[37m9a7be4cb3f[37m3[37m99c073d9dad[37m5[37m4acecdebac3[37m1[37m76cdb041b3[37m6[37mf5be5678e0"[37m,[37m"created_a[37mt[37m":169902723[37m2[37m,"kind":4,[37m"[37mtags":[["p"[37m,[37m"20f77fb3b[37m0[37mea02216cd05[37mf[37m38f2784e66[37m3[37mdb02c3ea2e2[37m8[37m5eda0ffba4[37m0[37m2c621ceb"]][37m,[37m"content":[37m"[37mlibh4xPQSXy[37m2[37mCq05QGVuWA=[37m=[37m?iv=6PInn/[37mi[37mVap8CVWvZi[37m2[37m2N3Q==","si[37mg[37m":"bf60717[37ma[37m0e12a802558[37mc[37m7e1a727b8e0[37m0[37m0aa0b51468[37m1[37mf4f2947c777[37m2[37mc03d08dba3[37md[37m585529b65d[37m3[37m19c79f598e1[37m9[37m01f2f5a0658[37m6[37me8a67245a6[37ma[37m36544cbcb0a[37m0[37me8b7"}]
+14:58:33.244 > NI[37mP[37m04 event: 1[37m2[37m5380
+14:58:33.244 > Nost[37mr[37m Antes decr[37my[37mpt:135576[37m
+[37m14:58:33.249 > 1096
+14:58:33.249 > encry[37mp[37mtedMessage[37mG[37muru Meditat[37mi[37mon Error: [37mC[37more  1 pani[37mc[37m'ed (Unhan[37md[37mled debug e[37mx[37mception). [37m[37m
+14:58:33.254 > Debug exce[37mp[37mtion reason[37m:[37m Stack can[37ma[37mry watchpoi[37mn[37mt triggere[37md[37m (loopTask)[37m [37m
+14:58:33.254 > Core  1 [37mr[37megister dum[37mp[37m:
+14:58:33.265 > PC     [37m [37m: 0x400906e[37m1[37m  PS      [37m:[37m 0x00060036[37m [37m A0      :[37m [37m0x4008eb4b [37m [37mA1      : [37m0[37mx3ffce5e0  [37m[37m
+14:58:33.271 > A2      :[37m 0x3ffc8b50 [37m [37mA3      : [37m0[37mx3ffc8d30  [37mA[37m4      : 0x[37m3[37mffc8d34  A[37m5[37m      : 0x[37m0[37m0000001  
+[37m14:58:33.280 > A[37m6      : 0[37mx[37m00000001  A[37m7[37m      : 0x0[37m0[37m000001  A8[37m [37m     : 0x3[37mf[37mfc8b58  A9 [37m [37m    : 0x3ff[37mc[37me5c0  
+14:58:33.288 > A1[37m0[37m     : 0x3f[37mf[37md05e0  A11[37m [37m    : 0x3ff[37md[37m05e0  A12 [37m [37m   : 0x0000[37m0[37m014  A13  [37m [37m  : 0x00000[37m0[37m04  
+14:58:33.294 > A14 [37m [37m   : 0x3ffd[37m0[37m5d8  A15  [37m [37m  : 0x80000[37m0[37m01  SAR   [37m [37m : 0x000000[37m1[37m2  EXCCAUS[37mE[37m: 0x0000000[37m1[37m  
+14:58:33.304 > EXCVAD[37mD[37mR: 0x000000[37m0[37m0  LBEG    [37m:[37m 0x4008c19[37m1[37m  LEND    [37m:[37m 0x4008c1a1[37m [37m LCOUNT  : [37m0[37mxffffffff [37m [37m
+14:58:33.305 > 
+14:58:33.305 > 
+14:58:33.305 > Backt[37mr[37mace: 0x400[37m9[37m06de:0x3ff[37mc[37me5e0 0x4008[37me[37mb48:0x3ffce[37m6[37m10 0x4008e[37ma[37mf8:0xa5a5a5[37ma[37m5 |<-CORRU[37mP[37mTED
+14:58:33.420 > 
+14:58:33.420 >   #0  0x400906de:0x3ffce5e0 in taskSelectHighestPriorityTaskSMP at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/tasks.c:3436
+14:58:33.420 >       (inlined by) vTaskSwitchContext at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/tasks.c:3519
+14:58:33.420 >   #1  0x4008eb48:0x3ffce610 in _frxt_dispatch at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/portasm.S:436
+14:58:33.420 >   #2  0x4008eaf8:0xa5a5a5a5 in _frxt_int_exit at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/portasm.S:231
+14:58:33.420 > 
+14:58:33.420 > 
+14:58:33.420 > 
+[37m14:58:33.421 > 
+14:58:33.421 > ELF file SHA256: 45d2b2068ef7c1f7
+14:58:33.421 > 
+[37m14:58:33.726 > R[37me[37mbooting..[37m.[37m
+14:58:33.727 > ets[37m [37mJun  8 2016[37m [37m00:22:57
+14:58:33.729 > [37m
+[37m14:58:33.730 > rst:0xc (S[37mW[37m_CPU_RESET)[37m,[37mboot:0x13 [37m([37mSPI_FAST_F[37mL[37mASH_BOOT)
+[37m14:58:33.736 > c[37monfigsip: [37m0[37m, SPIWP:0xe[37me[37m
+14:58:33.738 > clk_drv:0[37mx[37m00,q_drv:0[37mx[37m00,d_drv:0[37mx[37m00,cs0_drv:[37m0[37mx00,hd_drv:[37m0[37mx00,wp_drv[37m:[37m0x00
+14:58:33.744 > mode:[37mD[37mIO, clock [37md[37miv:2
+14:58:33.746 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+14:58:33.748 > lo[37ma[37md:0x400780[37m0[37m0,len:13232[37m[37m
+14:58:33.750 > load:0x40[37m0[37m80400,len:3[37m0[37m28
+14:58:33.753 > entry [37m0[37mx400805e4
+[37m14:58:34.856 > T[37mo[37mtal hea[37mp[37m: 263528
+14:58:34.858 > F[37mr[37mee heap: 23[37m7[37m104
+14:58:34.860 > Total [37mP[37mSRAM: 41921[37m0[37m7
+14:58:34.862 > Free PSR[37mA[37mM: 4191847[37m
+[37m14:58:34.980 > S[37mP[37mIFS: [37mM[37mounting Fil[37me[37m System...[37m[37m
+[37m14:58:35.056 > S[37mP[37mIFS: Lo[37ma[37mding confi[37mg[37m file
+[37m14:58:35.060 >  [37m[37m
+14:58:35.062 > AllDo[37mn[37me: 
+14:58:35.063 > *wm:Au[37mt[37moConnect [37m
+[37m14:58:35.065 > *wm:Connec[37mt[37ming to SAVE[37mD[37m AP: Georg[37me[37mHomeT
+[37m14:58:36.985 > *[37mw[37mm:AutoConne[37mc[37mt: SUCCES[37mS[37m 
+14:58:36.987 > *wm:STA[37m [37mIP Address:[37m [37m192.168.1.[37m2[37m5
+14:58:36.990 > 
+14:58:36.990 > WiFi c[37mo[37mnnected
+14:58:36.991 > I[37mP[37m address: 1[37m9[37m2.168.1.25[37m[37m
+14:58:36.995 > Private Ke[37my[37m: d3871668e[37m5[37m32102ca529[37m3[37m649d8e9f0e[37m9[37m085dd58e161[37mc[37mf93bee6037[37ma[37mbb5b8a3fb
+[37m14:58:37.002 > P[37mublic Key: [37m8[37mceb5dcd9a7[37mb[37me4cb3f399c0[37m7[37m3d9dad54ac[37me[37mcdebac3176[37mc[37mdb041b36f5b[37me[37m5678e0
+14:58:37.008 > Rel[37ma[37mys: nostr.[37mb[37mitcoiner.so[37mc[37mial,relay.[37mp[37mlebstr.com,[37mn[37mos.lol,rel[37ma[37my.damus.io[37m
+[37m14:58:37.015 > Master Pub[37m [37mKey: 20f77f[37mb[37m3b0ea02216[37mc[37md05f38f2784[37me[37m663db02c3e[37ma[37m2e285eda0ff[37mb[37ma402c621ceb[37m[37m
+14:58:37.022 > TimeZone [37mf[37mromUTC: -3[37m[37m
+14:58:37.024 > Setting ca[37ml[37mlbacks
+14:58:37.024 > co[37mn[37mnecting
+14:58:37.025 > Re[37ml[37mays are:
+14:58:37.026 > r[37me[37mlay.plebst[37mr[37m.com
+14:58:37.027 > Conne[37mc[37mting to re[37ml[37may: relay.[37mp[37mlebstr.com[37m
+[37m14:58:37.529 > S[37mE[37mTUP [37mL[37mIDAR
+14:58:37.529 > SETU[37mP[37m LIDAR STA[37mR[37mT
+14:58:37.532 > Versão:[37m [37m2.1.5
+[37m14:58:37.575 > S[37mP[37mIFS[37m:[37m Already Mou[37mn[37mted
+[37m14:58:37.587 > L[37mI[37mDAR: Loading[37m [37mLIDAR data[37m [37mfile
+14:58:37.591 > SET[37mU[37mP LIDAR END[37m[37m
+14:58:37.593 > SPIFS: Al[37mr[37meady Mounte[37md[37m
+14:58:37.595 > PLUV: Loa[37md[37ming Pluvio[37mm[37meter data [37mf[37mile
+14:58:37.598 > {"1_mi[37mn[37mute":[0,0,[37m0[37m,0,0,0,0,0,[37m0[37m,0,0,0,0,0[37m,[37m0],"15_minu[37mt[37mes":[28.5,0[37m,[37m0,0],"1_ho[37mu[37mr":[0,0,0,0[37m,[37m0,0,0,0,0,[37m0[37m,0,0,0,0,0,[37m0[37m,0,0,0,0,0[37m,[37m0,0,0]} 
+14:58:37.609 > S[37mE[37mTUP PLUVIO[37mM[37mETER
+14:58:37.611 > SETUP[37m [37mDHT22
+14:58:37.612 > SETU[37mP[37m END:18236[37m4[37m
+14:58:37.614 > HEAP:1823[37m6[37m4
+14:58:37.614 > Attemptin[37mg[37m MQTT conn[37me[37mction...[37mc[37mo[37mnnected[37m
+[37m14:58:42.458 > M[37me[37mssage from[37m [37mrelay index[37m:[37m0
+14:58:42.462 > [WSc] C[37mo[37mnnected to [37mr[37melay: .
+14:58:42.464 > Re[37ml[37may connecte[37md[37m: 
+14:58:42.466 > messag[37me[37m
+14:58:42.467 > Requestin[37mg[37m events:
+[37m14:58:42.469 > S[37mETUP END:13[37m6[37m380
+14:58:42.470 > Broadc[37ma[37msting even[37mt[37m: ["REQ", [37m"[37md5rMSh8bQP7[37m5[37mmxZz0JRAdC[37mo[37mxC9OC5cUi2u[37mR[37mdZoMi1l17e3[37mV[37mazUIcuGM0h[37mK[37m0mFFnO", {"[37m#[37mp": ["20f7[37m7[37mfb3b0ea022[37m1[37m6cd05f38f27[37m8[37m4e663db02c3[37me[37ma2e285eda0[37mf[37mfba402c621c[37me[37mb"], "kind[37ms[37m": [4], "li[37mm[37mit": 1}]
+[37m14:59:35.358 > F[37ma[37miled to re[37ma[37md from DHT[37m [37msensor!
+[37m14:59:35.362 > P[37mu[37mblicado no[37m [37mMQTT: 
+14:59:35.364 > HEA[37mP[37m 1 Min:1337[37m7[37m2
+[37m14:59:42.465 > M[37me[37mssage fr[37mo[37mm relay in[37md[37mex:0
+14:59:42.468 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
+14:59:42.470 > Relay [37md[37misconnected[37m:[37m Heap: 178[37m4[37m60
+14:59:42.474 > Message[37m:[37mrelay.pleb[37ms[37mtr.com
+14:59:42.476 > Key[37m:[37mdisconnect[37me[37md
+[37m14:59:50.330 > M[37me[37mssage [37mf[37mrom relay in[37md[37mex:0
+14:59:50.332 > [WS[37mc[37m] Connecte[37md[37m to relay:[37m [37m.
+14:59:50.335 > Relay con[37mn[37mected: 
+14:59:50.336 > me[37ms[37msage
+14:59:50.337 > Requ[37me[37msting event[37ms[37m:
+14:59:50.339 > SETUP E[37mN[37mD:135856
+14:59:50.340 > B[37mr[37moadcasting[37m [37mevent: ["RE[37mQ[37m", "npK12za[37mB[37mGlmu5iqWB1[37mA[37meBXfqyFoYF[37mi[37mxLQU985Zxfp[37mV[37mQX3DLm7rOp[37mQ[37myDCnDQli4ET[37m"[37m, {"#p": ["[37m2[37m0f77fb3b0e[37ma[37m02216cd05f[37m3[37m8f2784e663d[37mb[37m02c3ea2e28[37m5[37meda0ffba402[37mc[37m621ceb"], "[37mk[37minds": [4][37m,[37m "limit": 1[37m}[37m]
+[37m15:00:34.360 > F[37ma[37mile[37md[37m to read fro[37mm[37m DHT sens[37mo[37mr!
+[37m15:00:34.364 > P[37mublic[37ma[37mdo no MQTT:[37m [37m
+15:00:34.366 > HEAP 1 M[37mi[37mn:133740
+[37m15:00:50.765 > M[37me[37mssage fro[37mm[37m relay inde[37mx[37m:0
+15:00:50.768 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
+15:00:50.771 > Relay di[37ms[37mconnected:[37m [37mHeap: 17844[37m8[37m
+15:00:50.775 > Message:r[37me[37mlay.plebst[37mr[37m.com
+15:00:50.777 > Key:[37md[37misconnected[37m[37m
+[37m15:00:58.033 > M[37messa[37mg[37me from rela[37my[37m index:0
+[37m15:00:58.037 > [[37mWSc] Conne[37mc[37mted to rela[37my[37m: .
+15:00:58.040 > Relay c[37mo[37mnnected: [37m
+[37m15:00:58.041 > message
+15:00:58.041 > Re[37mq[37muesting ev[37me[37mnts:
+15:00:58.043 > SETUP[37m [37mEND:135856[37m[37m
+15:00:58.045 > Broadcasti[37mn[37mg event: ["[37mR[37mEQ", "wIVb[37mz[37mLmvx8MRFsy[37m9[37mCpfdMZlLy96[37mU[37miZ5ngOCWK0[37mv[37mdJAGsNFpN2J[37mj[37m5GtvcgTZ2WE[37mp[37mR", {"#p":[37m [37m["20f77fb3[37mb[37m0ea02216cd0[37m5[37mf38f2784e66[37m3[37mdb02c3ea2e[37m2[37m85eda0ffba4[37m0[37m2c621ceb"][37m,[37m "kinds": [37m[[37m4], "limit"[37m:[37m 1}]
+[37m15:01:34.358 > F[37mailed to [37mr[37mead from D[37mH[37mT sensor!
+[37m15:01:34.362 > P[37mu[37mblicado [37mn[37mo MQTT: 
+15:01:34.364 > H[37mE[37mAP 1 Min:13[37m3[37m740
+[37m15:01:58.348 > M[37me[37mssag[37me[37m from relay [37mi[37mndex:0
+15:01:58.350 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
+15:01:58.354 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m78244
+15:01:58.357 > Mes[37ms[37mage:relay.p[37ml[37mebstr.com[37m
+[37m15:01:58.360 > Key:disconn[37me[37mcted
+[37m15:02:06.111 > M[37me[37mssage [37mf[37mrom relay [37mi[37mndex:0
+15:02:06.114 > [W[37mS[37mc] Connecte[37md[37m to relay: [37m.[37m
+15:02:06.117 > Relay con[37mn[37mected: 
+15:02:06.118 > me[37ms[37msage
+15:02:06.119 > Requ[37me[37msting event[37ms[37m:
+15:02:06.120 > SETUP E[37mN[37mD:135896
+15:02:06.121 > B[37mr[37moadcasting[37m [37mevent: ["RE[37mQ[37m", "9xHSta6[37mD[37mp7YEDdCgYg[37mE[37mlZO9K7GwPY[37mS[37m8ZFYs7wsllB[37mY[37mBL2VaIdIvW[37mx[37mEfxPyT7nw54[37m"[37m, {"#p": ["[37m2[37m0f77fb3b0e[37ma[37m02216cd05f[37m3[37m8f2784e663d[37mb[37m02c3ea2e28[37m5[37meda0ffba402[37mc[37m621ceb"], "[37mk[37minds": [4][37m,[37m "limit": 1[37m}[37m]
+[37m15:02:34.359 > F[37ma[37miled to read[37m [37mfrom DHT se[37mn[37msor!
+[37m15:02:34.362 > P[37mub[37ml[37micado no MQ[37mT[37mT: 
+15:02:34.365 > HEAP 1[37m [37mMin:133788[37m[37m
+[37m15:03:06.444 > M[37me[37mssage fr[37mo[37mm relay i[37mn[37mdex:0
+15:03:06.447 > [WS[37mc[37m] Disconnec[37mt[37med from rel[37ma[37my: .
+15:03:06.450 > Relay[37m [37mdisconnect[37me[37md: Heap: 17[37m8[37m444
+15:03:06.453 > Messa[37mg[37me:relay.ple[37mb[37mstr.com
+15:03:06.455 > Ke[37my[37m:disconnec[37mt[37med
+[37m15:03:13.611 > M[37me[37mssage from re[37ml[37may index:[37m0[37m
+15:03:13.614 > [WSc] Con[37mn[37mected to r[37me[37mlay: .
+15:03:13.616 > Rela[37my[37m connected[37m:[37m 
+15:03:13.618 > message[37m
+[37m15:03:13.619 > Requesting[37m [37mevents:
+15:03:13.619 > SE[37mT[37mUP END:135[37m8[37m80
+15:03:13.621 > Broadca[37ms[37mting event[37m:[37m ["REQ", "6[37mw[37mCxdclySn5Np[37mX[37m7o27fawSV6[37mT[37mVJHn8jvpJh[37mu[37mD7ZskHLRMvW[37mJ[37mdBuA6ETHtyI[37mV[37m7O0d", {"#[37mp[37m": ["20f77f[37mb[37m3b0ea02216[37mc[37md05f38f278[37m4[37me663db02c3e[37ma[37m2e285eda0ff[37mb[37ma402c621ce[37mb[37m"], "kinds"[37m:[37m [4], "limit[37m"[37m: 1}]
+[37m15:03:17.605 > M[37me[37mssage [37mf[37mrom relay i[37mn[37mdex:0
+15:03:17.608 > [W[37mS[37mc]: Receive[37md[37m text from[37m [37mrelay .: ["[37mE[37mVENT","6wCx[37md[37mclySn5NpX7[37mo[37m27fawSV6TV[37mJ[37mHn8jvpJhuD7[37mZ[37mskHLRMvWJd[37mB[37muA6ETHtyIV7[37mO[37m0d",{"id":"[37m1[37m2907ce04df[37m7[37mb13d921adf8[37m3[37m3f6caf8c5f[37me[37m90ce1f47b16[37m4[37m766e1155d0[37m8[37mad0dd2","pu[37mb[37mkey":"8ceb[37m5[37mdcd9a7be4cb[37m3[37mf399c073d9[37md[37mad54acecdeb[37ma[37mc3176cdb04[37m1[37mb36f5be5678[37me[37m0","create[37md[37m_at":169902[37m7[37m232,"kind"[37m:[37m4,"tags":[[[37m"[37mp","20f77f[37mb[37m3b0ea02216c[37md[37m05f38f2784e[37m6[37m63db02c3ea[37m2[37me285eda0ff[37mb[37ma402c621ceb[37m"[37m]],"conten[37mt[37m":"libh4xPQ[37mS[37mXy2Cq05QGVu[37mW[37mA==?iv=6PI[37mn[37mn/iVap8CVWv[37mZ[37mi22N3Q==",[37m"[37msig":"bf607[37m1[37m7a0e12a802[37m5[37m58c7e1a727b[37m8[37me000aa0b51[37m4[37m681f4f2947c[37m7[37m772c03d08d[37mb[37ma3d585529b6[37m5[37md319c79f59[37m8[37me1901f2f5a0[37m6[37m586e8a6724[37m5[37ma6a36544cbc[37mb[37m0a0e8b7"}][37m
+[37m15:03:17.659 > NIP04 event[37m:[37m 121544
+15:03:17.660 > No[37ms[37mtr Antes de[37mc[37mrypt:13529[37m2[37m
+15:03:17.663 > 1096
+15:03:17.663 > en[37mc[37mryptedMess[37ma[37mgeencrypted[37mM[37messageHexiv[37mi[37mvHexGuru M[37me[37mditation Er[37mr[37mor: Core  [37m1[37m panic'ed [37m([37mDouble exce[37mp[37mtion). 
+15:03:17.672 > 
+[37m15:03:17.672 > C[37more  1 reg[37mi[37mster dump:[37m
+[37m15:03:17.675 > PC      : [37m0[37mx4008ec9e  [37mP[37mS      : 0[37mx[37m00040f36  A[37m0[37m      : 0x[37m8[37m00e7bed  A1[37m [37m     : 0x3[37mf[37mfce540  
+15:03:17.682 > A[37m2[37m      : 0x[37m3[37mffe01e0  A3[37m [37m     : 0x3[37mf[37mfce8c0  A4 [37m [37m    : 0x00[37m0[37m00001  A5  [37m [37m   : 0x3f40[37m5[37md34  
+15:03:17.690 > A6 [37m [37m    : 0x3ff[37mc[37mea60  A7  [37m [37m   : 0x3ff[37mc[37mea8c  A8   [37m [37m  : 0x40080[37m0[37m80  A9    [37m [37m : 0x3ffce6[37m9[37m0  
+15:03:17.697 > A10  [37m [37m  : 0x00060[37m1[37m36  A11   [37m [37m : 0x000400[37m2[37m6  A12    [37m [37m: 0x3ffc728[37m0[37m  A13     [37m:[37m 0x3ffc7a00[37m [37m 
+15:03:17.706 > A14    [37m [37m: 0xab3760e[37me[37m  A15     [37m:[37m 0xfba3b8b5[37m [37m SAR     : [37m0[37mx00000010 [37m [37mEXCCAUSE: [37m0[37mx00000002  [37m[37m
+15:03:17.713 > EXCVADDR: [37m0[37mxffffffe0  [37mL[37mBEG    : 0[37mx[37m400eabc2  [37mL[37mEND    : 0[37mx[37m400eabe4  L[37mC[37mOUNT  : 0x0[37m0[37m000000  
+[37m15:03:17.721 > [37m
+15:03:17.721 > 
+15:03:17.721 > Backtrac[37me[37m: 0x4008ec[37m9[37mb:0x3ffce54[37m0[37m 0x400e7be[37ma[37m:0x3ffce560[37m [37m0x4008ec9b[37m:[37m0x3ffce580 [37m0[37mx4008ec9b:[37m0[37mx3ffce5a0 0[37mx[37m4008ec9b:0[37mx[37m3ffce5c0 0x[37m4[37m008ec9b:0x3[37mf[37mfce5e0 0x4[37m0[37m08ec9b:0x3[37mf[37mfce600 0x40[37m0[37m8ec9b:0x3f[37mf[37mce690 0x400[37m8[37m007d:0x3ffc[37me[37m540 0x4008[37m4[37m163:0x3ffc[37me[37m560 0x4008e[37mc[37m9b:0x3ffce5[37m8[37m0 0x4008ec[37m9[37mb:0x3ffce5a[37m0[37m 0x4008ec9[37mb[37m:0x3ffce5c0[37m [37m0x4008ec9b[37m:[37m0x3ffce5e0 [37m0[37mx4008ec9b:[37m0[37mx3ffce600 0[37mx[37m4008ec9b:0[37mx[37m3ffce690 0x[37m4[37m008007d:0x[37m3[37mffce540 0x4[37m0[37m084163:0x3f[37mf[37mce560 0x40[37m0[37m8ec9b:0x3f[37mf[37mce580 0x400[37m8[37mec9b:0x3ff[37mc[37me5a0 0x4008[37me[37mc9b:0x3ffce[37m5[37mc0 0x4008e[37mc[37m9b:0x3ffce[37m5[37me0 0x4008ec[37m9[37mb:0x3ffce60[37m0[37m 0x4008ec9[37mb[37m:0x3ffce690[37m [37m0x4008007d[37m:[37m0x3ffce540[37m [37m0x40084163:[37m0[37mx3ffce560 0[37mx[37m4008ec9b:0[37mx[37m3ffce580 0x[37m4[37m008ec9b:0x[37m3[37mffce5a0 0x4[37m0[37m08ec9b:0x3[37mf[37mfce5c0 0x40[37m0[37m8ec9b:0x3f[37mf[37mce5e0 0x400[37m8[37mec9b:0x3ff[37mc[37me600 0x4008[37me[37mc9b:0x3ffce[37m6[37m90 0x40080[37m0[37m7d:0x3ffce[37m5[37m40 0x400841[37m6[37m3:0x3ffce5[37m6[37m0 0x4008ec9[37mb[37m:0x3ffce580[37m [37m0x4008ec9b[37m:[37m0x3ffce5a0[37m [37m0x4008ec9b:[37m0[37mx3ffce5c0 0[37mx[37m4008ec9b:0[37mx[37m3ffce5e0 0x[37m4[37m008ec9b:0x[37m3[37mffce600 0x4[37m0[37m08ec9b:0x3[37mf[37mfce690 0x40[37m0[37m8007d:0x3f[37mf[37mce540 0x400[37m8[37m4163:0x3ff[37mc[37me560 0x4008[37me[37mc9b:0x3ffc[37me[37m580 0x4008e[37mc[37m9b:0x3ffce[37m5[37ma0 0x4008ec[37m9[37mb:0x3ffce5[37mc[37m0 0x4008ec9[37mb[37m:0x3ffce5e[37m0[37m 0x4008ec9b[37m:[37m0x3ffce600 [37m0[37mx4008ec9b:[37m0[37mx3ffce690 [37m0[37mx4008007d:0[37mx[37m3ffce540 0x[37m4[37m0084163:0x[37m3[37mffce560 0x4[37m0[37m08ec9b:0x3[37mf[37mfce580 0x40[37m0[37m8ec9b:0x3f[37mf[37mce5a0 0x40[37m0[37m8ec9b:0x3ffc[37me[37m5c0 0x4008[37me[37mc9b:0x3ffc[37me[37m5e0 0x4008e[37mc[37m9b:0x3ffce[37m6[37m00 0x4008ec[37m9[37mb:0x3ffce6[37m9[37m0 0x4008007[37md[37m:0x3ffce540[37m [37m0x40084163[37m:[37m0x3ffce560[37m [37m0x4008ec9b:[37m0[37mx3ffce580 [37m0[37mx4008ec9b:0[37mx[37m3ffce5a0 0x[37m4[37m008ec9b:0x[37m3[37mffce5c0 0x[37m4[37m008ec9b:0x3[37mf[37mfce5e0 0x40[37m0[37m8ec9b:0x3f[37mf[37mce600 0x400[37m8[37mec9b:0x3ff[37mc[37me690 0x400[37m8[37m007d:0x3ffc[37me[37m540 0x40084[37m1[37m63:0x3ffce[37m5[37m60 0x4008ec[37m9[37mb:0x3ffce5[37m8[37m0 0x4008ec9[37mb[37m:0x3ffce5a[37m0[37m 0x4008ec9b[37m:[37m0x3ffce5c0[37m [37m0x4008ec9b:[37m0[37mx3ffce5e0 [37m0[37mx4008ec9b:0[37mx[37m3ffce600 0[37mx[37m4008ec9b:0x[37m3[37mffce690 0x4[37m0[37m08007d:0x3[37mf[37mfce540 0x4[37m0[37m084163:0x3f[37mf[37mce560 0x400[37m8[37mec9b:0x3ff[37mc[37me580 0x4008[37me[37mc9b:0x3ffc[37me[37m5a0 0x4008[37me[37mc9b:0x3ffce[37m5[37mc0 0x4008ec[37m9[37mb:0x3ffce5[37me[37m0 0x4008ec9[37mb[37m:0x3ffce60[37m0[37m 0x4008ec9b[37m:[37m0x3ffce690[37m [37m0x4008007d:[37m0[37mx3ffce540 [37m0[37mx40084163:0[37mx[37m3ffce560 0[37mx[37m4008ec9b:0x[37m3[37mffce580 0x[37m4[37m008ec9b:0x3[37mf[37mfce5a0 0x4[37m0[37m08ec9b:0x3f[37mf[37mce5c0 0x40[37m0[37m8ec9b:0x3ff[37mc[37me5e0 0x4008[37me[37mc9b:0x3ffc[37me[37m600 0x4008e[37mc[37m9b:0x3ffce[37m6[37m90 0x40080[37m0[37m7d:0x3ffce5[37m4[37m0 0x4008416[37m3[37m:0x3ffce56[37m0[37m 0x4008ec9b[37m:[37m0x3ffce580[37m [37m0x4008ec9b:[37m0[37mx3ffce5a0 [37m0[37mx4008ec9b:0[37mx[37m3ffce5c0 0[37mx[37m4008ec9b:0x[37m3[37mffce5e0 0x[37m4[37m008ec9b:0x3[37mf[37mfce600 0x4[37m0[37m08ec9b:0x3f[37mf[37mce690 0x40[37m0[37m8007d:0x3ff[37mc[37me540 0x400[37m8[37m4163:0x3ffc[37me[37m560 0x4008[37me[37mc9b:0x3ffce[37m5[37m80 0x4008ec[37m9[37mb:0x3ffce5[37ma[37m0 0x4008ec9[37mb[37m:0x3ffce5c[37m0[37m |<-CONTIN[37mU[37mES
+15:03:21.000 > 
+15:03:21.000 >   #0  0x4008ec9b:0x3ffce540 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #1  0x400e7bea:0x3ffce560 in PrivateKey::PrivateKey(unsigned char const*, bool, Network const*) at .pio/libdeps/esp-wrover-kit/uBitcoin@src-145273bbae45fe504167fd6fe0ebe9ce/src/Bitcoin.cpp:512
+15:03:21.000 >   #2  0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #3  0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #4  0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #5  0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #6  0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #7  0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #8  0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:21.000 >   #9  0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:21.000 >   #10 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #11 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #12 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #13 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #14 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #15 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #16 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:21.000 >   #17 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:21.000 >   #18 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #19 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #20 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #21 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #22 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #23 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #24 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:21.000 >   #25 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:21.000 >   #26 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #27 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #28 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #29 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #30 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #31 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #32 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:21.000 >   #33 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:21.000 >   #34 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #35 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #36 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #37 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #38 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #39 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #40 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:21.000 >   #41 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:21.000 >   #42 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #43 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #44 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #45 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #46 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #47 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #48 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:21.000 >   #49 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:21.000 >   #50 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #51 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #52 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #53 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #54 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #55 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #56 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:21.000 >   #57 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:21.000 >   #58 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #59 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #60 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #61 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #62 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #63 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #64 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:21.000 >   #65 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:21.000 >   #66 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #67 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #68 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #69 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #70 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #71 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #72 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:21.000 >   #73 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:21.000 >   #74 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #75 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #76 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #77 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #78 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #79 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #80 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:21.000 >   #81 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:21.000 >   #82 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #83 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #84 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #85 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #86 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #87 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #88 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:21.000 >   #89 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:21.000 >   #90 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #91 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #92 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #93 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #94 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #95 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #96 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:21.000 >   #97 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:21.000 >   #98 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #99 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 >   #100 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:21.000 > 
+15:03:21.000 > 
+15:03:21.000 > 
+15:03:21.000 > [37m
+15:03:21.005 > ELF file SHA256: 45d2b2068ef7c1f7
+15:03:21.005 > 
+15:03:21.005 > Rebooting...
+15:03:21.005 > ets Jun  8 2016 00:22:57
+15:03:21.005 > 
+15:03:21.005 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:03:21.005 > configsip: 0, SPIWP:0xee
+15:03:21.005 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:03:21.005 > mode:DIO, clock div:2
+15:03:21.005 > load:0x3fff0030,len:1184
+15:03:21.005 > load:0x40078000,len:13232
+15:03:21.005 > load:0x40080400,len:3028
+15:03:21.005 > entry 0x400805e4
+15:03:21.005 > Total heap: 263528
+15:03:21.005 > Free heap: 237104
+15:03:21.005 > Total PSRAM: 4192107
+15:03:21.005 > Free PSRAM: 4191847
+15:03:21.005 > SPIFS: Mounting File System...
+15:03:21.005 > SPIFS: Loading config file
+15:03:21.005 >  
+15:03:21.005 > AllDone: 
+15:03:21.005 > *wm:AutoConnect 
+15:03:21.005 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m15:03:21.516 > *[37mw[37mm:AutoConn[37me[37mct: SUCCES[37mS[37m 
+15:03:21.523 > *wm:STA [37mI[37mP Address:[37m [37m192.168.1.[37m2[37m5
+15:03:21.523 > 
+15:03:21.523 > WiFi c[37mo[37mnnected
+15:03:21.523 > IP[37m [37maddress: 1[37m9[37m2.168.1.25[37m
+[37m15:03:21.533 > Private Ke[37my[37m: d3871668e[37m5[37m32102ca529[37m3[37m649d8e9f0e9[37m0[37m85dd58e161[37mc[37mf93bee6037a[37mb[37mb5b8a3fb
+[37m15:03:21.540 > P[37mublic Key: [37m8[37mceb5dcd9a7b[37me[37m4cb3f399c0[37m7[37m3d9dad54ac[37me[37mcdebac3176c[37md[37mb041b36f5be[37m5[37m678e0
+15:03:21.545 > Rel[37ma[37mys: nostr.[37mb[37mitcoiner.so[37mc[37mial,relay.[37mp[37mlebstr.com,[37mn[37mos.lol,rela[37my[37m.damus.io[37m
+[37m15:03:21.553 > Master Pub [37mK[37mey: 20f77f[37mb[37m3b0ea02216c[37md[37m05f38f2784[37me[37m663db02c3ea[37m2[37me285eda0ff[37mb[37ma402c621ceb[37m[37m
+15:03:21.559 > TimeZone [37mf[37mromUTC: -3[37m
+[37m15:03:21.561 > Setting ca[37ml[37mlbacks
+15:03:21.563 > con[37mn[37mecting
+15:03:21.564 > Rel[37ma[37mys are:
+15:03:21.565 > r[37me[37mlay.plebst[37mr[37m.com
+15:03:21.567 > Conne[37mc[37mting to re[37ml[37may: relay.p[37ml[37mebstr.com
+[37m15:03:22.067 > S[37mE[37mTUP LI[37mD[37mAR
+15:03:22.068 > SETUP[37m [37mLIDAR START[37m[37m
+15:03:22.070 > Versão: [37m2[37m.1.5
+[37m15:03:22.114 > S[37mPIF[37mS[37m: Already [37mM[37mounted
+[37m15:03:22.127 > L[37mI[37mDAR: Loadi[37mn[37mg LIDAR da[37mt[37ma file
+15:03:22.130 > SE[37mT[37mUP LIDAR EN[37mD[37m
+15:03:22.132 > SPIFS: A[37ml[37mready Moun[37mt[37med
+15:03:22.133 > PLUV: L[37mo[37mading Pluv[37mi[37mometer data[37m [37mfile
+15:03:22.136 > {"1_m[37mi[37mnute":[0,0[37m,[37m0,0,0,0,0,[37m0[37m,0,0,0,0,0,[37m0[37m,0],"15_mi[37mn[37mutes":[28.5[37m,[37m0,0,0],"1_h[37mo[37mur":[0,0,0[37m,[37m0,0,0,0,0,0[37m,[37m0,0,0,0,0,[37m0[37m,0,0,0,0,0[37m,[37m0,0,0,0]} [37m
+[37m15:03:22.149 > SETUP PLUVI[37mO[37mMETER
+15:03:22.150 > SET[37mU[37mP DHT22
+15:03:22.151 > SE[37mT[37mUP END:182[37m3[37m80
+15:03:22.153 > HEAP:182[37m3[37m80
+15:03:22.154 > Attempt[37mi[37mng MQTT con[37mn[37mection...[37mc[37mo[37mnne[37mc[37mted
+[37m15:03:27.025 > M[37me[37mssage fr[37mo[37mm relay ind[37me[37mx:0
+15:03:27.027 > [WSc][37m [37mConnected [37mt[37mo relay: .
+[37m15:03:27.031 > R[37melay connec[37mt[37med: 
+15:03:27.032 > mess[37ma[37mge
+15:03:27.033 > Request[37mi[37mng events:[37m[37m
+15:03:27.034 > SETUP END:[37m1[37m36408
+15:03:27.035 > Bro[37ma[37mdcasting ev[37me[37mnt: ["REQ"[37m,[37m "Yx4r4F0MP[37mB[37meJZZdSFC0X[37mJ[37mT05J9xWxsXF[37mg[37mfj70d3s0mfe[37m4[37mwzHIC6YePz[37mt[37mcQgApxzs",[37m [37m{"#p": ["20[37mf[37m77fb3b0ea0[37m2[37m216cd05f38f[37m2[37m784e663db02[37mc[37m3ea2e285ed[37ma[37m0ffba402c6[37m2[37m1ceb"], "ki[37mn[37mds": [4], [37m"[37mlimit": 1}]
+[37m15:03:28.563 > M[37message from [37mr[37melay index[37m:[37m0
+15:03:28.566 > [WSc]: [37mR[37meceived tex[37mt[37m from rela[37my[37m .: ["EVENT[37m"[37m,"Yx4r4F0M[37mP[37mBeJZZdSFC0X[37mJ[37mT05J9xWxsX[37mF[37mgfj70d3s0mf[37me[37m4wzHIC6YeP[37mz[37mtcQgApxzs",[37m{[37m"id":"12907[37mc[37me04df7b13d[37m9[37m21adf833f6[37mc[37maf8c5fe90ce[37m1[37mf47b164766[37me[37m1155d08ad0d[37md[37m2","pubkey"[37m:[37m"8ceb5dcd9[37ma[37m7be4cb3f39[37m9[37mc073d9dad54[37ma[37mcecdebac317[37m6[37mcdb041b36f[37m5[37mbe5678e0","[37mc[37mreated_at"[37m:[37m1699027232,[37m"[37mkind":4,"ta[37mg[37ms":[["p","[37m2[37m0f77fb3b0e[37ma[37m02216cd05f3[37m8[37mf2784e663d[37mb[37m02c3ea2e285[37me[37mda0ffba402[37mc[37m621ceb"]],"[37mc[37montent":"li[37mb[37mh4xPQSXy2C[37mq[37m05QGVuWA==[37m?[37miv=6PInn/iV[37ma[37mp8CVWvZi22[37mN[37m3Q==","sig"[37m:[37m"bf60717a0e[37m1[37m2a802558c7[37me[37m1a727b8e00[37m0[37maa0b514681f[37m4[37mf2947c7772c[37m0[37m3d08dba3d5[37m8[37m5529b65d319[37mc[37m79f598e190[37m1[37mf2f5a06586e[37m8[37ma67245a6a3[37m6[37m544cbcb0a0e[37m8[37mb7"}]
+15:03:28.617 > NIP0[37m4[37m event: 124[37m5[37m16
+15:03:28.618 > Nostr [37mA[37mntes decryp[37mt[37m:135960
+15:03:28.620 > 1[37m0[37m96
+15:03:28.621 > encrypt[37me[37mdMessageenc[37mr[37myptedMessa[37mg[37meHexivivHe[37mx[37mGuru Medita[37mtion Error:[37m [37mCore  1 pan[37mi[37mc'ed (Doub[37ml[37me exception[37m)[37m. 
+15:03:28.631 > 
+15:03:28.631 > Core [37m [37m1 register[37m [37mdump:
+15:03:28.632 > PC [37m [37m    : 0x400[37m8[37mec9e  PS   [37m [37m  : 0x0004[37m0[37mf36  A0    [37m [37m : 0x800e7[37mb[37med  A1    [37m [37m : 0x3ffce5[37m4[37m0  
+15:03:28.641 > A2    [37m [37m : 0x3ffe0[37m1[37me0  A3     [37m [37m: 0x3ffce8[37mc[37m0  A4      [37m:[37m 0x0000000[37m1[37m  A5      :[37m [37m0x3f405d34 [37m [37m
+15:03:28.648 > A6      [37m:[37m 0x3ffcea6[37m0[37m  A7      :[37m [37m0x3ffcea8c [37m [37mA8      : [37m0[37mx40080080 [37m [37mA9      : 0[37mx[37m3ffce690  [37m[37m
+15:03:28.656 > A10     : [37m0[37mx00060136  [37mA[37m11     : 0[37mx[37m00040026  A[37m1[37m2     : 0x[37m3[37mffc7280  A[37m1[37m3     : 0x3[37mf[37mfc7a00  
+15:03:28.664 > A[37m1[37m4     : 0x[37ma[37mb3760ee  A1[37m5[37m     : 0xf[37mb[37ma3b8b5  SAR[37m [37m    : 0x00[37m0[37m00010  EXCC[37mA[37mUSE: 0x000[37m0[37m0002  
+15:03:28.672 > EXC[37mV[37mADDR: 0xff[37mf[37mfffe0  LBEG[37m [37m   : 0x400[37me[37mabc2  LEND [37m [37m  : 0x400ea[37mb[37me4  LCOUNT[37m [37m : 0x00000[37m0[37m00  
+15:03:28.680 > 
+15:03:28.680 > 
+15:03:28.680 > B[37ma[37mcktrace: 0[37mx[37m4008ec9b:0x[37m3[37mffce540 0x4[37m0[37m0e7bea:0x3[37mf[37mfce560 0x4[37m0[37m08ec9b:0x3f[37mf[37mce580 0x400[37m8[37mec9b:0x3ff[37mc[37me5a0 0x4008[37me[37mc9b:0x3ffc[37me[37m5c0 0x4008e[37mc[37m9b:0x3ffce[37m5[37me0 0x4008ec[37m9[37mb:0x3ffce6[37m0[37m0 0x4008ec9[37mb[37m:0x3ffce69[37m0[37m 0x4008007d[37m:[37m0x3ffce540[37m [37m0x40084163:[37m0[37mx3ffce560 [37m0[37mx4008ec9b:0[37mx[37m3ffce580 0x[37m4[37m008ec9b:0x[37m3[37mffce5a0 0x4[37m0[37m08ec9b:0x3[37mf[37mfce5c0 0x4[37m0[37m08ec9b:0x3f[37mf[37mce5e0 0x400[37m8[37mec9b:0x3ff[37mc[37me600 0x4008[37me[37mc9b:0x3ffc[37me[37m690 0x4008[37m0[37m07d:0x3ffce[37m5[37m40 0x400841[37m6[37m3:0x3ffce5[37m6[37m0 0x4008ec9[37mb[37m:0x3ffce58[37m0[37m 0x4008ec9b[37m:[37m0x3ffce5a0[37m [37m0x4008ec9b:[37m0[37mx3ffce5c0 [37m0[37mx4008ec9b:0[37mx[37m3ffce5e0 0[37mx[37m4008ec9b:0x[37m3[37mffce600 0x4[37m0[37m08ec9b:0x3f[37mf[37mce690 0x40[37m0[37m8007d:0x3f[37mf[37mce540 0x40[37m0[37m84163:0x3ff[37mc[37me560 0x4008[37me[37mc9b:0x3ffc[37me[37m580 0x4008e[37mc[37m9b:0x3ffce[37m5[37ma0 0x4008e[37mc[37m9b:0x3ffce5[37mc[37m0 0x4008ec9[37mb[37m:0x3ffce5e[37m0[37m 0x4008ec9b[37m:[37m0x3ffce600[37m [37m0x4008ec9b:[37m0[37mx3ffce690 [37m0[37mx4008007d:0[37mx[37m3ffce540 0[37mx[37m40084163:0x[37m3[37mffce560 0x[37m4[37m008ec9b:0x3[37mf[37mfce580 0x4[37m0[37m08ec9b:0x3f[37mf[37mce5a0 0x400[37m8[37mec9b:0x3ff[37mc[37me5c0 0x400[37m8[37mec9b:0x3ffc[37me[37m5e0 0x4008[37me[37mc9b:0x3ffce[37m6[37m00 0x4008ec[37m9[37mb:0x3ffce6[37m9[37m0 0x4008007[37md[37m:0x3ffce54[37m0[37m 0x4008416[37m3[37m:0x3ffce560[37m [37m0x4008ec9b:[37m0[37mx3ffce580 [37m0[37mx4008ec9b:0[37mx[37m3ffce5a0 0[37mx[37m4008ec9b:0x[37m3[37mffce5c0 0x[37m4[37m008ec9b:0x3[37mf[37mfce5e0 0x4[37m0[37m08ec9b:0x3f[37mf[37mce600 0x40[37m0[37m8ec9b:0x3ff[37mc[37me690 0x400[37m8[37m007d:0x3ffc[37me[37m540 0x40084[37m1[37m63:0x3ffce[37m5[37m60 0x4008e[37mc[37m9b:0x3ffce5[37m8[37m0 0x4008ec9[37mb[37m:0x3ffce5a0[37m [37m0x4008ec9b[37m:[37m0x3ffce5c0[37m [37m0x4008ec9b[37m:[37m0x3ffce5e0 [37m0[37mx4008ec9b:0[37mx[37m3ffce600 0[37mx[37m4008ec9b:0x[37m3[37mffce690 0x[37m4[37m008007d:0x3[37mf[37mfce540 0x4[37m0[37m084163:0x3f[37mf[37mce560 0x40[37m0[37m8ec9b:0x3ff[37mc[37me580 0x400[37m8[37mec9b:0x3ffc[37me[37m5a0 0x4008[37me[37mc9b:0x3ffce[37m5[37mc0 0x4008ec[37m9[37mb:0x3ffce5[37me[37m0 0x4008ec[37m9[37mb:0x3ffce60[37m0[37m 0x4008ec9[37mb[37m:0x3ffce690[37m [37m0x4008007d:[37m0[37mx3ffce540 [37m0[37mx40084163:0[37mx[37m3ffce560 0[37mx[37m4008ec9b:0[37mx[37m3ffce580 0x[37m4[37m008ec9b:0x3[37mf[37mfce5a0 0x4[37m0[37m08ec9b:0x3f[37mf[37mce5c0 0x40[37m0[37m8ec9b:0x3ff[37mc[37me5e0 0x400[37m8[37mec9b:0x3ffc[37me[37m600 0x4008[37me[37mc9b:0x3ffce[37m6[37m90 0x40080[37m0[37m7d:0x3ffce5[37m4[37m0 0x400841[37m6[37m3:0x3ffce56[37m0[37m 0x4008ec9b[37m:[37m0x3ffce580[37m [37m0x4008ec9b[37m:[37m0x3ffce5a0 [37m0[37mx4008ec9b:[37m0[37mx3ffce5c0 0[37mx[37m4008ec9b:0x[37m3[37mffce5e0 0x[37m4[37m008ec9b:0x[37m3[37mffce600 0x4[37m0[37m08ec9b:0x3f[37mf[37mce690 0x40[37m0[37m8007d:0x3ff[37mc[37me540 0x400[37m8[37m4163:0x3ffc[37me[37m560 0x4008[37me[37mc9b:0x3ffce[37m5[37m80 0x4008e[37mc[37m9b:0x3ffce5[37ma[37m0 0x4008ec[37m9[37mb:0x3ffce5c[37m0[37m 0x4008ec9[37mb[37m:0x3ffce5e0[37m [37m0x4008ec9b[37m:[37m0x3ffce600 [37m0[37mx4008ec9b:0[37mx[37m3ffce690 0[37mx[37m4008007d:0[37mx[37m3ffce540 0x[37m4[37m0084163:0x[37m3[37mffce560 0x4[37m0[37m08ec9b:0x3f[37mf[37mce580 0x40[37m0[37m8ec9b:0x3ff[37mc[37me5a0 0x400[37m8[37mec9b:0x3ff[37mc[37me5c0 0x4008[37me[37mc9b:0x3ffce[37m5[37me0 0x4008ec[37m9[37mb:0x3ffce6[37m0[37m0 0x4008ec[37m9[37mb:0x3ffce69[37m0[37m 0x4008007[37md[37m:0x3ffce540[37m [37m0x40084163[37m:[37m0x3ffce560 [37m0[37mx4008ec9b:0[37mx[37m3ffce580 0[37mx[37m4008ec9b:0[37mx[37m3ffce5a0 0x[37m4[37m008ec9b:0x[37m3[37mffce5c0 |<-[37mC[37mONTINUES
+15:03:31.900 > 
+15:03:31.900 >   #0  0x4008ec9b:0x3ffce540 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #1  0x400e7bea:0x3ffce560 in PrivateKey::PrivateKey(unsigned char const*, bool, Network const*) at .pio/libdeps/esp-wrover-kit/uBitcoin@src-145273bbae45fe504167fd6fe0ebe9ce/src/Bitcoin.cpp:512
+15:03:31.900 >   #2  0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #3  0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #4  0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #5  0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #6  0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #7  0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #8  0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:31.900 >   #9  0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:31.900 >   #10 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #11 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #12 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #13 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #14 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #15 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #16 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:31.900 >   #17 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:31.900 >   #18 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #19 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #20 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #21 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #22 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #23 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #24 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:31.900 >   #25 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:31.900 >   #26 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #27 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #28 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #29 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #30 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #31 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #32 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:31.900 >   #33 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:31.900 >   #34 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #35 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #36 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #37 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #38 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #39 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #40 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:31.900 >   #41 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:31.900 >   #42 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #43 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #44 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #45 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #46 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #47 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #48 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:31.900 >   #49 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:31.900 >   #50 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #51 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #52 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #53 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #54 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #55 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #56 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:31.900 >   #57 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:31.900 >   #58 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #59 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #60 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #61 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #62 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #63 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #64 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:31.900 >   #65 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:31.900 >   #66 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #67 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #68 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #69 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #70 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #71 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #72 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:31.900 >   #73 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:31.900 >   #74 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #75 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #76 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #77 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #78 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #79 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #80 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:31.900 >   #81 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:31.900 >   #82 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #83 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #84 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #85 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #86 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #87 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #88 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:31.900 >   #89 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:31.900 >   #90 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #91 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #92 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #93 0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #94 0x4008ec9b:0x3ffce600 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #95 0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #96 0x4008007d:0x3ffce540 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:03:31.900 >   #97 0x40084163:0x3ffce560 in esp_random at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/esp_hw_support/hw_random.c:55
+15:03:31.900 >   #98 0x4008ec9b:0x3ffce580 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #99 0x4008ec9b:0x3ffce5a0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 >   #100 0x4008ec9b:0x3ffce5c0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:03:31.900 > [37m
+15:03:31.907 > 
+15:03:31.907 > 
+15:03:31.907 > 
+15:03:31.907 > ELF file SHA256: 45d2b2068ef7c1f7
+15:03:31.907 > 
+15:03:31.907 > Rebooting...
+15:03:31.907 > ets Jun  8 2016 00:22:57
+15:03:31.907 > 
+15:03:31.907 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:03:31.907 > configsip: 0, SPIWP:0xee
+15:03:31.907 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:03:31.907 > mode:DIO, clock div:2
+15:03:31.907 > load:0x3fff0030,len:1184
+15:03:31.907 > load:0x40078000,len:13232
+15:03:31.907 > load:0x40080400,len:3028
+15:03:31.907 > entry 0x400805e4
+15:03:31.907 > Total heap: 263528
+15:03:31.907 > Free heap: 237104
+15:03:31.907 > Total PSRAM: 4192107
+15:03:31.907 > Free PSRAM: 4191847
+15:03:31.907 > SPIFS: Mounting File System...
+15:03:31.907 > SPIFS: Loading config file
+15:03:31.907 >  
+15:03:31.907 > AllDone: 
+15:03:31.907 > *wm:AutoConnect 
+15:03:31.907 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m15:03:32.425 > *[37mw[37mm:AutoC[37mo[37mnnect: SUC[37mC[37mESS 
+15:03:32.428 > *wm:S[37mT[37mA IP Addres[37ms[37m: 192.168.[37m1[37m.25
+15:03:32.431 > 
+15:03:32.431 > WiFi[37m [37mconnected[37m
+[37m15:03:32.433 > IP address[37m:[37m 192.168.1.[37m2[37m5
+15:03:32.435 > Private [37mK[37mey: d38716[37m6[37m8e532102ca5[37m2[37m93649d8e9f[37m0[37me9085dd58e1[37m6[37m1cf93bee60[37m3[37m7abb5b8a3fb[37m[37m
+15:03:32.442 > Public Ke[37my[37m: 8ceb5dcd9[37ma[37m7be4cb3f39[37m9[37mc073d9dad54[37ma[37mcecdebac31[37m7[37m6cdb041b36f[37m5[37mbe5678e0
+[37m15:03:32.448 > R[37melays: nost[37mr[37m.bitcoiner[37m.[37msocial,rela[37my[37m.plebstr.co[37mm[37m,nos.lol,r[37me[37mlay.damus.i[37mo[37m
+15:03:32.454 > Master P[37mu[37mb Key: 20f[37m7[37m7fb3b0ea022[37m1[37m6cd05f38f27[37m8[37m4e663db02c[37m3[37mea2e285eda0[37mf[37mfba402c621[37mc[37meb
+15:03:32.462 > TimeZon[37me[37m fromUTC: [37m-[37m3
+15:03:32.463 > Setting [37mc[37mallbacks
+[37m15:03:32.465 > c[37monnecting
+[37m15:03:32.466 > R[37melays are:[37m[37m
+15:03:32.467 > relay.pleb[37ms[37mtr.com
+15:03:32.468 > Co[37mn[37mnecting to [37mr[37melay: rela[37my[37m.plebstr.co[37mm[37m
+[37m15:03:32.970 > S[37mETU[37mP[37m LIDAR
+15:03:32.971 > SET[37mU[37mP LIDAR ST[37mA[37mRT
+15:03:32.973 > Versão[37m:[37m 2.1.5
+[37m15:03:33.018 > S[37mP[37mIFS: Al[37mr[37meady Mount[37me[37md
+[37m15:03:33.029 > L[37mIDAR:[37m [37mLoading LI[37mD[37mAR data fil[37me[37m
+15:03:33.034 > SETUP L[37mI[37mDAR END
+15:03:33.035 > SP[37mI[37mFS: Alread[37my[37m Mounted
+15:03:33.037 > P[37mL[37mUV: Loadin[37mg[37m Pluviomete[37mr[37m data file[37m[37m
+15:03:33.038 > {"1_minute[37m"[37m:[0,0,0,0,[37m0[37m,0,0,0,0,0,[37m0[37m,0,0,0,0],"[37m1[37m5_minutes"[37m:[37m[28.5,0,0,[37m0[37m],"1_hour":[37m[[37m0,0,0,0,0,[37m0[37m,0,0,0,0,0,[37m0[37m,0,0,0,0,0,[37m0[37m,0,0,0,0,0[37m,[37m0]} 
+15:03:33.051 > SETUP[37m [37mPLUVIOMETE[37mR[37m
+15:03:33.053 > SETUP DHT[37m2[37m2
+15:03:33.053 > SETUP E[37mN[37mD:182368
+15:03:33.053 > HE[37mA[37mP:182368
+15:03:33.053 > A[37mt[37mtempting MQ[37mT[37mT connecti[37mo[37mn...[37mc[37mo[37mnnected
+[37m15:03:37.559 > M[37me[37mss[37ma[37mge from rel[37ma[37my index:0[37m
+[37m15:03:37.563 > [WSc] Conne[37mc[37mted to rel[37ma[37my: .
+15:03:37.565 > Relay [37mc[37monnected: [37m[37m
+15:03:37.567 > message
+15:03:37.567 > R[37me[37mquesting e[37mv[37ments:
+15:03:37.569 > SETU[37mP[37m END:136400[37m[37m
+15:03:37.571 > Broadcast[37mi[37mng event: [37m[[37m"REQ", "hl3[37m5[37mVU8ehIWKXMJ[37m7[37mvPse8x3Dzf[37mK[37mQdJJnn3KMhp[37mG[37mw8gGd72UpO[37mo[37myniubnkjPGL[37mp[37mC1", {"#p"[37m:[37m ["20f77fb3[37mb[37m0ea02216cd[37m0[37m5f38f2784e6[37m6[37m3db02c3ea2[37me[37m285eda0ffba[37m4[37m02c621ceb"[37m][37m, "kinds": [37m[[37m4], "limit[37m"[37m: 1}]
+[37m15:03:43.307 > M[37me[37mssage[37m [37mfrom relay [37mi[37mndex:0
+15:03:43.309 > [W[37mS[37mc]: Receive[37md[37m text from[37m [37mrelay .: ["[37mE[37mVENT","hl35[37mV[37mU8ehIWKXMJ[37m7[37mvPse8x3Dzf[37mK[37mQdJJnn3KMhp[37mG[37mw8gGd72UpO[37mo[37myniubnkjPGL[37mp[37mC1",{"id":"[37m1[37m2907ce04df[37m7[37mb13d921adf8[37m3[37m3f6caf8c5f[37me[37m90ce1f47b16[37m4[37m766e1155d0[37m8[37mad0dd2","pu[37mb[37mkey":"8ceb[37m5[37mdcd9a7be4cb[37m3[37mf399c073d9[37md[37mad54acecdeb[37ma[37mc3176cdb04[37m1[37mb36f5be5678[37me[37m0","create[37md[37m_at":169902[37m7[37m232,"kind"[37m:[37m4,"tags":[[[37m"[37mp","20f77fb[37m3[37mb0ea02216c[37md[37m05f38f2784e[37m6[37m63db02c3ea[37m2[37me285eda0ff[37mb[37ma402c621ceb[37m"[37m]],"conten[37mt[37m":"libh4xPQ[37mS[37mXy2Cq05QGVu[37mW[37mA==?iv=6PI[37mn[37mn/iVap8CVWv[37mZ[37mi22N3Q==",[37m"[37msig":"bf607[37m1[37m7a0e12a802[37m5[37m58c7e1a727b[37m8[37me000aa0b51[37m4[37m681f4f2947c[37m7[37m772c03d08d[37mb[37ma3d585529b6[37m5[37md319c79f59[37m8[37me1901f2f5a0[37m6[37m586e8a6724[37m5[37ma6a36544cbc[37mb[37m0a0e8b7"}][37m
+[37m15:03:43.353 > NIP04 event[37m:[37m 122892
+15:03:43.353 > N[37mo[37mstr Antes d[37me[37mcrypt:1355[37m6[37m0
+15:03:43.364 > 1096
+15:03:43.364 > 
+[37m15:03:43.365 > [37m
+15:03:43.365 > 
+15:03:43.365 > 
+15:03:43.365 > Backt[37mr[37mace: 0xffff[37mf[37mffe:0x80090[37m6[37m34 |<-CORR[37mU[37mPTED
+15:03:43.382 > 
+15:03:43.382 >   #0  0xfffffffe:0x80090634 in ?? ??:0
+15:03:43.382 > 
+15:03:43.382 > 
+[37m15:03:43.383 > 
+15:03:43.383 > 
+15:03:43.383 > ELF file SHA256: 45d2b2068ef7c1f7
+15:03:43.383 > 
+[37m15:03:43.765 > R[37me[37mbootin[37mg[37m...
+[37m15:03:43.768 > e[37mts Jun  8 [37m2[37m016 00:22:5[37m7[37m
+15:03:43.770 > 
+15:03:43.770 > rst:0x[37mc[37m (SW_CPU_RE[37mS[37mET),boot:0[37mx[37m13 (SPI_FAS[37mT[37m_FLASH_BOO[37mT[37m)
+15:03:43.775 > configsi[37mp[37m: 0, SPIWP[37m:[37m0xee
+15:03:43.777 > clk_d[37mr[37mv:0x00,q_dr[37mv[37m:0x00,d_dr[37mv[37m:0x00,cs0_[37md[37mrv:0x00,hd_[37md[37mrv:0x00,wp[37m_[37mdrv:0x00
+15:03:43.783 > m[37mo[37mde:DIO, clo[37mc[37mk div:2
+15:03:43.785 > l[37mo[37mad:0x3fff0[37m0[37m30,len:1184[37m[37m
+15:03:43.787 > load:0x400[37m7[37m8000,len:1[37m3[37m232
+15:03:43.789 > load:0[37mx[37m40080400,l[37me[37mn:3028
+15:03:43.791 > ent[37mr[37my 0x400805[37me[37m4
+[37m15:03:44.895 > T[37mota[37ml[37m heap: 263[37m5[37m28
+15:03:44.898 > Free hea[37mp[37m: 237104
+15:03:44.899 > T[37mo[37mtal PSRAM: [37m4[37m192107
+15:03:44.901 > Free[37m [37mPSRAM: 419[37m1[37m847
+[37m15:03:45.017 > S[37mP[37mIFS: Mountin[37mg[37m File Syst[37me[37mm...
+[37m15:03:45.083 > S[37mP[37mIF[37mS[37m: Loading [37mc[37monfig file
+[37m15:03:45.093 >  [37m[37m
+[37m15:03:45.098 > A[37mllDone: 
+15:03:45.098 > *[37mw[37mm:AutoConne[37mc[37mt 
+15:03:45.100 > *wm:Co[37mn[37mnecting to [37mS[37mAVED AP: G[37me[37morgeHomeT[37m
+[37m15:03:47.021 > *[37mw[37mm:Auto[37mConnect: SU[37mC[37mCESS 
+15:03:47.024 > *wm:[37mS[37mTA IP Addre[37ms[37ms: 192.168[37m.[37m1.25
+15:03:47.027 > 
+15:03:47.027 > Wi[37mF[37mi connected[37m[37m
+15:03:47.029 > IP addres[37ms[37m: 192.168.1[37m.[37m25
+15:03:47.031 > Private[37m [37mKey: d3871[37m6[37m68e532102c[37ma[37m5293649d8e9[37mf[37m0e9085dd58e[37m1[37m61cf93bee6[37m0[37m37abb5b8a3f[37mb[37m
+15:03:47.035 > Public K[37me[37my: 8ceb5dcd[37m9[37ma7be4cb3f3[37m9[37m9c073d9dad5[37m4[37macecdebac3[37m1[37m76cdb041b36[37mf[37m5be5678e0[37m
+[37m15:03:47.043 > Relays: nos[37mt[37mr.bitcoine[37mr[37m.social,rel[37ma[37my.plebstr.c[37mo[37mm,nos.lol,[37mr[37melay.damus[37m.[37mio
+15:03:47.050 > Master [37mP[37mub Key: 20[37mf[37m77fb3b0ea02[37m2[37m16cd05f38f2[37m7[37m84e663db02[37mc[37m3ea2e285ed[37ma[37m0ffba402c62[37m1[37mceb
+15:03:47.053 > TimeZ[37mo[37mne fromUTC:[37m [37m-3
+15:03:47.053 > Setting[37m [37mcallbacks[37m
+[37m15:03:47.053 > connecting[37m
+[37m15:03:47.063 > Relays are[37m:[37m
+15:03:47.063 > relay.ple[37mb[37mstr.com
+15:03:47.065 > C[37mo[37mnnecting to[37m [37mrelay: rel[37ma[37my.plebstr.c[37mo[37mm
+[37m15:03:47.565 > S[37mET[37mU[37mP LIDAR
+15:03:47.567 > SE[37mT[37mUP LIDAR S[37mT[37mART
+15:03:47.569 > Versã[37mo[37m: 2.1.5
+[37m15:03:47.614 > S[37mP[37mIFS:[37m [37mAlready Mount[37me[37md
+[37m15:03:47.627 > L[37mIDA[37mR[37m: Loading [37mL[37mIDAR data f[37mi[37mle
+15:03:47.630 > SETUP[37m [37mLIDAR END
+[37m15:03:47.632 > S[37mPIFS: Alre[37ma[37mdy Mounted[37m[37m
+15:03:47.633 > PLUV: Load[37mi[37mng Pluviome[37mt[37mer data fi[37ml[37me
+15:03:47.637 > {"1_minu[37mt[37me":[0,0,0,[37m0[37m,0,0,0,0,0,[37m0[37m,0,0,0,0,0[37m][37m,"15_minute[37ms[37m":[28.5,0,[37m0[37m,0],"1_hour[37m"[37m:[0,0,0,0,[37m0[37m,0,0,0,0,0,[37m0[37m,0,0,0,0,0[37m,[37m0,0,0,0,0,0[37m,[37m0,0]} 
+15:03:47.648 > SE[37mT[37mUP PLUVIOME[37mT[37mER
+15:03:47.650 > SETUP D[37mH[37mT22
+15:03:47.651 > SETUP[37m [37mEND:182172[37m
+[37m15:03:47.653 > HEAP:182172[37m
+[37m15:03:47.654 > Attempting[37m [37mMQTT connec[37mt[37mion...[37mc[37mon[37mn[37mected
+[37m15:03:52.427 > M[37mes[37ms[37mage from re[37ml[37may index:0[37m[37m
+15:03:52.430 > [WSc] Conn[37me[37mcted to re[37ml[37may: .
+15:03:52.432 > Relay[37m [37mconnected: [37m[37m
+15:03:52.434 > message
+[37m15:03:52.434 > R[37mequesting [37me[37mvents:
+15:03:52.436 > SET[37mU[37mP END:13619[37m2[37m
+15:03:52.438 > Broadcas[37mt[37ming event: [37m[[37m"REQ", "iX[37mZ[37mpYzjoQ2djf[37m4[37mtbaiHcQdmwN[37mf[37mMEwz49jeN2O[37mh[37miy7VMnI53C[37mf[37mD6AnGkjLYbX[37mI[37mFkM", {"#p[37m"[37m: ["20f77fb[37m3[37mb0ea02216c[37md[37m05f38f2784e[37m6[37m63db02c3ea[37m2[37me285eda0ffb[37ma[37m402c621ceb[37m"[37m], "kinds":[37m [37m[4], "limi[37mt[37m": 1}]
+[37m15:04:45.396 > F[37ma[37miled t[37mo[37m read from DH[37mT[37m sensor![37m[37m
+[37m15:04:45.401 > P[37mublicado[37m [37mno MQTT: [37m
+[37m15:04:45.403 > HEAP 1 Min:[37m1[37m33744
+[37m15:04:52.734 > M[37me[37mssage from [37mr[37melay index:[37m0[37m
+15:04:52.737 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
+15:04:52.740 > Relay disc[37mo[37mnnected: H[37me[37map: 178420[37m
+[37m15:04:52.744 > Message:re[37ml[37may.plebstr[37m.[37mcom
+15:04:52.745 > Key:di[37ms[37mconnected
+[37m15:05:00.600 > M[37me[37mssage fro[37mm[37m relay inde[37mx[37m:0
+15:05:00.603 > [WSc] [37mC[37monnected to[37m [37mrelay: .
+15:05:00.605 > Re[37ml[37may connect[37me[37md: 
+15:05:00.606 > messa[37mg[37me
+15:05:00.607 > Requesti[37mn[37mg events:
+[37m15:05:00.609 > S[37mETUP END:1[37m3[37m5844
+15:05:00.610 > Broad[37mc[37masting eve[37mn[37mt: ["REQ",[37m [37m"aPBPBDIsLz[37mW[37moQRX0gcFoiv[37mU[37mDkCr6Rps1r[37mL[37mXLBnjV6RGMb[37m9[37mFs8RBdlHJS[37mz[37mhYxVgud", [37m{[37m"#p": ["20f[37m7[37m7fb3b0ea022[37m1[37m6cd05f38f2[37m7[37m84e663db02c[37m3[37mea2e285eda[37m0[37mffba402c621[37mc[37meb"], "kin[37md[37ms": [4], "l[37mi[37mmit": 1}]
+[37m15:05:02.870 > M[37me[37mssage fr[37mo[37mm relay ind[37me[37mx:0
+15:05:02.873 > [WSc][37m:[37m Received t[37me[37mxt from rel[37ma[37my .: ["EVE[37mN[37mT","aPBPBD[37mI[37msLzWoQRX0gc[37mF[37moivUDkCr6Rp[37ms[37m1rLXLBnjV6[37mR[37mGMb9Fs8RBdl[37mH[37mJSzhYxVgud[37m"[37m,{"id":"129[37m0[37m7ce04df7b1[37m3[37md921adf833f[37m6[37mcaf8c5fe90[37mc[37me1f47b16476[37m6[37me1155d08ad[37m0[37mdd2","pubke[37my[37m":"8ceb5dc[37md[37m9a7be4cb3f3[37m9[37m9c073d9dad5[37m4[37macecdebac3[37m1[37m76cdb041b3[37m6[37mf5be5678e0"[37m,[37m"created_a[37mt[37m":169902723[37m2[37m,"kind":4,"[37mt[37mags":[["p"[37m,[37m"20f77fb3b0[37me[37ma02216cd05[37mf[37m38f2784e66[37m3[37mdb02c3ea2e2[37m8[37m5eda0ffba40[37m2[37mc621ceb"]][37m,[37m"content":"[37ml[37mibh4xPQSXy[37m2[37mCq05QGVuWA=[37m=[37m?iv=6PInn/[37mi[37mVap8CVWvZi2[37m2[37mN3Q==","si[37mg[37m":"bf60717a[37m0[37me12a802558[37mc[37m7e1a727b8e0[37m0[37m0aa0b51468[37m1[37mf4f2947c777[37m2[37mc03d08dba3d[37m5[37m85529b65d3[37m1[37m9c79f598e1[37m9[37m01f2f5a0658[37m6[37me8a67245a6a[37m3[37m6544cbcb0a[37m0[37me8b7"}]
+15:05:02.923 > NIP[37m0[37m4 event: 1[37m2[37m4592
+15:05:02.925 > Nostr[37m [37mAntes decr[37my[37mpt:134996
+[37m15:05:02.928 > 1[37m096
+15:05:02.928 > encry[37mp[37mtedMessage[37me[37mncryptedMes[37ms[37mageHexivivH[37me[37mxGuru Medi[37mt[37mation Error[37m:[37m Core  1 p[37ma[37mnic'ed (Dou[37mb[37mle excepti[37mo[37mn). 
+15:05:02.937 > 
+15:05:02.937 > Cor[37me[37m  1 regist[37me[37mr dump:
+15:05:02.939 > PC[37m [37m     : 0x4[37m0[37m08ec9e  PS [37m [37m    : 0x00[37m0[37m40536  A0  [37m [37m   : 0x800[37me[37m7bed  A1   [37m [37m  : 0x3ffce[37m5[37me0  
+15:05:02.947 > A2  [37m [37m   : 0x000[37m6[37m0130  A3   [37m [37m  : 0x00040[37m0[37m23  A4    [37m [37m : 0x3ffce62[37m8[37m  A5      [37m:[37m 0x0000d38[37m7[37m  
+15:05:02.955 > A6    [37m [37m : 0x000000[37m1[37me  A7     [37m [37m: 0x0000000[37m2[37m  A8      [37m:[37m 0x3fffffff[37m [37m A9      :[37m [37m0x3ffce620 [37m [37m
+15:05:02.964 > A10     [37m:[37m 0xd3871668[37m [37m A11     :[37m [37m0x3f4060ac [37m [37mA12     : [37m0[37mx00000040  [37mA[37m13     : 0x[37m3[37mffce878  [37m
+[37m15:05:02.972 > A14     : [37m0[37mx00060120  [37mA[37m15     : 0[37mx[37m00000004  S[37mA[37mR     : 0x0[37m0[37m000010  EX[37mC[37mCAUSE: 0x00[37m0[37m00002  
+15:05:02.978 > E[37mX[37mCVADDR: 0xf[37mf[37mffffd0  LB[37mE[37mG    : 0x40[37m0[37m8ae0d  LEN[37mD[37m    : 0x400[37m8[37mae2f  LCOU[37mN[37mT  : 0x0000[37m0[37m000  
+15:05:02.986 > 
+15:05:02.986 > [37m
+[37m15:05:02.988 > Backtrace: [37m0[37mx4008ec9b:[37m0[37mx3ffce5e0 0[37mx[37m400e7bea:0[37mx[37m3ffce600 0x[37m4[37m008ec9b:0x3[37mf[37mfce690 0x4[37m0[37m08007d:0x3[37mf[37mfce7d0 0x40[37m0[37md5f4a:0x3f[37mf[37mce8a0 0x401[37mb[37m5071:0x3ffc[37me[37mf50 0x400e[37mc[37m52f:0x3ffc[37me[37mf70 0x400ed[37m1[37mcd:0x3ffcef[37ma[37m0 0x400ed4[37m4[37m9:0x3ffd002[37m0[37m 0x401ba44[37m3[37m:0x3ffd0050[37m [37m0x401ba406[37m:[37m0x3ffd0080 [37m0[37mx40198077:[37m0[37mx3ffd00a0 0[37mx[37m401ba4cd:0[37mx[37m3ffd00d0 0x[37m4[37m0198305:0x[37m3[37mffd00f0 0x4[37m0[37m19839d:0x3[37mf[37mfd0120 0x40[37m1[37m98625:0x3ff[37md0140 0x401[37m9[37m868d:0x3ffd[37m0[37m180 0x4019[37m8[37m305:0x3ffd[37m0[37m1a0 0x40198[37m3[37m9d:0x3ffd01[37md[37m0 0x401984[37m4[37m1:0x3ffd01f[37m0[37m 0x401984e[37md[37m:0x3ffd023[37m0[37m 0x4019868d[37m:[37m0x3ffd0270 [37m0[37mx40198305:[37m0[37mx3ffd0290 0[37mx[37m4019839d:0[37mx[37m3ffd02c0 0[37mx[37m40198441:0x[37m3[37mffd02e0 0x4[37m0[37m19849d:0x3[37mf[37mfd0320 0x40[37m1[37m9866f:0x3f[37mf[37md0360 0x401[37m9[37m7955:0x3ffd[37m0[37m380 0x4019[37m7[37mb55:0x3ffd[37m0[37m4c0 0x400ec[37m1[37m0d:0x3ffd0[37m4[37me0 0x400d3f[37me[37md:0x3ffd050[37m0[37m 0x400f1d9[37m9[37m:0x3ffd054[37m0[37m
+15:05:04.398 > 
+15:05:04.398 >   #0  0x4008ec9b:0x3ffce5e0 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:05:04.398 >   #1  0x400e7bea:0x3ffce600 in PrivateKey::PrivateKey(unsigned char const*, bool, Network const*) at .pio/libdeps/esp-wrover-kit/uBitcoin@src-145273bbae45fe504167fd6fe0ebe9ce/src/Bitcoin.cpp:512
+15:05:04.398 >   #2  0x4008ec9b:0x3ffce690 in _xt_context_save at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_context.S:194
+15:05:04.398 >   #3  0x4008007d:0x3ffce7d0 in _xt_alloca_exc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/freertos/port/xtensa/xtensa_vectors.S:1802
+15:05:04.398 >   #4  0x400d5f4a:0x3ffce8a0 in nip04Event(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) at src/nostr.cpp:441 (discriminator 3)
+15:05:04.398 >   #5  0x401b5071:0x3ffcef50 in std::_Function_handler<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*), void (*)(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)>::_M_invoke(std::_Any_data const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*&&) at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/std_function.h:297
+15:05:04.398 >   #6  0x400ec52f:0x3ffcef70 in std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)>::operator()(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) const at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/std_function.h:687
+15:05:04.398 >       (inlined by) NostrRelayManager::performEventAction(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) at .pio/libdeps/esp-wrover-kit/Nostr/src/NostrRelayManager.cpp:46
+15:05:04.398 >   #7  0x400ed1cd:0x3ffcefa0 in NostrRelayManager::_webSocketEvent(WStype_t, unsigned char*, unsigned int, int) at .pio/libdeps/esp-wrover-kit/Nostr/src/NostrRelayManager.cpp:308 (discriminator 1)
+15:05:04.398 >   #8  0x400ed449:0x3ffd0020 in std::_Function_handler<void (WStype_t, unsigned char*, unsigned int), NostrRelayManager::connect(std::function<void (WStype_t, unsigned char*, unsigned int)>)::{lambda(WStype_t, unsigned char*, unsigned int)#1}>::_M_invoke(std::_Any_data const&, WStype_t&&, unsigned char*&&, unsigned int&&) at .pio/libdeps/esp-wrover-kit/Nostr/src/NostrRelayManager.cpp:215
+15:05:04.398 >       (inlined by) _M_invoke at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/std_function.h:297
+15:05:04.398 >   #9  0x401ba443:0x3ffd0050 in std::function<void (WStype_t, unsigned char*, unsigned int)>::operator()(WStype_t, unsigned char*, unsigned int) const at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/std_function.h:687
+15:05:04.398 >       (inlined by) WebSocketsClient::runCbEvent(WStype_t, unsigned char*, unsigned int) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSocketsClient.h:164
+15:05:04.398 >   #10 0x401ba406:0x3ffd0080 in WebSocketsClient::messageReceived(WSclient_t*, WSopcode_t, unsigned char*, unsigned int, bool) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSocketsClient.cpp:468
+15:05:04.398 >   #11 0x40198077:0x3ffd00a0 in WebSockets::handleWebsocketPayloadCb(WSclient_t*, bool, unsigned char*) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSockets.cpp:494
+15:05:04.398 >       (inlined by) WebSockets::handleWebsocketPayloadCb(WSclient_t*, bool, unsigned char*) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSockets.cpp:468
+15:05:04.398 >   #12 0x401ba4cd:0x3ffd00d0 in void std::__invoke_impl<void, void (WebSockets::*&)(WSclient_t*, bool, unsigned char*), WebSockets*&, WSclient_t*, bool, unsigned char*&>(std::__invoke_memfun_deref, void (WebSockets::*&)(WSclient_t*, bool, unsigned char*), WebSockets*&, WSclient_t*&&, bool&&, unsigned char*&) at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/invoke.h:73
+15:05:04.398 >       (inlined by) std::__invoke_result<void (WebSockets::*&)(WSclient_t*, bool, unsigned char*), WebSockets*&, WSclient_t*, bool, unsigned char*&>::type std::__invoke<void (WebSockets::*&)(WSclient_t*, bool, unsigned char*), WebSockets*&, WSclient_t*, bool, unsigned char*&>(void (WebSockets::*&)(WSclient_t*, bool, unsigned char*), WebSockets*&, WSclient_t*&&, bool&&, unsigned char*&) at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/invoke.h:95
+15:05:04.398 >       (inlined by) void std::_Bind<void (WebSockets::*(WebSockets*, std::_Placeholder<1>, std::_Placeholder<2>, unsigned char*))(WSclient_t*, bool, unsigned char*)>::__call<void, WSclient_t*&&, bool&&, 0u, 1u, 2u, 3u>(std::tuple<WSclient_t*&&, bool&&>&&, std::_Index_tuple<0u, 1u, 2u, 3u>) at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0/functional:400
+15:05:04.398 >       (inlined by) void std::_Bind<void (WebSockets::*(WebSockets*, std::_Placeholder<1>, std::_Placeholder<2>, unsigned char*))(WSclient_t*, bool, unsigned char*)>::operator()<WSclient_t*, bool, void>(WSclient_t*&&, bool&&) at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0/functional:484
+15:05:04.398 >       (inlined by) std::_Function_handler<void (WSclient_t*, bool), std::_Bind<void (WebSockets::*(WebSockets*, std::_Placeholder<1>, std::_Placeholder<2>, unsigned char*))(WSclient_t*, bool, unsigned char*)> >::_M_invoke(std::_Any_data const&, WSclient_t*&&, bool&&) at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/std_function.h:297
+15:05:04.398 >   #13 0x40198305:0x3ffd00f0 in std::function<void (WSclient_t*, bool)>::operator()(WSclient_t*, bool) const at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/std_function.h:687
+15:05:04.398 >   #14 0x4019839d:0x3ffd0120 in WebSockets::readCb(WSclient_t*, unsigned char*, unsigned int, std::function<void (WSclient_t*, bool)>) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSockets.cpp:656
+15:05:04.398 >   #15 0x40198625:0x3ffd0140 in WebSockets::handleWebsocketCb(WSclient_t*) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSockets.cpp:462
+15:05:04.398 >   #16 0x4019868d:0x3ffd0180 in std::_Function_handler<void (WSclient_t*, bool), std::_Bind<WebSockets::handleWebsocketWaitFor(WSclient_t*, unsigned int)::{lambda(WebSockets*, unsigned int, WSclient_t*, bool)#1} (WebSockets*, unsigned int, std::_Placeholder<1>, WebSockets::handleWebsocketWaitFor(WSclient_t*, unsigned int)::{lambda(WebSockets*, unsigned int, WSclient_t*, bool)#1}<2>)> >::_M_invoke(std::_Any_data const&, WSclient_t*&&, bool&&) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSockets.cpp:371
+15:05:04.398 >       (inlined by) __invoke_impl<void, WebSockets::handleWebsocketWaitFor(WSclient_t*, size_t)::<lambda(WebSockets*, size_t, WSclient_t*, bool)>&, WebSockets*&, unsigned int&, WSclient_t*, bool> at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/invoke.h:60
+15:05:04.398 >       (inlined by) __invoke<WebSockets::handleWebsocketWaitFor(WSclient_t*, size_t)::<lambda(WebSockets*, size_t, WSclient_t*, bool)>&, WebSockets*&, unsigned int&, WSclient_t*, bool> at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/invoke.h:95
+15:05:04.398 >       (inlined by) __call<void, WSclient_t*&&, bool&&, 0, 1, 2, 3> at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0/functional:400
+15:05:04.398 >       (inlined by) operator()<WSclient_t*, bool> at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0/functional:484
+15:05:04.398 >       (inlined by) _M_invoke at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/std_function.h:297
+15:05:04.398 >   #17 0x40198305:0x3ffd01a0 in std::function<void (WSclient_t*, bool)>::operator()(WSclient_t*, bool) const at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/std_function.h:687
+15:05:04.398 >   #18 0x4019839d:0x3ffd01d0 in WebSockets::readCb(WSclient_t*, unsigned char*, unsigned int, std::function<void (WSclient_t*, bool)>) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSockets.cpp:656
+15:05:04.398 >   #19 0x40198441:0x3ffd01f0 in WebSockets::handleWebsocketWaitFor(WSclient_t*, unsigned int) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSockets.cpp:367
+15:05:04.398 >   #20 0x401984ed:0x3ffd0230 in WebSockets::handleWebsocketCb(WSclient_t*) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSockets.cpp:413
+15:05:04.398 >   #21 0x4019868d:0x3ffd0270 in std::_Function_handler<void (WSclient_t*, bool), std::_Bind<WebSockets::handleWebsocketWaitFor(WSclient_t*, unsigned int)::{lambda(WebSockets*, unsigned int, WSclient_t*, bool)#1} (WebSockets*, unsigned int, std::_Placeholder<1>, WebSockets::handleWebsocketWaitFor(WSclient_t*, unsigned int)::{lambda(WebSockets*, unsigned int, WSclient_t*, bool)#1}<2>)> >::_M_invoke(std::_Any_data const&, WSclient_t*&&, bool&&) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSockets.cpp:371
+15:05:04.398 >       (inlined by) __invoke_impl<void, WebSockets::handleWebsocketWaitFor(WSclient_t*, size_t)::<lambda(WebSockets*, size_t, WSclient_t*, bool)>&, WebSockets*&, unsigned int&, WSclient_t*, bool> at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/invoke.h:60
+15:05:04.398 >       (inlined by) __invoke<WebSockets::handleWebsocketWaitFor(WSclient_t*, size_t)::<lambda(WebSockets*, size_t, WSclient_t*, bool)>&, WebSockets*&, unsigned int&, WSclient_t*, bool> at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/invoke.h:95
+15:05:04.398 >       (inlined by) __call<void, WSclient_t*&&, bool&&, 0, 1, 2, 3> at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0/functional:400
+15:05:04.398 >       (inlined by) operator()<WSclient_t*, bool> at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0/functional:484
+15:05:04.398 >       (inlined by) _M_invoke at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/std_function.h:297
+15:05:04.398 >   #22 0x40198305:0x3ffd0290 in std::function<void (WSclient_t*, bool)>::operator()(WSclient_t*, bool) const at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/std_function.h:687
+15:05:04.398 >   #23 0x4019839d:0x3ffd02c0 in WebSockets::readCb(WSclient_t*, unsigned char*, unsigned int, std::function<void (WSclient_t*, bool)>) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSockets.cpp:656
+15:05:04.398 >   #24 0x40198441:0x3ffd02e0 in WebSockets::handleWebsocketWaitFor(WSclient_t*, unsigned int) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSockets.cpp:367
+15:05:04.398 >   #25 0x4019849d:0x3ffd0320 in WebSockets::handleWebsocketCb(WSclient_t*) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSockets.cpp:395
+15:05:04.398 >   #26 0x4019866f:0x3ffd0360 in WebSockets::handleWebsocket(WSclient_t*) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSockets.cpp:343
+15:05:04.398 >   #27 0x40197955:0x3ffd0380 in WebSocketsClient::handleClientData() at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSocketsClient.cpp:580
+15:05:04.398 >   #28 0x40197b55:0x3ffd04c0 in WebSocketsClient::loop() at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSocketsClient.cpp:277
+15:05:04.398 >   #29 0x400ec10d:0x3ffd04e0 in NostrRelayManager::loop() at .pio/libdeps/esp-wrover-kit/Nostr/src/NostrRelayManager.cpp:99 (discriminator 2)
+15:05:04.398 >   #30 0x400d3fed:0x3ffd0500 in loop() at src/main.cpp:206
+15:05:04.398 >   #31 0x400f1d99:0x3ffd0540 in loopTask(void*) at C:/Users/nitro/.platformio/packages/framework-arduinoespressif32/cores/esp32/main.cpp:50
+15:05:04.398 > 
+15:05:04.398 > 
+15:05:04.398 > 
+15:05:04.398 > 
+15:05:04.398 > E[37mLF file SHA256: 45d2b2068ef7c1f7
+15:05:04.403 > 
+15:05:04.403 > Rebooting...
+15:05:04.403 > ets Jun  8 2016 00:22:57
+15:05:04.403 > 
+15:05:04.403 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:05:04.403 > configsip: 0, SPIWP:0xee
+15:05:04.403 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:05:04.403 > mode:DIO, clock div:2
+15:05:04.403 > load:0x3fff0030,len:1184
+15:05:04.403 > load:0x40078000,len:13232
+15:05:04.403 > load:0x40080400,len:3028
+15:05:04.403 > entry 0x400805e4
+[37m15:05:04.579 > T[37mota[37ml[37m heap: 2635[37m2[37m8
+15:05:04.581 > Free hea[37mp[37m: 237104
+15:05:04.582 > To[37mt[37mal PSRAM: 4[37m1[37m92107
+15:05:04.584 > Free[37m [37mPSRAM: 419[37m1[37m847
+[37m15:05:04.701 > S[37mP[37mIFS: Mo[37mu[37mnting File[37m [37mSystem...[37m
+[37m15:05:04.776 > S[37mP[37mIFS: Loa[37md[37ming config [37mf[37mile
+[37m15:05:04.781 >  [37m[37m
+[37m15:05:04.781 > A[37mllDon[37me[37m: 
+15:05:04.784 > *wm:Aut[37mo[37mConnect 
+15:05:04.785 > *[37mw[37mm:Connecti[37mn[37mg to SAVED [37mA[37mP: GeorgeH[37mo[37mmeT
+[37m15:05:06.605 > *[37mw[37mm:Au[37mt[37moConnect: [37mS[37mUCCESS 
+15:05:06.607 > *wm:[37mS[37mTA IP Ad[37md[37mress: 192.1[37m6[37m8.1.25
+15:05:06.610 > 
+[37m15:05:06.611 > W[37miFi connect[37me[37md
+15:05:06.612 > IP addr[37me[37mss: 192.168[37m.[37m1.25
+15:05:06.614 > Priv[37ma[37mte Key: d38[37m7[37m1668e532102[37mc[37ma5293649d8[37me[37m9f0e9085dd[37m5[37m8e161cf93be[37me[37m6037abb5b8a[37m3[37mfb
+15:05:06.621 > Public[37m [37mKey: 8ceb5d[37mc[37md9a7be4cb3[37mf[37m399c073d9d[37ma[37md54acecdeba[37mc[37m3176cdb041b[37m3[37m6f5be5678e[37m0[37m
+15:05:06.628 > Relays: n[37mo[37mstr.bitcoi[37mn[37mer.social,r[37me[37mlay.plebst[37mr[37m.com,nos.lo[37ml[37m,relay.dam[37mu[37ms.io
+15:05:06.634 > Maste[37mr[37m Pub Key: [37m2[37m0f77fb3b0ea[37m0[37m2216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285e[37md[37ma0ffba402c[37m6[37m21ceb
+15:05:06.641 > Tim[37me[37mZone fromUT[37mC[37m: -3
+15:05:06.643 > Sett[37mi[37mng callback[37ms[37m
+15:05:06.645 > connectin[37mg[37m
+15:05:06.646 > Relays a[37mr[37me:
+15:05:06.647 > relay.[37mp[37mlebstr.com[37m
+[37m15:05:06.649 > Connecting [37mt[37mo relay: r[37me[37mlay.plebstr[37m.[37mcom
+[37m15:05:07.150 > S[37mE[37mTUP LIDAR
+[37m15:05:07.152 > S[37mETUP LIDAR[37m [37mSTART
+15:05:07.153 > Ver[37ms[37mão: 2.1.5
+[37m15:05:07.198 > S[37mP[37mIFS[37m:[37m Already Mo[37mu[37mnted
+[37m15:05:07.210 > L[37mID[37mA[37mR: Loading[37m [37mLIDAR data [37mf[37mile
+15:05:07.214 > SETU[37mP[37m LIDAR END[37m[37m
+15:05:07.215 > SPIFS: Alr[37me[37mady Mounted[37m[37m
+15:05:07.217 > PLUV: Loa[37md[37ming Pluviom[37me[37mter data f[37mi[37mle
+15:05:07.220 > {"1_min[37mu[37mte":[0,0,0[37m,[37m0,0,0,0,0,0[37m,[37m0,0,0,0,0,[37m0[37m],"15_minut[37me[37ms":[28.5,0[37m,[37m0,0],"1_hou[37mr[37m":[0,0,0,0[37m,[37m0,0,0,0,0,0[37m,[37m0,0,0,0,0,0[37m,[37m0,0,0,0,0,[37m0[37m,0,0]} 
+15:05:07.232 > S[37mE[37mTUP PLUVIOM[37mE[37mTER
+15:05:07.233 > SETUP[37m [37mDHT22
+15:05:07.233 > SETU[37mP[37m END:182356[37m
+[37m15:05:07.233 > HEAP:18235[37m6[37m
+15:05:07.238 > Attemptin[37mg[37m MQTT conne[37mc[37mtion...[37mc[37mo[37mnnected[37m[37m
+[37m15:05:12.599 > M[37me[37mssage fro[37mm[37m relay ind[37me[37mx:0
+15:05:12.603 > [WSc] [37mC[37monnected t[37mo[37m relay: .
+15:05:12.605 > R[37me[37mlay connec[37mt[37med: 
+15:05:12.607 > messa[37mg[37me
+15:05:12.608 > Request[37mi[37mng events:[37m
+[37m15:05:12.610 > SETUP END:1[37m3[37m6352
+15:05:12.611 > Broa[37md[37mcasting ev[37me[37mnt: ["REQ",[37m [37m"PLNpuyeRN[37mO[37mvSpyuqADRxq[37mk[37mxAahemWpkN1[37mr[37mHIHRraby4S[37mR[37m3u8aKfzLZs[37mw[37m5sT0hqz1", [37m{[37m"#p": ["20f[37m7[37m7fb3b0ea022[37m1[37m6cd05f38f2[37m7[37m84e663db02[37mc[37m3ea2e285ed[37ma[37m0ffba402c62[37m1[37mceb"], "kin[37md[37ms": [4], "[37ml[37mimit": 1}]

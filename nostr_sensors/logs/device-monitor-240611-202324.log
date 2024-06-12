@@ -1,0 +1,297 @@
+[37m20:23:26.687 > SPIFS: Mounting File System...
+20:23:26.687 > SPIFS: Loading config file
+20:23:26.687 >  
+20:23:26.687 > AllDone: 
+20:23:26.687 > *wm:AutoConnect 
+20:23:26.687 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m20:23:27.088 > *[37mwm[37m:[37mAutoConnec[37mt[37m: SUCCESS [37m
+[37m20:23:27.091 > *wm:STA IP [37mA[37mddress: 19[37m2[37m.168.1.25[37m
+[37m20:23:27.094 > 
+20:23:27.094 > WiFi conn[37me[37mcted
+20:23:27.095 > IP ad[37md[37mress: 192.[37m1[37m68.1.25
+20:23:27.097 > Pr[37mi[37mvate Key: [37md[37m3871668e532[37m1[37m02ca529364[37m9[37md8e9f0e9085[37md[37md58e161cf9[37m3[37mbee6037abb5[37mb[37m8a3fb
+20:23:27.103 > Pub[37ml[37mic Key: 8ce[37mb[37m5dcd9a7be4c[37mb[37m3f399c073d9[37md[37mad54acecd[37me[37mbac3176cdb0[37m4[37m1b36f5be56[37m7[37m8e0
+20:23:27.103 > Relays[37m:[37m nostr.bitc[37mo[37miner.socia[37ml[37m,relay.ple[37mb[37mstr.com,nos[37m.[37mlol,relay.d[37ma[37mmus.io
+20:23:27.117 > Ma[37ms[37mter Pub Key[37m:[37m 20f77fb3b[37m0[37mea02216cd0[37m5[37mf38f2784e66[37m3[37mdb02c3ea2e2[37m8[37m5eda0ffba4[37m0[37m2c621ceb
+20:23:27.121 > T[37mi[37mmeZone fro[37mm[37mUTC: -3
+20:23:27.121 > SE[37mT[37mUP NOSTR
+[37m20:23:32.130 > F[37mail[37me[37md to obtain[37m [37mtime
+20:23:32.133 > Sett[37mi[37mng callback[37ms[37m
+20:23:32.135 > connecti[37mn[37mg
+20:23:32.136 > Relays a[37mr[37me:
+20:23:32.137 > relay.[37mp[37mlebstr.com[37m
+[37m20:23:32.139 > Connecting[37m [37mto relay: r[37me[37mlay.plebstr.[37mc[37mom
+[37m20:23:32.632 > .[37mS[37mETUP[37m [37mLIDAR
+[37m20:23:32.635 > S[37mETUP LIDA[37mR[37m START
+20:23:32.636 > V[37me[37mrsão: 2.1.[37m5[37m
+[37m20:23:32.682 > S[37mP[37mIFS: Alr[37me[37mady Moun[37mt[37med
+[37m20:23:32.699 > L[37mIDA[37mR[37m: Loading [37mL[37mIDAR data f[37mi[37mle
+20:23:32.701 > SETU[37mP[37m LIDAR END[37m
+[37m20:23:32.701 > SPIFS: Alr[37me[37mady Mounted[37m[37m
+[37m20:23:32.734 > P[37mL[37mUV: Loa[37md[37ming Pluvio[37mm[37meter data f[37mi[37mle
+20:23:32.735 > SETUP P[37mL[37mUVIOMETER[37m
+[37m20:23:32.735 > SETUP DHT22[37m[37m
+20:23:32.735 > SETUP END[37m [37m- HEAP:
+20:23:32.735 > To[37mt[37mal heap: 2[37m6[37m0104
+20:23:32.735 > Free h[37me[37map: 88360
+[37m20:23:32.735 > T[37motal PSRAM:[37m [37m4192091
+20:23:32.735 > Fr[37me[37me PSRAM: 41[37m9[37m1571
+[37m20:23:32.925 > [[37m  8[37m2[37m63][E][ssl_[37mc[37mlient.cpp:[37m3[37m7] _handle_[37me[37mrror(): [st[37ma[37mrt_ssl_cli[37me[37mnt():264]:[37m [37m(-32512) SS[37mL[37m - Memory a[37ml[37mlocation f[37ma[37miled
+20:23:32.935 > [  82[37m6[37m3][E][WiFi[37mC[37mlientSecure[37m.[37mcpp:144] c[37mo[37mnnect(): s[37mt[37mart_ssl_cli[37me[37mnt: -32512[37m
+[37m20:23:32.942 > Attempting[37m [37mMQTT connec[37mt[37mion...[37mc[37mo[37mnnec[37mt[37med
+[37m20:23:36.126 > .[37m
+[37m20:23:36.126 > Messag[37me[37m from rela[37my[37m index:0
+20:23:36.128 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
+20:23:36.131 > Rel[37ma[37my disconne[37mc[37mted: Heap:[37m [37m89052
+[37m20:23:39.127 > .[37m.[37m[[37m 1[37m7[37m784][E][ssl[37m_[37mclient.cpp[37m:[37m37] _handle[37m_[37merror(): [[37ms[37mtart_ssl_cl[37mi[37ment():264][37m:[37m (-32512) S[37mS[37mL - Memory[37m [37mallocation [37mf[37mailed
+20:23:42.449 > [ 1[37m7[37m785][E][WiF[37mi[37mClientSecur[37me[37m.cpp:144] [37mc[37monnect(): [37ms[37mtart_ssl_cl[37mi[37ment: -32512[37m[37m
+[37m20:23:45.448 > .[37m
+[37m20:23:45.448 > Message[37m [37mfrom relay[37m [37mindex:0
+20:23:45.448 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
+20:23:45.448 > Rela[37my[37m disconnec[37mt[37med: Heap: [37m8[37m8728
+[37m20:23:48.448 > .[37m.[37m[[37m [37m27103][E][37m[[37mssl_client.[37mc[37mpp:37] _ha[37mn[37mdle_error()[37m:[37m [start_ss[37ml[37m_client():2[37m6[37m4]: (-32512[37m)[37m SSL - Mem[37mo[37mry allocati[37mo[37mn failed
+[37m20:23:51.767 > [[37m 27103][E][37m[[37mWiFiClientS[37me[37mcure.cpp:14[37m4[37m] connect([37m)[37m: start_ssl[37m_[37mclient: -3[37m2[37m512
+[37m20:23:54.768 > .[37m
+[37m20:23:54.768 > Message f[37mr[37mom relay [37mi[37mndex:0
+20:23:54.768 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
+20:23:54.768 > Rela[37my[37m disconnect[37me[37md: Heap: 8[37m8[37m504
+[37m20:23:57.772 > .[37m.[37m[[37m 3[37m6[37m524][E][ssl[37m_[37mclient.cpp:[37m3[37m7] _handle[37m_[37merror(): [s[37mt[37mart_ssl_cl[37mi[37ment():264][37m:[37m (-32512) S[37mS[37mL - Memory [37ma[37mllocation [37mf[37mailed
+20:24:01.196 > [ 36[37m5[37m25][E][WiF[37mi[37mClientSecur[37me[37m.cpp:144] [37mc[37monnect(): s[37mt[37mart_ssl_cl[37mi[37ment: -32512[37m[37m
+[37m20:24:04.192 > .[37m
+[37m20:24:04.193 > Message fr[37mo[37mm relay i[37mn[37mdex:0
+20:24:04.195 > [WSc[37m][37m Disconnec[37mt[37med from re[37ml[37may: .
+20:24:04.198 > Relay[37m [37mdisconnect[37me[37md: Heap: 88[37m2[37m80
+[37m20:24:07.196 > .[37m.[37m[[37m [37m45842][37m[[37mE][ssl_clie[37mn[37mt.cpp:37] [37m_[37mhandle_err[37mo[37mr(): [start[37m_[37mssl_client[37m([37m):264]: (-3[37m2[37m512) SSL - [37mM[37memory allo[37mc[37mation faile[37md[37m
+20:24:10.513 > [ 45842][37m[[37mE][WiFiClie[37mn[37mtSecure.cp[37mp[37m:144] conne[37mc[37mt(): start[37m_[37mssl_client:[37m [37m-32512
+[37m20:24:13.500 > .[37m
+[37m20:24:13.500 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
+20:24:13.500 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
+20:24:13.515 > Relay [37md[37misconnecte[37md[37m: Heap: 880[37m5[37m6
+[37m20:24:16.511 > .[37m.[37m[[37m [37m55263][E][ss[37ml[37m_client.cp[37mp[37m:37] _hand[37ml[37me_error(): [37m[[37mstart_ssl_[37mc[37mlient():264[37m][37m: (-32512)[37m [37mSSL - Memor[37my[37m allocation[37m [37mfailed
+20:24:19.934 > [ [37m5[37m5263][E][W[37mi[37mFiClientSec[37mu[37mre.cpp:144[37m][37m connect():[37m [37mstart_ssl_c[37ml[37mient: -325[37m1[37m2
+[37m20:24:22.931 > .[37m
+[37m20:24:22.933 > M[37message fr[37mo[37mm relay in[37md[37mex:0
+20:24:22.934 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
+20:24:22.937 > Relay [37md[37misconnected[37m:[37m Heap: 8754[37m4[37m
+[37m20:24:24.786 > F[37mail[37me[37md to read f[37mr[37mom DHT sens[37mo[37mr!
+[37m20:24:24.790 > P[37mu[37mb[37mlicado no M[37mQ[37mTT: 
+20:24:24.792 > HEAP [37m1[37m Min:84900[37m[37m
+[37m20:24:25.932 > .[37m.[37m[[37m 64[37m5[37m82][E][ssl[37m_[37mclient.cpp:[37m3[37m7] _handle[37m_[37merror(): [s[37mt[37mart_ssl_cli[37me[37mnt():264]:[37m [37m(-32512) S[37mS[37mL - Memory [37ma[37mllocation f[37ma[37miled
+20:24:29.252 > [ 64[37m5[37m82][E][WiFi[37mC[37mlientSecur[37me[37m.cpp:144] c[37mo[37mnnect(): s[37mt[37mart_ssl_cli[37me[37mnt: -32512[37m[37m
+[37m20:24:32.249 > .[37m
+[37m20:24:32.251 > M[37message fro[37mm[37m relay ind[37me[37mx:0
+20:24:32.253 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
+20:24:32.256 > Relay d[37mi[37msconnected:[37m [37mHeap: 8696[37m0[37m
+[37m20:24:35.250 > .[37m.[37m[[37m [37m74002][37m[[37mE][ssl_clien[37mt[37m.cpp:37] [37m_[37mhandle_erro[37mr[37m(): [start[37m_[37mssl_client([37m)[37m:264]: (-3[37m2[37m512) SSL - [37mM[37memory allo[37mc[37mation faile[37md[37m
+20:24:38.673 > [ 74003][37m[[37mE][WiFiClie[37mn[37mtSecure.cp[37mp[37m:144] conne[37mc[37mt(): start[37m_[37mssl_client:[37m [37m-32512
+[37m20:24:41.665 > .[37m
+[37m20:24:41.665 > M[37message fro[37mm[37m relay inde[37mx[37m:0
+20:24:41.665 > [WSc] [37mD[37misconnected[37m [37mfrom relay:[37m [37m.
+20:24:41.665 > Relay di[37ms[37mconnected:[37m [37mHeap: 86456[37m[37m
+[37m20:24:44.666 > .[37m.[37m[[37m [37m833[37m2[37m1][E][ssl_c[37ml[37mient.cpp:3[37m7[37m] _handle_e[37mr[37mror(): [st[37ma[37mrt_ssl_clie[37mn[37mt():264]: [37m([37m-32512) SSL[37m [37m- Memory a[37ml[37mlocation fa[37mi[37mled
+20:24:47.983 > [ 8332[37m1[37m][E][WiFiC[37ml[37mientSecure[37m.[37mcpp:144] co[37mn[37mnect(): st[37ma[37mrt_ssl_clie[37mn[37mt: -32512
+[37m20:24:50.988 > .[37m
+[37m20:24:50.989 > M[37message from[37m [37mrelay inde[37mx[37m:0
+20:24:50.992 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
+20:24:50.995 > Relay dis[37mc[37monnected: [37mH[37meap: 86512[37m
+[37m20:24:53.983 > .[37m.[37m[[37m [37m92741][E[37m][37m[ssl_clie[37mn[37mt.cpp:37] [37m_[37mhandle_err[37mo[37mr(): [start[37m_[37mssl_client([37m)[37m:264]: (-3[37m2[37m512) SSL - [37mM[37memory allo[37mc[37mation faile[37md[37m
+20:24:57.413 > [ 92742][37m[[37mE][WiFiClie[37mn[37mtSecure.cpp[37m:[37m144] connec[37mt[37m(): start[37m_[37mssl_client:[37m [37m-32512
+[37m20:25:00.409 > .[37m
+[37m20:25:00.409 > M[37me[37mssage from [37mr[37melay index[37m:[37m0
+20:25:00.412 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
+20:25:00.414 > Relay dis[37mc[37monnected: H[37me[37map: 86288
+[37m20:25:03.409 > .[37m.[37m[[37m1[37m02[37m0[37m60][E][ssl_c[37ml[37mient.cpp:3[37m7[37m] _handle_[37me[37mrror(): [s[37mt[37mart_ssl_cli[37me[37mnt():264]:[37m [37m(-32512) SS[37mL[37m - Memory [37ma[37mllocation f[37ma[37miled
+20:25:06.716 > [102[37m0[37m60][E][WiFi[37mC[37mlientSecur[37me[37m.cpp:144] c[37mo[37mnnect(): s[37mt[37mart_ssl_cli[37me[37mnt: -32512[37m[37m
+[37m20:25:09.715 > .[37m
+[37m20:25:09.715 > Me[37ms[37msage from [37mr[37melay index:[37m0[37m
+20:25:09.731 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
+[37m20:25:09.734 > Relay disc[37mo[37mnnected: He[37ma[37mp: 86064
+[37m20:25:12.730 > .[37m.[37m[[37m1[37m11480][E][37m[[37mssl_client[37m.[37mcpp:37] _h[37ma[37mndle_error([37m)[37m: [start_ss[37ml[37m_client():[37m2[37m64]: (-3251[37m2[37m) SSL - Me[37mm[37mory alloca[37mt[37mion failed[37m
+[37m20:25:16.152 > [111481][E][37m[[37mWiFiClient[37mS[37mecure.cpp:1[37m4[37m4] connect[37m([37m): start_ss[37ml[37m_client: -[37m3[37m2512
+[37m20:25:19.146 > .[37m
+[37m20:25:19.148 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
+20:25:19.151 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .
+[37m20:25:19.153 > R[37melay disco[37mn[37mnected: He[37ma[37mp: 85828
+[37m20:25:22.148 > .[37mF[37ma[37miled to[37m [37mread from D[37mH[37mT sensor![37m
+[37m20:25:24.835 > P[37mu[37mblicado no [37mM[37mQTT: 
+20:25:24.837 > HEA[37mP[37m 1 Min:8355[37m2[37m
+[37m20:25:25.148 > .[37m[[37m1[37m20799][E][s[37ms[37ml_client.c[37mp[37mp:37] _han[37md[37mle_error():[37m [37m[start_ssl[37m_[37mclient():26[37m4[37m]: (-32512)[37m [37mSSL - Memo[37mr[37my allocatio[37mn[37m failed
+20:25:25.469 > [[37m1[37m20800][E][[37mW[37miFiClientSe[37mc[37mure.cpp:144[37m][37m connect()[37m:[37m start_ssl_[37mc[37mlient: -32[37m5[37m12
+[37m20:25:28.465 > .[37m
+[37m20:25:28.466 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
+20:25:28.466 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
+[37m20:25:28.466 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 85616
+[37m20:25:31.467 > .[37m.[37m[[37m1[37m30131[37m][37m[E][ssl_clie[37mn[37mt.cpp:37][37m [37m_handle_err[37mo[37mr(): [star[37mt[37m_ssl_clien[37mt[37m():264]: (-[37m3[37m2512) SSL -[37m [37mMemory all[37mo[37mcation fail[37me[37md
+20:25:34.801 > [130131[37m][37m[E][WiFiCli[37me[37mntSecure.c[37mp[37mp:144] conn[37me[37mct(): start[37m_[37mssl_client[37m:[37m -32512
+[37m20:25:37.798 > .[37m
+[37m20:25:37.799 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
+[37m20:25:37.802 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
+20:25:37.803 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 85616
+[37m20:25:40.798 > .[37m.[37m[[37m1[37m394[37m3[37m6][E][ssl_[37mc[37mlient.cpp:3[37m7[37m] _handle_[37me[37mrror(): [st[37ma[37mrt_ssl_cli[37me[37mnt():264]: [37m([37m-32512) SS[37mL[37m - Memory a[37ml[37mlocation f[37ma[37miled
+20:25:44.106 > [1394[37m3[37m6][E][WiFi[37mC[37mlientSecure[37m.[37mcpp:144] c[37mo[37mnnect(): st[37ma[37mrt_ssl_clie[37mn[37mt: -32512[37m
+[37m20:25:47.105 > .[37m
+[37m20:25:47.106 > Messa[37mg[37me from rela[37my[37m index:0
+[37m20:25:47.108 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
+20:25:47.110 > R[37me[37mlay disconn[37me[37mcted: Heap:[37m [37m85336
+[37m20:25:50.105 > .[37m.[37m[[37m1[37m48755][E][37m[[37mssl_client.[37mc[37mpp:37] _ha[37mn[37mdle_error()[37m:[37m [start_ss[37ml[37m_client():2[37m6[37m4]: (-3251[37m2[37m) SSL - Mem[37mo[37mry allocat[37mi[37mon failed
+[37m20:25:53.419 > [[37m148755][E][37m[[37mWiFiClientS[37me[37mcure.cpp:1[37m4[37m4] connect([37m)[37m: start_ss[37ml[37m_client: -3[37m2[37m512
+[37m20:25:56.421 > .[37m
+[37m20:25:56.422 > Message[37m [37mfrom rela[37my[37m index:0
+20:25:56.424 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
+20:25:56.427 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m85616
+[37m20:25:59.423 > .[37m.[37m[[37m1[37m58075][E][ssl[37m_[37mclient.cp[37mp[37m:37] _handl[37me[37m_error(): [37m[[37mstart_ssl_c[37ml[37mient():264[37m][37m: (-32512) [37mS[37mSL - Memor[37my[37m allocation[37m [37mfailed
+20:26:02.745 > [1[37m5[37m8076][E][Wi[37mF[37miClientSec[37mu[37mre.cpp:144][37m [37mconnect():[37m [37mstart_ssl_c[37ml[37mient: -325[37m1[37m2
+[37m20:26:05.742 > .[37m
+[37m20:26:05.744 > Message [37mf[37mrom relay[37m [37mindex:0
+20:26:05.745 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
+20:26:05.748 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m8[37m5616
+[37m20:26:08.733 > .[37m.[37m[[37m16[37m7[37m493][E][ssl[37m_[37mclient.cpp[37m:[37m37] _handle[37m_[37merror(): [[37ms[37mtart_ssl_cl[37mi[37ment():264][37m:[37m (-32512) S[37mS[37mL - Memory [37ma[37mllocation [37mf[37mailed
+20:26:12.163 > [16[37m7[37m494][E][WiF[37mi[37mClientSecu[37mr[37me.cpp:144] [37mc[37monnect(): [37ms[37mtart_ssl_cl[37mi[37ment: -3251[37m2[37m
+[37m20:26:15.150 > .[37m
+[37m20:26:15.150 > Message[37m [37mfrom relay [37mi[37mndex:0
+20:26:15.150 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
+20:26:15.165 > Rel[37ma[37my disconnec[37mt[37med: Heap: 8[37m5[37m620
+[37m20:26:18.163 > .[37m.[37m[[37m1[37m76812[37m][37m[E][ssl_cli[37me[37mnt.cpp:37] [37m_[37mhandle_err[37mo[37mr(): [start[37m_[37mssl_client[37m([37m):264]: (-3[37m2[37m512) SSL -[37m [37mMemory allo[37mc[37mation fail[37me[37md
+20:26:21.482 > [176812][37m[[37mE][WiFiCli[37me[37mntSecure.cp[37mp[37m:144] conn[37me[37mct(): start[37m_[37mssl_client[37m:[37m -32512
+[37m20:26:24.467 > .[37m
+[37m20:26:24.467 > Message [37mf[37mrom relay [37mi[37mndex:0
+20:26:24.481 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
+20:26:24.484 > Rela[37my[37m disconnect[37me[37md: Heap: 85[37m6[37m20
+[37m20:26:24.866 > F[37ma[37miled to read[37m [37mfrom DHT s[37me[37mnsor!
+[37m20:26:24.881 > P[37mu[37mb[37mlicado no [37mM[37mQTT: 
+20:26:24.882 > HEAP[37m [37m1 Min:8332[37m8[37m
+[37m20:26:27.468 > .[37m.[37m[[37m1[37m861[37m3[37m0][E][ssl_c[37ml[37mient.cpp:3[37m7[37m] _handle_e[37mr[37mror(): [st[37ma[37mrt_ssl_cli[37me[37mnt():264]: [37m([37m-32512) SSL[37m [37m- Memory a[37ml[37mlocation fa[37mi[37mled
+20:26:30.800 > [1861[37m3[37m1][E][WiFiC[37ml[37mientSecure[37m.[37mcpp:144] co[37mn[37mnect(): sta[37mr[37mt_ssl_clie[37mn[37mt: -32512[37m
+[37m20:26:33.796 > .[37m
+[37m20:26:33.798 > Message f[37mr[37mom relay i[37mn[37mdex:0
+20:26:33.799 > [WSc[37m][37m Disconnec[37mt[37med from re[37ml[37may: .
+20:26:33.800 > Relay[37m [37mdisconnecte[37md[37m: Heap: 85[37m6[37m20
+[37m20:26:36.800 > .[37m.[37m[[37m1[37m95449][E][37m[[37mssl_client[37m.[37mcpp:37] _ha[37mn[37mdle_error([37m)[37m: [start_ss[37ml[37m_client():[37m2[37m64]: (-3251[37m2[37m) SSL - Me[37mm[37mory allocat[37mi[37mon failed[37m
+[37m20:26:40.116 > [195449][E][37m[[37mWiFiClientS[37me[37mcure.cpp:1[37m4[37m4] connect[37m([37m): start_ss[37ml[37m_client: -32[37m5[37m12
+[37m20:26:43.115 > .[37m
+20:26:43.116 > Message fr[37mo[37mm relay in[37md[37mex:0
+20:26:43.116 > [WSc[37m][37m Disconnect[37me[37md from rela[37my[37m: .
+20:26:43.116 > Relay [37md[37misconnecte[37md[37m: Heap: 856[37m2[37m0
+[37m20:26:46.115 > .[37m.[37m[[37m2[37m04768][37m[[37mE][ssl_clien[37mt[37m.cpp:37] [37m_[37mhandle_err[37mo[37mr(): [start[37m_[37mssl_client[37m([37m):264]: (-3[37m2[37m512) SSL -[37m [37mMemory allo[37mc[37mation fail[37me[37md
+20:26:49.438 > [204769][37m[[37mE][WiFiClie[37mn[37mtSecure.cp[37mp[37m:144] conn[37me[37mct(): start[37m_[37mssl_client[37m:[37m -32512
+[37m20:26:52.436 > .[37m
+[37m20:26:52.436 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
+20:26:52.438 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
+20:26:52.442 > Relay [37md[37misconnected[37m:[37m Heap: 853[37m3[37m6
+[37m20:26:55.437 > .[37m.[37m[[37m2[37m14086][E][ss[37ml[37m_client.cp[37mp[37m:37] _handl[37me[37m_error(): [37m[[37mstart_ssl_c[37ml[37mient():264][37m:[37m (-32512) [37mS[37mSL - Memor[37my[37m allocation[37m [37mfailed
+20:26:58.755 > [2[37m1[37m4086][E][Wi[37mF[37miClientSecu[37mr[37me.cpp:144] [37mc[37monnect(): [37ms[37mtart_ssl_c[37ml[37mient: -3251[37m2[37m
+[37m20:27:01.751 > .[37m
+[37m20:27:01.752 > M[37message fro[37mm[37m relay ind[37me[37mx:0
+20:27:01.755 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
+20:27:01.758 > Relay d[37mi[37msconnected:[37m [37mHeap: 8559[37m6[37m
+[37m20:27:04.752 > .[37m.[37m[[37m2[37m23506][37m[[37mE][ssl_cl[37mi[37ment.cpp:37][37m [37m_handle_er[37mr[37mor(): [star[37mt[37m_ssl_clien[37mt[37m():264]: (-[37m3[37m2512) SSL [37m-[37m Memory all[37mo[37mcation fai[37ml[37med
+20:27:08.164 > [223507[37m][37m[E][WiFiCl[37mi[37mentSecure.c[37mp[37mp:144] con[37mn[37mect(): star[37mt[37m_ssl_clien[37mt[37m: -32512
+[37m20:27:11.164 > .[37m
+[37m20:27:11.164 > M[37message fro[37mm[37m relay inde[37mx[37m:0
+20:27:11.164 > [WSc] D[37mi[37msconnected[37m [37mfrom relay[37m:[37m .
+20:27:11.164 > Relay di[37ms[37mconnected:[37m [37mHeap: 85596[37m[37m
+[37m20:27:14.164 > .[37m.[37m[[37m232[37m8[37m25][E][ssl[37m_[37mclient.cpp:[37m3[37m7] _handle[37m_[37merror(): [s[37mt[37mart_ssl_cl[37mi[37ment():264]:[37m [37m(-32512) SS[37mL[37m - Memory [37ma[37mllocation [37mf[37mailed
+20:27:17.494 > [232[37m8[37m25][E][WiF[37mi[37mClientSecur[37me[37m.cpp:144] c[37mo[37mnnect(): s[37mt[37mart_ssl_cli[37me[37mnt: -32512[37m[37m
+[37m20:27:20.490 > .[37m
+[37m20:27:20.491 > M[37me[37mssage from[37m [37mrelay index[37m:[37m0
+20:27:20.493 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
+20:27:20.496 > Relay dis[37mc[37monnected: H[37me[37map: 85596[37m
+[37m20:27:23.495 > .[37mF[37ma[37miled [37mt[37mo read fro[37mm[37m DHT sensor[37m![37m
+[37m20:27:24.918 > P[37mublica[37md[37mo no MQTT: [37m[37m
+20:27:24.918 > HEAP 1 Mi[37mn[37m:83328
+[37m20:27:26.490 > .[37m[[37m2[37m4224[37m6[37m][E][ssl_cl[37mi[37ment.cpp:37[37m][37m _handle_er[37mr[37mor(): [sta[37mr[37mt_ssl_clien[37mt[37m():264]: ([37m-[37m32512) SSL [37m-[37m Memory al[37ml[37mocation fai[37ml[37med
+20:27:26.914 > [24224[37m6[37m][E][WiFiCl[37mi[37mentSecure.[37mc[37mpp:144] con[37mn[37mect(): sta[37mr[37mt_ssl_clien[37mt[37m: -32512
+[37m20:27:29.911 > .[37m
+[37m20:27:29.911 > M[37me[37mssage from r[37me[37mlay index[37m:[37m0
+20:27:29.915 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
+20:27:29.917 > Relay disc[37mo[37mnnected: H[37me[37map: 85596[37m
+[37m20:27:32.901 > .[37m.[37m[[37m2[37m51667][[37mE[37m][ssl_cli[37me[37mnt.cpp:37] [37m_[37mhandle_err[37mo[37mr(): [start[37m_[37mssl_client[37m([37m):264]: (-[37m3[37m2512) SSL -[37m [37mMemory allo[37mc[37mation fail[37me[37md
+20:27:36.335 > [251667][37m[[37mE][WiFiCli[37me[37mntSecure.cp[37mp[37m:144] conn[37me[37mct(): start[37m_[37mssl_client[37m:[37m -32512
+[37m20:27:39.332 > .[37m
+[37m20:27:39.333 > Me[37ms[37msage from re[37ml[37may index:[37m0[37m
+20:27:39.336 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
+[37m20:27:39.339 > Relay disc[37mo[37mnnected: He[37ma[37mp: 85596
+[37m20:27:42.336 > .[37m.[37m[[37m2[37m6098[37m5[37m][E][ssl_cl[37mi[37ment.cpp:37[37m][37m _handle_er[37mr[37mor(): [sta[37mr[37mt_ssl_clien[37mt[37m():264]: ([37m-[37m32512) SSL [37m-[37m Memory al[37ml[37mocation fai[37ml[37med
+20:27:45.654 > [26098[37m5[37m][E][WiFiCl[37mi[37mentSecure.c[37mp[37mp:144] con[37mn[37mect(): sta[37mr[37mt_ssl_clien[37mt[37m: -32512
+[37m20:27:48.650 > .[37m
+[37m20:27:48.650 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
+20:27:48.654 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
+[37m20:27:48.657 > Relay disco[37mn[37mnected: Hea[37mp[37m: 85596
+[37m20:27:51.651 > .[37m.[37m[[37m2[37m70303][E][s[37ms[37ml_client.[37mc[37mpp:37] _ha[37mn[37mdle_error()[37m:[37m [start_ss[37ml[37m_client():2[37m6[37m4]: (-32512[37m)[37m SSL - Mem[37mo[37mry allocati[37mo[37mn failed
+[37m20:27:54.967 > [[37m270304][E][37m[[37mWiFiClientS[37me[37mcure.cpp:14[37m4[37m] connect([37m)[37m: start_ssl[37m_[37mclient: -3[37m2[37m512
+[37m20:27:57.964 > .[37m
+[37m20:27:57.964 > Mess[37ma[37mge from re[37ml[37may index:0[37m
+[37m20:27:57.964 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
+[37m20:27:57.964 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 85324
+[37m20:28:00.971 > .[37m.[37m[[37m2[37m79622][[37mE[37m][ssl_clie[37mn[37mt.cpp:37] _[37mh[37mandle_erro[37mr[37m(): [start_[37ms[37msl_client([37m)[37m:264]: (-32[37m5[37m12) SSL - [37mM[37memory alloc[37ma[37mtion faile[37md[37m
+20:28:04.291 > [279622][[37mE[37m][WiFiClie[37mn[37mtSecure.cpp[37m:[37m144] connec[37mt[37m(): start_[37ms[37msl_client:[37m [37m-32512
+[37m20:28:07.281 > .[37m
+[37m20:28:07.281 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
+[37m20:28:07.281 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
+20:28:07.281 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 85596
+[37m20:28:10.288 > .[37m.[37m[[37m2[37m88940][37m[[37mE][ssl_clie[37mn[37mt.cpp:37] [37m_[37mhandle_erro[37mr[37m(): [start[37m_[37mssl_client([37m)[37m:264]: (-3[37m2[37m512) SSL - [37mM[37memory alloc[37ma[37mtion faile[37md[37m
+20:28:13.600 > [288940][37m[[37mE][WiFiClie[37mn[37mtSecure.cp[37mp[37m:144] conne[37mc[37mt(): start_[37ms[37msl_client:[37m [37m-32512
+[37m20:28:16.604 > .[37m
+[37m20:28:16.606 > Messa[37mg[37me from rel[37ma[37my index:0
+[37m20:28:16.608 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
+20:28:16.610 > R[37me[37mlay disconn[37me[37mcted: Heap:[37m [37m85604
+[37m20:28:19.606 > .[37m.[37m[[37m2[37m98259][E[37m][37m[ssl_clien[37mt[37m.cpp:37] _h[37ma[37mndle_error[37m([37m): [start_s[37ms[37ml_client()[37m:[37m264]: (-325[37m1[37m2) SSL - M[37me[37mmory alloca[37mt[37mion failed[37m
+[37m20:28:22.914 > [298259][E[37m][37m[WiFiClien[37mt[37mSecure.cpp:[37m1[37m44] connec[37mt[37m(): start_s[37ms[37ml_client: -[37m3[37m2512
+[37m20:28:24.964 > F[37ma[37miled to re[37ma[37md from DHT[37m [37msensor!
+[37m20:28:24.964 > P[37mu[37mblicado no[37m [37mMQTT: 
+20:28:24.964 > HE[37mA[37mP 1 Min:809[37m8[37m0
+[37m20:28:25.914 > .[37m
+[37m20:28:25.914 > Messag[37me[37m from rela[37my[37m index:0
+20:28:25.914 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
+20:28:25.930 > Rel[37ma[37my disconne[37mc[37mted: Heap:[37m [37m85604
+[37m20:28:28.915 > .[37m.[37m[[37m3[37m07580][E][[37ms[37msl_client.[37mc[37mpp:37] _han[37md[37mle_error():[37m [37m[start_ssl[37m_[37mclient():26[37m4[37m]: (-32512[37m)[37m SSL - Memo[37mr[37my allocati[37mo[37mn failed
+20:28:32.247 > [[37m3[37m07580][E][[37mW[37miFiClientSe[37mc[37mure.cpp:14[37m4[37m] connect()[37m:[37m start_ssl[37m_[37mclient: -32[37m5[37m12
+[37m20:28:35.245 > .[37m
+[37m20:28:35.246 > Message[37m [37mfrom relay[37m [37mindex:0
+20:28:35.247 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
+20:28:35.250 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m8[37m5604
+[37m20:28:38.246 > .[37m.[37m[[37m3[37m17103][37m[[37mE][ssl_clie[37mn[37mt.cpp:37] [37m_[37mhandle_err[37mo[37mr(): [start[37m_[37mssl_client([37m)[37m:264]: (-3[37m2[37m512) SSL - [37mM[37memory allo[37mc[37mation faile[37md[37m
+20:28:41.766 > [317103][37m[[37mE][WiFiClie[37mn[37mtSecure.cpp[37m:[37m144] conne[37mc[37mt(): start[37m_[37mssl_client:[37m [37m-32512
+[37m20:28:44.765 > .[37m
+[37m20:28:44.765 > Message[37m [37mfrom relay [37mi[37mndex:0
+20:28:44.765 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
+20:28:44.765 > Rela[37my[37m disconnect[37me[37md: Heap: 8[37m5[37m604
+[37m20:28:47.765 > .[37m.[37m[[37m3[37m26521[37m][37m[E][ssl_cl[37mi[37ment.cpp:37][37m [37m_handle_er[37mr[37mor(): [star[37mt[37m_ssl_clien[37mt[37m():264]: (-[37m3[37m2512) SSL [37m-[37m Memory all[37mo[37mcation fai[37ml[37med
+20:28:51.190 > [326521[37m][37m[E][WiFiCl[37mi[37mentSecure.c[37mp[37mp:144] conn[37me[37mct(): star[37mt[37m_ssl_clien[37mt[37m: -32512
+[37m20:28:54.185 > .[37m
+[37m20:28:54.187 > Message [37mf[37mrom relay [37mi[37mndex:0
+20:28:54.188 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
+20:28:54.191 > Relay[37m [37mdisconnect[37me[37md: Heap: 85[37m6[37m12
+[37m20:28:57.187 > .[37m.[37m[[37m3358[37m39][E][ssl_c[37ml[37mient.cpp:3[37m7[37m] _handle_e[37mr[37mror(): [st[37ma[37mrt_ssl_clie[37mn[37mt():264]: [37m([37m-32512) SSL[37m [37m- Memory a[37ml[37mlocation fa[37mi[37mled
+20:29:00.499 > [3358[37m4[37m0][E][WiFiC[37ml[37mientSecure[37m.[37mcpp:144] co[37mn[37mnect(): st[37ma[37mrt_ssl_clie[37mn[37mt: -32512
+[37m20:29:03.505 > .[37m
+[37m20:29:03.506 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
+20:29:03.508 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
+20:29:03.511 > Relay[37m [37mdisconnecte[37md[37m: Heap: 85[37m3[37m16
+[37m20:29:06.499 > .[37m.[37m[[37m3[37m45260][[37mE[37m][ssl_clien[37mt[37m.cpp:37] _[37mh[37mandle_error[37m([37m): [start_s[37ms[37ml_client()[37m:[37m264]: (-325[37m1[37m2) SSL - M[37me[37mmory alloc[37ma[37mtion failed[37m[37m
+20:29:09.929 > [345260][E[37m][37m[WiFiClien[37mt[37mSecure.cpp:[37m1[37m44] connec[37mt[37m(): start_s[37ms[37ml_client: [37m-[37m32512
+[37m20:29:12.924 > .[37m
+[37m20:29:12.925 > M[37message fr[37mo[37mm relay in[37md[37mex:0
+20:29:12.928 > [WSc][37m [37mDisconnect[37me[37md from rel[37ma[37my: .
+20:29:12.931 > Relay [37md[37misconnecte[37md[37m: Heap: 856[37m0[37m4
+[37m20:29:15.925 > .[37m.[37m[[37m3[37m54579][E][37m[[37mssl_client.[37mc[37mpp:37] _ha[37mn[37mdle_error()[37m:[37m [start_ss[37ml[37m_client():2[37m6[37m4]: (-3251[37m2[37m) SSL - Mem[37mo[37mry allocat[37mi[37mon failed
+[37m20:29:19.247 > [[37m354579][E][37m[[37mWiFiClientS[37me[37mcure.cpp:1[37m4[37m4] connect([37m)[37m: start_ssl[37m_[37mclient: -3[37m2[37m512
+[37m20:29:22.243 > .[37m
+[37m20:29:22.244 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
+20:29:22.247 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
+20:29:22.249 > Relay d[37mi[37msconnected[37m:[37m Heap: 8560[37m4[37m
+[37m20:29:25.014 > F[37maile[37md[37m to read f[37mr[37mom DHT sens[37mo[37mr!
+[37m20:29:25.014 > P[37mubli[37mc[37mado no MQT[37mT[37m: 
+20:29:25.014 > HEAP 1 [37mM[37min:83328
+[37m20:29:25.244 > .[37m.[37m[[37m364[37m0[37m00][E][ssl[37m_[37mclient.cpp:[37m3[37m7] _handle[37m_[37merror(): [s[37mt[37mart_ssl_cli[37me[37mnt():264]:[37m [37m(-32512) S[37mS[37mL - Memory [37ma[37mllocation [37mf[37mailed
+20:29:28.667 > [364[37m0[37m00][E][WiFi[37mC[37mlientSecur[37me[37m.cpp:144] [37mc[37monnect(): s[37mt[37mart_ssl_cl[37mi[37ment: -32512[37m[37m
+[37m20:29:31.663 > .[37m
+[37m20:29:31.666 > M[37message from [37mr[37melay ind[37me[37mx:0
+20:29:31.667 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
+20:29:31.670 > Relay d[37mi[37msconnected:[37m [37mHeap: 8561[37m6[37m
+[37m20:29:34.665 > .[37m.[37m[[37m3[37m73[37m3[37m18][E][ssl_[37mc[37mlient.cpp:37[37m][37m _handle_[37me[37mrror(): [s[37mt[37mart_ssl_cli[37me[37mnt():264]:[37m [37m(-32512) SS[37mL[37m - Memory a[37ml[37mlocation f[37ma[37miled
+20:29:37.986 > [3733[37m1[37m8][E][WiFi[37mC[37mlientSecur[37me[37m.cpp:144] c[37mo[37mnnect(): st[37ma[37mrt_ssl_cli[37me[37mnt: -32512[37m
+[37m20:29:40.982 > .[37m
+[37m20:29:40.983 > M[37message from [37mr[37melay inde[37mx[37m:0
+20:29:40.983 > [WSc] [37mD[37misconnected[37m [37mfrom relay:[37m [37m.
+20:29:40.983 > Relay di[37ms[37mconnected: [37mH[37meap: 85604[37m[37m

@@ -57,8 +57,8 @@ bool pluviometer_loadConfig()
                 StaticJsonDocument<1024> json;
                 DeserializationError error = deserializeJson(json, configFile);
                 configFile.close();
-                serializeJson(json, Serial);
-                debugln_(' ');
+                // serializeJson(json, Serial);
+                // debugln_(' ');
                 if (!error)
                 {
                   if (json.containsKey("1_minute")) {
@@ -186,7 +186,7 @@ void IRAM_ATTR pulseCounter()
 /* [] {if (ButtonPressed+= (millis() - DebounceTimer) >= (delayTime )) DebounceTimer = millis();} */
 
 void pluviometer_init(){
-    disableCore0WDT();
+    // disableCore0WDT();
     pinMode(PLUV_PIN, INPUT_PULLUP);        
     attachInterrupt(digitalPinToInterrupt(PLUV_PIN), pulseCounter, HIGH);
     // attachInterrupt(digitalPinToInterrupt(PLUV_PIN), pulseCounter, FALLING);

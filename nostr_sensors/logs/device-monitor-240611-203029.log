@@ -1,0 +1,67 @@
+[37m20:30:32.405 > SPIFS: Mounting File System...
+20:30:32.405 > SPIFS: Loading config file
+20:30:32.405 >  
+20:30:32.405 > AllDone: 
+20:30:32.405 > *wm:AutoConnect 
+20:30:32.405 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m20:30:32.630 > *[37mw[37mm:AutoCon[37mn[37mect: SUCCES[37mS[37m 
+20:30:32.630 > *wm:STA[37m [37mIP Address[37m:[37m 192.168.1.[37m2[37m5
+20:30:32.630 > 
+20:30:32.630 > WiFi [37mc[37monnected
+20:30:32.630 > I[37mP[37m address: 1[37m9[37m2.168.1.25[37m[37m
+20:30:32.630 > Private Ke[37my[37m: d3871668[37me[37m532102ca529[37m3[37m649d8e9f0e[37m9[37m085dd58e16[37m1[37mcf93bee6037[37ma[37mbb5b8a3fb
+[37m20:30:32.649 > P[37mublic Key:[37m [37m8ceb5dcd9a7[37mb[37me4cb3f399c[37m0[37m73d9dad54ac[37me[37mcdebac3176[37mc[37mdb041b36f5b[37me[37m5678e0
+20:30:32.653 > Re[37ml[37mays: nostr.[37mb[37mitcoiner.s[37mo[37mcial,relay.[37mp[37mlebstr.com[37m,[37mnos.lol,rel[37ma[37my.damus.io[37m
+[37m20:30:32.653 > Master Pub[37m [37mKey: 20f77[37mf[37mb3b0ea02216[37mc[37md05f38f278[37m4[37me663db02c3e[37ma[37m2e285eda0ff[37mb[37ma402c621ce[37mb[37m
+20:30:32.669 > TimeZone [37mf[37mromUTC: -3[37m[37m
+20:30:32.671 > SETUP NOST[37mR[37m
+[37m20:30:37.675 > F[37ma[37miled to ob[37mt[37main time
+[37m20:30:37.678 > S[37metting call[37mb[37macks
+20:30:37.679 > conn[37me[37mcting
+20:30:37.680 > Rela[37my[37ms are:
+20:30:37.680 > re[37ml[37may.plebstr.[37mc[37mom
+20:30:37.680 > Connect[37mi[37mng to rela[37my[37m: relay.ple[37mb[37mstr.com
+[37m20:30:38.177 > .[37mS[37mET[37mU[37mP LIDAR
+[37m20:30:38.179 > S[37mETUP [37mL[37mIDAR START[37m[37m
+20:30:38.180 > Versão[37m:[37m 2.1.5
+[37m20:30:38.230 > S[37mPIF[37mS[37m: Already M[37mo[37munted
+[37m20:30:38.247 > L[37mI[37mDAR: Load[37mi[37mng LIDAR da[37mt[37ma file
+[37m20:30:38.251 > S[37mETUP LIDAR [37mE[37mND
+20:30:38.252 > SPIFS:[37m [37mAlready Mou[37mn[37mted
+[37m20:30:38.281 > P[37mL[37mUV: Loa[37md[37ming Pluvi[37mo[37mmeter data [37mf[37mile
+20:30:38.285 > SETUP[37m [37mPLUVIOMETER[37m[37m
+20:30:38.287 > SETUP DHT[37m2[37m2
+20:30:38.288 > SETUP EN[37mD[37m - HEAP:
+[37m20:30:38.288 > T[37motal heap:[37m [37m260112
+20:30:38.288 > Free[37m [37mheap: 88348[37m
+[37m20:30:38.288 > Total PSRA[37mM[37m: 4192091
+20:30:38.288 > F[37mr[37mee PSRAM: [37m4[37m191571
+[37m20:30:38.495 > [[37m [37m 8133[37m][37m[E][ssl_cl[37mi[37ment.cpp:37] [37m_[37mhandle_er[37mr[37mor(): [star[37mt[37m_ssl_client[37m([37m):264]: (-[37m3[37m2512) SSL -[37m [37mMemory all[37mo[37mcation fai[37ml[37med
+20:30:38.497 > [  8133[37m][37m[E][WiFiCli[37me[37mntSecure.c[37mp[37mp:144] conn[37me[37mct(): star[37mt[37m_ssl_client[37m:[37m -32512
+[37m20:30:41.502 > .[37m
+[37m20:30:41.502 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
+20:30:41.505 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
+[37m20:30:41.508 > Relay disco[37mn[37mnected: He[37ma[37mp: 91080
+[37m20:30:44.502 > .[37m.[37m[[37m [37m1755[37m2[37m][E][ssl_cli[37me[37mnt.cpp:37][37m [37m_handle_er[37mr[37mor(): [star[37mt[37m_ssl_clien[37mt[37m():264]: ([37m-[37m32512) SSL [37m-[37m Memory all[37mo[37mcation fai[37ml[37med
+20:30:47.924 > [ 17552[37m][37m[E][WiFiCl[37mi[37mentSecure.c[37mp[37mp:144] con[37mn[37mect(): star[37mt[37m_ssl_clien[37mt[37m: -32512
+[37m20:30:50.921 > .[37m
+[37m20:30:50.921 > Mess[37ma[37mge from re[37ml[37may index:0[37m[37m
+20:30:50.924 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
+[37m20:30:50.927 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 90856
+[37m20:30:53.920 > .[37m.[37m[[37m 2[37m6[37m870][E][ss[37ml[37m_client.cpp[37m:[37m37] _handl[37me[37m_error(): [[37ms[37mtart_ssl_c[37ml[37mient():264][37m:[37m (-32512) [37mS[37mSL - Memory[37m [37mallocation[37m [37mfailed
+20:30:57.230 > [ 2[37m6[37m870][E][Wi[37mF[37miClientSecu[37mr[37me.cpp:144][37m [37mconnect(): [37ms[37mtart_ssl_cl[37mi[37ment: -3251[37m2[37m
+[37m20:31:00.235 > .[37m
+[37m20:31:00.235 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
+[37m20:31:00.235 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
+20:31:00.235 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 90632
+[37m20:31:01.285 > E[37mr[37mro public[37ma[37mcao MQTT: 3[37m7[37m0
+20:31:01.285 > {"batte[37mr[37my":{"voltag[37me[37m":4238,"un[37mi[37mt":"mV","pe[37mr[37mcent":93},[37m"[37mlidar":{"di[37ms[37mtance":237,[37m"[37mavg15":0,"[37ma[37mvg1hour":0[37m,[37m"avg1day":0[37m,[37m"temp":39,[37m"[37munit":"cm"}[37m,[37m"pluviomete[37mr[37m":{"volume[37m"[37m:0,"sum15m"[37m:[37m0,"sum1hou[37mr[37m":0,"sum1d[37ma[37my":0,"unit"[37m:[37m"mm"},"temp[37me[37mrature":{"[37mt[37memperature"[37m:[37m0,"avg15":[37m0[37m,"avg1hour"[37m:[37m0,"avg1day[37m"[37m:0,"unit":"[37m[37m°C"},"humi[37md[37mity":{"humi[37md[37mity":0,"avg[37m1[37m5":0,"avg1[37mh[37mour":0,"av[37mg[37m1day":0,"un[37mi[37mt":"%"},"v[37me[37mr":1}
+20:31:01.323 > HEAP[37m [37m1 Min:90156[37m[37m
+20:31:01.323 > Attemptin[37mg[37m MQTT conne[37mc[37mtion...[37mc[37mo[37mnnect[37me[37md
+[37m20:31:03.230 > .[37m.[37m[[37m [37m36291][E][ss[37ml[37m_client.cp[37mp[37m:37] _hand[37ml[37me_error(): [37m[[37mstart_ssl_c[37ml[37mient():264[37m][37m: (-32512)[37m [37mSSL - Memor[37my[37m allocatio[37mn[37m failed
+20:31:06.663 > [ [37m3[37m6292][E][Wi[37mF[37miClientSec[37mu[37mre.cpp:144][37m [37mconnect():[37m [37mstart_ssl_[37mc[37mlient: -325[37m1[37m2
+[37m20:31:09.659 > .[37m
+[37m20:31:09.660 > Messa[37mg[37me from rel[37ma[37my index:0
+[37m20:31:09.661 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
+20:31:09.664 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m87604
+[37m20:31:12.647 > .[37m.

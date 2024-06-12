@@ -1,0 +1,52 @@
+[37m19:51:53.742 > Total heap: 263480
+19:51:53.742 > Free heap: 237080
+19:51:53.742 > Total PSRAM: 4192107
+19:51:53.742 > Free PSRAM: 4191847
+19:51:53.742 > SPIFS: Mounting File System...
+19:51:53.742 > SPIFS: Loading config file
+19:51:53.742 >  
+19:51:53.742 > AllDone: 
+19:51:53.742 > *wm:AutoConnect 
+19:51:53.742 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m19:51:54.094 > *[37mwm:A[37mu[37mtoConnect:[37m [37mSUCCESS 
+19:51:54.097 > *[37mw[37mm:STA IP A[37md[37mdress: 192[37m.[37m168.1.25
+19:51:54.100 > [37m
+[37m19:51:54.101 > WiFi connec[37mt[37med
+19:51:54.102 > IP add[37mr[37mess: 192.16[37m8[37m.1.25
+19:51:54.104 > Pri[37mv[37mate Key: d3[37m8[37m71668e5321[37m0[37m2ca5293649d[37m8[37me9f0e9085dd[37m5[37m8e161cf93b[37me[37me6037abb5b[37m8[37ma3fb
+19:51:54.110 > Publi[37mc[37m Key: 8ceb[37m5[37mdcd9a7be4cb[37m3[37mf399c073d9d[37ma[37md54acecdeb[37ma[37mc3176cdb041[37mb[37m36f5be5678[37me[37m0
+19:51:54.110 > Relays:[37m [37mnostr.bitco[37mi[37mner.social,[37mr[37melay.plebs[37mt[37mr.com,nos.l[37mo[37ml,relay.da[37mm[37mus.io
+19:51:54.123 > Mast[37me[37mr Pub Key:[37m [37m20f77fb3b0e[37ma[37m02216cd05f[37m3[37m8f2784e663d[37mb[37m02c3ea2e28[37m5[37meda0ffba402[37mc[37m621ceb
+19:51:54.126 > Ti[37mm[37meZone fromU[37mT[37mC: -3
+19:51:54.126 > SET[37mU[37mP LIDAR
+19:51:54.126 > SE[37mT[37mUP LIDAR S[37mT[37mART
+19:51:54.136 > Versã[37mo[37m: 2.1.5
+[37m19:51:54.175 > S[37mP[37mIFS:[37m [37mAlready Mou[37mn[37mted
+[37m19:51:54.189 > L[37mID[37mA[37mR: Loading [37mL[37mIDAR data [37mf[37mile
+19:51:54.189 > SETU[37mP[37m LIDAR END[37m
+[37m19:51:54.189 > SPIFS: Alr[37me[37mady Mounted[37m[37m
+[37m19:51:54.225 > P[37mL[37mUV:[37m [37mLoading Plu[37mv[37miometer data[37m [37mfile
+19:51:54.226 > SET[37mU[37mP PLUVIOMET[37mE[37mR
+19:51:54.226 > SETUP D[37mH[37mT22
+19:51:54.226 > SETUP [37mE[37mND - HEAP:[37mS[37mETUP NOSTR[37m[37m
+19:51:54.226 > 72864
+19:51:54.226 > Atte[37mm[37mpting MQTT [37mc[37monnection.[37m.[37m.[37mc[37mon[37mn[37mected
+[37m19:51:56.509 > S[37me[37mtting c[37ma[37mllbacks
+19:51:56.511 > co[37mn[37mnecting
+19:51:56.512 > Re[37ml[37mays are:
+[37m19:51:56.513 > r[37melay.plebs[37mt[37mr.com
+19:51:56.515 > Conn[37me[37mcting to r[37me[37mlay: relay.[37mp[37mlebstr.com[37m
+[37m19:51:57.319 > [[37m  5[37m5[37m99][E][ssl[37m_[37mclient.cpp:[37m3[37m7] _handle[37m_[37merror(): [s[37mt[37mart_ssl_cl[37mi[37ment():264]:[37m [37m(-32512) S[37mS[37mL - Memory [37ma[37mllocation f[37ma[37miled
+19:51:57.336 > [  5[37m5[37m99][E][WiF[37mi[37mClientSecur[37me[37m.cpp:144] [37mc[37monnect(): s[37mt[37mart_ssl_cli[37me[37mnt: -32512[37m[37m
+[37m19:52:02.321 > 
+[37m19:52:02.321 > M[37message [37mf[37mrom relay [37mi[37mndex:0
+19:52:02.336 > [WSc[37m][37m Disconne[37mc[37mted from re[37ml[37may: .
+19:52:02.339 > Relay[37m [37mdisconnect[37me[37md: Heap: 68[37m8[37m16
+[37m19:52:07.653 > [[37m [37m1592[37m6[37m][E][ssl_cli[37me[37mnt.cpp:37[37m][37m _handle_e[37mr[37mror(): [sta[37mr[37mt_ssl_clie[37mn[37mt():264]: ([37m-[37m32512) SSL[37m [37m- Memory al[37ml[37mocation fa[37mi[37mled
+19:52:07.664 > [ 1592[37m6[37m][E][WiFiC[37ml[37mientSecure.[37mc[37mpp:144] co[37mn[37mnect(): sta[37mr[37mt_ssl_clie[37mn[37mt: -32512
+[37m19:52:12.660 > 
+[37m19:52:12.660 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
+19:52:12.662 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
+19:52:12.665 > Relay [37md[37misconnecte[37md[37m: Heap: 68[37m5[37m92
+[37m19:52:17.986 > [[37m [37m2627[37m0[37m][E][ssl_cli[37me[37mnt.cpp:37[37m][37m _handle_e[37mr[37mror(): [sta[37mr[37mt_ssl_clie[37mn[37mt():264]: ([37m-[37m32512) SSL[37m [37m- Memory al[37ml[37mocation fai[37ml[37med
+19:52:18.007 > [ 2627[37m0[37m][E][WiFiC[37ml[37mientSecure.[37mc[37mpp:144] co[37mn[37mnect(): sta[37mr[37mt_ssl_clien[37mt[37m: -32512

@@ -1,0 +1,65 @@
+[37m13:17:10.252 > Total heap: 263480
+13:17:10.252 > Free heap: 237080
+13:17:10.252 > Total PSRAM: 4192107
+13:17:10.252 > Free PSRAM: 4191847
+13:17:10.252 > SPIFS: Mounting File System...
+13:17:10.252 > SPIFS: Loading config file
+13:17:10.252 >  
+13:17:10.252 > AllDone: 
+13:17:10.252 > *wm:AutoConnect 
+13:17:10.252 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m13:17:10.826 > *[37mw[37mm:Auto[37mC[37monnect: SUCC[37mE[37mSS 
+13:17:10.826 > *wm:[37mS[37mTA IP Addre[37ms[37ms: 192.168[37m.[37m1.25
+13:17:10.826 > 
+13:17:10.826 > WiF[37mi[37m connected[37m[37m
+13:17:10.826 > IP address[37m:[37m 192.168.1.[37m2[37m5
+13:17:10.826 > Private[37m [37mKey: d3871[37m6[37m68e532102ca[37m5[37m293649d8e9f[37m0[37me9085dd58e[37m1[37m61cf93bee60[37m3[37m7abb5b8a3f[37mb[37m
+13:17:10.843 > Public Ke[37my[37m: 8ceb5dcd[37m9[37ma7be4cb3f39[37m9[37mc073d9dad5[37m4[37macecdebac31[37m7[37m6cdb041b36[37mf[37m5be5678e0
+[37m13:17:10.850 > R[37melays: nos[37mt[37mr.bitcoiner[37m.[37msocial,rel[37ma[37my.plebstr.c[37mo[37mm,nos.lol,[37mr[37melay.damus.[37mi[37mo
+13:17:10.850 > Master [37mP[37mub Key: 20f[37m7[37m7fb3b0ea02[37m2[37m16cd05f38f2[37m7[37m84e663db02c[37m3[37mea2e285eda[37m0[37mffba402c621[37mc[37meb
+13:17:10.864 > TimeZo[37mn[37me fromUTC: [37m-[37m3
+[37m13:17:14.476 > S[37me[37mttin[37mg[37m callbacks[37m
+[37m13:17:14.492 > connecting[37m[37m
+13:17:14.492 > Relays are[37m:[37m
+13:17:14.492 > relay.pl[37me[37mbstr.com
+13:17:14.492 > C[37mo[37mnnecting t[37mo[37m relay: rel[37ma[37my.plebstr.[37mc[37mom
+[37m13:17:14.976 > S[37mETU[37mP[37m LIDAR
+13:17:14.992 > SET[37mU[37mP LIDAR ST[37mA[37mRT
+13:17:14.992 > Versão[37m:[37m 2.1.5
+[37m13:17:15.034 > S[37mPIFS[37m:[37m Already Mo[37mu[37mnted
+[37m13:17:15.047 > L[37mI[37mDAR: Loading[37m [37mLIDAR data [37mf[37mile
+13:17:15.060 > SETU[37mP[37m LIDAR END[37m[37m
+13:17:15.062 > SPIFS: Alr[37me[37mady Mounte[37md[37m
+[37m13:17:15.083 > P[37mLU[37mV[37m: Loading P[37ml[37muviometer [37md[37mata file
+[37m13:17:15.095 > S[37mETUP PLUVIO[37mM[37mETER
+13:17:15.096 > SETUP[37m [37mDHT22
+13:17:15.097 > SET[37mU[37mP END - HEA[37mP[37m:182128
+13:17:15.099 > LI[37mD[37mAR Reading:[37m1[37m82128 
+[37m13:17:16.077 > L[37mI[37mDAR[37m [37mFIM
+13:17:16.092 > NL[37mE[37m:[37mNRE:MAtte[37mm[37mpting MQTT [37mc[37monnection.[37m.[37m.[37mc[37mo[37mnne[37mc[37mted
+13:17:18.026 > E:[37mN[37mL[37mE[37m:[37mN[37mRE:ME:[37mN[37mL[37mE:NRE[37m:[37mME:[37mN[37mL[37mE:NRE[37m:[37mME:[37mN[37mL[37mE:NRE:M[37mE[37m:[37mL[37mI[37mDAR Rea[37md[37ming:136580 [37m
+[37m13:17:21.539 > L[37mI[37mDA[37mR[37m FIM
+13:17:21.540 > NLE:N[37mR[37mE:ME:[37mN[37mL[37mE:NRE:[37mM[37mE:[37mN[37mL[37mMes[37ms[37mage from r[37me[37mlay index:0[37m[37m
+13:17:22.544 > [WSc] Con[37mn[37mected to re[37ml[37may: .
+13:17:22.547 > Rela[37my[37m connected:[37m [37m
+13:17:22.549 > message[37m
+[37m13:17:22.550 > Requesting [37me[37mvents:
+13:17:22.550 > SE[37mT[37mUP END:1363[37m0[37m8
+13:17:22.552 > E:NRBro[37ma[37mdcasting ev[37me[37mnt: ["REQ",[37m [37m"jGu5XJWhT[37m8[37makYWAYKhvq[37m9[37mssErACu7DA0[37mP[37mlApg8061Qf[37mU[37mtyfZJF2IhXh[37m1[37mjxVht59I", [37m{[37m"#p": ["20[37mf[37m77fb3b0ea02[37m2[37m16cd05f38f[37m2[37m784e663db0[37m2[37mc3ea2e285ed[37ma[37m0ffba402c62[37m1[37mceb"], "ki[37mn[37mds": [4], "[37ml[37mimit": 999[37m}[37m, "since":1[37m7[37m18122635]
+[37m13:17:23.567 > E[37m:[37mME:[37mN[37mL[37mM[37message f[37mr[37mom relay in[37md[37mex:0
+13:17:24.070 > [WSc[37m][37m: Received [37mt[37mext from r[37me[37mlay .: ["N[37mO[37mTICE","coul[37md[37m not parse [37mc[37mommand"]
+13:17:24.076 > E[37m:[37mNRE:ME:[37mN[37mL[37mE:NRE:ME[37m:[37mN[37mL[37mE:NRE:ME[37m:[37mL[37mI[37mDAR Read[37mi[37mng:136532 [37m
+[37m13:17:26.569 > L[37mI[37mDAR FIM[37m
+[37m13:17:26.570 > NLE:NRE:ME[37m:[37mN[37mL[37mE:NRE:ME[37m:[37mN[37mL[37mE:NRE:ME[37m:[37mN[37mL[37mE:NRE:ME[37m:[37mN[37mL[37mE:NRE:ME[37m:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME[37m:[37mN[37mL[37mE:NRE:ME[37m:[37mL[37mI[37mDAR Read[37mi[37mng:136532 
+[37m13:17:31.570 > L[37mI[37mDAR FIM
+13:17:31.572 > NLE[37m:[37mNRE:ME:[37mN[37mL[37mE:NRE:ME[37m:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:M[37mE[37m:[37mN[37mL[37mE:NRE:ME[37m:[37mN[37mLE:NRE:ME:[37mN[37mL[37mE:NRE:ME[37m:[37mN[37mL[37mE[37m:NRE:ME:[37mL[37mI[37mDAR Readi[37mn[37mg:136532 
+[37m13:17:36.576 > L[37mI[37mDAR F[37mI[37mM
+13:17:36.576 > NLE:NRE[37m:[37mME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR Readi[37mn[37mg:136532 
+[37m13:17:41.577 > L[37mIDAR FIM[37m
+[37m13:17:41.579 > NLE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR Readi[37mn[37mg:136532 
+[37m13:17:46.576 > L[37mID[37mA[37mR FIM
+13:17:46.576 > NLE:[37mN[37mRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:M[37mE[37m:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR Readin[37mg[37m:136532 
+[37m13:17:51.579 > L[37mI[37mDAR FIM[37m[37m
+13:17:51.579 > NLE:NRE:[37mM[37mE:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR Readin[37mg[37m:136532 
+[37m13:17:56.578 > L[37mI[37mDAR FIM
+[37m13:17:56.578 > N[37mLE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mN[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR Reading:[37m1[37m36532 

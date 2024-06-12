@@ -1,0 +1,51 @@
+[37m19:37:00.749 > Total heap: 263480
+19:37:00.749 > Free heap: 237080
+19:37:00.749 > Total PSRAM: 4192107
+19:37:00.749 > Free PSRAM: 4191847
+19:37:00.749 > SPIFS: Mounting File System...
+19:37:00.749 > SPIFS: Loading config file
+19:37:00.749 >  
+19:37:00.749 > AllDone: 
+19:37:00.749 > *wm:AutoConnect 
+19:37:00.749 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m19:37:01.192 > *[37mw[37mm:Aut[37mo[37mConnect: SU[37mC[37mCESS 
+19:37:01.195 > *wm[37m:[37mSTA IP Add[37mr[37mess: 192.16[37m8[37m.1.25
+19:37:01.198 > 
+19:37:01.198 > Wi[37mF[37mi connecte[37md[37m
+19:37:01.200 > IP addres[37ms[37m: 192.168.[37m1[37m.25
+19:37:01.202 > Priva[37mt[37me Key: d387[37m1[37m668e532102c[37ma[37m5293649d8e[37m9[37mf0e9085dd58[37me[37m161cf93bee[37m6[37m037abb5b8a3[37mf[37mb
+19:37:01.209 > Public [37mK[37mey: 8ceb5dc[37md[37m9a7be4cb3f[37m3[37m99c073d9dad[37m5[37m4acecdebac[37m3[37m176cdb041b36[37mf[37m5be5678e0[37m[37m
+19:37:01.211 > Relays: no[37ms[37mtr.bitcoin[37me[37mr.social,re[37ml[37may.plebstr.[37mc[37mom,nos.lol[37m,[37mrelay.damus[37m.[37mio
+19:37:01.211 > Master[37m [37mPub Key: 2[37m0[37mf77fb3b0ea0[37m2[37m216cd05f38f[37m2[37m784e663db0[37m2[37mc3ea2e285ed[37ma[37m0ffba402c6[37m2[37m1ceb
+19:37:01.227 > Time[37mZ[37mone fromUTC[37m:[37m -3
+19:37:01.227 > SETUP [37mL[37mIDAR
+19:37:01.227 > SETU[37mP[37m LIDAR STAR[37mT[37m
+19:37:01.227 > Versão:[37m [37m2.1.5
+[37m19:37:01.277 > S[37mP[37mIFS: Alr[37me[37mady Mount[37me[37md
+[37m19:37:01.291 > L[37mI[37mDAR[37m:[37m Loading L[37mI[37mDAR data fi[37ml[37me
+19:37:01.291 > SETUP [37mL[37mIDAR END
+[37m19:37:01.291 > S[37mPIFS: Alrea[37md[37my Mounted[37m
+[37m19:37:01.328 > P[37mL[37mUV: Loadin[37mg[37m Pluviomet[37me[37mr data file[37m[37m
+19:37:01.328 > SETUP PLU[37mV[37mIOMETER
+19:37:01.328 > S[37mE[37mTUP DHT22
+[37m19:37:01.328 > S[37mETUP END - [37mH[37mEAP:183256[37m
+[37m19:37:01.328 > PAttempting[37m [37mMQTT conne[37mc[37mtion...[37mc[37mon[37mn[37mected
+[37m19:37:01.871 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mF[37ma[37miled to[37m [37mread from [37mD[37mHT sensor![37m[37m
+[37m19:37:59.194 > P[37mublicado[37m [37mno MQTT: [37m
+[37m19:37:59.195 > HEAP 1 Min:[37m1[37m77988
+[37m19:37:59.695 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mF[37ma[37miled to read [37mf[37mrom DHT se[37mn[37msor!
+[37m19:38:59.243 > P[37mubli[37mc[37mado no MQTT[37m:[37m 
+19:38:59.243 > HEAP 1 [37mM[37min:177984
+[37m19:38:59.750 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mF[37ma[37miled [37mt[37mo read from [37mD[37mHT sensor[37m![37m
+19:40:00.303 > Publi[37mc[37mado no MQT[37mT[37m: 
+19:40:00.305 > HEAP 1 [37mM[37min:177984[37m
+[37m19:40:00.804 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mF[37ma[37miled to re[37ma[37md from DHT [37ms[37mensor!
+[37m19:41:00.361 > P[37mubl[37mi[37mcado no MQT[37mT[37m: 
+19:41:00.362 > HEAP 1[37m [37mMin:177984[37m
+[37m19:41:00.862 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mF[37ma[37mile[37md[37m to read fr[37mo[37mm DHT sens[37mo[37mr!
+[37m19:42:00.410 > P[37mublicado [37mn[37mo MQTT: 
+[37m19:42:00.410 > H[37mEAP 1 Min:1[37m7[37m7984
+[37m19:42:01.913 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mF[37ma[37miled to [37mr[37mead from D[37mH[37mT sensor!
+[37m19:43:00.973 > P[37mu[37mb[37mlicado no [37mM[37mQTT: 
+19:43:00.973 > HEAP[37m [37m1 Min:1779[37m8[37m4
+[37m19:43:01.475 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP

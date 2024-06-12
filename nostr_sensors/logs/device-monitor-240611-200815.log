@@ -1,0 +1,38 @@
+[37m20:08:17.898 > SPIFS: Mounting File System...
+20:08:17.898 > SPIFS: Loading config file
+20:08:17.898 >  
+20:08:17.898 > AllDone: 
+20:08:17.898 > *wm:AutoConnect 
+20:08:17.898 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m20:08:18.316 > *[37mw[37mm:Aut[37mo[37mConnect: S[37mU[37mCCESS 
+20:08:18.318 > *w[37mm[37m:STA IP Add[37mr[37mess: 192.1[37m6[37m8.1.25
+20:08:18.321 > 
+20:08:18.321 > W[37mi[37mFi connecte[37md[37m
+20:08:18.323 > IP addre[37ms[37ms: 192.168.[37m1[37m.25
+20:08:18.325 > Priva[37mt[37me Key: d387[37m1[37m668e532102[37mc[37ma5293649d8e[37m9[37mf0e9085dd5[37m8[37me161cf93bee[37m6[37m037abb5b8a[37m3[37mfb
+20:08:18.332 > Public [37mK[37mey: 8ceb5d[37mc[37md9a7be4cb3f[37m3[37m99c073d9da[37md[37m54acecdebac[37m3[37m176cdb041b3[37m6[37mf5be5678e0[37m[37m
+20:08:18.339 > Relays: n[37mo[37mstr.bitcoin[37me[37mr.social,r[37me[37mlay.plebstr[37m.[37mcom,nos.lol[37m,[37mrelay.damu[37ms[37m.io
+20:08:18.339 > Master[37m [37mPub Key: 2[37m0[37mf77fb3b0ea[37m0[37m2216cd05f38[37mf[37m2784e663db0[37m2[37mc3ea2e285e[37md[37ma0ffba402c6[37m2[37m1ceb
+20:08:18.352 > Time[37mZ[37mone fromUTC[37m:[37m -3
+20:08:18.354 > SETUP[37m [37mNOSTR
+[37m20:08:20.884 > S[37metti[37mn[37mg callback[37ms[37m
+20:08:20.884 > connecti[37mn[37mg
+20:08:20.884 > Relays a[37mr[37me:
+20:08:20.884 > relay.[37mp[37mlebstr.com[37m
+[37m20:08:20.884 > Connecting [37mt[37mo relay: r[37me[37mlay.plebst[37mr[37m.com
+[37m20:08:21.384 > .[37mS[37mET[37mU[37mP LIDA[37mR[37m
+20:08:21.384 > SET[37mU[37mP LIDAR STA[37mR[37mT
+20:08:21.384 > Versã[37mo[37m: 2.1.5
+[37m20:08:21.437 > S[37mPIFS[37m:[37m Already M[37mo[37munted
+[37m20:08:21.454 > L[37mI[37mDAR:[37m [37mLoading LI[37mD[37mAR data fil[37me[37m
+[37m20:08:21.454 > S[37mETUP LIDA[37mR[37m END
+20:08:21.454 > SPIFS[37m:[37m Already Mo[37mu[37mnted
+[37m20:08:21.490 > P[37mLUV[37m:[37m Loading P[37ml[37muviometer [37md[37mata file
+20:08:21.490 > S[37mE[37mTUP PLUVIO[37mM[37mETER
+20:08:21.490 > SETUP[37m [37mDHT22
+20:08:21.500 > SETU[37mP[37m END - HEA[37mP[37m:
+20:08:21.502 > Total he[37ma[37mp: 260104
+[37m20:08:21.503 > F[37mree heap: [37m1[37m73348
+20:08:21.504 > Total[37m [37mPSRAM: 4192[37m0[37m91
+20:08:21.504 > Free PS[37mR[37mAM: 4191571[37m
+[37m20:08:21.553 > A[37mt[37mte[37mm[37mpting MQTT[37m [37mconnection...[37mc[37mo[37mnnected

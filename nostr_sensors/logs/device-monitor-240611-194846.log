@@ -1,0 +1,69 @@
+[37m19:48:49.030 > Total heap: 263504
+19:48:49.030 > Free heap: 237080
+19:48:49.030 > Total PSRAM: 4192107
+19:48:49.030 > Free PSRAM: 4191847
+19:48:49.030 > SPIFS: Mounting File System...
+19:48:49.030 > SPIFS: Loading config file
+19:48:49.030 >  
+19:48:49.030 > AllDone: 
+19:48:49.030 > *wm:AutoConnect 
+19:48:49.030 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m19:48:49.302 > *[37mw[37mm:Aut[37mo[37mConnect: SUC[37mC[37mESS 
+19:48:49.302 > *wm[37m:[37mSTA IP Add[37mr[37mess: 192.16[37m8[37m.1.25
+19:48:49.318 > 
+19:48:49.318 > W[37mi[37mFi connecte[37md[37m
+19:48:49.318 > IP addres[37ms[37m: 192.168.[37m1[37m.25
+19:48:49.321 > Priva[37mt[37me Key: d387[37m1[37m668e532102c[37ma[37m5293649d8e[37m9[37mf0e9085dd58[37me[37m161cf93bee[37m6[37m037abb5b8a[37m3[37mfb
+19:48:49.328 > Public [37mK[37mey: 8ceb5dc[37md[37m9a7be4cb3f[37m3[37m99c073d9dad[37m5[37m4acecdebac[37m3[37m176cdb041b3[37m6[37mf5be5678e0[37m[37m
+19:48:49.335 > Relays: no[37ms[37mtr.bitcoin[37me[37mr.social,re[37ml[37may.plebstr.[37mc[37mom,nos.lol[37m,[37mrelay.damu[37ms[37m.io
+19:48:49.341 > Master[37m [37mPub Key: 2[37m0[37mf77fb3b0ea0[37m2[37m216cd05f38f[37m2[37m784e663db0[37m2[37mc3ea2e285ed[37ma[37m0ffba402c6[37m2[37m1ceb
+19:48:49.344 > Time[37mZ[37mone fromUTC[37m:[37m -3
+19:48:49.344 > SETUP[37m [37mLIDAR
+19:48:49.344 > SETU[37mP[37m LIDAR STAR[37mT[37m
+19:48:49.353 > Versão:[37m [37m2.1.5
+[37m19:48:49.390 > S[37mP[37mIFS: Already[37m [37mMounted
+[37m19:48:49.407 > L[37mI[37mDAR[37m:[37m Loading LID[37mA[37mR data fi[37ml[37me
+19:48:49.407 > SETUP [37mL[37mIDAR END
+[37m19:48:49.407 > S[37mPIFS: Alrea[37md[37my Mounted[37m
+[37m19:48:49.443 > P[37mL[37mUV: [37mL[37moading Pluv[37mi[37mometer dat[37ma[37m file
+19:48:49.443 > SETU[37mP[37m PLUVIOMET[37mE[37mR
+19:48:49.443 > SETUP DH[37mT[37m22
+19:48:49.443 > SETUP [37mE[37mND - HEAP:S[37mE[37mTUP NOSTR[37m
+[37m19:48:49.455 > 82852
+19:48:49.455 > PAtte[37mm[37mpting MQTT[37m [37mconnection.[37m.[37m.[37mc[37mo[37mn[37mn[37mected
+[37m19:48:50.120 > P[37mP[37mP[37mP[37mS[37me[37mtting cal[37ml[37mbacks
+19:48:52.388 > conn[37me[37mcting
+19:48:52.388 > Rel[37ma[37mys are:
+19:48:52.403 > re[37ml[37may.plebstr[37m.[37mcom
+19:48:52.406 > Connec[37mt[37ming to rela[37my[37m: relay.pl[37me[37mbstr.com
+[37m19:48:53.119 > P[37m[[37m [37m 615[37m3[37m][E][ssl_cli[37me[37mnt.cpp:37[37m][37m _handle_er[37mr[37mor(): [sta[37mr[37mt_ssl_clien[37mt[37m():264]: ([37m-[37m32512) SSL [37m-[37m Memory al[37ml[37mocation fai[37ml[37med
+19:48:53.210 > [  6154[37m][37m[E][WiFiCl[37mi[37mentSecure.[37mc[37mpp:144] con[37mn[37mect(): sta[37mr[37mt_ssl_clien[37mt[37m: -32512
+[37m19:48:53.618 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37m
+[37m19:48:58.206 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
+19:48:58.208 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
+19:48:58.211 > Relay [37md[37misconnected[37m:[37m Heap: 7881[37m6[37m
+[37m19:48:58.617 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37m[[37m [37m164[37m9[37m6][E][ssl_c[37ml[37mient.cpp:3[37m7[37m] _handle_e[37mr[37mror(): [st[37ma[37mrt_ssl_cli[37me[37mnt():264]: [37m([37m-32512) SSL[37m [37m- Memory a[37ml[37mlocation fa[37mi[37mled
+19:49:03.536 > [ 164[37m9[37m6][E][WiFiC[37ml[37mientSecure[37m.[37mcpp:144] co[37mn[37mnect(): st[37ma[37mrt_ssl_clie[37mn[37mt: -32512[37m
+[37m19:49:04.116 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37m
+[37m19:49:08.548 > M[37message fro[37mm[37m relay inde[37mx[37m:0
+19:49:08.550 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
+19:49:08.553 > Relay di[37ms[37mconnected:[37m [37mHeap: 78592[37m[37m
+[37m19:49:09.104 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37m[[37m [37m26946][E][ss[37ml[37m_client.c[37mp[37mp:37] _han[37md[37mle_error():[37m [37m[start_ssl[37m_[37mclient():26[37m4[37m]: (-32512[37m)[37m SSL - Memo[37mr[37my allocatio[37mn[37m failed
+19:49:14.001 > [[37m [37m26947][E][[37mW[37miFiClientSe[37mc[37mure.cpp:14[37m4[37m] connect()[37m:[37m start_ssl_[37mc[37mlient: -32[37m5[37m12
+[37m19:49:14.616 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37m
+[37m19:49:18.986 > M[37message from[37m [37mrelay index[37m:[37m0
+19:49:18.986 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
+19:49:19.002 > Relay dis[37mc[37monnected: [37mH[37meap: 78368[37m
+[37m19:49:20.104 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37m[[37m [37m37282][E[37m][37m[ssl_clien[37mt[37m.cpp:37] _h[37ma[37mndle_error[37m([37m): [start_s[37ms[37ml_client()[37m:[37m264]: (-325[37m1[37m2) SSL - M[37me[37mmory alloca[37mt[37mion failed[37m[37m
+19:49:24.337 > [ 37282][E[37m][37m[WiFiClien[37mt[37mSecure.cpp:[37m1[37m44] connec[37mt[37m(): start_s[37ms[37ml_client: -[37m3[37m2512
+[37m19:49:25.117 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37m
+[37m19:49:29.334 > M[37message from [37mr[37melay index[37m:[37m0
+19:49:29.336 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
+19:49:29.339 > Relay disc[37mo[37mnnected: H[37me[37map: 78144[37m
+[37m19:49:30.604 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37m[[37m [37m47627][E[37m][37m[ssl_client[37m.[37mcpp:37] _h[37ma[37mndle_error([37m)[37m: [start_s[37ms[37ml_client():[37m2[37m64]: (-3251[37m2[37m) SSL - Me[37mm[37mory alloca[37mt[37mion failed[37m
+[37m19:49:34.676 > [ 47627][E[37m][37m[WiFiClient[37mS[37mecure.cpp:1[37m4[37m4] connect[37m([37m): start_s[37ms[37ml_client: -[37m3[37m2512
+[37m19:49:36.103 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37m
+[37m19:49:39.673 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
+19:49:39.673 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
+[37m19:49:39.673 > Relay disc[37mo[37mnnected: He[37ma[37mp: 77920
+[37m19:49:41.107 > P[37mP[37mP

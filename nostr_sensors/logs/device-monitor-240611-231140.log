@@ -1,0 +1,50 @@
+23:11:43.057 > SPIFS: Mounting File System...
+23:11:43.057 > SPIFS: Loading config file
+23:11:43.057 >  
+23:11:43.057 > AllDone: 
+23:11:43.057 > *wm:AutoConnect 
+23:11:43.057 > *wm:Connecting to SAVED AP: GeorgeHomeT
+23:11:43.057 > *wm:AutoConnect: SUCCESS 
+23:11:43.057 > *wm:STA IP Address: 192.168.1.25
+23:11:43.057 > 
+23:11:43.057 > WiFi connected
+23:11:43.057 > IP address: 192.168.1.25
+23:11:43.057 > Private Key: d3871668e532102ca5293649d8e9f0e9085dd58e161cf93bee6037abb5b8a3fb
+23:11:43.057 > Public Key: 8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0
+23:11:43.057 > Relays: nostr.bitcoiner.social,relay.plebstr.com,nos.lol,relay.damus.io
+23:11:43.057 > Master Pub Key: 20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb
+23:11:43.057 > TimeZone fromUTC: -3
+23:11:43.057 > SETUP LIDAR
+23:11:43.057 > SETUP LIDAR START
+23:11:43.057 > Versão: 2.1.5
+23:11:43.079 > SPIFS: Already Mounted
+23:11:43.096 > LIDAR: Loading LIDAR data file
+23:11:43.100 > SETUP LIDAR END
+23:11:43.101 > SPIFS: Already Mounted
+23:11:43.129 > PLUV: Loading Pluviometer data file
+23:11:43.134 > SETUP PLUVIOMETER
+23:11:43.134 > SETUP DHT22
+23:11:43.136 > SETUP NOSTR
+23:11:44.543 > Setting callbacks
+23:11:44.545 > connecting
+23:11:44.546 > Relays are:
+23:11:44.548 > relay.plebstr.com
+23:11:44.549 > Connecting to relay: relay.plebstr.com
+23:11:45.044 > SETUP END - HEAP:
+23:11:45.046 > Total heap: 260400
+23:11:45.048 > Free heap: 182168
+23:11:45.049 > Total PSRAM: 4192091
+23:11:45.051 > Free PSRAM: 4191571
+23:11:45.053 > Attempting MQTT connection...connected
+23:11:53.900 > 
+23:11:53.900 > Message from relay index:0
+23:11:53.903 > [WSc] Disconnected from relay: .
+23:11:53.906 > Relay disconnected: Heap: 178776
+23:12:05.779 > 
+23:12:05.779 > Message from relay index:0
+23:12:05.781 > [WSc] Disconnected from relay: .
+23:12:05.784 > Relay disconnected: Heap: 178412
+23:12:18.674 > 
+23:12:18.674 > Message from relay index:0
+23:12:18.689 > [WSc] Disconnected from relay: .
+23:12:18.689 > Relay disconnected: Heap: 178768

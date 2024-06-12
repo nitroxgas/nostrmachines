@@ -1,0 +1,34 @@
+[37m19:56:23.418 > SPIFS: Mounting File System...
+19:56:23.418 > SPIFS: Loading config file
+19:56:23.418 >  
+19:56:23.418 > AllDone: 
+19:56:23.418 > *wm:AutoConnect 
+19:56:23.418 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m19:56:23.733 > *[37mwm:AutoCo[37mn[37mnect: SUCC[37mE[37mSS 
+19:56:23.735 > *wm:ST[37mA[37m IP Addres[37ms[37m: 192.168.[37m1[37m.25
+19:56:23.738 > 
+19:56:23.738 > WiFi[37m [37mconnected
+[37m19:56:23.740 > I[37mP address:[37m [37m192.168.1.2[37m5[37m
+19:56:23.742 > Private [37mK[37mey: d38716[37m6[37m8e532102ca5[37m2[37m93649d8e9f0[37me[37m9085dd58e16[37m1[37mcf93bee603[37m7[37mabb5b8a3fb[37m[37m
+19:56:23.750 > Public Key[37m:[37m 8ceb5dcd9[37ma[37m7be4cb3f399[37mc[37m073d9dad54[37ma[37mcecdebac317[37m6[37mcdb041b36f5[37mb[37me5678e0
+19:56:23.755 > R[37me[37mlays: nost[37mr[37m.bitcoiner.[37ms[37mocial,rela[37my[37m.plebstr.com[37m,[37mnos.lol,re[37ml[37may.damus.i[37mo[37m
+19:56:23.762 > Master Pu[37mb[37m Key: 20f7[37m7[37mfb3b0ea022[37m1[37m6cd05f38f27[37m8[37m4e663db02c3[37me[37ma2e285eda0[37mf[37mfba402c621c[37me[37mb
+19:56:23.769 > TimeZon[37me[37m fromUTC: -[37m3[37m
+19:56:23.771 > SETUP LI[37mD[37mAR
+19:56:23.772 > SETUP L[37mI[37mDAR START[37m
+[37m19:56:23.774 > Versão: 2.[37m1[37m.5
+[37m19:56:23.818 > S[37mP[37mIFS: Al[37mr[37meady Mounte[37md[37m
+[37m19:56:23.834 > L[37mI[37mDAR: [37mL[37moading LID[37mA[37mR data file[37m[37m
+19:56:23.837 > SETUP L[37mI[37mDAR END
+19:56:23.838 > SP[37mI[37mFS: Already[37m [37mMounted
+[37m19:56:23.868 > P[37mL[37mUV: Loading [37mP[37mluviometer[37m [37mdata file
+[37m19:56:23.872 > S[37mETUP PLUVI[37mO[37mMETER
+19:56:23.873 > SETU[37mP[37m DHT22
+19:56:23.874 > SE[37mT[37mUP END - H[37mE[37mAP:Total he[37ma[37mp: 260688
+19:56:23.877 > F[37mr[37mee heap: 1[37m8[37m3248
+19:56:23.879 > Total [37mP[37mSRAM: 4192[37m0[37m91
+19:56:23.881 > Free PSR[37mA[37mM: 4191571[37m
+[37m19:56:23.884 > Attempting [37mM[37mQTT connec[37mt[37mion...[37mc[37mo[37mnnected
+[37m19:57:21.702 > F[37ma[37miled to r[37me[37mad from DH[37mT[37m sensor!
+[37m19:57:21.702 > P[37mu[37mblicad[37mo[37m no MQTT: [37m
+[37m19:57:21.702 > HEAP 1 Min[37m:[37m177984

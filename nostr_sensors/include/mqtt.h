@@ -9,4 +9,6 @@ extern const char* mqtt_password;
 
 void mqtt_init();
 bool mqtt_publish(const char* topic, const char* payload);
+bool mqtt_publish(const char* topic, const char* payload, boolean retained);
+//bool mqtt_publish(const char* topic, const char* payload, unsigned int plength);
 void mqtt_loop();

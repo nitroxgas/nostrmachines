@@ -1,0 +1,362 @@
+[37m12:17:31.868 > Total heap: 263504
+12:17:31.868 > Free heap: 237080
+12:17:31.868 > Total PSRAM: 4192107
+12:17:31.868 > Free PSRAM: 4191847
+12:17:31.868 > SPIFS: Mounting File System...
+12:17:31.868 > SPIFS: Loading config file
+12:17:31.868 >  
+12:17:31.868 > AllDone: 
+12:17:31.868 > *wm:AutoConnect 
+12:17:31.868 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m12:17:32.718 > *[37mw[37mm:AutoConnect[37m:[37m SUCCESS [37m[37m
+12:17:32.718 > *wm:STA IP[37m [37mAddress: 1[37m9[37m2.168.1.25[37m
+[37m12:17:32.733 > 
+12:17:32.733 > WiFi con[37mn[37mected
+12:17:32.733 > IP [37ma[37mddress: 192[37m.[37m168.1.25
+12:17:32.736 > P[37mr[37mivate Key:[37m [37md3871668e53[37m2[37m102ca52936[37m4[37m9d8e9f0e908[37m5[37mdd58e161cf[37m9[37m3bee6037abb[37m5[37mb8a3fb
+12:17:32.743 > Pub[37ml[37mic Key: 8c[37me[37mb5dcd9a7be[37m4[37mcb3f399c073[37md[37m9dad54acec[37md[37mebac3176cdb[37m0[37m41b36f5be56[37m7[37m8e0
+12:17:32.750 > Relay[37ms[37m: nostr.bi[37mt[37mcoiner.soci[37ma[37ml,relay.pl[37me[37mbstr.com,nos[37m.[37mlol,relay.[37md[37mamus.io
+12:17:32.756 > M[37ma[37mster Pub Ke[37my[37m: 20f77fb3[37mb[37m0ea02216cd[37m0[37m5f38f2784e6[37m6[37m3db02c3ea2e[37m2[37m85eda0ffba[37m4[37m02c621ceb
+[37m12:17:32.760 > T[37mimeZone fr[37mo[37mmUTC: -3
+[37m12:17:35.218 > S[37me[37mtting cal[37ml[37mbacks
+12:17:35.218 > con[37mn[37mecting
+12:17:35.218 > Rel[37ma[37mys are:
+12:17:35.218 > r[37me[37mlay.plebst[37mr[37m.com
+12:17:35.218 > nos.l[37mo[37ml
+12:17:35.218 > Connecti[37mn[37mg to relay[37m:[37m relay.pleb[37ms[37mtr.com
+12:17:35.218 > Co[37mn[37mnecting to [37mr[37melay: nos.[37ml[37mol
+[37m12:17:35.718 > S[37mE[37mTUP LID[37mA[37mR
+12:17:35.734 > SETUP L[37mI[37mDAR START
+[37m12:17:35.736 > V[37mersão:[37m [37m2.1.5
+[37m12:17:35.775 > S[37mPIF[37mS[37m: Already M[37mo[37munted
+[37m12:17:35.788 > L[37mI[37mDAR: Loadi[37mn[37mg LIDAR dat[37ma[37m file
+12:17:35.788 > S[37mE[37mTUP LIDAR E[37mN[37mD
+12:17:35.802 > SPIFS: A[37ml[37mready Moun[37mt[37med
+12:17:35.804 > PLUV: [37mL[37moading Pluv[37mi[37mometer dat[37ma[37m file
+12:17:35.804 > SETU[37mP[37m PLUVIOMETE[37mR[37m
+12:17:35.804 > SETUP DH[37mT[37m22
+12:17:35.804 > SETUP E[37mN[37mD - HEAP:1[37m8[37m2076
+12:17:35.804 > LIDAR[37m [37mReading:182[37m0[37m76 
+[37m12:17:36.218 > L[37mI[37mDAR FIM[37m
+[37m12:17:36.218 > PE:DE:[37mA[37mttempt[37mi[37mng MQTT con[37mn[37mection...[37mc[37mo[37mnnected
+[37m12:17:40.310 > P[37mE[37m:DE:[37mL[37mI[37mDAR Reading:[37m9[37m1504 
+[37m12:17:41.812 > L[37mI[37mDAR FIM[37m
+[37m12:17:41.814 > PE:DE:[37mP[37mE:[37mDE:[37mP[37mE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mM[37me[37mssage fro[37mm[37m relay inde[37mx[37m:0
+12:17:43.319 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
+12:17:43.319 > Relay di[37ms[37mconnected: [37mH[37meap: 13618[37m4[37m
+[37m12:17:43.819 > P[37mE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mM[37me[37ms[37ms[37mage from r[37me[37mlay index:1[37m[37m
+12:17:44.818 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .
+[37m12:17:44.818 > R[37melay disco[37mn[37mnected: He[37ma[37mp: 178304
+[37m12:17:45.326 > P[37mE:[37mD[37mE:[37mL[37mID[37mA[37mR Reading:1[37m7[37m8672 
+[37m12:17:46.818 > L[37mI[37mDAR FIM
+12:17:46.818 > PE[37m:[37mDE:[37mP[37mE:D[37mE[37m:[37mP[37mE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mL[37mID[37mA[37mR Reading:9[37m2[37m216 
+[37m12:17:53.369 > L[37mI[37mDAR FI[37mM[37m
+12:17:53.369 > PE:DE:[37mP[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mM[37me[37mssage from [37mr[37melay index[37m:[37m0
+12:17:55.384 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
+12:17:55.400 > Relay dis[37mc[37monnected: H[37me[37map: 135424[37m[37m
+[37m12:17:55.896 > P[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mP[37mE[37m:D[37mE[37m:[37mM[37me[37mssage fro[37mm[37m relay ind[37me[37mx:1
+12:17:56.905 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
+12:17:56.908 > Relay d[37mi[37msconnected:[37m [37mHeap: 1780[37m6[37m8
+[37m12:17:57.402 > L[37mID[37mA[37mR Reading:1[37m7[37m5892 
+[37m12:17:58.400 > L[37mI[37mDAR FIM[37m[37m
+12:17:58.402 > PE:DE:[37mP[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE:D[37mE[37m:[37mL[37mID[37mA[37mR Reading:9[37m1[37m776 
+[37m12:18:05.669 > L[37mI[37mDAR [37mF[37mIM
+12:18:05.669 > PE:DE:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mM[37me[37ms[37msage from r[37me[37mlay index:[37m0[37m
+12:18:07.684 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
+[37m12:18:07.688 > Relay disc[37mo[37mnnected: He[37ma[37mp: 135264
+[37m12:18:08.182 > P[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mM[37me[37mss[37ma[37mge from rel[37ma[37my index:1
+[37m12:18:09.185 > [[37mWSc] Disco[37mn[37mnected fro[37mm[37m relay: .
+12:18:09.185 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 177420
+[37m12:18:09.685 > L[37mI[37mDAR[37m [37mReading:17[37m7[37m772 
+[37m12:18:10.684 > L[37mID[37mA[37mR FIM
+12:18:10.684 > PE:D[37mE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mL[37mI[37mDAR[37m [37mReading:91[37m3[37m36 
+[37m12:18:17.855 > L[37mIDA[37mR[37m FIM
+12:18:17.856 > PE:DE[37m:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37mes[37ms[37mage from re[37ml[37may index:0[37m[37m
+12:18:19.868 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
+[37m12:18:19.871 > Relay disco[37mn[37mnected: Hea[37mp[37m: 134496
+[37m12:18:20.366 > P[37mE:DE:[37mP[37mE:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage from[37m [37mrelay index[37m:[37m1
+12:18:21.374 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
+12:18:21.377 > Relay dis[37mc[37monnected: [37mH[37meap: 177548[37m[37m
+[37m12:18:21.872 > L[37mI[37mDAR [37mR[37meading:177[37m5[37m48 
+[37m12:18:22.871 > L[37mI[37mDAR FIM
+[37m12:18:22.872 > P[37mE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mIDA[37mR[37m Reading:88[37m4[37m92 
+[37m12:18:29.835 > L[37mI[37mDAR FIM[37m
+[37m12:18:29.835 > PE:DE:[37mP[37mE[37m:D[37mF[37mai[37ml[37med to read [37mf[37mrom DHT se[37mn[37msor!
+12:18:30.387 > E:[37mP[37mu[37mblicado n[37mo[37m MQTT: 
+12:18:30.403 > HE[37mA[37mP 1 Min:89[37m3[37m52
+[37m12:18:30.902 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssa[37mg[37me from rela[37my[37m index:0
+[37m12:18:31.911 > [[37mWSc] Discon[37mn[37mected from [37mr[37melay: .
+12:18:31.913 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m134060
+[37m12:18:32.409 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssag[37me[37m from relay[37m [37mindex:1
+12:18:33.416 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
+12:18:33.419 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m76228
+[37m12:18:33.915 > L[37mI[37mDAR R[37me[37mading:1766[37m0[37m0 
+[37m12:18:34.913 > L[37mI[37mDAR[37m [37mFIM
+12:18:34.914 > PE:DE[37m:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR [37mR[37meading:90136 [37m
+[37m12:18:42.123 > L[37mI[37mDAR FIM
+12:18:42.124 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mss[37ma[37mge from rel[37ma[37my index:0[37m
+[37m12:18:44.136 > [WSc] Disco[37mn[37mnected from[37m [37mrelay: .
+12:18:44.138 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 133636
+[37m12:18:44.633 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssag[37me[37m from relay[37m [37mindex:1
+12:18:45.635 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
+12:18:45.635 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m175728
+[37m12:18:46.135 > L[37mI[37mDAR Re[37ma[37mding:176156[37m [37m
+[37m12:18:47.135 > L[37mI[37mDAR FIM
+12:18:47.135 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR R[37me[37mading:8971[37m6[37m 
+[37m12:18:54.312 > L[37mIDA[37mR[37m FIM
+12:18:54.313 > PE:D[37mE[37m:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssag[37me[37m from rela[37my[37m index:0
+12:18:56.324 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
+12:18:56.327 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m133204
+[37m12:18:56.822 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage [37mf[37mrom relay [37mi[37mndex:1
+12:18:57.830 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
+12:18:57.833 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m7[37m5328
+[37m12:18:58.329 > L[37mI[37mDAR Rea[37md[37ming:175704[37m [37m
+[37m12:18:59.326 > L[37mI[37mDAR FIM
+12:18:59.328 > PE:[37mD[37mE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR Re[37ma[37mding:89252 [37m
+[37m12:19:06.385 > L[37mI[37mDAR FIM[37m
+[37m12:19:06.385 > PE:DE:[37mP[37mE[37m:DE:[37mP[37mE:DE:[37mP[37mE[37m:DE:[37mP[37mE:DE:[37mM[37me[37mssage[37m [37mfrom relay [37mi[37mndex:0
+12:19:08.404 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
+12:19:08.407 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m3[37m2512
+[37m12:19:08.902 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssa[37mg[37me from rela[37my[37m index:1
+[37m12:19:09.910 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
+12:19:09.912 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m174896
+[37m12:19:10.407 > L[37mI[37mDAR Rea[37md[37ming:175256 [37m
+[37m12:19:11.406 > L[37mI[37mDAR F[37mI[37mM
+12:19:11.407 > PE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR Rea[37md[37ming:89480 
+[37m12:19:18.580 > L[37mI[37mDAR [37mF[37mIM
+12:19:18.581 > PE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage[37m [37mfrom relay[37m [37mindex:0
+12:19:20.585 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
+12:19:20.585 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m32744
+[37m12:19:21.085 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssag[37me[37m from rela[37my[37m index:1
+12:19:22.085 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
+12:19:22.100 > Rel[37ma[37my disconne[37mc[37mted: Heap:[37m [37m175108
+[37m12:19:22.585 > L[37mI[37mDAR Readi[37mn[37mg:175256 
+[37m12:19:23.585 > L[37mI[37mDAR FIM
+12:19:23.585 > PE:[37mD[37mE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR Read[37mi[37mng:89264 
+[37m12:19:30.662 > L[37mIDAR[37m [37mFIM
+12:19:30.663 > PE:DE:[37mP[37mE[37m:D[37mF[37ma[37miled to[37m [37mread from[37m [37mDHT sensor![37m[37m
+12:19:31.224 > E:[37mP[37mublic[37ma[37mdo no MQTT[37m:[37m 
+12:19:31.224 > HEAP 1 [37mM[37min:88028
+[37m12:19:31.726 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage[37m [37mfrom relay[37m [37mindex:0
+12:19:32.734 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
+12:19:32.735 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m32412
+[37m12:19:33.218 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage fro[37mm[37m relay inde[37mx[37m:1
+12:19:34.235 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
+12:19:34.235 > Relay di[37ms[37mconnected:[37m [37mHeap: 17462[37m0[37m
+[37m12:19:34.735 > L[37mI[37mDAR Readin[37mg[37m:175256 
+[37m12:19:35.735 > L[37mI[37mDAR FIM
+12:19:35.735 > PE:D[37mE[37m:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR Readi[37mn[37mg:89316 
+[37m12:19:42.835 > L[37mIDAR[37m [37mFIM
+12:19:42.835 > PE:DE[37m:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssag[37me[37m from relay[37m [37mindex:0
+12:19:44.857 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
+12:19:44.860 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m32760
+[37m12:19:45.357 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage fro[37mm[37m relay ind[37me[37mx:1
+12:19:46.364 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
+12:19:46.368 > Relay d[37mi[37msconnected:[37m [37mHeap: 1751[37m0[37m0
+[37m12:19:46.863 > L[37mI[37mDAR Readin[37mg[37m:175248 
+[37m12:19:47.862 > L[37mI[37mDAR FIM
+[37m12:19:47.863 > P[37mE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:[37mDE:[37mL[37mI[37mDAR Readin[37mg[37m:89272 
+[37m12:19:54.929 > L[37mI[37mDAR FIM
+12:19:54.930 > PE:[37mD[37mE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssag[37me[37m from relay[37m [37mindex:0
+12:19:56.935 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
+12:19:56.935 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m32764
+[37m12:19:57.435 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage f[37mr[37mom relay i[37mn[37mdex:1
+12:19:58.435 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
+12:19:58.452 > Relay[37m [37mdisconnecte[37md[37m: Heap: 174[37m9[37m04
+[37m12:19:58.935 > L[37mI[37mDAR Reading[37m:[37m175260 
+[37m12:19:59.935 > L[37mI[37mDAR FIM[37m[37m
+12:19:59.935 > PE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR Reading[37m:[37m89004 
+[37m12:20:07.119 > L[37mI[37mDAR FIM
+12:20:07.120 > PE:[37mD[37mE:[37mP[37mE[37m:[37mDE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE:[37mD[37mE:[37mM[37me[37mssage from[37m [37mrelay inde[37mx[37m:0
+12:20:09.132 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
+12:20:09.135 > Relay dis[37mc[37monnected: [37mH[37meap: 13244[37m8[37m
+[37m12:20:09.618 > P[37mE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mM[37me[37mssage f[37mr[37mom relay in[37md[37mex:1
+12:20:10.635 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
+12:20:10.635 > Relay [37md[37misconnecte[37md[37m: Heap: 175[37m4[37m80
+[37m12:20:11.135 > L[37mI[37mDAR Reading:[37m1[37m75480 
+[37m12:20:12.134 > L[37mI[37mDAR FI[37mM[37m
+12:20:12.136 > PE:DE:[37mP[37mE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mP[37mE:DE:[37mP[37mE[37m:DE[37m:[37mL[37mI[37mDAR Reading:[37m8[37m9300 
+[37m12:20:19.100 > L[37mID[37mA[37mR FIM
+12:20:19.100 > PE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mP[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mM[37me[37mssage from [37mr[37melay index[37m:[37m0
+12:20:21.113 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
+12:20:21.116 > Relay dis[37mc[37monnected: H[37me[37map: 132752[37m[37m
+[37m12:20:21.612 > P[37mE:[37mD[37mE:[37mP[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mM[37me[37mssage fro[37mm[37m relay ind[37me[37mx:1
+12:20:22.621 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
+12:20:22.624 > Relay d[37mi[37msconnected:[37m [37mHeap: 174888[37m[37m
+[37m12:20:23.119 > L[37mID[37mA[37mR Reading:1[37m7[37m5256 
+[37m12:20:24.117 > L[37mI[37mDAR FI[37mM[37m
+12:20:24.119 > PE:DE:[37mP[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mL[37mID[37mA[37mR Reading:8[37m9[37m796 
+[37m12:20:31.078 > L[37mI[37mDAR FIM
+12:20:31.079 > PE[37m:[37mDE:[37mP[37mE:D[37mF[37ma[37miled to re[37ma[37md from DHT [37ms[37mensor!
+12:20:31.637 > E:[37mP[37mu[37mblicado[37m [37mno MQTT: 
+[37m12:20:31.637 > H[37mEAP 1 Min:[37m8[37m8056
+[37m12:20:32.141 > P[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mM[37me[37mssage fr[37mo[37mm relay ind[37me[37mx:0
+12:20:33.135 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
+12:20:33.153 > Relay d[37mi[37msconnected:[37m [37mHeap: 1324[37m0[37m4
+[37m12:20:33.635 > P[37mE:D[37mE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE:DE[37m:[37mM[37me[37mssage from[37m [37mrelay index[37m:[37m1
+12:20:34.657 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
+12:20:34.660 > Relay dis[37mc[37monnected: He[37ma[37mp: 175328[37m[37m
+[37m12:20:35.155 > L[37mIDA[37mR[37m Reading:17[37m5[37m480 
+[37m12:20:36.153 > L[37mI[37mDAR F[37mI[37mM
+12:20:36.155 > PE:DE:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE:DE[37m:[37mP[37mE[37m:DE[37m:[37mL[37mIDA[37mR[37m Reading:89[37m2[37m88 
+[37m12:20:43.467 > L[37mI[37mDAR [37mF[37mIM
+12:20:43.469 > PE:DE:[37mP[37mE[37m:DE[37m:[37mP[37mE:DE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mM[37me[37mssage fr[37mo[37mm relay in[37md[37mex:0
+12:20:45.468 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
+12:20:45.483 > Relay [37md[37misconnected[37m:[37m Heap: 132[37m7[37m56
+[37m12:20:45.979 > P[37mE:DE[37m:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssa[37mg[37me from rel[37ma[37my index:1
+[37m12:20:46.984 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
+12:20:46.984 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 174904
+[37m12:20:47.484 > L[37mI[37mDAR[37m [37mReading:175[37m2[37m56 
+[37m12:20:48.484 > L[37mI[37mDAR FIM
+[37m12:20:48.485 > P[37mE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mIDA[37mR[37m Reading:86[37m6[37m60 
+[37m12:20:55.551 > L[37mI[37mDAR FIM[37m
+[37m12:20:55.554 > PE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37mess[37ma[37mge from re[37ml[37may index:0[37m[37m
+12:20:57.566 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
+[37m12:20:57.569 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 132752
+[37m12:20:58.063 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssag[37me[37m from relay[37m [37mindex:1
+12:20:59.071 > [[37mW[37mSc] Disconn[37me[37mcted from r[37me[37mlay: .
+12:20:59.074 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m74876
+[37m12:20:59.569 > L[37mI[37mDAR [37mR[37meading:1752[37m5[37m6 
+[37m12:21:00.553 > L[37mI[37mDAR FIM
+12:21:00.569 > PE[37m:[37mDE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR [37mR[37meading:89256[37m [37m
+[37m12:21:07.619 > L[37mI[37mDAR FIM
+12:21:07.635 > PE[37m:[37mDE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mss[37ma[37mge from rel[37ma[37my index:0[37m
+[37m12:21:09.635 > [WSc] Disco[37mn[37mnected from[37m [37mrelay: .
+12:21:09.651 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 132228
+[37m12:21:10.135 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage[37m [37mfrom relay [37mi[37mndex:1
+12:21:11.155 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
+12:21:11.156 > Rel[37ma[37my disconnec[37mt[37med: Heap: 1[37m7[37m4896
+[37m12:21:11.653 > L[37mI[37mDAR R[37me[37mading:17525[37m6[37m 
+[37m12:21:12.653 > L[37mI[37mDAR F[37mI[37mM
+12:21:12.654 > PE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR Rea[37md[37ming:8924[37m0[37m 
+[37m12:21:19.620 > L[37mI[37mDAR FIM
+12:21:19.621 > PE[37m:[37mDE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssag[37me[37m from rela[37my[37m index:0
+12:21:21.632 > [[37mW[37mSc] Discon[37mn[37mected from[37m [37mrelay: .
+12:21:21.635 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m132752
+[37m12:21:22.119 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage [37mf[37mrom relay i[37mn[37mdex:1
+12:21:23.134 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
+12:21:23.134 > Rela[37my[37m disconnect[37me[37md: Heap: 17[37m4[37m892
+[37m12:21:23.634 > L[37mI[37mDAR Re[37ma[37mding:175256 [37m
+[37m12:21:24.635 > L[37mI[37mDAR [37mF[37mIM
+12:21:24.635 > PE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR Re[37ma[37mding:89272[37m [37m
+[37m12:21:31.685 > L[37mIDA[37mR[37m FIM
+12:21:31.685 > PE:DE[37m:[37mP[37mE[37m:D[37mF[37maile[37md[37m to read fr[37mo[37mm DHT sens[37mo[37mr!
+12:21:32.260 > E:[37mP[37mu[37mb[37mlicado no M[37mQ[37mTT: 
+12:21:32.263 > HEAP [37m1[37m Min:88024[37m[37m
+[37m12:21:32.763 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37ms[37ms[37mage from re[37ml[37may index:0[37m
+[37m12:21:33.769 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
+[37m12:21:33.769 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 132760
+[37m12:21:34.269 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mss[37ma[37mge from rel[37ma[37my index:1[37m
+[37m12:21:35.268 > [WSc] Disco[37mn[37mnected from[37m [37mrelay: .
+12:21:35.268 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 175096
+[37m12:21:35.776 > L[37mIDAR Read[37mi[37mng:175260[37m [37m
+[37m12:21:36.774 > L[37mI[37mDAR FIM[37m
+[37m12:21:36.776 > PE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR Re[37ma[37mding:87132[37m [37m
+[37m12:21:44.085 > L[37mID[37mA[37mR FIM
+12:21:44.085 > PE:D[37mE[37m:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssa[37mg[37me from rela[37my[37m index:0
+[37m12:21:46.103 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
+12:21:46.105 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m132532
+[37m12:21:46.599 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssa[37mg[37me from rel[37ma[37my index:1
+[37m12:21:47.608 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
+12:21:47.610 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m174888
+[37m12:21:48.105 > L[37mI[37mDAR Read[37mi[37mng:175256 
+[37m12:21:49.103 > L[37mI[37mDAR [37mF[37mIM
+12:21:49.105 > PE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR Rea[37md[37ming:89212 
+[37m12:21:56.169 > L[37mI[37mDAR FIM
+12:21:56.169 > PE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage [37mf[37mrom relay [37mi[37mndex:0
+12:21:58.186 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
+12:21:58.186 > Relay[37m [37mdisconnect[37me[37md: Heap: 13[37m2[37m156
+[37m12:21:58.684 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage[37m [37mfrom relay[37m [37mindex:1
+12:21:59.692 > [[37mW[37mSc] Disconn[37me[37mcted from r[37me[37mlay: .
+12:21:59.695 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m75480
+[37m12:22:00.185 > L[37mI[37mDAR Read[37mi[37mng:175480 
+[37m12:22:01.185 > L[37mI[37mDAR[37m [37mFIM
+12:22:01.185 > PE:DE[37m:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR Read[37mi[37mng:89276 
+[37m12:22:08.253 > L[37mID[37mA[37mR FIM
+12:22:08.254 > PE:[37mD[37mE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage fr[37mo[37mm relay in[37md[37mex:0
+12:22:10.266 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
+12:22:10.269 > Relay d[37mi[37msconnected[37m:[37m Heap: 1327[37m3[37m6
+[37m12:22:10.754 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage[37m [37mfrom relay[37m [37mindex:1
+12:22:11.771 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
+12:22:11.774 > Rela[37my[37m disconnec[37mt[37med: Heap: [37m1[37m74904
+[37m12:22:12.269 > L[37mI[37mDAR Readin[37mg[37m:175256 
+[37m12:22:13.268 > L[37mI[37mDAR F[37mI[37mM
+12:22:13.269 > PE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR Readi[37mn[37mg:89224 
+[37m12:22:20.434 > L[37mI[37mDAR FIM[37m
+[37m12:22:20.434 > PE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage fr[37mo[37mm relay in[37md[37mex:0
+12:22:22.451 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
+12:22:22.455 > Relay d[37mi[37msconnected[37m:[37m Heap: 1327[37m2[37m8
+[37m12:22:22.934 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage from [37mr[37melay index[37m:[37m1
+12:22:23.957 > [WSc] D[37mi[37msconnected [37mf[37mrom relay: [37m.[37m
+12:22:23.960 > Relay dis[37mc[37monnected: H[37me[37map: 174892[37m[37m
+[37m12:22:24.455 > L[37mI[37mDAR Reading[37m:[37m175256 
+[37m12:22:25.454 > L[37mI[37mDAR FIM
+12:22:25.455 > PE:[37mD[37mE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR Reading:[37m8[37m8984 
+[37m12:22:32.627 > L[37mIDAR[37m [37mFIM
+12:22:32.628 > PE:DE[37m:[37mP[37mE[37m:D[37mF[37ma[37miled to [37mr[37mead from D[37mH[37mT sensor!
+[37m12:22:33.185 > E[37m:[37mP[37mublica[37md[37mo no MQTT: [37m[37m
+12:22:33.185 > HEAP 1 Mi[37mn[37m:88020
+[37m12:22:33.692 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssag[37me[37m from rela[37my[37m index:0
+12:22:34.699 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
+12:22:34.703 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m132520
+[37m12:22:35.198 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage from r[37me[37mlay index:[37m1[37m
+12:22:36.206 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
+[37m12:22:36.209 > Relay disc[37mo[37mnnected: He[37ma[37mp: 174884[37m
+[37m12:22:36.704 > L[37mI[37mDAR Reading:[37m1[37m75256 
+[37m12:22:37.702 > L[37mI[37mDAR FIM
+[37m12:22:37.704 > P[37mE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE:[37mD[37mE:[37mL[37mI[37mDAR Reading:8[37m9[37m240 
+[37m12:22:45.118 > L[37mI[37mDAR FIM
+[37m12:22:45.120 > P[37mE:DE:[37mP[37mE[37m:DE:[37mP[37mE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mM[37me[37mssage from[37m [37mrelay inde[37mx[37m:0
+12:22:46.629 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
+12:22:46.632 > Relay di[37ms[37mconnected: [37mH[37meap: 13249[37m6[37m
+[37m12:22:47.128 > P[37mE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mM[37me[37mssage fr[37mo[37mm relay ind[37me[37mx:1
+12:22:48.634 > [WSc] [37mD[37misconnecte[37md[37m from rela[37my[37m: .
+12:22:48.634 > Relay d[37mi[37msconnected[37m:[37m Heap: 1746[37m2[37m0
+[37m12:22:49.135 > L[37mID[37mA[37mR Reading:[37m1[37m75260 
+[37m12:22:50.136 > L[37mID[37mA[37mR FIM
+12:22:50.136 > PE:D[37mE[37m:[37mP[37mE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mP[37mE:[37mD[37mE:[37mP[37mE[37m:DE:[37mL[37mI[37mD[37mAR Reading:[37m8[37m9732 
+[37m12:22:57.085 > L[37mI[37mDAR FIM[37m
+[37m12:22:57.100 > PE:DE:[37mP[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mP[37mE[37m:D[37mE[37m:[37mM[37me[37mssage from[37m [37mrelay inde[37mx[37m:0
+12:22:58.608 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
+12:22:58.611 > Relay di[37ms[37mconnected: [37mH[37meap: 13271[37m6[37m
+[37m12:22:59.107 > P[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mP[37mE[37m:D[37mE[37m:[37mM[37me[37mssage fro[37mm[37m relay inde[37mx[37m:1
+12:23:00.616 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
+12:23:00.619 > Relay d[37mi[37msconnected:[37m [37mHeap: 17532[37m4[37m
+[37m12:23:01.114 > L[37mIDA[37mR[37m Reading:17[37m5[37m480 
+[37m12:23:02.113 > L[37mIDA[37mR[37m FIM
+12:23:02.113 > PE:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mP[37mE[37m:D[37mE[37m:[37mP[37mE:D[37mE[37m:[37mP[37mE:[37mD[37mE:[37mL[37mID[37mA[37mR Reading:8[37m9[37m760 
+[37m12:23:09.182 > L[37mI[37mDAR FIM
+12:23:09.183 > PE:[37mD[37mE:[37mP[37mE[37m:D[37mE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mM[37me[37mssage from r[37me[37mlay index:[37m0[37m
+12:23:10.685 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
+[37m12:23:10.685 > Relay disc[37mo[37mnnected: H[37me[37map: 132724[37m
+[37m12:23:11.184 > P[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mM[37me[37mss[37ma[37mge from rel[37ma[37my index:1[37m
+[37m12:23:12.700 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
+12:23:12.702 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 174896
+[37m12:23:13.187 > L[37mI[37mDAR[37m [37mReading:1752[37m5[37m6 
+[37m12:23:14.186 > L[37mI[37mDAR[37m [37mFIM
+12:23:14.186 > PE:DE:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE[37m:[37mP[37mE:[37mD[37mE:[37mL[37mI[37mDA[37mR[37m Reading:89[37m7[37m52 
+[37m12:23:21.367 > L[37mI[37mDAR FI[37mM[37m
+12:23:21.368 > PE:DE:[37mP[37mE[37m:DE[37m:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37ms[37ms[37mage from re[37ml[37may index:0[37m[37m
+12:23:22.882 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
+[37m12:23:22.885 > R[37melay disco[37mn[37mnected: He[37ma[37mp: 132780
+[37m12:23:23.380 > P[37mE[37m:DE[37m:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssa[37mg[37me from rela[37my[37m index:1
+[37m12:23:24.888 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
+12:23:24.890 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m174892
+[37m12:23:25.385 > L[37mI[37mDAR[37m [37mReading:175[37m2[37m60 
+[37m12:23:26.384 > L[37mI[37mDAR FIM
+[37m12:23:26.384 > P[37mE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE[37m:[37mL[37mIDAR[37m [37mReading:897[37m3[37m6 
+[37m12:23:33.656 > L[37mI[37mDAR[37m [37mFIM
+12:23:33.658 > PE:DE[37m:[37mP[37mE[37m:D[37mF[37ma[37miled to read f[37mr[37mom DHT se[37mn[37msor!
+12:23:34.218 > E:[37mP[37mu[37mblicado no[37m [37mMQTT: 
+12:23:34.221 > HE[37mA[37mP 1 Min:88[37m0[37m04
+[37m12:23:34.720 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssag[37me[37m from relay[37m [37mindex:0
+12:23:35.227 > [[37mW[37mSc] Disconn[37me[37mcted from r[37me[37mlay: .
+12:23:35.229 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m32740
+[37m12:23:35.725 > P[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mM[37me[37mssage [37mf[37mrom relay i[37mn[37mdex:1
+12:23:37.234 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
+12:23:37.237 > Relay[37m [37mdisconnect[37me[37md: Heap: 17[37m4[37m740
+[37m12:23:37.734 > L[37mI[37mDAR [37mR[37meading:174976[37m [37m
+[37m12:23:38.733 > L[37mI[37mDAR FIM
+[37m12:23:38.735 > P[37mE:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mP[37mE[37m:DE:[37mL[37mI[37mDAR [37mR[37meading:8976[37m8[37m 
+[37m12:23:46.137 > L[37mI[37mDAR [37mF[37mIM
+12:23:46.137 > PE:DE:[37mP[37mE:DE:[37mP[37mE[37m:DE:

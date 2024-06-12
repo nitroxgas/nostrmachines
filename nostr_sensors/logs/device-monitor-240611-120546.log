@@ -1,0 +1,39 @@
+[37m12:05:48.902 > Total heap: 263480
+12:05:48.902 > Free heap: 237080
+12:05:48.902 > Total PSRAM: 4192107
+12:05:48.902 > Free PSRAM: 4191847
+12:05:48.902 > SPIFS: Mounting File System...
+12:05:48.902 > SPIFS: Loading config file
+12:05:48.902 >  
+12:05:48.902 > AllDone: 
+12:05:48.902 > *wm:AutoConnect 
+12:05:48.902 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m12:05:49.537 > *[37mw[37mm:AutoConnec[37mt[37m: SUCCESS [37m[37m
+12:05:49.540 > *wm:STA IP[37m [37mAddress: 1[37m9[37m2.168.1.25[37m
+[37m12:05:49.543 > 
+12:05:49.543 > WiFi con[37mn[37mected
+12:05:49.543 > IP a[37md[37mdress: 192.[37m1[37m68.1.25
+12:05:49.546 > P[37mr[37mivate Key:[37m d3871668e532102ca5293649d8e9f0e9085dd58e161cf93bee6037abb5b8a3fb
+12:05:49.559 > Public Key: 8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0
+12:05:49.559 > Relays: nostr.bitcoiner.social,relay.plebstr.com,nos.lol,relay.damus.io
+12:05:49.559 > Master Pub Key: 20f77fb3[37mb0ea02216cd0[37m5[37mf38f2784e6[37m6[37m3db02c3ea2e[37m2[37m85eda0ffba[37m4[37m02c621ceb
+[37m12:05:49.573 > T[37mimeZone fr[37mo[37mmUTC: -3
+[37m12:05:53.860 > S[37me[37mtting cal[37ml[37mbacks
+12:05:53.862 > con[37mn[37mecting
+12:05:53.863 > Rel[37ma[37mys are:
+12:05:53.864 > r[37me[37mlay.plebstr[37m.[37mcom
+12:05:53.866 > nos.l[37mo[37ml
+12:05:53.867 > Connecti[37mn[37mg to relay[37m:[37m relay.pleb[37ms[37mtr.com
+12:05:53.870 > Co[37mn[37mnecting to [37mr[37melay: nos.[37ml[37mol
+[37m12:05:54.370 > S[37mE[37mTUP LID[37mA[37mR
+12:05:54.370 > SETUP L[37mI[37mDAR START
+[37m12:05:54.370 > V[37mersão: 2.1[37m.[37m5
+[37m12:05:54.410 > S[37mP[37mIFS: A[37ml[37mready Mount[37me[37md
+[37m12:05:54.423 > L[37mI[37mDAR: Loading[37m [37mLIDAR data[37m [37mfile
+12:05:54.438 > SE[37mT[37mUP LIDAR EN[37mD[37m
+12:05:54.440 > SPIFS: A[37ml[37mready Mount[37me[37md
+12:05:54.440 > PLUV: L[37mo[37mading Pluvi[37mo[37mmeter data[37m [37mfile
+12:05:54.440 > SETUP[37m [37mPLUVIOMETE[37mR[37m
+12:05:54.440 > SETUP DHT[37m2[37m2
+12:05:54.440 > SETUP E[37mN[37mD - HEAP:18[37m2[37m092
+12:05:54.440 > LIDAR [37mR[37meading:1820[37m9[37m2 

@@ -1,0 +1,134 @@
+23:07:05.166 > SPIFS: Mounting File System...
+23:07:05.166 > SPIFS: Loading config file
+23:07:05.166 >  
+23:07:05.166 > AllDone: 
+23:07:05.166 > *wm:AutoConnect 
+23:07:05.166 > *wm:Connecting to SAVED AP: GeorgeHomeT
+23:07:05.348 > *wm:AutoConnect: SUCCESS 
+23:07:05.351 > *wm:STA IP Address: 192.168.1.25
+23:07:05.354 > 
+23:07:05.354 > WiFi connected
+23:07:05.356 > IP address: 192.168.1.25
+23:07:05.358 > Private Key: d3871668e532102ca5293649d8e9f0e9085dd58e161cf93bee6037abb5b8a3fb
+23:07:05.365 > Public Key: 8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0
+23:07:05.371 > Relays: nostr.bitcoiner.social,relay.plebstr.com,nos.lol,relay.damus.io
+23:07:05.378 > Master Pub Key: 20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb
+23:07:05.381 > TimeZone fromUTC: -3
+23:07:05.387 > SETUP NOSTR
+23:07:07.621 > Setting callbacks
+23:07:07.624 > connecting
+23:07:07.625 > Relays are:
+23:07:07.626 > relay.plebstr.com
+23:07:07.628 > nos.lol
+23:07:07.628 > Connecting to relay: relay.plebstr.com
+23:07:07.631 > Connecting to relay: nos.lol
+23:07:08.134 > SETUP LIDAR
+23:07:08.135 > SETUP LIDAR START
+23:07:08.137 > Versão: 2.1.5
+23:07:08.187 > SPIFS: Already Mounted
+23:07:08.204 > LIDAR: Loading LIDAR data file
+23:07:08.208 > SETUP LIDAR END
+23:07:08.210 > SPIFS: Already Mounted
+23:07:08.238 > PLUV: Loading Pluviometer data file
+23:07:08.241 > SETUP PLUVIOMETER
+23:07:08.243 > SETUP DHT22
+23:07:08.244 > SETUP END - HEAP:
+23:07:08.246 > Total heap: 260384
+23:07:08.247 > Free heap: 182108
+23:07:08.249 > Total PSRAM: 4192091
+23:07:08.251 > Free PSRAM: 4191571
+23:07:09.197 > Attempting MQTT connection...connected
+23:07:16.135 > 
+23:07:16.135 > Message from relay index:0
+23:07:16.135 > [WSc] Disconnected from relay: .
+23:07:16.135 > Relay disconnected: Heap: 135908
+23:07:18.135 > 
+23:07:18.135 > Message from relay index:1
+23:07:18.135 > [WSc] Disconnected from relay: .
+23:07:18.135 > Relay disconnected: Heap: 176300
+23:07:28.937 > 
+23:07:28.937 > Message from relay index:0
+23:07:28.937 > [WSc] Disconnected from relay: .
+23:07:28.937 > Relay disconnected: Heap: 135984
+23:07:30.935 > 
+23:07:30.935 > Message from relay index:1
+23:07:30.935 > [WSc] Disconnected from relay: .
+23:07:30.952 > Relay disconnected: Heap: 178156
+23:07:41.737 > 
+23:07:41.738 > Message from relay index:0
+23:07:41.740 > [WSc] Disconnected from relay: .
+23:07:41.743 > Relay disconnected: Heap: 135580
+23:07:43.746 > 
+23:07:43.747 > Message from relay index:1
+23:07:43.749 > [WSc] Disconnected from relay: .
+23:07:43.752 > Relay disconnected: Heap: 176320
+23:07:54.435 > 
+23:07:54.435 > Message from relay index:0
+23:07:54.435 > [WSc] Disconnected from relay: .
+23:07:54.435 > Relay disconnected: Heap: 135136
+23:07:56.435 > 
+23:07:56.435 > Message from relay index:1
+23:07:56.435 > [WSc] Disconnected from relay: .
+23:07:56.435 > Relay disconnected: Heap: 177256
+23:08:06.182 > Failed to read from DHT sensor!
+23:08:06.185 > Publicado no MQTT: 
+23:08:06.185 > HEAP 1 Min:88848
+23:08:07.185 > 
+23:08:07.185 > Message from relay index:0
+23:08:07.185 > [WSc] Disconnected from relay: .
+23:08:07.185 > Relay disconnected: Heap: 133940
+23:08:09.185 > 
+23:08:09.185 > Message from relay index:1
+23:08:09.202 > [WSc] Disconnected from relay: .
+23:08:09.205 > Relay disconnected: Heap: 176320
+23:08:19.241 > 
+23:08:19.242 > Message from relay index:0
+23:08:19.244 > [WSc] Disconnected from relay: .
+23:08:19.247 > Relay disconnected: Heap: 132620
+23:08:22.235 > 
+23:08:22.235 > Message from relay index:1
+23:08:22.250 > [WSc] Disconnected from relay: .
+23:08:22.254 > Relay disconnected: Heap: 175868
+23:08:32.323 > 
+23:08:32.324 > Message from relay index:0
+23:08:32.326 > [WSc] Disconnected from relay: .
+23:08:32.329 > Relay disconnected: Heap: 133276
+23:08:34.332 > 
+23:08:34.333 > Message from relay index:1
+23:08:34.335 > [WSc] Disconnected from relay: .
+23:08:34.338 > Relay disconnected: Heap: 173704
+23:08:45.124 > 
+23:08:45.125 > Message from relay index:0
+23:08:45.127 > [WSc] Disconnected from relay: .
+23:08:45.129 > Relay disconnected: Heap: 132836
+23:08:47.129 > 
+23:08:47.130 > Message from relay index:1
+23:08:47.132 > [WSc] Disconnected from relay: .
+23:08:47.135 > Relay disconnected: Heap: 174956
+23:08:57.308 > 
+23:08:57.309 > Message from relay index:0
+23:08:57.312 > [WSc] Disconnected from relay: .
+23:08:57.314 > Relay disconnected: Heap: 132804
+23:08:59.312 > 
+23:08:59.313 > Message from relay index:1
+23:08:59.316 > [WSc] Disconnected from relay: .
+23:08:59.319 > Relay disconnected: Heap: 174948
+23:09:05.286 > Failed to read from DHT sensor!
+23:09:05.286 > Publicado no MQTT: 
+23:09:05.286 > HEAP 1 Min:129896
+23:09:10.108 > 
+23:09:10.109 > Message from relay index:0
+23:09:10.111 > [WSc] Disconnected from relay: .
+23:09:10.114 > Relay disconnected: Heap: 132816
+23:09:12.115 > 
+23:09:12.115 > Message from relay index:1
+23:09:12.117 > [WSc] Disconnected from relay: .
+23:09:12.120 > Relay disconnected: Heap: 173168
+23:09:22.887 > 
+23:09:22.887 > Message from relay index:0
+23:09:22.887 > [WSc] Disconnected from relay: .
+23:09:22.887 > Relay disconnected: Heap: 132808
+23:09:23.886 > 
+23:09:23.886 > Message from relay index:1
+23:09:23.886 > [WSc] Disconnected from relay: .
+23:09:23.902 > Relay disconnected: Heap: 174832

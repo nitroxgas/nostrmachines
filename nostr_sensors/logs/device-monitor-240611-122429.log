@@ -1,0 +1,488 @@
+[37m12:24:31.541 > Total heap: 263504
+12:24:31.541 > Free heap: 237080
+12:24:31.541 > Total PSRAM: 4192107
+12:24:31.541 > Free PSRAM: 4191847
+12:24:31.541 > SPIFS: Mounting File System...
+12:24:31.541 > SPIFS: Loading config file
+12:24:31.541 >  
+12:24:31.541 > AllDone: 
+12:24:31.541 > *wm:AutoConnect 
+12:24:31.541 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m12:24:32.198 > *[37mw[37mm:AutoCo[37mn[37mnect: SUCC[37mE[37mSS 
+12:24:32.201 > *wm:ST[37mA[37m IP Addres[37ms[37m: 192.168.1[37m.[37m25
+12:24:32.203 > 
+12:24:32.203 > WiFi[37m [37mconnected
+[37m12:24:32.206 > I[37mP address:[37m [37m192.168.1.2[37m5[37m
+12:24:32.208 > Private [37mK[37mey: d387166[37m8[37me532102ca529[37m3[37m649d8e9f0[37me[37m9085dd58e1[37m6[37m1cf93bee603[37m7[37mabb5b8a3fb[37m[37m
+12:24:32.215 > Public Key[37m:[37m 8ceb5dcd9a[37m7[37mbe4cb3f399[37mc[37m073d9dad54[37ma[37mcecdebac317[37m6[37mcdb041b36f5[37mb[37me5678e0
+12:24:32.220 > R[37me[37mlays: nostr[37m.[37mbitcoiner.[37ms[37mocial,relay[37m.[37mplebstr.co[37mm[37m,nos.lol,re[37ml[37may.damus.i[37mo[37m
+12:24:32.223 > Master Pu[37mb[37m Key: 20f7[37m7[37mfb3b0ea0221[37m6[37mcd05f38f27[37m8[37m4e663db02c3[37me[37ma2e285eda0f[37mf[37mba402c621c[37me[37mb
+12:24:32.234 > TimeZon[37me[37m fromUTC: -[37m3[37m
+[37m12:24:32.501 > S[37me[37mtting[37m [37mcallbacks
+12:24:32.503 > c[37mo[37mnnecting[37m
+[37m12:24:32.505 > Relays are:[37m[37m
+12:24:32.506 > relay.ple[37mb[37mstr.com
+12:24:32.507 > Co[37mn[37mnecting to[37m [37mrelay: rela[37my[37m.plebstr.co[37mm[37m
+[37m12:24:33.002 > S[37mE[37mTUP[37m [37mLIDAR
+12:24:33.004 > SET[37mU[37mP LIDAR STA[37mR[37mT
+12:24:33.006 > Versão[37m:[37m 2.1.5
+[37m12:24:33.051 > S[37mP[37mIFS: Alre[37ma[37mdy Mounted[37m[37m
+[37m12:24:33.054 > L[37mID[37mA[37mR: Loading [37mL[37mIDAR data f[37mi[37mle
+12:24:33.069 > SE[37mT[37mUP LIDAR EN[37mD[37m
+12:24:33.070 > SPIFS: A[37ml[37mready Mount[37me[37md
+12:24:33.070 > PLUV: L[37mo[37mading Pluvi[37mo[37mmeter data[37m [37mfile
+12:24:33.070 > SETUP[37m [37mPLUVIOMETER[37m[37m
+12:24:33.070 > SETUP DHT[37m2[37m2
+12:24:33.070 > SETUP E[37mN[37mD - HEAP:18[37m2[37m132
+12:24:33.070 > PE:DE:[37mN[37mLE:NRE:MAtt[37me[37mmpting MQTT[37m [37mconnection[37m.[37m..[37mc[37mo[37mnnected
+[37m12:24:33.091 > E[37m:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mL[37mI[37mDAR Read[37mi[37mng:179824 
+[37m12:24:36.091 > L[37mI[37mDAR F[37mI[37mM
+12:24:36.093 > PE:DE:NL[37mE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mL[37mI[37mDAR Readi[37mn[37mg:136568 
+[37m12:24:41.411 > L[37mI[37mDAR [37mF[37mIM
+12:24:41.412 > PE:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLMes[37ms[37mage from re[37ml[37may index:0[37m[37m
+12:24:42.917 > [WSc] Conn[37me[37mcted to re[37ml[37may: .
+12:24:42.918 > Rela[37my[37m connected:[37m [37m
+12:24:42.920 > message
+[37m12:24:42.921 > R[37mequesting [37me[37mvents:
+12:24:42.922 > SET[37mU[37mP END:1363[37m1[37m2
+12:24:42.924 > E:NRBroa[37md[37mcasting ev[37me[37mnt: ["REQ",[37m [37m"ykZGI3vSI[37me[37mhkA6O89vCZg[37mF[37mWsZVmMV5WO[37mg[37mUA2aqTHMRKG[37mS[37m1Mn3ZDvTrB[37mG[37mIz7Io0D2", [37m{[37m"#p": ["20f[37m7[37m7fb3b0ea02[37m2[37m16cd05f38f[37m2[37m784e663db02[37mc[37m3ea2e285ed[37ma[37m0ffba402c62[37m1[37mceb"], "kind[37ms[37m": [4], "[37ml[37mimit": 999}[37m][37m
+[37m12:24:43.939 > E[37m:[37mME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mL[37mI[37mDAR Readi[37mn[37mg:136520 
+[37m12:24:46.440 > L[37mIDAR[37m [37mFIM
+12:24:46.441 > PE:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:M[37mE[37m:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mL[37mI[37mDAR Readin[37mg[37m:136520 
+[37m12:24:51.448 > L[37mIDAR FIM
+12:24:51.448 > PE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mL[37mI[37mDAR Readin[37mg[37m:136520 
+[37m12:24:56.454 > L[37mI[37mDAR FIM
+12:24:56.455 > PE[37m:[37mDE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mL[37mI[37mDAR Reading[37m:[37m136520 
+[37m12:25:01.462 > L[37mI[37mDAR FIM
+12:25:01.463 > PE:[37mD[37mE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE:DE:NLE:NRE[37m:[37mM[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mL[37mI[37mDAR Reading:[37m1[37m36520 
+[37m12:25:06.468 > L[37mI[37mDAR FIM
+12:25:06.468 > PE[37m:[37mDE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mL[37mI[37mDAR Reading[37m:[37m136520 
+[37m12:25:11.477 > L[37mI[37mDAR FIM
+12:25:11.478 > PE[37m:[37mDE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mL[37mI[37mDAR Reading[37m:[37m136520 
+[37m12:25:16.484 > L[37mI[37mDAR FIM
+12:25:16.485 > P[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mL[37mI[37mDAR Reading:[37m1[37m36520 
+[37m12:25:21.484 > L[37mI[37mDAR FIM
+12:25:21.484 > PE[37m:[37mDE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:[37mDE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:[37mDE:NLE:NRE:[37mM[37mE:[37mL[37mI[37mDAR Reading:1[37m3[37m4156 
+[37m12:25:26.501 > L[37mI[37mDAR FIM
+12:25:26.502 > P[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:ME[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mF[37ma[37miled to r[37me[37mad from DH[37mT[37m sensor!
+12:25:30.056 > E[37m:[37mP[37mublicado[37m [37mno MQTT: 
+[37m12:25:30.069 > H[37mEAP 1 Min:[37m1[37m33692
+12:25:30.069 > NLE[37m:[37mNRE:ME:[37mL[37mID[37mA[37mR Reading:[37m1[37m36020 
+[37m12:25:31.567 > L[37mIDA[37mR[37m FIM
+12:25:31.569 > PE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mL[37mID[37mA[37mR Reading:1[37m3[37m6020 
+[37m12:25:36.576 > L[37mI[37mDAR[37m [37mFIM
+12:25:36.578 > PE:DE[37m:[37mNLE:NRE:ME:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mL[37mIDA[37mR[37m Reading:13[37m6[37m020 
+[37m12:25:41.583 > L[37mI[37mDAR[37m [37mFIM
+12:25:41.585 > PE:DE:[37mN[37mLE:NRE:ME:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:D[37mE[37m:NL[37mM[37me[37mss[37ma[37mge from re[37ml[37may index:0[37m
+[37m12:25:43.584 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
+12:25:43.584 > R[37me[37mlay discon[37mn[37mected: Hea[37mp[37m: 178200
+12:25:43.600 > E[37m:[37mNRE:ME:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE[37m:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE[37m:D[37mE[37m:NLE:NRE:ME[37m:[37mL[37mIDA[37mR[37m Reading:17[37m8[37m820 
+[37m12:25:46.584 > L[37mI[37mDAR F[37mI[37mM
+12:25:46.584 > PE:DE:N[37mL[37mE:NRE:ME:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:D[37mE[37m:NL[37mE[37m:[37mNRE:M[37mE[37m:[37mL[37mIDA[37mR[37m Reading:1[37m3[37m5228 
+[37m12:25:51.884 > L[37mI[37mDAR FIM[37m
+[37m12:25:51.884 > PE:DE:NL[37mE[37m:NRE:ME:[37mP[37mE:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE:DE[37m:[37mNLE:NRE:ME:[37mP[37mE:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLMessage f[37mr[37mom relay ind[37me[37mx:0
+12:25:54.905 > [WSc[37m][37m Connected[37m [37mto relay: [37m.[37m
+12:25:54.908 > Relay conn[37me[37mcted: 
+12:25:54.909 > mes[37ms[37mage
+12:25:54.910 > Reque[37ms[37mting events[37m:[37m
+12:25:54.912 > SETUP EN[37mD[37m:135784
+12:25:54.913 > E[37m:[37mNRBroadcast[37mi[37mng event: [[37m"[37mREQ", "Dy8[37m7[37mZWi7JGQ21Ez[37mr[37mLsVUMWAGW3[37mw[37moTSeNDOeLw5[37mU[37mLwPLg7VbiV[37mm[37mUjfpxQBSVpc[37mw[37mth", {"#p":[37m [37m["20f77fb3[37mb[37m0ea02216cd[37m0[37m5f38f2784e6[37m6[37m3db02c3ea2[37me[37m285eda0ffba[37m4[37m02c621ceb"][37m,[37m "kinds": [37m[[37m4], "limit[37m"[37m: 999}]
+[37m12:25:55.928 > E[37m:ME:[37mL[37mIDAR[37m [37mReading:135[37m9[37m92 
+[37m12:25:57.417 > L[37mI[37mDAR FIM[37m
+[37m12:25:57.417 > PE:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mL[37mI[37mDAR [37mR[37meading:13599[37m2[37m 
+[37m12:26:02.433 > L[37mI[37mDAR FIM
+12:26:02.434 > P[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mL[37mI[37mDAR [37mR[37meading:135[37m9[37m92 
+[37m12:26:07.434 > L[37mI[37mDAR FIM
+12:26:07.434 > PE[37m:[37mDE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE:DE:[37mN[37mLE:NRE:ME:[37mL[37mIDAR [37mR[37meading:1359[37m9[37m2 
+[37m12:26:12.446 > L[37mIDAR[37m [37mFIM
+12:26:12.449 > PE:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR [37mR[37meading:13599[37m2[37m 
+[37m12:26:17.454 > L[37mI[37mDAR FIM[37m[37m
+12:26:17.456 > PE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR R[37me[37mading:135992[37m [37m
+[37m12:26:22.462 > L[37mI[37mDAR FIM
+[37m12:26:22.464 > P[37mE:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR R[37me[37mading:13599[37m2[37m 
+[37m12:26:27.468 > L[37mID[37mA[37mR FIM
+12:26:27.469 > PE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:D[37mF[37mail[37me[37md to read [37mf[37mrom DHT se[37mn[37msor!
+12:26:30.532 > E:[37mP[37mu[37mblicado no[37m [37mMQTT: 
+12:26:30.535 > HEA[37mP[37m 1 Min:133[37m6[37m68
+12:26:30.537 > NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mL[37mI[37mDAR Rea[37md[37ming:13599[37m2[37m 
+[37m12:26:32.534 > L[37mI[37mDAR FIM[37m[37m
+12:26:32.534 > PE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:M[37mE[37m:[37mL[37mI[37mDAR Rea[37md[37ming:135712[37m [37m
+[37m12:26:37.534 > L[37mI[37mDAR FIM
+12:26:37.534 > PE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE:DE:NLE[37m:[37mNRE:ME:[37mP[37mE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE:DE:NL[37mE[37m:NRE:ME:[37mP[37mE:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mL[37mI[37mDAR Rea[37md[37ming:135992[37m [37m
+[37m12:26:42.551 > L[37mI[37mDAR F[37mI[37mM
+12:26:42.553 > PE:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mL[37mI[37mDAR Rea[37md[37ming:135992[37m [37m
+[37m12:26:47.558 > L[37mI[37mDAR FIM
+[37m12:26:47.559 > P[37mE:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:M[37mE[37m:[37mL[37mI[37mDAR Rea[37md[37ming:135712 [37m
+[37m12:26:52.566 > L[37mI[37mDAR[37m [37mFIM
+12:26:52.567 > PE:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssag[37me[37m from relay[37m [37mindex:0
+12:26:55.578 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
+12:26:55.581 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m78396
+12:26:55.584 > E:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mL[37mI[37mDAR Read[37mi[37mng:178820 [37m
+[37m12:26:57.577 > L[37mI[37mDAR FIM[37m
+[37m12:26:57.578 > PE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:[37mNRE:ME:[37mL[37mI[37mDAR Read[37mi[37mng:135532 [37m
+[37m12:27:03.880 > L[37mI[37mDAR FIM
+[37m12:27:03.882 > P[37mE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:M[37mE[37m:[37mP[37mE[37m:DE:NLMes[37ms[37mage from r[37me[37mlay index:0[37m[37m
+12:27:06.884 > [WSc] Con[37mn[37mected to r[37me[37mlay: .
+12:27:06.884 > Rela[37my[37m connected[37m:[37m 
+12:27:06.884 > message[37m
+[37m12:27:06.899 > Requesting [37me[37mvents:
+12:27:06.900 > SE[37mT[37mUP END:1355[37m3[37m6
+12:27:06.902 > E:NRBro[37ma[37mdcasting ev[37me[37mnt: ["REQ"[37m,[37m "EGPqTGG1N[37mc[37mqhzHgYI9dT[37mT[37ml7CJXFrRQvW[37mY[37m1PMZgtqdHq[37mi[37mNHTAXXKhApF[37m4[37m5JlpdLxi",[37m [37m{"#p": ["20[37mf[37m77fb3b0ea0[37m2[37m216cd05f38f[37m2[37m784e663db0[37m2[37mc3ea2e285ed[37ma[37m0ffba402c62[37m1[37mceb"], "ki[37mn[37mds": [4], "[37ml[37mimit": 999[37m}[37m]
+[37m12:27:07.916 > E[37m:[37mME:[37mL[37mI[37mDAR Read[37mi[37mng:136024 
+[37m12:27:09.416 > L[37mID[37mA[37mR FIM
+12:27:09.417 > PE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mL[37mI[37mDAR Readi[37mn[37mg:136024 
+[37m12:27:14.423 > L[37mI[37mDAR F[37mI[37mM
+12:27:14.424 > PE:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mL[37mIDAR Readin[37mg[37m:136024 
+[37m12:27:19.430 > L[37mI[37mDAR FIM[37m
+[37m12:27:19.431 > PE:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:M[37mE[37m:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mL[37mI[37mDAR Readin[37mg[37m:136024 
+[37m12:27:24.434 > L[37mI[37mDAR FIM
+12:27:24.434 > PE[37m:[37mDE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mL[37mI[37mDAR Readin[37mg[37m:136024 
+[37m12:27:29.434 > L[37mI[37mDAR [37mF[37mIM
+12:27:29.434 > PE:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:D[37mF[37ma[37miled to [37mr[37mead from [37mD[37mHT sensor![37m
+[37m12:27:31.002 > E:[37mP[37mublica[37md[37mo no MQTT:[37m [37m
+12:27:31.002 > HEAP 1 Mi[37mn[37m:133692
+12:27:31.002 > NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mL[37mI[37mDAR Readin[37mg[37m:136024 
+[37m12:27:34.511 > L[37mI[37mDAR FIM
+12:27:34.512 > P[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mL[37mI[37mDAR Reading:[37m1[37m36024 
+[37m12:27:39.520 > L[37mIDA[37mR[37m FIM
+12:27:39.521 > PE:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mL[37mI[37mDAR Reading:[37m1[37m36024 
+[37m12:27:44.517 > L[37mI[37mDAR FIM[37m
+[37m12:27:44.517 > PE:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mL[37mI[37mDAR Reading:[37m1[37m36024 
+[37m12:27:49.533 > L[37mI[37mDAR FIM
+12:27:49.534 > PE:[37mD[37mE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mL[37mI[37mDAR Reading:[37m1[37m36024 
+[37m12:27:54.534 > L[37mIDA[37mR[37m FIM
+12:27:54.534 > PE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:[37mDE:NLE:NRE:[37mM[37mE:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:[37mDE:NLE:NRE:[37mM[37mE:[37mL[37mI[37mD[37mAR Reading:[37m1[37m36024 
+[37m12:27:59.549 > L[37mIDAR FI[37mM
+12:27:59.550 > PE:DE:NL[37mE[37m:NRE:ME:[37mP[37mE:DE:NLE:NRE:ME[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mL[37mID[37mA[37mR Reading:1[37m3[37m6024 
+[37m12:28:04.554 > L[37mI[37mDAR FIM
+[37m12:28:04.556 > P[37mE:DE:NLE:N[37mR[37mE:ME:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NL[37mM[37me[37mss[37ma[37mge from rel[37ma[37my index:0[37m
+[37m12:28:07.569 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
+12:28:07.571 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 177772
+12:28:07.574 > E[37m:[37mNRE:ME:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mL[37mIDA[37mR[37m Reading:1[37m7[37m8820 
+[37m12:28:09.567 > L[37mI[37mDAR FIM
+12:28:09.567 > PE:DE[37m:[37mNLE:NRE:[37mM[37mE:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:D[37mE[37m:NL[37mE[37m:[37mNRE[37m:[37mME:[37mL[37mID[37mA[37mR Reading:1[37m3[37m3156 
+[37m12:28:15.868 > L[37mID[37mA[37mR FIM
+12:28:15.869 > PE:D[37mE[37m:NLE:NRE[37m:[37mME:[37mP[37mE[37m:D[37mE[37m:NLE:NRE:ME:[37mP[37mE:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE[37m:D[37mE[37m:NLMessage [37mf[37mrom relay [37mi[37mndex:0
+12:28:18.878 > [WS[37mc[37m] Connected[37m [37mto relay: [37m.[37m
+12:28:18.881 > Relay conn[37me[37mcted: 
+12:28:18.882 > me[37ms[37msage
+12:28:18.883 > Reque[37ms[37mting event[37ms[37m:
+12:28:18.885 > SETUP EN[37mD[37m:135772
+12:28:18.886 > E[37m:[37mNRBroadcast[37mi[37mng event: [37m[[37m"REQ", "4BQ[37mW[37mcinnOfjcDa[37mQ[37mznpjsIwptEF[37mA[37m8JPgj3Tl9F[37mI[37mKH4nM3YmdtZ[37mr[37mjWaW39A2K7[37m3[37mfCG", {"#p"[37m:[37m ["20f77fb[37m3[37mb0ea02216cd[37m0[37m5f38f2784e6[37m6[37m3db02c3ea2[37me[37m285eda0ffba[37m4[37m02c621ceb"[37m][37m, "kinds":[37m [37m[4], "limit[37m"[37m: 999}]
+[37m12:28:19.900 > E[37m:ME[37m:[37mL[37mIDA[37mR[37m Reading:13[37m5[37m980 
+[37m12:28:21.399 > L[37mI[37mDAR [37mF[37mIM
+12:28:21.399 > PE:DE:[37mN[37mLE:NRE:ME:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mL[37mI[37mDAR[37m [37mReading:13[37m5[37m980 
+[37m12:28:26.409 > L[37mI[37mDAR FIM[37m[37m
+12:28:26.410 > PE:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE:DE[37m:[37mNLE:NRE:ME:[37mP[37mE:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mL[37mIDAR [37mReading[37m:135[37m9[37m80 
+[37m12:28:31.414 > L[37mIDAR FIM
+12:28:31.415 > P[37mE:DE:NLE:NR[37mE[37m:ME:[37mP[37mE:D[37mF[37ma[37miled to read[37m [37mfrom DHT [37ms[37mensor!
+12:28:31.972 > E:[37mP[37mu[37mblicado n[37mo[37m MQTT: 
+12:28:31.972 > HE[37mA[37mP 1 Min:13[37m3[37m648
+12:28:31.972 > NLE:NR[37mE[37m:ME:[37mP[37mE:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mL[37mI[37mDAR [37mR[37meading:135[37m9[37m88 
+[37m12:28:36.480 > L[37mI[37mDAR[37m [37mFIM
+12:28:36.482 > PE:DE:[37mN[37mLE:NRE:ME:[37mP[37mE:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mL[37mI[37mDAR [37mR[37meading:13598[37m0[37m 
+[37m12:28:41.484 > L[37mI[37mDAR FIM[37m[37m
+12:28:41.484 > PE:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mL[37mI[37mDAR [37mR[37meading:1359[37m8[37m0 
+[37m12:28:46.483 > L[37mI[37mDAR FIM
+[37m12:28:46.498 > P[37mE:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR R[37me[37mading:1336[37m5[37m6 
+[37m12:28:51.501 > L[37mI[37mDAR FIM
+12:28:51.502 > PE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR R[37me[37mading:13598[37m0[37m 
+[37m12:28:56.510 > L[37mIDAR[37m [37mFIM
+12:28:56.511 > PE:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE:DE:N[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR Re[37ma[37mding:135980 [37m
+[37m12:29:01.517 > L[37mI[37mDAR FIM[37m[37m
+12:29:01.518 > PE:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mL[37mI[37mDAR Rea[37md[37ming:135980[37m [37m
+[37m12:29:06.524 > L[37mI[37mDAR FIM[37m[37m
+12:29:06.526 > PE:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:M[37mE[37m:[37mP[37mE[37m:[37mDE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mL[37mI[37mDAR Rea[37md[37ming:135980[37m [37m
+[37m12:29:11.533 > L[37mI[37mDAR FIM[37m
+[37m12:29:11.533 > PE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mL[37mI[37mDAR Rea[37md[37ming:135980[37m [37m
+[37m12:29:16.533 > L[37mI[37mDAR FIM[37m
+[37m12:29:16.533 > PE:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mss[37ma[37mge from rel[37ma[37my index:0
+[37m12:29:19.553 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
+12:29:19.555 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 178388
+12:29:19.558 > E:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mL[37mI[37mDAR Rea[37md[37ming:178820 [37m
+[37m12:29:21.550 > L[37mI[37mDAR FIM
+12:29:21.552 > P[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:[37mNRE:ME:[37mL[37mI[37mDAR Read[37mi[37mng:135520 [37m
+[37m12:29:27.853 > L[37mI[37mDAR FIM[37m
+[37m12:29:27.854 > PE:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLMes[37ms[37mage from [37mr[37melay index:[37m0[37m
+12:29:30.863 > [WSc] Con[37mn[37mected to r[37me[37mlay: .
+12:29:30.865 > Rela[37my[37m connected[37m:[37m 
+12:29:30.867 > message[37m
+[37m12:29:30.868 > Requesting[37m [37mevents:
+12:29:30.869 > SE[37mT[37mUP END:135812[37m[37m
+12:29:30.871 > E:NRBro[37ma[37mdcasting e[37mv[37ment: ["REQ"[37m,[37m "4mR1XHWf[37mm[37mcpplTpai3ch[37mF[37mD2GxxdXZmi[37mB[37mgKqlqYTs2fe[37m9[37mEa6ICkPrhCY[37mK[37mEoQjkWpu",[37m [37m{"#p": ["2[37m0[37mf77fb3b0ea0[37m2[37m216cd05f38[37mf[37m2784e663db02[37mc[37m3ea2e285ed[37ma[37m0ffba402c6[37m2[37m1ceb"], "ki[37mn[37mds": [4], [37m"[37mlimit": 99[37m9[37m}]
+[37m12:29:31.883 > E[37m:[37mME:[37mL[37mI[37mDAR Read[37mi[37mng:136020 
+[37m12:29:33.383 > L[37mI[37mDAR FI[37mM[37m
+12:29:33.383 > PE:D[37mF[37ma[37miled[37m [37mto read fro[37mm[37m DHT senso[37mr[37m!
+12:29:33.440 > E:[37mP[37mub[37ml[37micado no M[37mQ[37mTT: 
+12:29:33.440 > HEAP [37m1[37m Min:133684[37m[37m
+12:29:33.440 > NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mL[37mI[37mDAR Read[37mi[37mng:136020 
+[37m12:29:38.452 > L[37mI[37mDAR FIM
+12:29:38.452 > P[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mL[37mI[37mDAR Readi[37mn[37mg:136020 
+[37m12:29:43.461 > L[37mI[37mDAR FIM
+12:29:43.462 > P[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mL[37mI[37mDAR Readi[37mn[37mg:136020 
+[37m12:29:48.468 > L[37mI[37mDAR FIM
+12:29:48.469 > PE:D[37mE[37m:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mL[37mI[37mDAR Readi[37mn[37mg:136020 
+[37m12:29:53.475 > L[37mIDA[37mR[37m FIM
+12:29:53.476 > PE:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mL[37mI[37mDAR Readin[37mg[37m:136020 
+[37m12:29:58.482 > L[37mI[37mDAR F[37mI[37mM
+12:29:58.483 > PE:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mL[37mI[37mDAR Reading:[37m1[37m36020 
+[37m12:30:03.483 > L[37mI[37mDAR FIM
+[37m12:30:03.483 > P[37mE:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mL[37mI[37mDAR Reading:[37m1[37m36020 
+[37m12:30:08.483 > L[37mI[37mDAR FIM
+12:30:08.483 > PE:[37mD[37mE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mM[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mL[37mI[37mDAR Reading:[37m1[37m36020 
+[37m12:30:13.505 > L[37mIDA[37mR[37m FIM
+12:30:13.506 > PE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mL[37mI[37mDAR Reading:[37m1[37m36020 
+[37m12:30:18.511 > L[37mI[37mDAR [37mF[37mIM
+12:30:18.513 > PE:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mL[37mI[37mDAR Reading:[37m1[37m36020 
+[37m12:30:23.517 > L[37mI[37mDAR FI[37mM[37m
+12:30:23.519 > PE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:[37mDE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mL[37mID[37mA[37mR Reading:1[37m3[37m6020 
+[37m12:30:28.525 > L[37mI[37mDAR FIM[37m[37m
+12:30:28.527 > PE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NL[37mM[37me[37mssa[37mg[37me from rel[37ma[37my index:0
+[37m12:30:31.533 > [[37mWSc] Disco[37mn[37mnected fro[37mm[37m relay: .
+12:30:31.533 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 178040
+12:30:31.533 > E:[37mN[37mRE:ME:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mL[37mID[37mA[37mR Reading:1[37m7[37m8820 
+[37m12:30:33.533 > L[37mI[37mDAR FIM
+[37m12:30:33.533 > P[37mE:D[37mF[37ma[37miled to r[37me[37mad from DHT[37m [37msensor!
+12:30:33.590 > E[37m:[37mP[37mublicado [37mn[37mo MQTT: 
+[37m12:30:33.590 > H[37mEAP 1 Min:1[37m7[37m6496
+12:30:33.590 > NLE:[37mN[37mRE:ME:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:[37mD[37mE:NL[37mE[37m:[37mNRE:[37mM[37mE:[37mL[37mID[37mA[37mR Reading:1[37m3[37m5500 
+[37m12:30:39.933 > L[37mI[37mDAR FIM
+12:30:39.933 > PE:[37mD[37mE:NLE:NR[37mE[37m:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:D[37mE[37m:NLE:NRE:ME:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:D[37mE[37m:NLMessage[37m [37mfrom relay [37mi[37mndex:0
+12:30:42.956 > [W[37mS[37mc] Connecte[37md[37m to relay: [37m.[37m
+12:30:42.959 > Relay con[37mn[37mected: 
+12:30:42.960 > me[37ms[37msage
+12:30:42.961 > Requ[37me[37msting event[37ms[37m:
+12:30:42.963 > SETUP E[37mN[37mD:135784
+12:30:42.964 > E[37m:[37mNRBroadcas[37mt[37ming event: [37m[[37m"REQ", "5f[37mr[37mAa11d9bUiD9[37mV[37mlgvGJOhf3Y[37mX[37mjTMXzanbNfb[37mW[37mU7PCDNgWaTS[37mN[37mNoUhOEA7R2[37mf[37mmzx", {"#p[37m"[37m: ["20f77fb[37m3[37mb0ea02216c[37md[37m05f38f2784e[37m6[37m63db02c3ea2[37me[37m285eda0ffb[37ma[37m402c621ceb"[37m][37m, "kinds":[37m [37m[4], "limit"[37m:[37m 999}]
+[37m12:30:43.978 > E[37m:ME[37m:[37mL[37mIDA[37mR[37m Reading:1[37m3[37m5992 
+[37m12:30:45.478 > L[37mI[37mDAR FIM
+12:30:45.479 > PE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mL[37mI[37mDA[37mR[37m Reading:13[37m5[37m992 
+[37m12:30:50.483 > L[37mI[37mDAR FIM
+12:30:50.483 > PE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mL[37mI[37mDAR[37m [37mReading:13[37m5[37m992 
+[37m12:30:55.483 > L[37mID[37mA[37mR FIM
+12:30:55.483 > PE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mL[37mI[37mDAR[37m [37mReading:135[37m9[37m92 
+[37m12:31:00.501 > L[37mIDA[37mR[37m FIM
+12:31:00.502 > PE:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mL[37mI[37mDAR [37mR[37meading:135[37m9[37m92 
+[37m12:31:05.508 > L[37mIDAR[37m [37mFIM
+12:31:05.509 > PE:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mL[37mI[37mDAR [37mR[37meading:1359[37m9[37m2 
+[37m12:31:10.515 > L[37mIDAR[37m [37mFIM
+12:31:10.516 > PE:DE:[37mN[37mLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mL[37mI[37mDAR [37mR[37meading:13599[37m2[37m 
+[37m12:31:15.524 > L[37mI[37mDAR F[37mI[37mM
+12:31:15.526 > PE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:N[37mLE:NRE:ME:[37mP[37mE:DE:[37mN[37mLE:NRE:ME:[37mP[37mE:DE:N[37mL[37mE:NRE:ME:[37mP[37mE:[37mDE:N[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR R[37me[37mading:1359[37m9[37m2 
+[37m12:31:20.532 > L[37mI[37mDAR FIM[37m[37m
+12:31:20.533 > PE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR R[37me[37mading:13599[37m2[37m 
+[37m12:31:25.533 > L[37mI[37mDAR FIM
+[37m12:31:25.533 > P[37mE:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mL[37mI[37mDAR Re[37ma[37mding:13599[37m2[37m 
+[37m12:31:30.546 > L[37mI[37mDAR FIM
+12:31:30.547 > PE[37m:[37mDE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:D[37mF[37ma[37mil[37me[37md to read [37mf[37mrom DHT sens[37mo[37mr!
+12:31:32.602 > E:[37mP[37mu[37mblicado [37mn[37mo MQTT: 
+[37m12:31:32.602 > H[37mEAP 1 Min:1[37m3[37m3668
+12:31:32.602 > NLE:N[37mR[37mE:ME:[37mP[37mE:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mL[37mI[37mDAR Re[37ma[37mding:135992[37m [37m
+[37m12:31:35.613 > L[37mIDAR [37mF[37mIM
+12:31:35.614 > PE:DE:N[37mL[37mE:NRE:ME:[37mP[37mE:DE:NL[37mE[37m:NRE:ME:[37mP[37mE:DE:NLE:NRE:ME:[37mP[37mE:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mL[37mI[37mDAR Rea[37md[37ming:135992[37m [37m
+[37m12:31:40.619 > L[37mI[37mDAR FIM[37m[37m
+12:31:40.621 > PE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage f[37mr[37mom relay i[37mn[37mdex:0
+12:31:43.634 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
+12:31:43.637 > Relay[37m [37mdisconnecte[37md[37m: Heap: 17[37m8[37m396
+12:31:43.640 > E:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mL[37mI[37mDAR Rea[37md[37ming:178820[37m [37m
+[37m12:31:45.632 > L[37mI[37mDAR FIM[37m
+[37m12:31:45.633 > PE:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:[37mNRE:ME:[37mL[37mI[37mDAR Re[37ma[37mding:133176[37m [37m
+[37m12:31:51.930 > L[37mI[37mDAR FIM
+[37m12:31:51.931 > P[37mE:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLMe[37ms[37msage from [37mr[37melay index:[37m0[37m
+12:31:54.933 > [WSc] Co[37mn[37mnected to r[37me[37mlay: .
+12:31:54.933 > Rel[37ma[37my connected[37m:[37m 
+12:31:54.933 > message[37m[37m
+12:31:54.933 > Requesting[37m [37mevents:
+12:31:54.933 > S[37mE[37mTUP END:135[37m7[37m76
+12:31:54.948 > E:NRBr[37mo[37madcasting e[37mv[37ment: ["REQ[37m"[37m, "8oS2o4ub[37mT[37mRcRk6AHDvSK[37ma[37mbIX1vx0XBu[37m3[37meq8NqPXu7q[37mo[37mxl1bxZXAKtc[37m4[37mFyHAw9Ir7",[37m [37m{"#p": ["2[37m0[37mf77fb3b0ea0[37m2[37m216cd05f38[37mf[37m2784e663db0[37m2[37mc3ea2e285e[37md[37ma0ffba402c6[37m2[37m1ceb"], "k[37mi[37mnds": [4], "[37ml[37mimit": 99[37m9[37m}]
+[37m12:31:55.963 > E[37m:[37mME:[37mL[37mI[37mDAR Read[37mi[37mng:135984 [37m
+[37m12:31:57.461 > L[37mI[37mDAR FIM
+12:31:57.462 > P[37mE[37m:DE:NLE:NR[37mE[37m:M[37mE[37m:[37mP[37mE[37m:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage f[37mr[37mom relay in[37md[37mex:0
+12:31:58.473 > [WSc[37m][37m: Received [37mt[37mext from r[37me[37mlay .: ["EV[37mE[37mNT","8oS2o[37m4[37mubTRcRk6AHD[37mv[37mSKabIX1vx0[37mX[37mBu3eq8NqPXu[37m7[37mqoxl1bxZXA[37mK[37mtc4FyHAw9Ir[37m7[37m",{"id":"1[37m2[37m907ce04df7b[37m1[37m3d921adf83[37m3[37mf6caf8c5fe9[37m0[37mce1f47b1647[37m6[37m6e1155d08a[37md[37m0dd2","pub[37mk[37mey":"8ceb5d[37mc[37md9a7be4cb3[37mf[37m399c073d9da[37md[37m54acecdebac[37m3[37m176cdb041b[37m3[37m6f5be5678e0[37m"[37m,"created_[37ma[37mt":16990272[37m3[37m2,"kind":4[37m,[37m"tags":[["p[37m"[37m,"20f77fb3[37mb[37m0ea02216cd0[37m5[37mf38f2784e6[37m6[37m3db02c3ea2e[37m2[37m85eda0ffba[37m4[37m02c621ceb"][37m][37m,"content"[37m:[37m"libh4xPQSX[37my[37m2Cq05QGVuW[37mA[37m==?iv=6PInn[37m/[37miVap8CVWvZ[37mi[37m22N3Q==","s[37mi[37mg":"bf6071[37m7[37ma0e12a80255[37m8[37mc7e1a727b8e[37m0[37m00aa0b5146[37m8[37m1f4f2947c7[37m7[37m72c03d08dba[37m3[37md585529b65d[37m3[37m19c79f598e[37m1[37m901f2f5a065[37m8[37m6e8a67245a[37m6[37ma36544cbcb0[37ma[37m0e8b7"}]
+12:31:58.523 > N[37mI[37mP04 event: [37mH[37mEAP:121480[37m[37m
+[37m12:31:58.660 > -[37m-[37m------[37m-[37m------
+12:31:58.663 > Men[37ms[37magem:Runni[37mn[37mg NIP04![37m
+[37m12:31:58.666 > -----------[37m-[37m---
+12:31:58.667 > E:NRE[37m:[37mME:[37mP[37mE:DE:NL[37mM[37me[37mssage f[37mr[37mom relay in[37md[37mex:0
+12:31:59.167 > [WSc[37m][37m: Received [37mt[37mext from r[37me[37mlay .: ["EV[37mE[37mNT","8oS2o[37m4[37mubTRcRk6AHD[37mv[37mSKabIX1vx0[37mX[37mBu3eq8NqPXu[37m7[37mqoxl1bxZXA[37mK[37mtc4FyHAw9Ir[37m7[37m",{"id":"1[37ma[37mcf779b8e5b8[37mf[37m0a0e1be10a[37m8[37m6ed2f8940ed[37m1[37ma7be4bc3ba[37m5[37m66774549013[37m6[37m481c","pubk[37me[37my":"8ceb5d[37mc[37md9a7be4cb3[37mf[37m399c073d9da[37md[37m54acecdeba[37mc[37m3176cdb041b[37m3[37m6f5be5678e0[37m"[37m,"created_[37ma[37mt":16990272[37m0[37m2,"kind":4[37m,[37m"tags":[["p[37m"[37m,"20f77fb3[37mb[37m0ea02216cd0[37m5[37mf38f2784e6[37m6[37m3db02c3ea2e[37m2[37m85eda0ffba[37m4[37m02c621ceb"][37m][37m,"content"[37m:[37m"hPt8YkmaGQ[37mc[37m2o5fYcXoQY[37mQ[37m==?iv=dc1Wm[37m3[37mRopffxrd8J2[37mY[37mVvjg==","s[37mi[37mg":"49afd2[37md[37m3c0e26b5850[37m2[37m1784331ec1[37m8[37ma0f7ba56b8d[37me[37md9a75a2add8[37m2[37mc3e69f6f55[37m4[37m9baab516f6d[37m6[37me1e54256ae[37ma[37mcab98b9450[37mb[37m33f8ae3e00f[37me[37m35a287e4eda[37m6[37m8eda4"}]
+12:31:59.217 > N[37mI[37mP04 event: [37mH[37mEAP:121480[37m[37m
+[37m12:31:59.354 > -[37m-[37m-----------[37m-[37m-
+12:31:59.356 > Mensage[37mm[37m:Running NI[37mP[37m04!
+12:31:59.359 > ---[37m-[37m----------[37m-[37m
+12:31:59.360 > E:NRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage fr[37mo[37mm relay ind[37me[37mx:0
+12:31:59.861 > [WSc][37m:[37m Received t[37me[37mxt from rel[37ma[37my .: ["EVE[37mN[37mT","8oS2o4u[37mb[37mTRcRk6AHDv[37mS[37mKabIX1vx0X[37mB[37mu3eq8NqPXu7[37mq[37moxl1bxZXAKt[37mc[37m4FyHAw9Ir7[37m"[37m,{"id":"f3d[37md[37ma0ddc89178[37m9[37m1ee63d8cce6[37m7[37m1304722329[37m7[37mb93f8150d7a[37mb[37me396141b6bf[37m1[37me4","pubke[37my[37m":"8ceb5dc[37md[37m9a7be4cb3f3[37m9[37m9c073d9dad[37m5[37m4acecdebac3[37m1[37m76cdb041b3[37m6[37mf5be5678e0"[37m,[37m"created_at[37m"[37m:169902707[37m5[37m,"kind":4,[37m"[37mtags":[["p"[37m,[37m"20f77fb3b[37m0[37mea02216cd05[37mf[37m38f2784e66[37m3[37mdb02c3ea2e2[37m8[37m5eda0ffba40[37m2[37mc621ceb"]][37m,[37m"content":"[37mS[37mZ1QPIJVi6S[37mx[37mX/Pwzc07GQ[37m=[37m=?iv=mV8QG2[37mK[37mlU0yx4Tp7oa[37m2[37mlfg==","si[37mg[37m":"4ece372e[37m7[37m94335146bf[37ma[37m0fe64ab48d8[37m2[37m794b67835fe[37mc[37m19b9740242[37m0[37m369ffac5f6[37ma[37m2306a8b1057[37mb[37m1e9191b2f87[37m9[37m07a6030f34[37m6[37m0e333926bd[37m1[37m39575d716d9[37m0[37m52da"}]
+12:31:59.907 > Ol[37md[37m event nip0[37m4[37m
+12:31:59.907 > E:NRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage from[37m [37mrelay inde[37mx[37m:0
+12:32:00.419 > [WSc]: [37mR[37meceived tex[37mt[37m from rela[37my[37m .: ["EVEN[37mT[37m","8oS2o4ub[37mT[37mRcRk6AHDvS[37mK[37mabIX1vx0XBu[37m3[37meq8NqPXu7qo[37mx[37ml1bxZXAKtc[37m4[37mFyHAw9Ir7",[37m{[37m"id":"5df2[37m0[37m2f3c06f7f5[37m0[37m1305ebd7629[37ma[37m07800a26b6f[37m2[37m52741f7563[37mb[37m2f112c325d3[37m7[37m6","pubkey[37m"[37m:"8ceb5dcd9[37ma[37m7be4cb3f39[37m9[37mc073d9dad54[37ma[37mcecdebac317[37m6[37mcdb041b36f[37m5[37mbe5678e0",[37m"[37mcreated_at"[37m:[37m1699026934[37m,[37m"kind":4,"t[37ma[37mgs":[["p","[37m2[37m0f77fb3b0e[37ma[37m02216cd05f[37m3[37m8f2784e663d[37mb[37m02c3ea2e285[37me[37mda0ffba402[37mc[37m621ceb"]],"[37mc[37montent":"0[37mr[37mJ8pKRtk6jM[37mv[37mgFy90busw==[37m?[37miv=qTjVzy+/[37mZ[37mHBI6hkWLin[37m4[37mTg==","sig"[37m:[37m"79674eee4[37mf[37mfe6fd16dd4[37mc[37md532148a57c[37m5[37m0008267b4fe[37m5[37m057580ec47[37m2[37mb4243ff306f[37mf[37mc1acc69c09[37m2[37m3f7d89b9fb2[37mc[37m2cc29863094[37ma[37m0057697a96[37ma[37m3f54de8555[37m2[37m793"}]
+12:32:00.469 > NIP0[37m4[37m event: HEA[37mP[37m:121480
+[37m12:32:00.606 > -[37m-[37m----[37m-[37m--------
+[37m12:32:00.608 > M[37mensagem:Run[37mn[37ming NIP04![37m[37m
+12:32:00.610 > --------[37m-[37m------
+12:32:00.611 > E:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage fro[37mm[37m relay ind[37me[37mx:0
+12:32:01.113 > [WSc]:[37m [37mReceived t[37me[37mxt from re[37ml[37may .: ["EVE[37mN[37mT","8oS2o4u[37mb[37mTRcRk6AHDv[37mS[37mKabIX1vx0XB[37mu[37m3eq8NqPXu7[37mq[37moxl1bxZXAKt[37mc[37m4FyHAw9Ir7[37m"[37m,{"id":"126[37m2[37m8d3c66d257[37m9[37mb682ad5417c[37m1[37m78978bf228[37m3[37m79bc76843b9[37ma[37m744c6fab11[37m7[37me36","pubke[37my[37m":"8ceb5dcd[37m9[37ma7be4cb3f39[37m9[37mc073d9dad5[37m4[37macecdebac3[37m1[37m76cdb041b36[37mf[37m5be5678e0"[37m,[37m"created_at[37m"[37m:169902687[37m9[37m,"kind":4,"[37mt[37mags":[["p"[37m,[37m"20f77fb3b0[37me[37ma02216cd05[37mf[37m38f2784e663[37md[37mb02c3ea2e2[37m8[37m5eda0ffba40[37m2[37mc621ceb"]][37m,[37m"content":"[37mO[37mXHrhs1VjbB[37m9[37mCnPyPA5IKg=[37m=[37m?iv=7q1RC7[37m+[37m/zCVBksIZrg[37mt[37mvfA==","si[37mg[37m":"0d9d543a[37m3[37ma91a9d1f39[37m8[37m20d333ba7ac[37m6[37m496ac636a8f[37mc[37m1eb888f1f6[37m5[37m0237943002[37m8[37m375b5b12869[37m6[37m424a489089[37m1[37m0346f54f97b[37mc[37m18a18eff6c6[37m7[37m140b9fa5ae[37mb[37me86b"}]
+12:32:01.157 > NIP[37m0[37m4 event: H[37mE[37mAP:121480
+[37m12:32:01.300 > -[37m-------------[37m-[37m
+12:32:01.302 > Mensagem:[37mR[37munning NIP[37m0[37m4!
+12:32:01.304 > -----[37m-[37m---------[37m
+[37m12:32:01.307 > E:NRE:ME:[37mL[37mI[37mDAR Read[37mi[37mng:130052 [37m
+[37m12:32:02.800 > L[37mI[37mDAR[37m [37mFIM
+12:32:02.801 > PE:DE[37m:[37mNL[37mM[37messa[37mg[37me from rela[37my[37m index:0
+[37m12:32:02.806 > [[37mWSc]: Recei[37mv[37med text fr[37mo[37mm relay .: [37m[[37m"EVENT","8[37mo[37mS2o4ubTRcRk[37m6[37mAHDvSKabIX[37m1[37mvx0XBu3eq8N[37mq[37mPXu7qoxl1b[37mx[37mZXAKtc4FyHA[37mw[37m9Ir7",{"id"[37m:[37m"6df105a60[37md[37mdd3ef8cc4e[37m8[37mc422d42d7bc[37m8[37m874b2ecd51[37m3[37m2f1ebaf1438[37md[37m2e4c0215","[37mp[37mubkey":"8c[37me[37mb5dcd9a7be4[37mc[37mb3f399c073[37md[37m9dad54acec[37md[37mebac3176cdb[37m0[37m41b36f5be56[37m7[37m8e0","crea[37mt[37med_at":1699[37m0[37m26547,"kin[37md[37m":4,"tags":[37m[[37m["p","20f7[37m7[37mfb3b0ea0221[37m6[37mcd05f38f27[37m8[37m4e663db02c3[37me[37ma2e285eda0[37mf[37mfba402c621c[37me[37mb"]],"cont[37me[37mnt":"Zmk4Uj[37mi[37mSeRjJHFJ7Qt[37mZ[37mpZg==?iv=U[37m0[37mpG2Kbdg2cYe[37mw[37m4pJWC6ww==[37m"[37m,"sig":"1b[37m3[37m29d6db97d32[37m4[37m6269fd2672f[37md[37mff2c354726[37m1[37maa917d433e0[37mf[37m1bbde00c40[37m5[37mbb94fc19ba4[37ma[37mdad00756a1[37ma[37m16140279eac[37m9[37m511f8cc104[37ma[37mf2eb7a97c34[37m8[37me85029946"[37m}[37m]
+12:32:02.856 > Old event[37m [37mnip04
+12:32:02.857 > E:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage fr[37mo[37mm relay in[37md[37mex:0
+12:32:03.364 > [WSc[37m][37m: Received [37mt[37mext from re[37ml[37may .: ["EV[37mE[37mNT","8oS2o4[37mu[37mbTRcRk6AHD[37mv[37mSKabIX1vx0X[37mB[37mu3eq8NqPXu[37m7[37mqoxl1bxZXAK[37mt[37mc4FyHAw9Ir[37m7[37m",{"id":"1a[37m4[37m73b4bd5ed1[37md[37m65d01d6ef79[37m0[37mcfec6a04aa[37me[37m0f95e0623d5[37m6[37mb8d51b941bf[37m8[37mf87","pubk[37me[37my":"8ceb5d[37mc[37md9a7be4cb3f[37m3[37m99c073d9dad[37m5[37m4acecdebac[37m3[37m176cdb041b3[37m6[37mf5be5678e0[37m"[37m,"created_a[37mt[37m":16990264[37m7[37m6,"kind":4[37m,[37m"tags":[["p[37m"[37m,"20f77fb3b[37m0[37mea02216cd0[37m5[37mf38f2784e66[37m3[37mdb02c3ea2e[37m2[37m85eda0ffba4[37m0[37m2c621ceb"][37m][37m,"content":[37m"[37mTEbs2SQc6P[37mq[37mhHp/dFIWS3Q[37m=[37m=?iv=8JODW[37m9[37mq+DligqUFMS[37mw[37mdHNw==","s[37mi[37mg":"f4cb77f[37m9[37macdd69e2e27[37mf[37m2a2fedf8a5[37mb[37m2f0e0e20162[37mb[37mdc09eea5d5[37m2[37mc79579b337[37m6[37mae9946d20ef[37m5[37m08a67d53670[37mf[37mf51a54fd27[37m6[37m4e8507c6169[37m8[37m4bad07feae[37m2[37m8444e"}]
+12:32:03.413 > NI[37mP[37m04 event: [37mH[37mEAP:121480[37m[37m
+[37m12:32:03.550 > -[37m-[37m---[37m-[37m---------
+[37m12:32:03.552 > M[37mensagem:Va[37mi[37m
+12:32:03.553 > ---------[37m-[37m-----
+12:32:03.554 > E:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage fro[37mm[37m relay ind[37me[37mx:0
+12:32:04.057 > [WSc]:[37m [37mReceived t[37me[37mxt from rel[37ma[37my .: ["EVE[37mN[37mT","8oS2o4u[37mb[37mTRcRk6AHDvS[37mK[37mabIX1vx0XB[37mu[37m3eq8NqPXu7[37mq[37moxl1bxZXAKt[37mc[37m4FyHAw9Ir7"[37m,[37m{"id":"e69[37mc[37m47598b75a4b[37m9[37m195cf0714d[37m9[37m222429ddbc[37ma[37m2d91eb2f6f7[37mb[37m47f249ba5c8[37md[37m82","pubke[37my[37m":"8ceb5dcd[37m9[37ma7be4cb3f3[37m9[37m9c073d9dad5[37m4[37macecdebac3[37m1[37m76cdb041b36[37mf[37m5be5678e0"[37m,[37m"created_at[37m"[37m:169902509[37m7[37m,"kind":4,"[37mt[37mags":[["p"[37m,[37m"20f77fb3b0[37me[37ma02216cd05[37mf[37m38f2784e663[37md[37mb02c3ea2e28[37m5[37meda0ffba40[37m2[37mc621ceb"]][37m,[37m"content":"[37mf[37myWXZz3mAFL[37mw[37miuhJISrGyQ=[37m=[37m?iv=ZncgwMl[37m1[37m/x2i/vnT64[37ml[37m91A==","sig[37m"[37m:"710f744a[37ma[37m14d9660f5b[37m8[37m6936ed40343[37m7[37m7281f746ede[37mc[37m5d221d78c3[37m9[37m7968678e5fa[37md[37mb9a3cfdb01[37mf[37ma08ed1f5e1e[37m6[37m8dd015f7b3[37mf[37m1c8f453dd04[37m5[37m43a828f68f[37m3[37m961b"}]
+12:32:04.107 > NIP[37m0[37m4 event: HE[37mA[37mP:121480
+[37m12:32:04.233 > -[37m-[37m---[37m-[37m---------[37m
+[37m12:32:04.233 > Mensagem:Run[37mn[37ming NIP04[37m![37m
+12:32:04.233 > -------[37m-[37m-------
+12:32:04.249 > E[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage fro[37mm[37m relay inde[37mx[37m:0
+12:32:04.751 > [WSc]: [37mR[37meceived te[37mx[37mt from rela[37my[37m .: ["EVEN[37mT[37m","8oS2o4u[37mb[37mTRcRk6AHDvS[37mK[37mabIX1vx0XBu[37m3[37meq8NqPXu7q[37mo[37mxl1bxZXAKtc[37m4[37mFyHAw9Ir7"[37m,[37m{"id":"cc0d[37m1[37m84caade264[37m4[37m0bdcea3b5d5[37mf[37m71cff3de75a[37me[37m15f6e8e2b3[37me[37m8b8c41fe19[37m1[37m1f","pubkey[37m"[37m:"8ceb5dcd[37m9[37ma7be4cb3f39[37m9[37mc073d9dad54[37ma[37mcecdebac31[37m7[37m6cdb041b36f[37m5[37mbe5678e0","[37mc[37mreated_at[37m"[37m:1699025084[37m,[37m"kind":4,"[37mt[37mags":[["p",[37m"[37m20f77fb3b0e[37ma[37m02216cd05f[37m3[37m8f2784e663d[37mb[37m02c3ea2e28[37m5[37meda0ffba402[37mc[37m621ceb"]],[37m"[37mcontent":"P[37mx[37m38Vv9fJS2l[37mV[37mBSlz2TH2w==[37m?[37miv=4I+A23q[37mB[37mvz0QCK3wlrr[37mz[37mGw==","sig[37m"[37m:"ec7852184[37m7[37m9c95d707a18[37m2[37m8be4b70c2b[37md[37m9b753400c9[37md[37mab6548a41e2[37m2[37m6705995c3a[37m7[37m9cb4f9669af[37ma[37m3dc15e2bdfd[37m6[37ma7c822a9ea[37m8[37m8ff1b654bad[37mc[37mede0b4aab2[37mf[37m203"}]
+12:32:04.801 > Old[37m [37mevent nip04[37m[37m
+12:32:04.803 > E:NRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage fr[37mo[37mm relay in[37md[37mex:0
+12:32:05.309 > [WSc[37m][37m: Received [37mt[37mext from re[37ml[37may .: ["EV[37mE[37mNT","8oS2o4[37mu[37mbTRcRk6AHD[37mv[37mSKabIX1vx0[37mX[37mBu3eq8NqPXu[37m7[37mqoxl1bxZXAK[37mt[37mc4FyHAw9Ir[37m7[37m",{"id":"bb[37m4[37m6168f7289d[37m2[37madd7659404d[37m3[37mc97f8203d8[37mf[37m35d52b4f555[37m6[37m729eb204446[37m6[37m2d3","pubk[37me[37my":"8ceb5d[37mc[37md9a7be4cb3f[37m3[37m99c073d9da[37md[37m54acecdebac[37m3[37m176cdb041b3[37m6[37mf5be5678e0[37m"[37m,"created_a[37mt[37m":16990249[37m6[37m4,"kind":4[37m,[37m"tags":[["p[37m"[37m,"20f77fb3b[37m0[37mea02216cd0[37m5[37mf38f2784e66[37m3[37mdb02c3ea2e[37m2[37m85eda0ffba[37m4[37m02c621ceb"][37m][37m,"content":[37m"[37mosczz1VvVC[37mq[37mZwx3tz7pCRA[37m=[37m=?iv=gRX3L[37m0[37mJXgwRov2A2t[37mV[37maUGg==","s[37mi[37mg":"2522627[37mc[37m33903bf419[37me[37m42d6eb78b26[37m4[37m9891314e1a3[37m3[37m099d75e950[37mc[37m70b21be427[37m4[37mc56796edb5e[37m3[37md455e9a59a8[37m1[37m372d8d6f73[37m5[37m079e16307ca[37md[37m4786f40c84[37m6[37m5c494"}]
+12:32:05.359 > NI[37mP[37m04 event: [37mH[37mEAP:121480[37m[37m
+[37m12:32:05.483 > -[37m--[37m-[37m-----------[37m[37m
+12:32:05.483 > Mensagem:[37mC[37mhico
+12:32:05.500 > -----[37m-[37m---------[37m
+[37m12:32:05.502 > E:NRE:ME:[37mP[37mE:DE:NL[37mM[37me[37mssage fr[37mo[37mm relay in[37md[37mex:0
+12:32:06.002 > [WSc][37m:[37m Received [37mt[37mext from re[37ml[37may .: ["EV[37mE[37mNT","8oS2o4[37mu[37mbTRcRk6AHD[37mv[37mSKabIX1vx0X[37mB[37mu3eq8NqPXu7[37mq[37moxl1bxZXAK[37mt[37mc4FyHAw9Ir7[37m"[37m,{"id":"33[37m0[37mdba44fbdda[37mf[37mdf67e8d149f[37ma[37mc316892c747[37m6[37mc6776895f9[37mb[37m947fb13edeb[37m1[37m967","pubk[37me[37my":"8ceb5d[37mc[37md9a7be4cb3f[37m3[37m99c073d9dad[37m5[37m4acecdebac[37m3[37m176cdb041b3[37m6[37mf5be5678e0"[37m,[37m"created_a[37mt[37m":16990249[37m3[37m8,"kind":4,[37m"[37mtags":[["p[37m"[37m,"20f77fb3b[37m0[37mea02216cd0[37m5[37mf38f2784e66[37m3[37mdb02c3ea2e[37m2[37m85eda0ffba4[37m0[37m2c621ceb"][37m][37m,"content":[37m"[37mWLN5O/t/MeY[37m/[37mI5dVg1Rc7g[37m=[37m=?iv=yYUG6[37mL[37m4UgFBa9ahsJ[37mn[37mbcAQ==","si[37mg[37m":"ad17415[37m3[37m97d4a43c65d[37m4[37m5f484e3bb5[37m8[37m560b30de3f7[37m5[37m720604b026[37md[37m6de54a4a83c[37mc[37mdb99ebd824[37m7[37m343368f23e4[37m3[37m706db372af[37mc[37mc4d307ae869[37mf[37mc7a756f3a7ba[37m7[37m1d6"}]
+12:32:06.053 > NI[37mP[37m04 event: [37mH[37mEAP:121480[37m
+[37m12:32:06.184 > -[37m-[37m------------[37m-[37m
+12:32:06.184 > Mensagem[37m:[37mVou
+12:32:06.184 > -----[37m-[37m---------
+[37m12:32:06.184 > E[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage f[37mr[37mom relay in[37md[37mex:0
+12:32:06.683 > [WSc[37m][37m: Received[37m [37mtext from r[37me[37mlay .: ["E[37mV[37mENT","8oS2o[37m4[37mubTRcRk6AHD[37mv[37mSKabIX1vx0[37mX[37mBu3eq8NqPXu[37m7[37mqoxl1bxZXA[37mK[37mtc4FyHAw9Ir[37m7[37m",{"id":"4[37m0[37madc4feb82a1[37m5[37m39b20a900c[37me[37m3e4543525c5[37m0[37m15cbd48a6a[37me[37mfe29b741106[37m1[37md3d4","pub[37mk[37mey":"8ceb5d[37mc[37md9a7be4cb3f[37m3[37m99c073d9da[37md[37m54acecdeba[37mc[37m3176cdb041b[37m3[37m6f5be5678e0[37m"[37m,"created_[37ma[37mt":1699024[37m5[37m81,"kind":4[37m,[37m"tags":[["p[37m"[37m,"20f77fb3[37mb[37m0ea02216cd0[37m5[37mf38f2784e6[37m6[37m3db02c3ea2[37me[37m285eda0ffba[37m4[37m02c621ceb"][37m][37m,"content"[37m:[37m"uEvXSC4ceF[37m4[37mO8Ws1LTs/T[37mQ[37m==?iv=XsXiA[37mF[37miIXWHuA0vO[37ml[37mT5cbg==","s[37mi[37mg":"6b85f3e[37m4[37mee068fbf94[37m7[37mabab384fa6[37m5[37m6dcbaaa6b34[37mc[37m599269cc32[37m6[37mc12ca27c361[37m0[37m4c7964941ec[37m0[37mb4c5d00e85[37mb[37m8582fc6e29[37m7[37m5d671c42db4[37m5[37mf5d5d0dbc95[37m1[37mc5733"}]
+12:32:06.746 > N[37mI[37mP04 event: [37mH[37mEAP:121480[37m[37m
+[37m12:32:06.883 > -[37m-[37m---------[37m-[37m---
+12:32:06.883 > Mensag[37me[37mm:Running [37mN[37mIP04!
+12:32:06.883 > --[37m-[37m----------[37m-[37m-
+12:32:06.883 > E:NRE:ME[37m:[37mL[37mI[37mDAR Read[37mi[37mng:129688 
+[37m12:32:08.383 > L[37mI[37mDAR F[37mI[37mM
+12:32:08.383 > PE:DE:NL[37mM[37mes[37ms[37mage from re[37ml[37may index:0[37m[37m
+12:32:08.383 > [WSc]: Rec[37me[37mived text [37mf[37mrom relay .[37m:[37m ["EVENT",[37m"[37m8oS2o4ubTRc[37mR[37mk6AHDvSKab[37mI[37mX1vx0XBu3eq[37m8[37mNqPXu7qoxl[37m1[37mbxZXAKtc4Fy[37mH[37mAw9Ir7",{"[37mi[37md":"723ebfb[37m7[37ma13fda4d5e8[37m3[37m043889a0d2[37m3[37m27a81812a6[37m5[37m37be4a15627[37me[37mb1ffca2543[37m"[37m,"pubkey":"[37m8[37mceb5dcd9a7b[37me[37m4cb3f399c0[37m7[37m3d9dad54ace[37mc[37mdebac3176c[37md[37mb041b36f5b[37me[37m5678e0","cr[37me[37mated_at":16[37m9[37m9024556,"k[37mi[37mnd":4,"tags[37m"[37m:[["p","20[37mf[37m77fb3b0ea02[37m2[37m16cd05f38f[37m2[37m784e663db02[37mc[37m3ea2e285ed[37ma[37m0ffba402c62[37m1[37mceb"]],"con[37mt[37ment":"DFmE[37mD[37mqUFAmT3PDR[37mG[37mWb+wvg==?iv[37m=[37mzJnCy7Xug2[37mS[37mbb1OHwk8tag[37m=[37m=","sig":"5[37md[37mb1a03e54a1[37m7[37mb45b89e08de[37m9[37mebe46d9f6b[37m2[37m5e85b560e3[37m0[37m541d97ce868[37m8[37m278cdbfdb37[37ma[37m511bb0bd29[37m2[37m1ba1bfc281f[37m1[37mafc5e53c7a[37m1[37mc1830617bc1[37m6[37m2bd36f3f75[37ma[37m"}]
+12:32:08.441 > Old eve[37mn[37mt nip04
+12:32:08.441 > E[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage from [37mr[37melay index[37m:[37m0
+12:32:08.948 > [WSc]: R[37me[37mceived tex[37mt[37m from relay[37m [37m.: ["EVENT[37m"[37m,"8oS2o4ubT[37mR[37mcRk6AHDvSK[37ma[37mbIX1vx0XBu3[37me[37mq8NqPXu7qo[37mx[37ml1bxZXAKtc4[37mF[37myHAw9Ir7",[37m{[37m"id":"514ec[37md[37m7cda5874a2[37m6[37m0e46034f5ea[37m7[37m236ab7ce7d[37md[37mf1657067b87[37m8[37ma606e09a9da[37mc[37m","pubkey"[37m:[37m"8ceb5dcd9[37ma[37m7be4cb3f399[37mc[37m073d9dad54[37ma[37mcecdebac317[37m6[37mcdb041b36f5[37mb[37me5678e0","[37mc[37mreated_at":[37m1[37m699024534,[37m"[37mkind":4,"t[37ma[37mgs":[["p","[37m2[37m0f77fb3b0ea[37m0[37m2216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285[37me[37mda0ffba402c[37m6[37m21ceb"]],"[37mc[37montent":"Qh[37mh[37mOlhdBcHdxIE[37mg[37mJs5m5PQ==?[37mi[37mv=0L+E1XB5[37mO[37mP1CUrhJiHv8[37md[37mA==","sig"[37m:[37m"9aecf522ce[37m8[37m7faf27d6005[37m7[37mf2fa4a7b8a[37m8[37m9331466be57[37m0[37m2fc4df77f3[37m3[37m40d163c16c[37m0[37m148e533f855[37m7[37m5b1359b6fdb[37m4[37mfa7840f519[37m1[37m9bab3b51e46[37m4[37m7adda30bbf[37mb[37m34"}]
+12:32:08.992 > Old e[37mv[37ment nip04[37m
+[37m12:32:08.992 > E:NRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37ms[37ms[37mage from re[37ml[37may index:0[37m[37m
+12:32:09.504 > [WSc]: Rec[37me[37mived text [37mf[37mrom relay .[37m:[37m ["EVENT",[37m"[37m8oS2o4ubTRc[37mR[37mk6AHDvSKab[37mI[37mX1vx0XBu3eq[37m8[37mNqPXu7qoxl[37m1[37mbxZXAKtc4Fy[37mH[37mAw9Ir7",{"i[37md[37m":"8451732[37m3[37m1908da5fd48[37m8[37mf4060c5e6c[37mf[37m634014b90b[37m4[37mcf0035a40f0[37m9[37m6d2ebf4839[37m"[37m,"pubkey":"[37m8[37mceb5dcd9a7b[37me[37m4cb3f399c0[37m7[37m3d9dad54ace[37mc[37mdebac3176c[37md[37mb041b36f5be5[37m6[37m78e0","cr[37me[37mated_at":16[37m9[37m9024531,"k[37mi[37mnd":4,"tags[37m"[37m:[["p","20[37mf[37m77fb3b0ea02[37m2[37m16cd05f38f[37m2[37m784e663db02[37mc[37m3ea2e285ed[37ma[37m0ffba402c62[37m1[37mceb"]],"con[37mt[37ment":"oGUX[37mY[37mWXYWYFMOf/[37mb[37mqBmKKw==?iv[37m=[37mCb7KOm/r/f[37mH[37mTL0kKA4W7Nw[37m=[37m=","sig":"8[37m8[37md9ebedd257[37me[37mf5dd3726028[37m1[37mc7d28d60ff[37md[37m2feea2ab5c1[37m9[37m87440f4b95[37m3[37m4fbfe4cff30[37m5[37m82d082f664[37m1[37me55fce64c05[37m1[37m8ecb90100b[37m0[37m16826e6e7d4[37md[37m135d9d970b[37mc[37m"}]
+12:32:09.554 > Old eve[37mn[37mt nip04
+12:32:09.555 > E[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage from r[37me[37mlay index:[37m0[37m
+12:32:10.061 > [WSc]: Re[37mc[37meived text[37m [37mfrom relay [37m.[37m: ["EVENT",[37m"[37m8oS2o4ubTR[37mc[37mRk6AHDvSKab[37mI[37mX1vx0XBu3e[37mq[37m8NqPXu7qox[37ml[37m1bxZXAKtc4F[37my[37mHAw9Ir7",{"[37mi[37md":"e1246a[37me[37m31f21f79f06[37m4[37m12e1c784c2[37ma[37m16be11554a616[37m0[37m284a5b748[37m4[37m54b2a7ecf0[37m"[37m,"pubkey":[37m"[37m8ceb5dcd9a7[37mb[37me4cb3f399c[37m0[37m73d9dad54ac[37me[37mcdebac3176[37mc[37mdb041b36f5b[37me[37m5678e0","cr[37me[37mated_at":1[37m6[37m99024505,"[37mk[37mind":4,"tag[37ms[37m":[["p","2[37m0[37mf77fb3b0ea0[37m2[37m216cd05f38f[37m2[37m784e663db0[37m2[37mc3ea2e285ed[37ma[37m0ffba402c6[37m2[37m1ceb"]],"c[37mo[37mntent":"CNW[37mF[37mB9yENTxcW7z[37mk[37mxyoSgQ==?i[37mv[37m=X6To6J8KCY[37mK[37m3FcnkI6qy7[37mw[37m==","sig":"[37mc[37m28dbfa6fa9[37m3[37mce235e1c4df[37m1[37m334df5a776[37m2[37m8283bdefe4d[37m7[37m185fc4b0bb[37mf[37mf08a354586e[37mb[37m45b87ce6a6[37mb[37m9a508a55cdc[37m4[37m83e6481e86[37m0[37m490a860f70e[37m7[37mc96488e49a6[37m1[37m"}]
+12:32:10.111 > Old ev[37me[37mnt nip04
+12:32:10.112 > E[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage from [37mr[37melay index[37m:[37m0
+12:32:10.616 > [WSc]: [37mR[37meceived tex[37mt[37m from relay[37m [37m.: ["EVENT[37m"[37m,"8oS2o4ubT[37mR[37mcRk6AHDvSK[37ma[37mbIX1vx0XBu[37m3[37meq8NqPXu7qo[37mx[37ml1bxZXAKtc4[37mF[37myHAw9Ir7",[37m{[37m"id":"166b7[37m1[37mf64c0013f7[37m9[37m5809c013cd6[37m2[37m2182d2ddd3[37mb[37mf176cff6569[37mc[37maf8c3d3aaa[37m3[37mc","pubkey"[37m:[37m"8ceb5dcd9[37ma[37m7be4cb3f399[37mc[37m073d9dad54[37ma[37mcecdebac317[37m6[37mcdb041b36f5be[37m5[37m678e0","[37mc[37mreated_at":[37m1[37m699024385,[37m"[37mkind":4,"t[37ma[37mgs":[["p","[37m2[37m0f77fb3b0ea[37m0[37m2216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285[37me[37mda0ffba402c[37m6[37m21ceb"]],"[37mc[37montent":"p[37m8[37mwtea8K2KuLw[37mW[37mY2jk9r2g==?[37mi[37mv=jL182UdZ[37mw[37mXENBaOYUJjw[37mL[37mA==","sig":[37m"[37m3acdb8b737[37m9[37m45c0be36bc[37m6[37ma97537c2f1e[37m5[37mfaaa22ecc2[37me[37mf4d97800a39[37m7[37m6fbc0cbdaf3[37md[37m008135bb86[37m8[37mf38eb59494[37m4[37m4c07db790b4[37m9[37m43b605eeb82[37m4[37mffa71021ae[37m5[37m9f"}]
+12:32:10.666 > NIP04[37m [37mevent: HEA[37mP[37m:121480
+[37m12:32:10.802 > -[37m-[37m------[37m-[37m------
+12:32:10.804 > M[37me[37mnsagem:Foi[37m
+[37m12:32:10.807 > ----------[37m-[37m----
+12:32:10.807 > E:NRE[37m:[37mME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage from[37m [37mrelay index[37m:[37m0
+12:32:11.310 > [WSc]: [37mR[37meceived tex[37mt[37m from relay[37m [37m.: ["EVENT[37m"[37m,"8oS2o4ub[37mT[37mRcRk6AHDvSK[37ma[37mbIX1vx0XBu[37m3[37meq8NqPXu7qo[37mx[37ml1bxZXAKtc4[37mF[37myHAw9Ir7",[37m{[37m"id":"579e[37m2[37m67e57e9190a[37ma[37mc97853057d[37mf[37m5bb2a23179f[37m1[37m851260ad547[37ma[37mf9d70b6cdd[37m4[37m9","pubkey"[37m:[37m"8ceb5dcd9[37ma[37m7be4cb3f39[37m9[37mc073d9dad54[37ma[37mcecdebac317[37m6[37mcdb041b36f[37m5[37mbe5678e0","[37mc[37mreated_at"[37m:[37m1699024337,[37m"[37mkind":4,"t[37ma[37mgs":[["p","[37m2[37m0f77fb3b0e[37ma[37m02216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285[37me[37mda0ffba402[37mc[37m621ceb"]],"[37mc[37montent":"U[37m6[37mHzTw3Y8VrrI[37mp[37mukLqQncA==[37m?[37miv=9VYYfzPL[37mw[37ma8rdSFfB7VZ[37mu[37mw==","sig"[37m:[37m"2bfa005ba[37m7[37m434d54296d2[37m9[37mc31e1911b51[37mc[37m061b51d58d[37mc[37ma28b1db20a9[37mf[37med6391dc7c[37m4[37m16594e7913e[37mb[37m3a68c41ed6[37m9[37m4a9a88894e0[37ma[37m9156b0355b[37m7[37m5308c5c826f[37m1[37m56"}]
+12:32:11.355 > Old [37me[37mvent nip04[37m
+[37m12:32:11.355 > E:NRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage from [37mr[37melay index:[37m0[37m
+12:32:11.868 > [WSc]: R[37me[37mceived text[37m [37mfrom relay[37m [37m.: ["EVENT"[37m,[37m"8oS2o4ubTR[37mc[37mRk6AHDvSKa[37mb[37mIX1vx0XBu3[37me[37mq8NqPXu7qox[37ml[37m1bxZXAKtc4[37mF[37myHAw9Ir7",{[37m"[37mid":"9f4f42[37mb[37m42ea9bc5cf[37mf[37m368b0a1a38e[37me[37m0ab451d361[37m7[37m35806c4066[37m5[37mf894caf2c17[37ma[37m","pubkey":[37m"[37m8ceb5dcd9a[37m7[37mbe4cb3f399c[37m0[37m73d9dad54a[37mc[37mecdebac3176[37mc[37mdb041b36f5[37mb[37me5678e0","c[37mr[37meated_at":[37m1[37m699024277,"[37mk[37mind":4,"ta[37mg[37ms":[["p","2[37m0[37mf77fb3b0ea[37m0[37m2216cd05f38[37mf[37m2784e663db[37m0[37m2c3ea2e285e[37md[37ma0ffba402c[37m6[37m21ceb"]],"c[37mo[37mntent":"wwG[37mL[37m7TZMnOyPWm[37mL[37mbC/AgVQ==?[37mi[37mv=L7GIzj4xG[37mb[37mt8VAeAp5Kd[37mF[37mQ==","sig":[37m"[37m4d93d1e95c9[37md[37m432bde28a8[37md[37mac821b0c2be[37m8[37m70d0300014[37m9[37me77608c39a[37m3[37m0d7339f4404[37m5[37m7b1eab5bf9d[37m0[37m224fcff47f[37m9[37m220bcbb75b1[37mc[37m0c8e252127[37ma[37m7ff6dc0cf3f[37m2[37m0"}]
+12:32:11.918 > NIP04[37m [37mevent: HEAP[37m:[37m121480
+[37m12:32:12.055 > -[37m-[37m--------[37m-[37m----
+12:32:12.056 > Mens[37ma[37mgem:Running[37m [37mNIP04!
+12:32:12.058 > -[37m-[37m----------[37m-[37m--
+12:32:12.060 > E:NRE:M[37mE[37m:[37mL[37mI[37mDAR Read[37mi[37mng:128460 
+[37m12:32:13.554 > L[37mI[37mDAR[37m [37mFIM
+12:32:13.555 > PE:DE[37m:[37mNL[37mM[37me[37mssage from[37m [37mrelay inde[37mx[37m:0
+12:32:13.560 > [WSc]:[37m [37mReceived te[37mx[37mt from rela[37my[37m .: ["EVEN[37mT[37m","8oS2o4ub[37mT[37mRcRk6AHDvS[37mK[37mabIX1vx0XB[37mu[37m3eq8NqPXu7q[37mo[37mxl1bxZXAKtc[37m4[37mFyHAw9Ir7"[37m,[37m{"id":"27ba[37m4[37m8e0c2e9735[37mf[37md27fb7bb85d[37m9[37md29a5946ed[37m8[37m6187dda9f8b[37m2[37mc24255ca07d[37m6[37md","pubkey[37m"[37m:"8ceb5dcd[37m9[37ma7be4cb3f39[37m9[37mc073d9dad5[37m4[37macecdebac31[37m7[37m6cdb041b36f[37m5[37mbe5678e0",[37m"[37mcreated_at"[37m:[37m1699024171[37m,[37m"kind":4,"t[37ma[37mgs":[["p",[37m"[37m20f77fb3b0[37me[37ma02216cd05f[37m3[37m8f2784e663d[37mb[37m02c3ea2e28[37m5[37meda0ffba402[37mc[37m621ceb"]],[37m"[37mcontent":"6[37mk[37mhkKxuiU/QZ[37m4[37mlnXiBxDvg==[37m?[37miv=k2V3bNN[37mf[37mJUJt1LFeT6S[37mz[37mgQ==","sig[37m"[37m:"0493a15e5[37m7[37m6b575cc3ba[37m7[37mc4144d5f918[37m7[37mccfa5a0e9df[37me[37me6b2221549[37m3[37mcb9331233b8[37m3[37m7fb47e6b33[37m4[37m24d802a2fe[37m3[37m6b1ffd914b0[37m1[37mb1d7d821cf4[37me[37mbb1630b621[37mc[37m5d8"}]
+12:32:13.603 > NIP0[37m4[37m event: HE[37mA[37mP:121480
+[37m12:32:13.733 > -[37m----[37m-[37m---------[37m
+[37m12:32:13.750 > Mensagem:Ru[37mn[37mning NIP04[37m![37m
+12:32:13.752 > -------[37m-[37m-------
+12:32:13.752 > E[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage from [37mr[37melay index[37m:[37m0
+12:32:14.257 > [WSc]: R[37me[37mceived tex[37mt[37m from relay[37m [37m.: ["EVENT[37m"[37m,"8oS2o4ubT[37mR[37mcRk6AHDvSK[37ma[37mbIX1vx0XBu3[37me[37mq8NqPXu7qo[37mx[37ml1bxZXAKtc4[37mF[37myHAw9Ir7",[37m{[37m"id":"afe06[37mf[37m0d4dadeae6[37m0[37ma577413e788[37m3[37m1cdfef65981[37md[37m893453ff2a[37m4[37m583f709d58a[37mf[37m","pubkey"[37m:[37m"8ceb5dcd9a[37m7[37mbe4cb3f399[37mc[37m073d9dad54a[37mc[37mecdebac317[37m6[37mcdb041b36f5[37mb[37me5678e0","[37mc[37mreated_at":[37m1[37m699023801,[37m"[37mkind":4,"ta[37mg[37ms":[["p","[37m2[37m0f77fb3b0ea[37m0[37m2216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285[37me[37mda0ffba402c[37m6[37m21ceb"]],"[37mc[37montent":"92[37mM[37mw5p7PKuFrJ[37mM[37maUJVcnaw==?[37mi[37mv=0GTAs66g[37mx[37mo8Y+zDQaJxr[37mc[37mQ==","sig":[37m"[37m5f08199530[37mb[37m7af78e47a8[37mf[37m30204808523[37m9[37m34a61a06f5[37mc[37m685380d2c2a[37me[37m58d9d231437[37m7[37ma1174caa8d[37m9[37m68b76f4de69[37m6[37m4f722a3449[37m2[37mad460250dfe[37me[37ma6bdd9dcba[37m2[37m24"}]
+12:32:14.306 > Old e[37mv[37ment nip04[37m
+[37m12:32:14.306 > E:NRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssag[37me[37m from relay[37m [37mindex:0
+12:32:14.814 > [W[37mS[37mc]: Receiv[37me[37md text from[37m [37mrelay .: [[37m"[37mEVENT","8o[37mS[37m2o4ubTRcRk6[37mA[37mHDvSKabIX1v[37mx[37m0XBu3eq8Nq[37mP[37mXu7qoxl1bxZ[37mX[37mAKtc4FyHAw[37m9[37mIr7",{"id"[37m:[37m"2b4e69749e[37m1[37m0bef3ddd420[37m3[37m7ef8c55f45[37mf[37me715c5d5790[37m5[37m1c8c0419e1[37m4[37md3508fa","p[37mu[37mbkey":"8ce[37mb[37m5dcd9a7be4c[37mb[37m3f399c073d[37m9[37mdad54acecde[37mb[37mac3176cdb0[37m4[37m1b36f5be567[37m8[37me0","creat[37me[37md_at":16990[37m2[37m3098,"kind[37m"[37m:4,"tags":[[37m[[37m"p","20f77f[37mb[37m3b0ea02216[37mc[37md05f38f2784[37me[37m663db02c3e[37ma[37m2e285eda0f[37mf[37mba402c621ce[37mb[37m"]],"conten[37mt[37m":"LHiHBrg[37m3[37mwoFysageyxn[37mZ[37m6Q==?iv=vN[37m9[37mf0ssBOw3TmK[37mP[37mnA5nptw=="[37m,[37m"sig":"3e11[37m9[37m422f814d04[37ma[37md1376b01d79[37m6[37m2918f77618[37m1[37m662508543e4[37mc[37mf99a37b890[37m6[37m158ab7ace15[37m5[37m14557e794f[37mf[37m69fc4d5a2aa[37m1[37mb5f9c689ed7[37mf[37m2bb0bc9d03[37m9[37m437b4817"}[37m][37m
+12:32:14.865 > Old event [37mn[37mip04
+12:32:14.866 > E:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage from r[37me[37mlay index:[37m0[37m
+12:32:15.370 > [WSc]: Re[37mc[37meived text[37m [37mfrom relay [37m.[37m: ["EVENT"[37m,[37m"8oS2o4ubTR[37mc[37mRk6AHDvSKa[37mb[37mIX1vx0XBu3e[37mq[37m8NqPXu7qox[37ml[37m1bxZXAKtc4F[37my[37mHAw9Ir7",{"[37mi[37md":"cede51[37m6[37m57791b7c4c[37m8[37m2ba42352b91[37m0[37m6dac7c03170[37m3[37mdb2a91dad4[37m1[37m0b3179653fa[37m"[37m,"pubkey":[37m"[37m8ceb5dcd9a[37m7[37mbe4cb3f399c[37m0[37m73d9dad54ac[37me[37mcdebac3176[37mc[37mdb041b36f5b[37me[37m5678e0","c[37mr[37meated_at":1[37m6[37m99022322,"[37mk[37mind":4,"tag[37ms[37m":[["p","2[37m0[37mf77fb3b0ea0[37m2[37m216cd05f38[37mf[37m2784e663db0[37m2[37mc3ea2e285e[37md[37ma0ffba402c6[37m2[37m1ceb"]],"c[37mo[37mntent":"UiD[37mq[37mIEsSLaj/1pJ[37mz[37mM/BohA==?i[37mv[37m=fje2XgnGm[37m9[37mT6yvkuq2Oci[37mg[37m==","sig":"[37m4[37m40b3a51f1b[37m3[37m125f3958f6a[37m5[37ma0d62a415b[37m9[37m4117a3670d[37m0[37m3331f6da4a7[37m6[37m559691dd197[37m4[37m551c65a6df[37m9[37me87192d69f0[37me[37mcf36aa7635[37me[37m9b5a1bc8271[37mf[37m82af1096796[37mb[37m"}]
+12:32:15.420 > NIP04 [37me[37mvent: HEAP[37m:[37m121480
+[37m12:32:15.557 > -[37m-[37m-----[37m-[37m-------
+12:32:15.558 > Me[37mn[37msagem:Tô
+12:32:15.559 > -[37m-[37m---------[37m-[37m---
+12:32:15.561 > E:NRE[37m:[37mME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage from[37m [37mrelay index[37m:[37m0
+12:32:16.063 > [WSc]: R[37me[37mceived tex[37mt[37m from relay[37m [37m.: ["EVENT[37m"[37m,"8oS2o4ubT[37mR[37mcRk6AHDvSK[37ma[37mbIX1vx0XBu3[37me[37mq8NqPXu7qo[37mx[37ml1bxZXAKtc4[37mF[37myHAw9Ir7",[37m{[37m"id":"ee031[37mf[37m013c28f60b6[37ma[37m1ac01a8179[37m4[37m5d36dcca09e[37m9[37mbdaa2cc9ca[37m3[37m57c3353894[37me[37me","pubkey"[37m:[37m"8ceb5dcd9[37ma[37m7be4cb3f399[37mc[37m073d9dad54a[37mc[37mecdebac317[37m6[37mcdb041b36f[37m5[37mbe5678e0","[37mc[37mreated_at"[37m:[37m1699021893,[37m"[37mkind":4,"ta[37mg[37ms":[["p","[37m2[37m0f77fb3b0ea[37m0[37m2216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285[37me[37mda0ffba402c[37m6[37m21ceb"]],"[37mc[37montent":"6V[37m9[37mKnFVBnJTn4[37m+[37m9eXrCBLw==?[37mi[37mv=QpG73vTF[37mA[37m6z+0MtqS275[37mH[37mA==","sig"[37m:[37m"162942291e[37mb[37ma32d25934e1[37md[37m698b3a82ee[37m7[37mde812dfe6f[37m9[37mcafc9769fbe[37m2[37mf23483b132[37m8[37m00860298df2[37ma[37m3778faebdfa[37m3[37mb17e3e62cf[37m3[37m0a286730500[37m3[37m6618dd61b76[37mc[37mf"}]
+12:32:16.113 > Old [37me[37mvent nip04[37m
+[37m12:32:16.115 > E:NRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage from [37mr[37melay index[37m:[37m0
+12:32:16.621 > [WSc]: R[37me[37mceived tex[37mt[37m from relay[37m [37m.: ["EVENT"[37m,[37m"8oS2o4ubT[37mR[37mcRk6AHDvSK[37ma[37mbIX1vx0XBu3[37me[37mq8NqPXu7qo[37mx[37ml1bxZXAKtc4[37mF[37myHAw9Ir7",{[37m"[37mid":"c2d06[37mc[37mcfd92c0aecd[37m3[37m13ed479de6[37md[37m9862f126b3[37m8[37m31f99966ba4[37m3[37m4900e0a8643[37m3[37m","pubkey"[37m:[37m"8ceb5dcd9a[37m7[37mbe4cb3f399[37mc[37m073d9dad54a[37mc[37mecdebac3176[37mc[37mdb041b36f5[37mb[37me5678e0","[37mc[37mreated_at":[37m1[37m699021759,[37m"[37mkind":4,"ta[37mg[37ms":[["p","[37m2[37m0f77fb3b0ea[37m0[37m2216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285e[37md[37ma0ffba402c[37m6[37m21ceb"]],"[37mc[37montent":"82[37mr[37mkcXd+N6RIs[37m8[37mLaW/YyOg==?[37mi[37mv=wuw3LjMyl[37ms[37mGNgB6bVPZJ[37mq[37mw==","sig":[37m"[37m1ffbcfc747[37m7[37m0ca9a9a3d7[37m7[37m0d1c540e01e[37m1[37mb5f7c110832[37md[37mff274337be[37me[37ma18b132a167[37m4[37m86021d5220[37m0[37m5f8a3ceb299[37ma[37m0c99e8317c[37m0[37m8fb5180e97a[37mc[37m90f219baab[37md[37m1b"}]
+12:32:16.671 > Old e[37mv[37ment nip04
+[37m12:32:16.672 > E[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage from [37mr[37melay index[37m:[37m0
+12:32:17.176 > [WSc]: R[37me[37mceived tex[37mt[37m from relay[37m [37m.: ["EVENT"[37m,[37m"8oS2o4ubT[37mR[37mcRk6AHDvSKa[37mb[37mIX1vx0XBu3[37me[37mq8NqPXu7qo[37mx[37ml1bxZXAKtc4[37mF[37myHAw9Ir7",{[37m"[37mid":"06922[37me[37m8e6d3d85dd4[37mb[37m5a2a33e795[37m2[37m68f7cfc720e[37m4[37mb46300a3e1[37md[37macf28a9a6f4[37mf[37m","pubkey":[37m"[37m8ceb5dcd9a[37m7[37mbe4cb3f399[37mc[37m073d9dad54a[37mc[37mecdebac317[37m6[37mcdb041b36f5[37mb[37me5678e0","c[37mr[37meated_at":[37m1[37m699021726,"[37mk[37mind":4,"ta[37mg[37ms":[["p","2[37m0[37mf77fb3b0ea[37m0[37m2216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285e[37md[37ma0ffba402c[37m6[37m21ceb"]],"c[37mo[37mntent":"Z0[37m3[37mqYpfH6qBnUV[37mu[37maB2IdaQ==?[37mi[37mv=TrEIhywwb[37mf[37mIU9aMDk7dJ[37mk[37mg==","sig":[37m"[37m7c3f2dcb32[37ma[37m90529cd29ba[37mb[37mde74b1a819[37mc[37me49682caa8d[37mf[37mfc3be453d8c[37m4[37me217035af1[37m3[37m7a51e974eb6[37m7[37m16310a6292[37ma[37m0b0f9a9751[37m7[37m6de81d0582c[37mf[37me91b0116136[37m3[37mf"}]
+12:32:17.222 > Old ev[37me[37mnt nip04
+[37m12:32:17.222 > E[37m:NRE:ME:[37mL[37mI[37mDAR Readi[37mn[37mg:133308 
+[37m12:32:18.726 > L[37mI[37mDAR FIM
+12:32:18.727 > PE[37m:[37mDE:NL[37mM[37mess[37ma[37mge from re[37ml[37may index:0[37m
+[37m12:32:18.732 > [WSc]: Rec[37me[37mived text f[37mr[37mom relay .[37m:[37m ["EVENT","[37m8[37moS2o4ubTRcR[37mk[37m6AHDvSKabI[37mX[37m1vx0XBu3eq[37m8[37mNqPXu7qoxl1[37mb[37mxZXAKtc4Fy[37mH[37mAw9Ir7",{"i[37md[37m":"1d51ee5b[37m2[37me0a026cc7f[37m6[37m773d9cf8f0f[37m2[37me24efc7f68[37m4[37ma333a32b36[37md[37m9a8db140cd"[37m,[37m"pubkey":"8[37mc[37meb5dcd9a7b[37me[37m4cb3f399c07[37m3[37md9dad54ace[37mc[37mdebac3176cd[37mb[37m041b36f5be5[37m6[37m78e0","crea[37mt[37med_at":16[37m9[37m9021667,"ki[37mn[37md":4,"tags[37m"[37m:[["p","20f[37m7[37m7fb3b0ea02[37m2[37m16cd05f38f2[37m7[37m84e663db02[37mc[37m3ea2e285eda[37m0[37mffba402c621[37mc[37meb"]],"con[37mt[37ment":"s+EW[37mH[37mRiFvABqVxD+[37mR[37m/XXig==?iv[37m=[37m2xD9qY0wttf[37mg[37mL2rXTdkygA=[37m=[37m","sig":"7[37m3[37mf7a8880cfc5[37mb[37me9fb33c255[37m8[37mfc22f84fa5[37me[37m108e7990e81[37mf[37m9779d7a176c[37md[37ma87df62017[37m9[37m28b0ba28e1a[37m0[37m476e3f1c73[37m2[37m94f0805bed4[37m7[37me9b06fedfc0[37mf[37me523cea711[37m"[37m}]
+12:32:18.772 > Old eve[37mn[37mt nip04
+12:32:18.783 > E:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37mssage from [37mr[37melay index:[37m0[37m
+12:32:19.283 > [WSc]: R[37me[37mceived text[37m [37mfrom relay[37m [37m.: ["EVENT"[37m,[37m"8oS2o4ubT[37mR[37mcRk6AHDvSKa[37mb[37mIX1vx0XBu3e[37mq[37m8NqPXu7qox[37ml[37m1bxZXAKtc4[37mF[37myHAw9Ir7",{[37m"[37mid":"46a8a[37m5[37m735f62db449[37mf[37m8ccaa639cdc[37m4[37m4208302fab[37m6[37m0a7138a721d[37m4[37m66586611e6[37m0[37m","pubkey"[37m:[37m"8ceb5dcd9a[37m7[37mbe4cb3f399c[37m0[37m73d9dad54a[37mc[37mecdebac3176[37mc[37mdb041b36f5[37mb[37me5678e0","c[37mr[37meated_at":[37m1[37m699020844,"[37mk[37mind":4,"ta[37mg[37ms":[["p","2[37m0[37mf77fb3b0ea[37m0[37m2216cd05f38[37mf[37m2784e663db[37m0[37m2c3ea2e285e[37md[37ma0ffba402c[37m6[37m21ceb"]],"c[37mo[37mntent":"Mn/[37ml[37mA3qVSDMufG[37mX[37m8FfneRg==?[37mi[37mv=l2juAjBDv[37mq[37mUTe4MUPW16[37mw[37mA==","sig":[37m"[37mb2b35261342[37mc[37m5936e8202a[37mc[37ma87eb49f1fd[37m5[37mf2fa15a9b9[37ma[37m659e4a61a29[37m9[37m658ee6a954[37me[37m2b52edd3a2c[37mb[37m916d1a3596[37m5[37me681b7b386b[37m3[37m5c7287f919[37m2[37m0e9ee0b3859[37mc[37mb"}]
+12:32:19.339 > Old e[37mv[37ment nip04
+[37m12:32:19.341 > E[37m:NRE:ME:[37mP[37mE[37m:DE:NL[37mM[37me[37ms[37msage from r[37me[37mlay index:0[37m[37m
+12:32:19.843 > [WSc]: Re[37mc[37meived text [37mf[37mrom relay [37m.[37m: ["EVENT",[37m"[37m8oS2o4ubTR[37mc[37mRk6AHDvSKab[37mI[37mX1vx0XBu3eq[37m8[37mNqPXu7qoxl[37m1[37mbxZXAKtc4Fy[37mH[37mAw9Ir7",{"[37mi[37md":"ddc714[37m5[37mf6f8f40dbb6[37m0[37m5925d980f6[37m4[37m5f39c57002f[37mf[37m941af317456[37mb[37m7d2022f804[37m"[37m,"pubkey":[37m"[37m8ceb5dcd9a7[37mb[37me4cb3f399c[37m0[37m73d9dad54ac[37me[37mcdebac3176c[37md[37mb041b36f5b[37me[37m5678e0","cr[37me[37mated_at":1[37m6[37m98968988,"k[37mi[37mnd":4,"tag[37ms[37m":[["p","20[37mf[37m77fb3b0ea0[37m2[37m216cd05f38f[37m2[37m784e663db0[37m2[37mc3ea2e285ed[37ma[37m0ffba402c6[37m2[37m1ceb"]],"co[37mn[37mtent":"06x[37mR[37m2jkhNCQ/3fK[37mz[37mV2gQAw==?iv[37m=[37mpcxsrINi7u[37mE[37mIybHY+/moB[37mg[37m==","sig":"[37m9[37m64d35b68f9[37mf[37m9d8bdd864c4[37m0[37m91745a2b202[37ma[37mac19b7f4f9[37m3[37m1199e4d33f4[37m5[37m924e60a554[37m8[37m8c0f28ded2[37m9[37ma4fcad96f49[37m0[37m642aa143d51[37m1[37me6e143292f[37m8[37mee488c97f94[37m5[37m"}]
+12:32:19.894 > Old ev[37me[37mnt nip04
+12:32:19.895 > E[37m:[37mNRE:ME:[37mP[37mE[37m:DE:NL[37mM[37message f[37mr[37mom relay in[37md[37mex:0
+12:32:20.383 > [WSc[37m][37m: Received t[37me[37mxt from r[37me[37mlay .: ["EO[37mS[37mE","8oS2o4[37mu[37mbTRcRk6AHDv[37mS[37mKabIX1vx0X[37mB[37mu3eq8NqPXu7[37mq[37moxl1bxZXAK[37mt[37mc4FyHAw9Ir7[37m"[37m]
+12:32:20.407 > E:NRE:ME[37m:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:N[37mR[37mE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mL[37mI[37mDAR Readi[37mn[37mg:135984 
+[37m12:32:23.908 > L[37mI[37mDAR FIM
+[37m12:32:23.910 > P[37mE:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mL[37mI[37mDAR Readin[37mg[37m:135984 
+[37m12:32:28.914 > L[37mI[37mDAR FIM
+12:32:28.915 > PE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mL[37mI[37mDAR Reading[37m:[37m135984 
+[37m12:32:33.922 > L[37mIDAR[37m [37mFIM
+12:32:33.924 > PE:D[37mF[37ma[37miled to[37m [37mread from [37mD[37mHT sensor![37m
+[37m12:32:33.972 > E:[37mP[37mublica[37md[37mo no MQTT:[37m [37m
+12:32:33.984 > HEAP 1 Mi[37mn[37m:133652
+12:32:33.985 > NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mL[37mI[37mDAR Reading[37m:[37m135984 
+[37m12:32:38.983 > L[37mI[37mDAR FIM[37m
+[37m12:32:38.983 > PE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mL[37mI[37mDAR Reading[37m:[37m135984 
+[37m12:32:43.983 > L[37mI[37mDAR FIM
+12:32:43.983 > P[37mE[37m:DE:NLE:NR[37mE[37m:ME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mL[37mI[37mDAR Reading:[37m1[37m35984 
+[37m12:32:49.005 > L[37mI[37mDAR FIM
+12:32:49.006 > PE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:[37mDE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mL[37mI[37mDAR Reading:[37m1[37m35984 
+[37m12:32:54.012 > L[37mID[37mA[37mR FIM
+12:32:54.013 > PE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE:[37mD[37mE:NLE:NRE:ME[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mL[37mID[37mA[37mR Reading:[37m1[37m35984 
+[37m12:32:59.019 > L[37mIDA[37mR[37m FIM
+12:32:59.020 > PE:DE[37m:[37mNL[37mM[37me[37mssage from r[37me[37mlay index:0[37m[37m
+12:32:59.026 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
+[37m12:32:59.029 > Relay disco[37mn[37mnected: He[37ma[37mp: 178048
+[37m12:32:59.032 > E[37m:NRE:ME:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mL[37mID[37mA[37mR Reading:1[37m7[37m8820 
+[37m12:33:04.031 > L[37mIDA[37mR[37m FIM
+12:33:04.033 > PE:D[37mE[37m:NL[37mE[37m:[37mNRE[37m:[37mME:[37mP[37mE:[37mD[37mE:NL[37mE[37m:N[37mR[37mE:ME:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mL[37mIDA[37mR[37m Reading:1[37m3[37m5992 
+[37m12:33:09.403 > L[37mI[37mDAR FI[37mM[37m
+12:33:09.403 > PE:DE:NL[37mE[37m:NRE:ME:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLMessage[37m [37mfrom relay [37mi[37mndex:0
+12:33:10.408 > [W[37mS[37mc] Connecte[37md[37m to relay: [37m.[37m
+12:33:10.411 > Relay con[37mn[37mected: 
+12:33:10.412 > m[37me[37mssage
+12:33:10.413 > Requ[37me[37msting event[37ms[37m:
+12:33:10.415 > SETUP E[37mN[37mD:135784
+[37m12:33:10.416 > E[37m:NRBroadcas[37mt[37ming event: [37m[[37m"REQ", "F4[37mO[37mRTCtUOo9Ter[37mo[37m7GQ0MFnNWQ[37mn[37m7AGcL81js9z[37mB[37mBgZj5Tup5K[37m8[37m2Vo3SvBJeJW[37m7[37m7Bi", {"#p[37m"[37m: ["20f77fb[37m3[37mb0ea02216c[37md[37m05f38f2784e[37m6[37m63db02c3ea[37m2[37me285eda0ffb[37ma[37m402c621ceb"[37m][37m, "kinds":[37m [37m[4], "limi[37mt[37m": 999}]
+[37m12:33:11.431 > E[37m:ME[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mL[37mIDA[37mR[37m Reading:13[37m5[37m992 
+[37m12:33:14.432 > L[37mI[37mDAR FIM[37m
+[37m12:33:14.434 > PE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE:D[37mE[37m:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE[37m:D[37mE[37m:NLE:NRE:ME:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE:D[37mE[37m:NLE:NRE:ME[37m:[37mL[37mI[37mDA[37mR[37m Reading:13[37m5[37m992 
+[37m12:33:19.440 > L[37mI[37mDAR FIM[37m[37m
+12:33:19.442 > PE:DE:NLE[37m:[37mNRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:D[37mE[37m:NLE:NRE:ME[37m:[37mP[37mE:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE:DE[37m:[37mNLE:NRE:ME:[37mL[37mI[37mDAR[37m [37mReading:13[37m5[37m992 
+[37m12:33:24.446 > L[37mIDAR FIM[37m[37m
+12:33:24.448 > PE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE:DE[37m:[37mNLE:NRE:ME[37m:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mL[37mI[37mDAR[37m [37mReading:1359[37m9[37m2 
+[37m12:33:29.451 > L[37mI[37mDAR FIM[37m
+[37m12:33:29.451 > PE:DE:NLE:[37mN[37mRE:ME:[37mP[37mE:DE[37m:[37mNLE:NRE:M[37mE[37m:[37mP[37mE:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:D[37mF[37ma[37miled to read [37mf[37mrom DHT s[37me[37mnsor!
+12:33:33.019 > E:[37mP[37mubl[37mi[37mcado no MQT[37mT[37m: 
+12:33:33.022 > HEAP 1 [37mM[37min:133660[37m
+[37m12:33:33.024 > NLE:NRE:ME[37m:[37mL[37mI[37mDAR[37m [37mReading:13599[37m2[37m 
+[37m12:33:34.519 > L[37mI[37mDAR FIM
+12:33:34.519 > P[37mE[37m:DE:NLE:NRE[37m:[37mME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE[37m:[37mNLE:NRE:ME:[37mP[37mE:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE:DE:[37mN[37mLE:NRE:ME:[37mL[37mI[37mDAR [37mR[37meading:13599[37m2[37m 
+[37m12:33:39.524 > L[37mI[37mDAR FIM
+12:33:39.526 > PE:[37mD[37mE:NLE:NRE:[37mM[37mE:[37mP[37mE:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:ME:[37mL[37mI[37mDAR [37mR[37meading:1359[37m9[37m2 
+[37m12:33:44.531 > L[37mI[37mDAR FIM
+12:33:44.532 > PE:[37mD[37mE:NLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:[37mN[37mLE:NRE:M[37mE[37m:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mL[37mI[37mDAR Re[37ma[37mding:1359[37m9[37m2 
+[37m12:33:49.533 > L[37mIDA[37mR[37m FIM
+12:33:49.533 > PE:DE[37m:[37mNLE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE:DE:NL[37mE[37m:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:N[37mL[37mE:NRE:ME:[37mP[37mE[37m:DE:NL[37mE[37m:NRE:ME:

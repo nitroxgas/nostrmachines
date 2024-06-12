@@ -16,13 +16,21 @@ void mqtt_reconnect() {
     } else {
       debugf("failed, rc=%d",client.state());      
       debugln(" try again in 5 seconds");
-      delay(5000);
+      vTaskDelay(5000/ portTICK_PERIOD_MS);
     }
   }
 }
 
-bool mqtt_publish(const char* topic, const char* payload){
+bool mqtt_publish(const char* topic, const char* payload){    
     return client.publish(topic, payload);
+}
+
+bool mqtt_publish(const char* topic, const char* payload, boolean retained){    
+    return client.publish(topic, payload, retained);
+}
+
+bool mqtt_publish(const char* topic, const char* payload, unsigned int plength){    
+    return client.publish(topic, payload, plength);
 }
 
 void mqtt_init(){

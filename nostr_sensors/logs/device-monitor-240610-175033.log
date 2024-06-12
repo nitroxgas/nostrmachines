@@ -1,0 +1,27 @@
+[37m17:50:36.482 > Total heap: 263512
+17:50:36.482 > Free heap: 237088
+17:50:36.482 > Total PSRAM: 4192107
+17:50:36.482 > Free PSRAM: 4191847
+17:50:36.482 > SPIFS: Mounting File System...
+17:50:36.482 > SPIFS: Loading config file
+17:50:36.482 >  
+17:50:36.482 > AllDone: 
+17:50:36.482 > *wm:AutoConnect 
+17:50:36.482 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m17:50:37.006 > *[37mw[37mm:AutoConnec[37mt[37m: SUCCESS[37m [37m
+17:50:37.009 > *wm:STA I[37mP[37m Address: 1[37m9[37m2.168.1.25[37m[37m
+17:50:37.012 > 
+17:50:37.012 > WiFi con[37mn[37mected
+17:50:37.012 > IP [37ma[37mddress: 19[37m2[37m.168.1.25
+[37m17:50:37.015 > P[37mrivate Key:[37m d3871668e5[37m3[37m2102ca52936[37m4[37m9d8e9f0e90[37m8[37m5dd58e161cf[37m9[37m3bee6037ab[37mb[37m5b8a3fb
+17:50:37.022 > Pu[37mb[37mlic Key: 8[37mc[37meb5dcd9a7be[37m4[37mcb3f399c07[37m3[37md9dad54acec[37md[37mebac3176cd[37mb[37m041b36f5be5[37m6[37m78e0
+17:50:37.028 > Rela[37my[37ms: nostr.bi[37mt[37mcoiner.soc[37mi[37mal,relay.pl[37me[37mbstr.com,n[37mo[37ms.lol,relay[37m.[37mdamus.io
+17:50:37.034 > M[37ma[37mster Pub K[37me[37my: 20f77fb[37m3[37mb0ea02216cd[37m0[37m5f38f2784e6[37m6[37m3db02c3ea2[37me[37m285eda0ffba[37m4[37m02c621ceb[37m
+[37m17:50:37.042 > TimeZone f[37mr[37momUTC: -3
+[37m17:50:37.608 > S[37me[37mtting ca[37ml[37mlbacks
+17:50:37.611 > con[37mn[37mecting
+17:50:37.612 > Rel[37ma[37mys are:
+17:50:37.612 > r[37me[37mlay.plebst[37mr[37m.com
+17:50:37.615 > Conne[37mc[37mting to rela[37my[37m: relay.p[37ml[37mebstr.com
+[37m17:50:38.110 > S[37mE[37mTUP LID[37mA[37mR
+17:50:38.112 > SETUP L[37mI[37mDAR START[37m

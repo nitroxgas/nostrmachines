@@ -1,0 +1,57 @@
+[37m13:46:11.810 > Total heap: 263504
+13:46:11.810 > Free heap: 237080
+13:46:11.810 > Total PSRAM: 4192107
+13:46:11.810 > Free PSRAM: 4191847
+13:46:11.810 > SPIFS: Mounting File System...
+13:46:11.810 > SPIFS: Loading config file
+13:46:11.810 >  
+13:46:11.810 > AllDone: 
+13:46:11.810 > *wm:AutoConnect 
+13:46:11.810 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m13:46:12.655 > *[37mw[37mm:AutoConnec[37mt[37m: SUCCESS [37m[37m
+13:46:12.658 > *wm:STA IP[37m [37mAddress: 1[37m9[37m2.168.1.25[37m
+[37m13:46:12.661 > 
+13:46:12.661 > WiFi con[37mn[37mected
+13:46:12.662 > IP a[37md[37mdress: 192[37m.[37m168.1.25
+13:46:12.664 > P[37mr[37mivate Key:[37m [37md3871668e53[37m2[37m102ca52936[37m4[37m9d8e9f0e908[37m5[37mdd58e161cf9[37m3[37mbee6037abb[37m5[37mb8a3fb
+13:46:12.671 > Pu[37mb[37mlic Key: 8c[37me[37mb5dcd9a7be4[37mc[37mb3f399c073[37md[37m9dad54acecd[37me[37mbac3176cdb[37m0[37m41b36f5be5[37m6[37m78e0
+13:46:12.678 > Relay[37ms[37m: nostr.bit[37mc[37moiner.soci[37ma[37ml,relay.ple[37mb[37mstr.com,nos[37m.[37mlol,relay.[37md[37mamus.io
+13:46:12.678 > M[37ma[37mster Pub Ke[37my[37m: 20f77fb3[37mb[37m0ea02216cd0[37m5[37mf38f2784e6[37m6[37m3db02c3ea2e2[37m8[37m5eda0ffba[37m4[37m02c621ceb
+[37m13:46:12.692 > T[37mimeZone fr[37mo[37mmUTC: -3
+[37m13:46:13.028 > S[37me[37mtting cal[37ml[37mbacks
+13:46:13.030 > conn[37me[37mcting
+13:46:13.031 > Rel[37ma[37mys are:
+13:46:13.032 > re[37ml[37may.plebstr[37m.[37mcom
+13:46:13.034 > Connec[37mt[37ming to rela[37my[37m: relay.pl[37me[37mbstr.com
+[37m13:46:13.530 > S[37mE[37mTUP LIDA[37mR[37m
+13:46:13.531 > SETUP LI[37mD[37mAR START
+[37m13:46:13.533 > V[37mersão: 2.1[37m.[37m5
+[37m13:46:13.575 > S[37mP[37mIFS: Alre[37ma[37mdy Mounted
+[37m13:46:13.591 > L[37mI[37mDAR: Lo[37ma[37mding LIDAR[37m [37mdata file
+[37m13:46:13.591 > S[37mETUP LIDA[37mR[37m END
+13:46:13.591 > SPIF[37mS[37m: Already M[37mo[37munted
+[37m13:46:13.628 > P[37mL[37mUV: Loadin[37mg[37m Pluviome[37mt[37mer data fi[37ml[37me
+13:46:13.628 > SETUP PL[37mU[37mVIOMETER
+[37m13:46:13.628 > S[37mETUP DHT22[37m
+[37m13:46:13.628 > SETUP END [37m-[37m HEAP:18216[37m4[37m
+13:46:13.628 > Attemptin[37mg[37m MQTT conne[37mc[37mtion...[37mc[37mo[37mnnected
+[37m13:46:22.513 > M[37me[37mssage f[37mr[37mom relay i[37mn[37mdex:0
+13:46:22.515 > [WSc[37m][37m Connected[37m [37mto relay: .[37m
+[37m13:46:22.518 > Relay conn[37me[37mcted: 
+13:46:22.519 > mes[37ms[37mage
+13:46:22.520 > Reque[37ms[37mting events[37m:[37m
+13:46:22.522 > SETUP EN[37mD[37m:136348
+13:46:22.523 > Br[37mo[37madcasting [37me[37mvent: ["REQ[37m"[37m, "b96IHZst[37mC[37mcTkXz7CrcI[37mc[37mNLqoumx801[37mh[37m3WXwHXakHd0[37mV[37mXUVQHBLiFe[37mS[37mCkkaWepDP5"[37m,[37m {"#p": ["2[37m0[37mf77fb3b0ea[37m0[37m2216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285[37me[37mda0ffba402c[37m6[37m21ceb"], "k[37mi[37mnds": [4],[37m [37m"limit": 10[37m,[37m "since":171[37m8[37m037973}]
+[37m13:47:10.092 > F[37mai[37ml[37med to read [37mf[37mrom DHT se[37mn[37msor!
+[37m13:47:10.095 > P[37mu[37mb[37mlicado no M[37mQ[37mTT: 
+13:47:10.098 > HEAP [37m1[37m Min:13374[37m4[37m
+[37m13:47:23.102 > M[37message [37mf[37mrom relay [37mi[37mndex:0
+13:47:23.105 > [W[37mS[37mc] Disconne[37mc[37mted from re[37ml[37may: .
+13:47:23.108 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m7[37m8224
+[37m13:47:34.496 > M[37me[37mssage from r[37me[37mlay index:[37m0[37m
+13:47:34.499 > [WSc] Con[37mn[37mected to r[37me[37mlay: .
+13:47:34.501 > Rela[37my[37m connected[37m:[37m 
+13:47:34.503 > message[37m
+[37m13:47:34.504 > Requesting[37m [37mevents:
+13:47:34.505 > SET[37mU[37mP END:135[37m6[37m20
+13:47:34.507 > Broadca[37ms[37mting event[37m:[37m ["REQ", "U[37mz[37mAOx8bgcRqs8[37mz[37mEYKQQWkxX6[37mE[37mFQSY6P3ZXm[37mu[37mCyWUA9Lh0EW[37m4[37mHKPZYB5ysL[37mg[37m03t9N", {"#[37mp[37m": ["20f77f[37mb[37m3b0ea02216[37mc[37md05f38f2784[37me[37m663db02c3e[37ma[37m2e285eda0f[37mf[37mba402c621ce[37mb[37m"], "kinds"[37m:[37m [4], "limi[37mt[37m": 10, "si[37mn[37mce":171803[37m7[37m973}]

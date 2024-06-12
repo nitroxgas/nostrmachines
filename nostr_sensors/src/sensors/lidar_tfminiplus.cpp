@@ -184,7 +184,7 @@ void tfmini_init() {
   #elif defined(LIDAR_SERIAL2)
     Serial2.begin(115200, SERIAL_8N1, RXD2, TXD2);
     tfmini.begin(&Serial2); 
-  #elif
+  #else
     tfmini.begin(&Serial);
   #endif
   debugln("SETUP LIDAR START");
@@ -192,7 +192,7 @@ void tfmini_init() {
   //tfmini.setBaudRate(115200);
 
   // Get firmware version
-  debugf("Versão: %s", tfmini.getVersion());
+  debugf("Versão: %s\n", tfmini.getVersion());
 
   // System Reset
   // tfmini.systemReset();
@@ -260,8 +260,8 @@ void tfmini_read(unsigned long Lidar_currentMillis) {
   // read the data frame sent by the mini
   // Enable readings
   if ( Lidar_currentMillis >= previousMillisSeconds + LIDAR_TIME ) {
-    debug("LIDAR Antes:");
-    debugf("%d\n", ESP.getFreeHeap());
+    //debug("LIDAR Reading:");
+    //debugf("%d \n", ESP.getFreeHeap());
     previousMillisSeconds = millis();
     tfmini.setEnabled(false); 
     if (tfmini.readData()) {
@@ -300,8 +300,9 @@ void tfmini_read(unsigned long Lidar_currentMillis) {
         LidarData.avg1Day = calculateAverage(distances1Hour, vINTERVAL_1_DAY);
         LidarData.avg1Hour = calculateAverage(distances15Minutes, vINTERVAL_1_HOUR);        
       }
-    }     
+    } else debugln("LIDAR: Falha de leitura");     
   // Disable readings, reduces temperature and readings buffer  
   tfmini.setEnabled(true); 
+  //debugln("LIDAR FIM");
   }
 }

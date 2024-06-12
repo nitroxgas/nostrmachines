@@ -1,0 +1,607 @@
+[37m19:17:29.701 > Total heap: 263504
+19:17:29.701 > Free heap: 237080
+19:17:29.701 > Total PSRAM: 4192107
+19:17:29.701 > Free PSRAM: 4191847
+19:17:29.701 > SPIFS: Mounting File System...
+19:17:29.701 > SPIFS: Loading config file
+19:17:29.701 >  
+19:17:29.701 > AllDone: 
+19:17:29.701 > *wm:AutoConnect 
+19:17:29.701 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m19:17:29.977 > *[37mwm:Au[37mt[37moConnect: S[37mU[37mCCESS 
+19:17:29.979 > *w[37mm[37m:STA IP Ad[37md[37mress: 192.1[37m6[37m8.1.25
+19:17:29.982 > 
+[37m19:17:29.983 > W[37miFi connect[37me[37md
+19:17:29.984 > IP addr[37me[37mss: 192.168[37m.[37m1.25
+19:17:29.986 > Priv[37ma[37mte Key: d38[37m7[37m1668e532102[37mc[37ma5293649d8[37me[37m9f0e9085dd[37m5[37m8e161cf93be[37me[37m6037abb5b8a[37m3[37mfb
+19:17:29.993 > Public[37m [37mKey: 8ceb5d[37mc[37md9a7be4cb3[37mf[37m399c073d9d[37ma[37md54acecdeba[37mc[37m3176cdb041b[37m3[37m6f5be5678e[37m0[37m
+19:17:29.997 > Relays: n[37mo[37mstr.bitcoi[37mn[37mer.social,r[37me[37mlay.plebst[37mr[37m.com,nos.lo[37ml[37m,relay.damu[37ms[37m.io
+19:17:29.997 > Maste[37mr[37m Pub Key: [37m2[37m0f77fb3b0ea[37m0[37m2216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285[37me[37mda0ffba402c[37m6[37m21ceb
+19:17:30.013 > Time[37mZ[37mone fromUT[37mC[37m: -3
+[37m19:17:35.008 > F[37ma[37miled t[37mo[37m obtain time[37m[37m
+19:17:35.008 > Setting [37mc[37mallbacks
+[37m19:17:35.008 > c[37monnecting
+[37m19:17:35.008 > R[37melays are:[37m[37m
+19:17:35.008 > relay.pleb[37ms[37mtr.com
+19:17:35.008 > Co[37mn[37mnecting to [37mr[37melay: rela[37my[37m.plebstr.co[37mm[37m
+[37m19:17:35.508 > S[37mE[37mTUP LIDAR
+19:17:35.508 > SE[37mT[37mUP LIDAR [37mS[37mTART
+19:17:35.508 > Vers[37mã[37mo: 2.1.5
+[37m19:17:35.561 > S[37mP[37mIFS: Alread[37my[37m Mounted[37m
+[37m19:17:35.578 > L[37mI[37mDAR: Lo[37ma[37mding LIDAR [37md[37mata file
+[37m19:17:35.578 > S[37mETUP LIDA[37mR[37m END
+19:17:35.578 > SPIFS[37m:[37m Already M[37mo[37munted
+[37m19:17:35.613 > P[37mL[37mUV: Loa[37md[37ming Pluv[37mi[37mometer data[37m [37mfile
+19:17:35.616 > SETU[37mP[37m PLUVIOMETE[37mR[37m
+19:17:35.616 > SETUP DH[37mT[37m22
+19:17:35.616 > SETUP E[37mN[37mD - HEAP:1[37m6[37m3968
+[37m19:17:36.099 > A[37mt[37mtempting[37m [37mMQTT connec[37mt[37mion...[37mc[37mo[37mnne[37mc[37mted
+[37m19:17:37.355 > G[37mu[37mru Meditat[37mi[37mon Error: [37mC[37more  1 pani[37mc[37m'ed (Illega[37ml[37mInstructio[37mn[37m). Exceptio[37mn[37m was unhan[37md[37mled.
+19:17:37.363 > Memo[37mr[37my dump at 0[37mx[37m400d3130: a[37m5[37m20a220 f01[37md[37m18fc ac0041[37m3[37m6
+19:17:37.368 > Core  1[37m [37mregister du[37mm[37mp:
+19:17:37.370 > PC    [37m [37m : 0x400d31[37m3[37m6  PS     [37m [37m: 0x0006043[37m0[37m  A0      [37m:[37m 0x00000000[37m [37m A1      :[37m [37m0x3ffe80d0 [37m [37m
+19:17:37.378 > A2      [37m:[37m 0x3ffc52d0[37m [37m A3      : [37m0[37mx00000000 [37m [37mA4      : [37m0[37mx00000000  [37mA[37m5      : 0[37mx[37m00000000  [37m
+[37m19:17:37.380 > A6      : 0[37mx[37m00000000  [37mA[37m7      : 0x[37m0[37m0000000  A[37m8[37m      : 0x[37m8[37m00d3136  A9[37m [37m     : 0x3f[37mf[37me8090  
+19:17:37.393 > A[37m1[37m0     : 0x0[37m7[37m7720d5  A11[37m [37m    : 0x07[37m7[37m720d5  A12[37m [37m    : 0x000[37m0[37m25ac  A13 [37m [37m   : 0x3ffc[37m7[37ma18  
+19:17:37.397 > A14[37m [37m    : 0x3ff[37md[37md0ec  A15 [37m [37m   : 0x8000[37m0[37m001  SAR   [37m [37m : 0x00000[37m0[37m0a  EXCCAU[37mS[37mE: 0x000000[37m0[37m0  
+19:17:37.409 > EXCVA[37mD[37mDR: 0x00000[37m0[37m00  LBEG   [37m [37m: 0x40085a[37m0[37m9  LEND    [37m:[37m 0x40085a1[37m1[37m  LCOUNT  [37m:[37m 0x00000027[37m [37m 
+19:17:37.415 > 
+19:17:37.415 > 
+19:17:37.415 > Back[37mt[37mrace: 0x40[37m0[37md3133:0x3ff[37me[37m80d0
+19:17:37.448 > 
+19:17:37.448 >   #0  0x400d3133:0x3ffe80d0 in NOSTRTask(void*) at src/main.cpp:23
+19:17:37.448 > 
+19:17:37.448 > 
+[37m19:17:37.448 > 
+19:17:37.448 > 
+19:17:37.448 > ELF file SHA256: 48406f6f93ddd618
+19:17:37.448 > 
+[37m19:17:37.757 > R[37me[37mbooting...[37m
+[37m19:17:37.757 > ets J[37mu[37mn  8 2016 0[37m0[37m:22:57
+19:17:37.757 > 
+[37m19:17:37.757 > r[37mst:0xc (SW_[37mC[37mPU_RESET),[37mb[37moot:0x13 (S[37mP[37mI_FAST_FLA[37mS[37mH_BOOT)
+19:17:37.757 > co[37mn[37mfigsip: 0,[37m [37mSPIWP:0xee[37m
+[37m19:17:37.757 > clk_drv:0x[37m0[37m0,q_drv:0x0[37m0[37m,d_drv:0x00[37m,[37mcs0_drv:0x[37m0[37m0,hd_drv:0[37mx[37m00,wp_drv:0[37mx[37m00
+19:17:37.775 > mode:D[37mI[37mO, clock di[37mv[37m:2
+19:17:37.777 > load:0x[37m3[37mfff0030,le[37mn[37m:1184
+19:17:37.779 > load[37m:[37m0x40078000[37m,[37mlen:13232
+[37m19:17:37.780 > l[37moad:0x4008[37m0[37m400,len:302[37m8[37m
+19:17:37.780 > entry 0x[37m4[37m00805e4
+[37m19:17:38.874 > T[37mo[37mtal heap: 26[37m3[37m504
+19:17:38.874 > Free [37mh[37meap: 23708[37m0[37m
+19:17:38.874 > Total PSRA[37mM[37m: 4192107
+19:17:38.874 > F[37mr[37mee PSRAM: [37m4[37m191847
+[37m19:17:39.001 > S[37mPIF[37mS[37m: Mounting [37mF[37mile System.[37m.[37m.
+[37m19:17:39.076 > S[37mP[37mIFS: [37mL[37moading confi[37mg[37m file
+[37m19:17:39.081 >  [37m[37m
+19:17:39.081 > AllD[37mo[37mne: 
+19:17:39.082 > *wm:[37mA[37mutoConnect[37m [37m
+19:17:39.084 > *wm:Conne[37mc[37mting to SAV[37mE[37mD AP: Geor[37mg[37meHomeT
+[37m19:17:40.607 > *[37mwm:[37mA[37mutoConnect: [37mS[37mUCCESS 
+[37m19:17:40.623 > *[37mwm:STA IP [37mA[37mddress: 192[37m.[37m168.1.25
+[37m19:17:40.623 > [37m
+19:17:40.623 > WiFi conne[37mc[37mted
+19:17:40.623 > IP ad[37md[37mress: 192.1[37m6[37m8.1.25
+19:17:40.623 > Pri[37mv[37mate Key: d[37m3[37m871668e5321[37m0[37m2ca5293649[37md[37m8e9f0e9085[37md[37md58e161cf93[37mb[37mee6037abb5b[37m8[37ma3fb
+19:17:40.623 > Publ[37mi[37mc Key: 8ceb[37m5[37mdcd9a7be4c[37mb[37m3f399c073d[37m9[37mdad54acecde[37mb[37mac3176cdb04[37m1[37mb36f5be567[37m8[37me0
+19:17:40.644 > Relays:[37m [37mnostr.bitc[37mo[37miner.social[37m,[37mrelay.pleb[37ms[37mtr.com,nos.[37ml[37mol,relay.d[37ma[37mmus.io
+19:17:40.647 > Mas[37mt[37mer Pub Key[37m:[37m 20f77fb3b0[37me[37ma02216cd05[37mf[37m38f2784e663[37md[37mb02c3ea2e28[37m5[37meda0ffba40[37m2[37mc621ceb
+19:17:40.647 > Ti[37mm[37meZone from[37mU[37mTC: -3
+19:17:40.659 > Se[37mt[37mting callba[37mc[37mks
+19:17:40.661 > connect[37mi[37mng
+19:17:40.662 > Relays[37m [37mare:
+19:17:40.663 > relay[37m.[37mplebstr.co[37mm[37m
+19:17:40.664 > Connecti[37mn[37mg to relay:[37m [37mrelay.plebs[37mt[37mr.com
+[37m19:17:41.166 > S[37mE[37mTUP LIDAR[37m
+[37m19:17:41.168 > SETUP LIDA[37mR[37m START
+19:17:41.169 > Ver[37ms[37mão: 2.1.5[37m
+[37m19:17:41.214 > S[37mP[37mIFS: Already[37m [37mMounted
+[37m19:17:41.227 > L[37mI[37mDAR:[37m [37mLoading LI[37mD[37mAR data fi[37ml[37me
+19:17:41.227 > SETUP [37mL[37mIDAR END
+19:17:41.227 > S[37mP[37mIFS: Alrea[37md[37my Mounted
+[37m19:17:41.263 > P[37mL[37mUV: Lo[37ma[37mding Pluvi[37mo[37mmeter data[37m [37mfile
+19:17:41.263 > SETUP[37m [37mPLUVIOMETER[37m[37m
+19:17:41.263 > SETUP DHT[37m2[37m2
+19:17:41.263 > Guru Med[37mi[37mtation Err[37mo[37mr: Core  1 [37mp[37manic'ed (I[37ml[37mlegalInstru[37mc[37mtion). Exc[37me[37mption was u[37mn[37mhandled.
+19:17:41.277 > M[37me[37mmory dump [37ma[37mt 0x400d31[37m3[37m0: a520a220[37m [37mf01d18fc a[37mc[37m004136
+19:17:41.277 > Cor[37me[37m  1 registe[37mr[37m dump:
+19:17:41.277 > PC[37m [37m     : 0x40[37m0[37md3136  PS [37m [37m    : 0x00[37m0[37m60630  A0  [37m [37m   : 0x0000[37m0[37m000  A1   [37m [37m  : 0x3ffe8[37m0[37md0  
+19:17:41.295 > A2  [37m [37m   : 0x3ff[37mc[37m52d0  A3   [37m [37m  : 0x00000[37m0[37m00  A4    [37m [37m : 0x000000[37m0[37m0  A5     [37m [37m: 0x0000000[37m0[37m  
+19:17:41.297 > A6    [37m [37m : 0x000000[37m0[37m0  A7     [37m [37m: 0x0000000[37m0[37m  A8      [37m:[37m 0x800d3136[37m [37m A9      :[37m [37m0x3ffe8090 [37m [37m
+19:17:41.311 > A10     :[37m [37m0x4a3e0776[37m [37m A11     :[37m [37m0x4a3e0776 [37m [37mA12     : 0[37mx[37m00000b73  [37mA[37m13     : 0x[37m3[37mffc7a18  [37m
+[37m19:17:41.314 > A14     : 0[37mx[37m3ffdd074  [37mA[37m15     : 0[37mx[37m80000001  S[37mA[37mR     : 0x0[37m0[37m00000a  EX[37mC[37mCAUSE: 0x00[37m0[37m00000  
+19:17:41.326 > E[37mX[37mCVADDR: 0x0[37m0[37m000000  LB[37mE[37mG    : 0x40[37m0[37m85a09  LEND[37m [37m   : 0x400[37m8[37m5a11  LCOU[37mN[37mT  : 0x0000[37m0[37m027  
+19:17:41.331 > 
+19:17:41.331 > [37m
+[37m19:17:41.331 > Backtrace: [37m0[37mx400d3133:0[37mx[37m3ffe80d0
+19:17:41.361 > 
+19:17:41.361 >   #0  0x400d3133:0x3ffe80d0 in NOSTRTask(void*) at src/main.cpp:23
+[37m19:17:41.361 > 
+19:17:41.361 > 
+19:17:41.361 > 
+19:17:41.361 > 
+19:17:41.361 > ELF file SHA256: 48406f6f93ddd618
+19:17:41.361 > 
+[37m19:17:41.607 > R[37me[37mbooting..[37m.[37m
+19:17:41.623 > ets[37m [37mJun  8 2016[37m [37m00:22:57
+19:17:41.623 > [37m
+[37m19:17:41.623 > rst:0xc (S[37mW[37m_CPU_RESET[37m)[37m,boot:0x13 [37m([37mSPI_FAST_F[37mL[37mASH_BOOT)
+[37m19:17:41.623 > c[37monfigsip: 0[37m,[37m SPIWP:0xe[37me[37m
+19:17:41.623 > clk_drv:0[37mx[37m00,q_drv:0[37mx[37m00,d_drv:0[37mx[37m00,cs0_drv:[37m0[37mx00,hd_drv:[37m0[37mx00,wp_drv[37m:[37m0x00
+19:17:41.639 > mode:[37mD[37mIO, clock [37md[37miv:2
+19:17:41.641 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+19:17:41.643 > lo[37ma[37md:0x400780[37m0[37m0,len:13232[37m[37m
+19:17:41.646 > load:0x40[37m0[37m80400,len:3[37m0[37m28
+19:17:41.647 > entry [37m0[37mx400805e4
+[37m19:17:42.743 > T[37mo[37mtal heap: 263[37m5[37m04
+19:17:42.746 > Free h[37me[37map: 237080
+[37m19:17:42.747 > T[37motal PSRAM[37m:[37m 4192107
+19:17:42.749 > F[37mr[37mee PSRAM: 4[37m1[37m91847
+[37m19:17:42.864 > S[37mPIFS[37m:[37m Mounting [37mF[37mile System.[37m.[37m.
+[37m19:17:42.940 > S[37mP[37mIFS: [37mL[37moading conf[37mi[37mg file
+[37m19:17:42.944 >  [37m[37m
+19:17:42.945 > All[37mD[37mone: 
+19:17:42.946 > *wm:[37mA[37mutoConnect[37m [37m
+19:17:42.948 > *wm:Conne[37mc[37mting to SAV[37mE[37mD AP: Geor[37mg[37meHomeT
+[37m19:17:44.359 > *[37mwm[37m:[37mAutoConnect[37m:[37m SUCCESS [37m
+[37m19:17:44.359 > *wm:STA IP [37mA[37mddress: 19[37m2[37m.168.1.25
+[37m19:17:44.374 > [37m
+19:17:44.374 > WiFi conn[37me[37mcted
+19:17:44.375 > IP ad[37md[37mress: 192.[37m1[37m68.1.25
+19:17:44.377 > Pr[37mi[37mvate Key: [37md[37m3871668e532[37m1[37m02ca529364[37m9[37md8e9f0e9085[37md[37md58e161cf9[37m3[37mbee6037abb5[37mb[37m8a3fb
+19:17:44.384 > Publ[37mi[37mc Key: 8ce[37mb[37m5dcd9a7be4[37mc[37mb3f399c073d[37m9[37mdad54acecd[37me[37mbac3176cdb0[37m4[37m1b36f5be567[37m8[37me0
+19:17:44.391 > Relays:[37m [37mnostr.bitc[37mo[37miner.socia[37ml[37m,relay.ple[37mb[37mstr.com,nos[37m.[37mlol,relay.d[37ma[37mmus.io
+19:17:44.397 > Ma[37ms[37mter Pub Key[37m:[37m 20f77fb3b[37m0[37mea02216cd0[37m5[37mf38f2784e66[37m3[37mdb02c3ea2e2[37m8[37m5eda0ffba4[37m0[37m2c621ceb
+19:17:44.397 > T[37mi[37mmeZone fro[37mm[37mUTC: -3
+19:17:44.397 > Se[37mt[37mting callb[37ma[37mcks
+19:17:44.408 > connec[37mt[37ming
+19:17:44.409 > Relays[37m [37mare:
+19:17:44.410 > rela[37my[37m.plebstr.c[37mo[37mm
+19:17:44.412 > Connecti[37mn[37mg to relay[37m:[37m relay.pleb[37ms[37mtr.com
+[37m19:17:44.909 > S[37mE[37mTUP LIDA[37mR[37m
+19:17:44.909 > SETUP LID[37mA[37mR START
+19:17:44.909 > V[37me[37mrsão: 2.1[37m.[37m5
+[37m19:17:44.960 > S[37mP[37mIFS: [37mA[37mlready Mount[37me[37md
+[37m19:17:44.980 > L[37mIDAR[37m:[37m Loading LI[37mD[37mAR data fi[37ml[37me
+19:17:44.983 > SETUP [37mL[37mIDAR END
+[37m19:17:44.985 > S[37mPIFS: Alrea[37md[37my Mounted
+[37m19:17:45.013 > P[37mL[37mUV: Lo[37ma[37mding Pluviom[37me[37mter data [37mf[37mile
+19:17:45.013 > SETUP[37m [37mPLUVIOMETER[37m[37m
+19:17:45.013 > SETUP DHT[37m2[37m2
+19:17:45.013 > Guru Med[37mi[37mtation Err[37mo[37mr: Core  1 [37mp[37manic'ed (I[37ml[37mlegalInstru[37mc[37mtion). Exc[37me[37mption was u[37mn[37mhandled.
+[37m19:17:45.027 > M[37memory dump [37ma[37mt 0x400d313[37m0[37m: a520a220[37m [37mf01d18fc a[37mc[37m004136
+19:17:45.027 > Cor[37me[37m  1 registe[37mr[37m dump:
+19:17:45.027 > PC[37m [37m     : 0x40[37m0[37md3136  PS [37m [37m    : 0x00[37m0[37m60630  A0  [37m [37m   : 0x0000[37m0[37m000  A1   [37m [37m  : 0x3ffe8[37m0[37md0  
+19:17:45.042 > A2  [37m [37m   : 0x3ffc[37m5[37m2d0  A3   [37m [37m  : 0x00000[37m0[37m00  A4    [37m [37m : 0x000000[37m0[37m0  A5     [37m [37m: 0x0000000[37m0[37m  
+19:17:45.047 > A6    [37m [37m : 0x000000[37m0[37m0  A7     [37m [37m: 0x0000000[37m0[37m  A8      :[37m [37m0x800d3136[37m [37m A9      :[37m [37m0x3ffe8090 [37m [37m
+19:17:45.057 > A10     :[37m [37m0x6a225e7f[37m [37m A11     : [37m0[37mx6a225e7f [37m [37mA12     : [37m0[37mx00000afe  [37mA[37m13     : 0x[37m3[37mffc7a18  [37m
+[37m19:17:45.063 > A14     : 0[37mx[37m3ffdd024  [37mA[37m15     : 0x[37m8[37m0000001  S[37mA[37mR     : 0x0[37m0[37m00000a  EX[37mC[37mCAUSE: 0x00[37m0[37m00000  
+19:17:45.063 > EX[37mC[37mVADDR: 0x0[37m0[37m000000  LB[37mE[37mG    : 0x40[37m0[37m85a09  LEN[37mD[37m    : 0x400[37m8[37m5a11  LCOUN[37mT[37m  : 0x0000[37m0[37m027  
+19:17:45.080 > 
+19:17:45.080 > [37m
+[37m19:17:45.080 > Backtrace: [37m0[37mx400d3133:[37m0[37mx3ffe80d0
+19:17:45.107 > 
+19:17:45.107 >   #0  0x400d3133:0x3ffe80d0 in NOSTRTask(void*) at src/main.cpp:23
+[37m19:17:45.108 > 
+19:17:45.108 > 
+19:17:45.108 > 
+19:17:45.108 > 
+19:17:45.108 > ELF file SHA256: 48406f6f93ddd618
+19:17:45.108 > 
+[37m19:17:45.354 > R[37mebo[37mo[37mting...
+[37m19:17:45.356 > e[37mts Jun[37m [37m 8 2016 00:[37m2[37m2:57
+19:17:45.358 > 
+19:17:45.358 > rs[37mt[37m:0xc (SW_CP[37mU[37m_RESET),bo[37mo[37mt:0x13 (SPI[37m_[37mFAST_FLASH_[37mB[37mOOT)
+19:17:45.363 > conf[37mi[37mgsip: 0, S[37mP[37mIWP:0xee
+19:17:45.365 > c[37ml[37mk_drv:0x00[37m,[37mq_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00[37m,[37mhd_drv:0x00[37m,[37mwp_drv:0x0[37m0[37m
+19:17:45.372 > mode:DIO,[37m [37mclock div:[37m2[37m
+19:17:45.374 > load:0x3f[37mf[37mf0030,len:[37m1[37m184
+19:17:45.377 > load:0[37mx[37m40078000,l[37me[37mn:13232
+19:17:45.379 > lo[37ma[37md:0x400804[37m0[37m0,len:3028[37m
+[37m19:17:45.380 > entry 0x40[37m0[37m805e4
+[37m19:17:46.473 > T[37mo[37mtal[37m [37mheap: 26350[37m4[37m
+19:17:46.473 > Free heap[37m:[37m 237080
+19:17:46.473 > Tot[37ma[37ml PSRAM: 4[37m1[37m92107
+19:17:46.473 > Free [37mP[37mSRAM: 4191[37m8[37m47
+[37m19:17:46.598 > S[37mP[37mIFS: Mou[37mn[37mting File[37m [37mSystem...
+[37m19:17:46.674 > S[37mP[37mIFS: Load[37mi[37mng config [37mf[37mile
+[37m19:17:46.675 >  [37m[37m
+[37m19:17:46.675 > A[37mllDone[37m:[37m 
+19:17:46.675 > *wm:Auto[37mC[37monnect 
+19:17:46.675 > *[37mw[37mm:Connectin[37mg[37m to SAVED A[37mP[37m: GeorgeHo[37mm[37meT
+[37m19:17:48.202 > *[37mw[37mm:Aut[37mo[37mConnect: SUC[37mC[37mESS 
+19:17:48.205 > *wm[37m:[37mSTA IP Addr[37me[37mss: 192.16[37m8[37m.1.25
+19:17:48.207 > 
+19:17:48.207 > Wi[37mF[37mi connecte[37md[37m
+19:17:48.207 > IP addres[37ms[37m: 192.168.[37m1[37m.25
+19:17:48.207 > Privat[37me[37m Key: d387[37m1[37m668e532102c[37ma[37m5293649d8e[37m9[37mf0e9085dd58[37me[37m161cf93bee[37m6[37m037abb5b8a3[37mf[37mb
+19:17:48.207 > Public [37mK[37mey: 8ceb5dc[37md[37m9a7be4cb3f3[37m9[37m9c073d9dad[37m5[37m4acecdebac[37m3[37m176cdb041b3[37m6[37mf5be5678e0[37m[37m
+19:17:48.226 > Relays: no[37ms[37mtr.bitcoine[37mr[37m.social,re[37ml[37may.plebstr.[37mc[37mom,nos.lol[37m,[37mrelay.damus[37m.[37mio
+19:17:48.229 > Master[37m [37mPub Key: 20[37mf[37m77fb3b0ea0[37m2[37m216cd05f38f[37m2[37m784e663db0[37m2[37mc3ea2e285ed[37ma[37m0ffba402c6[37m2[37m1ceb
+19:17:48.229 > TimeZ[37mo[37mne fromUTC:[37m [37m-3
+19:17:48.241 > Settin[37mg[37m callbacks[37m[37m
+19:17:48.243 > connecting[37m[37m
+19:17:48.244 > Relays ar[37me[37m:
+19:17:48.245 > relay.pl[37me[37mbstr.com
+19:17:48.246 > C[37mo[37mnnecting t[37mo[37m relay: rel[37ma[37my.plebstr.[37mc[37mom
+[37m19:17:48.747 > S[37mET[37mU[37mP LIDAR
+19:17:48.748 > S[37mE[37mTUP LIDAR S[37mT[37mART
+19:17:48.750 > Vers[37mã[37mo: 2.1.5
+[37m19:17:48.797 > S[37mPIF[37mS[37m: Already [37mM[37mounted
+[37m19:17:48.810 > L[37mI[37mDAR[37m:[37m Loading L[37mI[37mDAR data fi[37ml[37me
+19:17:48.810 > SETUP [37mL[37mIDAR END
+[37m19:17:48.810 > S[37mPIFS: Alrea[37md[37my Mounted[37m
+[37m19:17:48.847 > P[37mL[37mUV: L[37mo[37mading Pluvio[37mm[37meter data[37m [37mfile
+19:17:48.847 > SETU[37mP[37m PLUVIOMETE[37mR[37m
+19:17:48.847 > SETUP DHT[37m2[37m2
+19:17:48.847 > Guru Me[37md[37mitation Er[37mr[37mor: Core  1[37m [37mpanic'ed (I[37ml[37mlegalInstr[37mu[37mction). Exc[37me[37mption was [37mu[37mnhandled.
+[37m19:17:48.860 > M[37memory dump[37m [37mat 0x400d31[37m3[37m0: a520a22[37m0[37m f01d18fc a[37mc[37m004136
+19:17:48.860 > Co[37mr[37me  1 regist[37me[37mr dump:
+19:17:48.860 > P[37mC[37m      : 0x4[37m0[37m0d3136  PS [37m [37m    : 0x00[37m0[37m60630  A0 [37m [37m    : 0x000[37m0[37m0000  A1  [37m [37m   : 0x3ffe[37m8[37m0d0  
+19:17:48.876 > A2  [37m [37m   : 0x3ff[37mc[37m52d0  A3  [37m [37m   : 0x0000[37m0[37m000  A4   [37m [37m  : 0x00000[37m0[37m00  A5     [37m [37m: 0x000000[37m0[37m0  
+19:17:48.880 > A6    [37m [37m : 0x00000[37m0[37m00  A7    [37m [37m : 0x000000[37m0[37m0  A8      [37m:[37m 0x800d313[37m6[37m  A9      :[37m [37m0x3ffe8090[37m [37m 
+19:17:48.892 > A10     [37m:[37m 0xaeb6e39[37m5[37m  A11     :[37m [37m0xaeb6e395[37m [37m A12     : [37m0[37mx00000b62  [37mA[37m13     : 0[37mx[37m3ffc7a18  [37m[37m
+19:17:48.897 > A14     : [37m0[37mx3ffdd024 [37m [37mA15     : 0[37mx[37m80000001  S[37mA[37mR     : 0x[37m0[37m000000a  EX[37mC[37mCAUSE: 0x0[37m0[37m000000  
+[37m19:17:48.897 > E[37mXCVADDR: 0x[37m0[37m0000000  LB[37mE[37mG    : 0x4[37m0[37m085a09  LEN[37mD[37m    : 0x40[37m0[37m85a11  LCOU[37mN[37mT  : 0x000[37m0[37m0027  
+19:17:48.913 > 
+19:17:48.913 > [37m
+[37m19:17:48.913 > Backtrace: [37m0[37mx400d3133:[37m0[37mx3ffe80d0[37m
+19:17:48.942 > 
+19:17:48.942 >   #0  0x400d3133:0x3ffe80d0 in NOSTRTask(void*) at src/main.cpp:23
+[37m19:17:48.943 > 
+19:17:48.943 > 
+19:17:48.943 > 
+19:17:48.943 > 
+19:17:48.943 > ELF file SHA256: 48406f6f93ddd618
+19:17:48.943 > 
+[37m19:17:49.194 > R[37me[37mbooting.[37m.[37m.
+19:17:49.195 > e[37mt[37ms Jun  8 20[37m1[37m6 00:22:57[37m[37m
+19:17:49.198 > 
+19:17:49.198 > rst:0xc [37m([37mSW_CPU_RESE[37mT[37m),boot:0x1[37m3[37m (SPI_FAST[37m_[37mFLASH_BOOT)[37m[37m
+19:17:49.203 > configsip[37m:[37m 0, SPIWP:0[37mx[37mee
+19:17:49.205 > clk_drv[37m:[37m0x00,q_drv[37m:[37m0x00,d_drv:[37m0[37mx00,cs0_dr[37mv[37m:0x00,hd_d[37mr[37mv:0x00,wp_d[37mr[37mv:0x00
+19:17:49.210 > mod[37me[37m:DIO, cloc[37mk[37m div:2
+19:17:49.213 > loa[37md[37m:0x3fff003[37m0[37m,len:1184
+[37m19:17:49.213 > l[37moad:0x4007[37m8[37m000,len:132[37m3[37m2
+19:17:49.213 > load:0x[37m4[37m0080400,len[37m:[37m3028
+19:17:49.213 > entr[37my[37m 0x400805e4[37m[37m
+[37m19:17:50.316 > T[37mo[37mtal heap[37m:[37m 263504
+19:17:50.317 > Fre[37me[37m heap: 237[37m0[37m80
+19:17:50.319 > Total P[37mS[37mRAM: 419210[37m7[37m
+19:17:50.321 > Free PSRAM[37m:[37m 4191847
+[37m19:17:50.424 > S[37mP[37mIFS: M[37mo[37munting File[37m [37mSystem...
+[37m19:17:50.510 > S[37mP[37mIFS: Loa[37md[37ming config[37m [37mfile
+[37m19:17:50.510 >  [37m[37m
+[37m19:17:50.510 > A[37mllDon[37me[37m: 
+19:17:50.510 > *wm:Aut[37mo[37mConnect 
+[37m19:17:50.510 > *[37mwm:Connecti[37mn[37mg to SAVED[37m [37mAP: GeorgeH[37mo[37mmeT
+[37m19:17:52.094 > *[37mw[37mm:AutoConne[37mc[37mt: SUCCESS[37m [37m
+19:17:52.097 > *wm:STA I[37mP[37m Address: [37m1[37m92.168.1.25[37m[37m
+19:17:52.100 > 
+19:17:52.100 > WiFi con[37mn[37mected
+19:17:52.100 > IP [37ma[37mddress: 192[37m.[37m168.1.25
+[37m19:17:52.103 > P[37mrivate Key[37m:[37m d3871668e5[37m3[37m2102ca52936[37m4[37m9d8e9f0e90[37m8[37m5dd58e161cf[37m9[37m3bee6037ab[37mb[37m5b8a3fb
+19:17:52.110 > P[37mu[37mblic Key: 8[37mc[37meb5dcd9a7be[37m4[37mcb3f399c07[37m3[37md9dad54acec[37md[37mebac3176cd[37mb[37m041b36f5be5[37m6[37m78e0
+19:17:52.113 > Relay[37ms[37m: nostr.bi[37mt[37mcoiner.soci[37ma[37ml,relay.pl[37me[37mbstr.com,n[37mo[37ms.lol,relay[37m.[37mdamus.io
+[37m19:17:52.124 > M[37master Pub K[37me[37my: 20f77fb3[37mb[37m0ea02216cd[37m0[37m5f38f2784e[37m6[37m63db02c3ea2[37me[37m285eda0ffb[37ma[37m402c621ceb[37m
+[37m19:17:52.130 > TimeZone fr[37mo[37mmUTC: -3
+[37m19:17:52.130 > S[37metting call[37mb[37macks
+19:17:52.130 > conn[37me[37mcting
+19:17:52.130 > Rel[37ma[37mys are:
+19:17:52.130 > re[37ml[37may.plebstr.[37mc[37mom
+19:17:52.130 > Connec[37mt[37ming to rela[37my[37m: relay.pl[37me[37mbstr.com
+[37m19:17:52.624 > S[37mE[37mTUP LIDA[37mR[37m
+19:17:52.640 > SETUP L[37mI[37mDAR START[37m
+[37m19:17:52.642 > Versão: 2.[37m1[37m.5
+[37m19:17:52.680 > S[37mP[37mIFS:[37m [37mAlready Mou[37mn[37mted
+[37m19:17:52.693 > L[37mI[37mDAR: L[37mo[37mading LIDAR[37m [37mdata file
+[37m19:17:52.710 > S[37mETUP LIDA[37mR[37m END
+19:17:52.711 > SPIF[37mS[37m: Already M[37mo[37munted
+[37m19:17:52.730 > P[37mL[37mUV: Load[37mi[37mng Pluviom[37me[37mter data fi[37ml[37me
+19:17:52.744 > SETUP P[37mL[37mUVIOMETER
+[37m19:17:52.746 > S[37mETUP DHT22[37m[37m
+19:17:52.746 > Guru Medit[37ma[37mtion Error[37m:[37m Core  1 pa[37mn[37mic'ed (Ill[37me[37mgalInstruct[37mi[37mon). Except[37mi[37mon was unh[37ma[37mndled.
+19:17:52.746 > Me[37mm[37mory dump at[37m [37m0x400d3130[37m:[37m a520a220 f[37m0[37m1d18fc ac00[37m4[37m136
+19:17:52.758 > Core [37m [37m1 register[37m [37mdump:
+19:17:52.760 > PC  [37m [37m   : 0x400[37md[37m3136  PS   [37m [37m  : 0x00060[37m6[37m30  A0    [37m [37m : 0x000000[37m0[37m0  A1     [37m [37m: 0x3ffe80d[37m0[37m  
+19:17:52.764 > A2    [37m [37m : 0x3ffc52[37md[37m0  A3     [37m [37m: 0x0000000[37m0[37m  A4      [37m:[37m 0x00000000[37m [37m A5      :[37m [37m0x00000000 [37m [37m
+19:17:52.777 > A6      [37m:[37m 0x00000000[37m [37m A7      :[37m [37m0x00000000 [37m [37mA8      : 0[37mx[37m800d3136  [37mA[37m9      : 0[37mx[37m3ffe8090  [37m
+[37m19:17:52.780 > A10     : 0[37mx[37m1e87c4e3  [37mA[37m11     : 0x[37m1[37me87c4e3  A[37m1[37m2     : 0x[37m0[37m0000b98  A1[37m3[37m     : 0x3f[37mf[37mc7a18  
+19:17:52.780 > A[37m1[37m4     : 0x3[37mf[37mfdd038  A1[37m5[37m     : 0x80[37m0[37m00001  SAR[37m [37m    : 0x000[37m0[37m000a  EXCC[37mA[37mUSE: 0x0000[37m0[37m000  
+19:17:52.797 > EXC[37mV[37mADDR: 0x000[37m0[37m0000  LBEG[37m [37m   : 0x4008[37m5[37ma09  LEND  [37m [37m : 0x40085[37ma[37m11  LCOUNT[37m [37m : 0x000000[37m2[37m7  
+19:17:52.797 > 
+19:17:52.797 > 
+19:17:52.797 > B[37ma[37mcktrace: 0x[37m4[37m00d3133:0x3[37mf[37mfe80d0
+19:17:52.831 > 
+19:17:52.831 >   #0  0x400d3133:0x3ffe80d0 in NOSTRTask(void*) at src/main.cpp:23
+19:17:52.831 > 
+[37m19:17:52.831 > 
+19:17:52.831 > 
+19:17:52.831 > 
+19:17:52.831 > ELF file SHA256: 48406f6f93ddd618
+19:17:52.831 > 
+[37m19:17:53.074 > R[37me[37mboot[37mi[37mng...
+[37m19:17:53.074 > e[37mts Jun  8 [37m2[37m016 00:22[37m:[37m57
+19:17:53.074 > 
+19:17:53.074 > rst:0[37mx[37mc (SW_CPU_R[37mE[37mSET),boot:[37m0[37mx13 (SPI_FA[37mS[37mT_FLASH_BO[37mO[37mT)
+19:17:53.091 > config[37ms[37mip: 0, SPIW[37mP[37m:0xee
+19:17:53.093 > clk_[37md[37mrv:0x00,q_[37md[37mrv:0x00,d_d[37mr[37mv:0x00,cs0[37m_[37mdrv:0x00,h[37md[37m_drv:0x00,w[37mp[37m_drv:0x00
+[37m19:17:53.096 > m[37mode:DIO, c[37ml[37mock div:2
+[37m19:17:53.096 > l[37moad:0x3fff[37m0[37m030,len:118[37m4[37m
+19:17:53.096 > load:0x4[37m0[37m078000,len:[37m1[37m3232
+19:17:53.096 > load:[37m0[37mx40080400,[37ml[37men:3028
+19:17:53.107 > e[37mn[37mtry 0x40080[37m5[37me4
+[37m19:17:54.204 > T[37motal h[37me[37map: 263504
+[37m19:17:54.206 > F[37mree heap: [37m2[37m37080
+19:17:54.208 > Total[37m [37mPSRAM: 419[37m2[37m107
+19:17:54.210 > Free PS[37mR[37mAM: 419184[37m7[37m
+[37m19:17:54.324 > S[37mP[37mIFS: [37mM[37mounting File[37m [37mSystem...[37m[37m
+[37m19:17:54.400 > S[37mP[37mIFS: Lo[37ma[37mding confi[37mg[37m file
+[37m19:17:54.404 >  [37m[37m
+[37m19:17:54.405 > A[37mllDon[37me[37m: 
+19:17:54.407 > *wm:Au[37mt[37moConnect 
+[37m19:17:54.408 > *[37mwm:Connect[37mi[37mng to SAVED[37m [37mAP: George[37mH[37momeT
+[37m19:17:55.824 > *[37mw[37mm:AutoCo[37mn[37mnect: SUCCE[37mS[37mS 
+19:17:55.824 > *wm:ST[37mA[37m IP Addres[37ms[37m: 192.168.1[37m.[37m25
+19:17:55.824 > 
+19:17:55.824 > WiFi[37m [37mconnected
+[37m19:17:55.824 > I[37mP address: [37m1[37m92.168.1.2[37m5[37m
+19:17:55.824 > Private [37mK[37mey: d387166[37m8[37me532102ca52[37m9[37m3649d8e9f0[37me[37m9085dd58e16[37m1[37mcf93bee603[37m7[37mabb5b8a3fb[37m
+[37m19:17:55.845 > Public Key[37m:[37m 8ceb5dcd9a[37m7[37mbe4cb3f399[37mc[37m073d9dad54a[37mc[37mecdebac317[37m6[37mcdb041b36f5[37mb[37me5678e0
+19:17:55.846 > R[37me[37mlays: nostr[37m.[37mbitcoiner.[37ms[37mocial,relay[37m.[37mplebstr.com[37m,[37mnos.lol,rel[37ma[37my.damus.i[37mo[37m
+19:17:55.857 > Master Pu[37mb[37m Key: 20f7[37m7[37mfb3b0ea0221[37m6[37mcd05f38f278[37m4[37me663db02c3[37me[37ma2e285eda0f[37mf[37mba402c621c[37me[37mb
+19:17:55.864 > TimeZon[37me[37m fromUTC: -[37m3[37m
+19:17:55.864 > Setting c[37ma[37mllbacks
+19:17:55.864 > c[37mo[37mnnecting
+19:17:55.864 > R[37me[37mlays are:[37m
+[37m19:17:55.864 > relay.plebs[37mt[37mr.com
+19:17:55.864 > Con[37mn[37mecting to r[37me[37mlay: relay[37m.[37mplebstr.com[37m[37m
+[37m19:17:56.358 > S[37mETUP[37m [37mLIDAR
+19:17:56.374 > SETU[37mP[37m LIDAR STA[37mR[37mT
+19:17:56.376 > Versão:[37m [37m2.1.5
+[37m19:17:56.414 > S[37mP[37mIFS:[37m [37mAlready Mo[37mu[37mnted
+[37m19:17:56.427 > L[37mID[37mA[37mR: Loading [37mL[37mIDAR data [37mf[37mile
+19:17:56.442 > SETU[37mP[37m LIDAR END[37m
+[37m19:17:56.444 > SPIFS: Alr[37me[37mady Mounted[37m[37m
+[37m19:17:56.463 > P[37mL[37mUV:[37m [37mLoading Plu[37mv[37miometer dat[37ma[37m file
+19:17:56.476 > SET[37mU[37mP PLUVIOMET[37mE[37mR
+19:17:56.478 > SETUP D[37mH[37mT22
+19:17:56.479 > Guru M[37me[37mditation E[37mr[37mror: Core  [37m1[37m panic'ed [37m([37mIllegalInst[37mr[37muction). E[37mx[37mception was[37m [37munhandled.[37m[37m
+19:17:56.480 > Memory dum[37mp[37m at 0x400d3[37m1[37m30: a520a2[37m2[37m0 f01d18fc[37m [37mac004136
+19:17:56.480 > C[37mo[37mre  1 regi[37ms[37mter dump:
+[37m19:17:56.493 > P[37mC      : 0x[37m4[37m00d3136  P[37mS[37m      : 0x0[37m0[37m060630  A0[37m [37m     : 0x0[37m0[37m000000  A1 [37m [37m    : 0x3ff[37me[37m80d0  
+19:17:56.497 > A2[37m [37m     : 0x3f[37mf[37mc52d0  A3 [37m [37m    : 0x000[37m0[37m0000  A4  [37m [37m   : 0x0000[37m0[37m000  A5   [37m [37m  : 0x00000[37m0[37m00  
+19:17:56.509 > A6  [37m [37m   : 0x0000[37m0[37m000  A7    [37m [37m : 0x00000[37m0[37m00  A8     [37m [37m: 0x800d31[37m3[37m6  A9     [37m [37m: 0x3ffe809[37m0[37m  
+19:17:56.514 > A10   [37m [37m : 0xa4a8dc[37m3[37me  A11     [37m:[37m 0xa4a8dc3[37me[37m  A12     :[37m [37m0x00000afd[37m [37m A13     :[37m [37m0x3ffc7a18 [37m [37m
+19:17:56.525 > A14     :[37m [37m0x3ffdcfc0[37m [37m A15     : [37m0[37mx80000001 [37m [37mSAR     : 0[37mx[37m0000000a  [37mE[37mXCCAUSE: 0x[37m0[37m0000000  
+[37m19:17:56.530 > E[37mXCVADDR: 0[37mx[37m00000000  [37mL[37mBEG    : 0x[37m4[37m0085a09  L[37mE[37mND    : 0x4[37m0[37m085a11  LCO[37mU[37mNT  : 0x00[37m0[37m00027  
+19:17:56.530 > 
+[37m19:17:56.541 > [37m
+19:17:56.541 > Backtrace[37m:[37m 0x400d313[37m3[37m:0x3ffe80d0[37m[37m
+19:17:56.564 > 
+19:17:56.564 >   #0  0x400d3133:0x3ffe80d0 in NOSTRTask(void*) at src/main.cpp:23
+19:17:56.564 > 
+19:17:56.564 > 
+19:17:56.564 > 
+19:17:56.564 > 
+19:17:56.564 > E[37mLF file SHA256: 48406f6f93ddd618
+19:17:56.564 > 
+[37m19:17:56.816 > R[37me[37mbooting..[37m.[37m
+19:17:56.818 > ets[37m [37mJun  8 2016[37m [37m00:22:57
+[37m19:17:56.821 > 
+19:17:56.821 > rst:0xc ([37mS[37mW_CPU_RESET[37m)[37m,boot:0x13 [37m([37mSPI_FAST_F[37mL[37mASH_BOOT)[37m
+[37m19:17:56.826 > configsip: [37m0[37m, SPIWP:0xe[37me[37m
+19:17:56.828 > clk_drv:[37m0[37mx00,q_drv:0[37mx[37m00,d_drv:0[37mx[37m00,cs0_drv:[37m0[37mx00,hd_drv[37m:[37m0x00,wp_drv[37m:[37m0x00
+19:17:56.830 > mode:[37mD[37mIO, clock [37md[37miv:2
+19:17:56.830 > load[37m:[37m0x3fff0030,[37ml[37men:1184
+19:17:56.830 > l[37mo[37mad:0x400780[37m0[37m0,len:13232[37m[37m
+19:17:56.830 > load:0x40[37m0[37m80400,len:[37m3[37m028
+19:17:56.843 > entry [37m0[37mx400805e4
+[37m19:17:57.939 > T[37mo[37mtal heap: [37m2[37m63504
+19:17:57.941 > Free[37m [37mheap: 23708[37m0[37m
+19:17:57.943 > Total PSR[37mA[37mM: 4192107
+[37m19:17:57.945 > F[37mree PSRAM:[37m [37m4191847
+[37m19:17:58.060 > S[37mPIFS[37m:[37m Mounting [37mF[37mile System[37m.[37m..
+[37m19:17:58.125 > S[37mP[37mIFS: [37mL[37moading conf[37mi[37mg file
+[37m19:17:58.140 >  [37m[37m
+19:17:58.141 > All[37mD[37mone: 
+19:17:58.142 > *wm:[37mA[37mutoConnect[37m [37m
+19:17:58.144 > *wm:Conne[37mc[37mting to SA[37mV[37mED AP: Geor[37mg[37meHomeT
+[37m19:17:59.687 > *[37mwm[37m:[37mAutoConnec[37mt[37m: SUCCESS [37m
+[37m19:17:59.690 > *wm:STA IP[37m [37mAddress: 19[37m2[37m.168.1.25
+[37m19:17:59.693 > [37m
+19:17:59.693 > WiFi conn[37me[37mcted
+19:17:59.694 > IP a[37md[37mdress: 192.[37m1[37m68.1.25
+19:17:59.696 > Pr[37mi[37mvate Key: [37md[37m3871668e532[37m1[37m02ca529364[37m9[37md8e9f0e9085[37md[37md58e161cf9[37m3[37mbee6037abb5[37mb[37m8a3fb
+19:17:59.703 > Pub[37ml[37mic Key: 8ce[37mb[37m5dcd9a7be4[37mc[37mb3f399c073d[37m9[37mdad54acecd[37me[37mbac3176cdb0[37m4[37m1b36f5be56[37m7[37m8e0
+19:17:59.710 > Relays[37m:[37m nostr.bitc[37mo[37miner.socia[37ml[37m,relay.ple[37mb[37mstr.com,nos[37m.[37mlol,relay.da[37mm[37mus.io
+19:17:59.713 > Ma[37ms[37mter Pub Key[37m:[37m 20f77fb3b[37m0[37mea02216cd05[37mf[37m38f2784e66[37m3[37mdb02c3ea2e[37m2[37m85eda0ffba4[37m0[37m2c621ceb
+19:17:59.713 > T[37mi[37mmeZone fro[37mm[37mUTC: -3
+19:17:59.725 > Se[37mt[37mting callb[37ma[37mcks
+19:17:59.727 > connec[37mt[37ming
+19:17:59.728 > Relay[37ms[37m are:
+19:17:59.729 > rela[37my[37m.plebstr.c[37mo[37mm
+19:17:59.730 > Connecti[37mn[37mg to relay[37m:[37m relay.pleb[37ms[37mtr.com
+[37m19:18:00.225 > S[37mE[37mTUP LIDA[37mR[37m
+19:18:00.225 > SETUP LI[37mD[37mAR START
+19:18:00.225 > V[37me[37mrsão: 2.1.[37m5[37m
+[37m19:18:00.277 > S[37mP[37mIFS: Alre[37ma[37mdy Mounted[37m[37m
+[37m19:18:00.298 > L[37mI[37mDAR:[37m [37mLoading LID[37mA[37mR data fil[37me[37m
+19:18:00.300 > SETUP L[37mI[37mDAR END
+19:18:00.301 > SP[37mI[37mFS: Alread[37my[37m Mounted
+[37m19:18:00.327 > P[37mL[37mUV: Lo[37ma[37mding Pluvio[37mm[37meter data f[37mi[37mle
+19:18:00.327 > SETUP [37mP[37mLUVIOMETER[37m[37m
+19:18:00.327 > SETUP DHT2[37m2[37m
+19:18:00.327 > Guru Med[37mi[37mtation Erro[37mr[37m: Core  1 p[37ma[37mnic'ed (Il[37ml[37megalInstruc[37mt[37mion). Exce[37mp[37mtion was u[37mn[37mhandled.
+19:18:00.345 > M[37me[37mmory dump a[37mt[37m 0x400d313[37m0[37m: a520a220 [37mf[37m01d18fc ac[37m0[37m04136
+19:18:00.350 > Core[37m [37m 1 registe[37mr[37m dump:
+19:18:00.352 > PC [37m [37m    : 0x40[37m0[37md3136  PS  [37m [37m   : 0x000[37m6[37m0630  A0   [37m [37m  : 0x0000[37m0[37m000  A1    [37m [37m : 0x3ffe80[37md[37m0  
+19:18:00.359 > A2   [37m [37m  : 0x3ffc[37m5[37m2d0  A3    [37m [37m : 0x00000[37m0[37m00  A4     [37m [37m: 0x0000000[37m0[37m  A5      [37m:[37m 0x0000000[37m0[37m  
+19:18:00.364 > A6     [37m [37m: 0x0000000[37m0[37m  A7      [37m:[37m 0x00000000[37m [37m A8      :[37m [37m0x800d3136 [37m [37mA9      : [37m0[37mx3ffe8090  [37m[37m
+19:18:00.376 > A10     :[37m [37m0xae64562c [37m [37mA11     : [37m0[37mxae64562c  [37mA[37m12     : 0x[37m0[37m0000b79  A[37m1[37m3     : 0x[37m3[37mffc7a18  
+[37m19:18:00.380 > A[37m14     : 0[37mx[37m3ffdd0ec  A[37m1[37m5     : 0x[37m8[37m0000001  SA[37mR[37m     : 0x00[37m0[37m0000a  EXC[37mC[37mAUSE: 0x00[37m0[37m00000  
+19:18:00.380 > EX[37mC[37mVADDR: 0x00[37m0[37m00000  LBE[37mG[37m    : 0x400[37m8[37m5a09  LEND[37m [37m   : 0x400[37m8[37m5a11  LCOUN[37mT[37m  : 0x00000[37m0[37m27  
+19:18:00.398 > 
+19:18:00.398 > 
+[37m19:18:00.398 > B[37macktrace: 0[37mx[37m400d3133:0[37mx[37m3ffe80d0
+19:18:00.426 > 
+19:18:00.426 >   #0  0x400d3133:0x3ffe80d0 in NOSTRTask(void*) at src/main.cpp:23
+19:18:00.426 > [37m
+19:18:00.427 > 
+19:18:00.427 > 
+19:18:00.427 > 
+19:18:00.427 > ELF file SHA256: 48406f6f93ddd618
+19:18:00.427 > 
+[37m19:18:00.707 > R[37me[37mbootin[37mg[37m...
+19:18:00.707 > et[37ms[37m Jun  8 2[37m0[37m16 00:22:5[37m7[37m
+19:18:00.707 > 
+19:18:00.707 > rst:0x[37mc[37m (SW_CPU_RE[37mS[37mET),boot:0[37mx[37m13 (SPI_FAS[37mT[37m_FLASH_BOOT[37m)[37m
+19:18:00.722 > configsi[37mp[37m: 0, SPIWP[37m:[37m0xee
+19:18:00.722 > clk_d[37mr[37mv:0x00,q_dr[37mv[37m:0x00,d_dr[37mv[37m:0x00,cs0_d[37mr[37mv:0x00,hd_[37md[37mrv:0x00,wp_[37md[37mrv:0x00
+19:18:00.722 > m[37mo[37mde:DIO, clo[37mc[37mk div:2
+19:18:00.722 > l[37mo[37mad:0x3fff00[37m3[37m0,len:1184[37m[37m
+19:18:00.738 > load:0x400[37m7[37m8000,len:1[37m3[37m232
+19:18:00.742 > load:0[37mx[37m40080400,l[37me[37mn:3028
+19:18:00.744 > ent[37mr[37my 0x400805e[37m4[37m
+[37m19:18:01.840 > T[37mo[37mtal heap[37m:[37m 263504
+19:18:01.842 > Fre[37me[37m heap: 237[37m0[37m80
+19:18:01.844 > Total P[37mS[37mRAM: 419210[37m7[37m
+19:18:01.845 > Free PSRA[37mM[37m: 4191847
+[37m19:18:01.961 > S[37mP[37mIFS: Mou[37mn[37mting File[37m [37mSystem...
+[37m19:18:02.027 > S[37mP[37mIFS: Loading[37m [37mconfig fil[37me[37m
+[37m19:18:02.041 >  [37m[37m
+[37m19:18:02.043 > A[37mllDone: [37m
+[37m19:18:02.044 > *wm:AutoCon[37mn[37mect 
+19:18:02.045 > *wm:[37mC[37monnecting t[37mo[37m SAVED AP:[37m [37mGeorgeHomeT[37m[37m
+[37m19:18:03.561 > *[37mw[37mm:AutoCon[37mn[37mect: SUCCES[37mS[37m 
+19:18:03.561 > *wm:STA[37m [37mIP Address[37m:[37m 192.168.1.[37m2[37m5
+19:18:03.561 > 
+19:18:03.561 > WiFi c[37mo[37mnnected
+19:18:03.561 > I[37mP[37m address: 1[37m9[37m2.168.1.25[37m[37m
+19:18:03.575 > Private Ke[37my[37m: d3871668[37me[37m532102ca529[37m3[37m649d8e9f0e[37m9[37m085dd58e161[37mc[37mf93bee6037[37ma[37mbb5b8a3fb
+[37m19:18:03.577 > P[37mublic Key:[37m [37m8ceb5dcd9a7[37mb[37me4cb3f399c[37m0[37m73d9dad54ac[37me[37mcdebac3176[37mc[37mdb041b36f5b[37me[37m5678e0
+19:18:03.577 > Re[37ml[37mays: nostr.[37mb[37mitcoiner.so[37mc[37mial,relay.[37mp[37mlebstr.com,[37mn[37mos.lol,rela[37my[37m.damus.io[37m[37m
+19:18:03.595 > Master Pub[37m [37mKey: 20f77f[37mb[37m3b0ea02216[37mc[37md05f38f2784[37me[37m663db02c3e[37ma[37m2e285eda0ff[37mb[37ma402c621ce[37mb[37m
+19:18:03.599 > TimeZone [37mf[37mromUTC: -3[37m[37m
+19:18:03.599 > Setting ca[37ml[37mlbacks
+19:18:03.599 > co[37mn[37mnecting
+19:18:03.599 > Re[37ml[37mays are:
+[37m19:18:03.607 > r[37melay.plebst[37mr[37m.com
+19:18:03.608 > Conn[37me[37mcting to re[37ml[37may: relay.[37mp[37mlebstr.com[37m
+[37m19:18:04.109 > S[37mE[37mTUP [37mL[37mIDAR
+19:18:04.109 > SETUP L[37mI[37mDAR START[37m[37m
+19:18:04.109 > Versão: [37m2[37m.1.5
+[37m19:18:04.159 > S[37mP[37mIF[37mS[37m: Already [37mM[37mounted
+[37m19:18:04.176 > L[37mI[37mDAR: L[37mo[37mading LIDAR[37m [37mdata file[37m
+[37m19:18:04.176 > SETUP LID[37mA[37mR END
+19:18:04.176 > SPIF[37mS[37m: Already [37mM[37mounted
+[37m19:18:04.209 > P[37mL[37mUV: Loadi[37mn[37mg Pluviome[37mt[37mer data fil[37me[37m
+19:18:04.209 > SETUP PL[37mU[37mVIOMETER
+19:18:04.209 > S[37mE[37mTUP DHT22
+[37m19:18:04.209 > G[37muru Medita[37mt[37mion Error:[37m [37mCore  1 pan[37mi[37mc'ed (Ille[37mg[37malInstructi[37mo[37mn). Excepti[37mo[37mn was unha[37mn[37mdled.
+19:18:04.225 > Memo[37mr[37my dump at [37m0[37mx400d3130:[37m [37ma520a220 f0[37m1[37md18fc ac004[37m1[37m36
+19:18:04.226 > Core  [37m1[37m register d[37mu[37mmp:
+19:18:04.226 > PC   [37m [37m  : 0x400d3[37m1[37m36  PS     [37m [37m: 0x000606[37m3[37m0  A0     [37m [37m: 0x0000000[37m0[37m  A1      [37m:[37m 0x3ffe80d0[37m [37m 
+19:18:04.226 > A2     [37m [37m: 0x3ffc52d[37m0[37m  A3      :[37m [37m0x00000000[37m [37m A4      :[37m [37m0x00000000 [37m [37mA5      : [37m0[37mx00000000  [37m[37m
+19:18:04.243 > A6      : [37m0[37mx00000000 [37m [37mA7      : [37m0[37mx00000000  [37mA[37m8      : 0[37mx[37m800d3136  A[37m9[37m      : 0x3[37mf[37mfe8090  
+[37m19:18:04.243 > A[37m10     : 0x[37mc[37m5382b44  A[37m1[37m1     : 0xc[37m5[37m382b44  A1[37m2[37m     : 0x00[37m0[37m00b63  A13[37m [37m    : 0x3ff[37mc[37m7a18  
+19:18:04.259 > A1[37m4[37m     : 0x3f[37mf[37mdd0ec  A15[37m [37m    : 0x800[37m0[37m0001  SAR [37m [37m   : 0x0000[37m0[37m00a  EXCCAU[37mS[37mE: 0x00000[37m0[37m00  
+19:18:04.259 > EXCV[37mA[37mDDR: 0x0000[37m0[37m000  LBEG [37m [37m  : 0x40085[37ma[37m09  LEND   [37m [37m: 0x40085a[37m1[37m1  LCOUNT [37m [37m: 0x0000002[37m7[37m  
+19:18:04.276 > 
+19:18:04.276 > 
+19:18:04.276 > Bac[37mk[37mtrace: 0x4[37m0[37m0d3133:0x3f[37mf[37me80d0
+19:18:04.293 > 
+19:18:04.293 >   #0  0x400d3133:0x3ffe80d0 in NOSTRTask(void*) at src/main.cpp:23
+19:18:04.293 > 
+19:18:04.293 > [37m
+19:18:04.293 > 
+19:18:04.293 > 
+19:18:04.293 > ELF file SHA256: 48406f6f93ddd618
+19:18:04.293 > 
+[37m19:18:04.543 > R[37me[37mbooting...[37m
+[37m19:18:04.543 > ets J[37mu[37mn  8 2016 [37m0[37m0:22:57
+19:18:04.543 > 
+[37m19:18:04.543 > r[37mst:0xc (SW[37m_[37mCPU_RESET)[37m,[37mboot:0x13 ([37mS[37mPI_FAST_FLA[37mS[37mH_BOOT)
+19:18:04.559 > c[37mo[37mnfigsip: 0,[37m [37mSPIWP:0xee[37m[37m
+19:18:04.559 > clk_drv:0x[37m0[37m0,q_drv:0x[37m0[37m0,d_drv:0x0[37m0[37m,cs0_drv:0x[37m0[37m0,hd_drv:0[37mx[37m00,wp_drv:[37m0[37mx00
+19:18:04.559 > mode:D[37mI[37mO, clock d[37mi[37mv:2
+19:18:04.559 > load:0[37mx[37m3fff0030,l[37me[37mn:1184
+19:18:04.574 > loa[37md[37m:0x4007800[37m0[37m,len:13232[37m
+[37m19:18:04.576 > load:0x400[37m8[37m0400,len:30[37m2[37m8
+19:18:04.576 > entry 0x[37m4[37m00805e4
+[37m19:18:05.674 > T[37mo[37mtal heap: 26[37m3[37m504
+19:18:05.674 > Free h[37me[37map: 237080
+[37m19:18:05.674 > T[37motal PSRAM[37m:[37m 4192107
+19:18:05.674 > Fr[37me[37me PSRAM: 4[37m1[37m91847
+[37m19:18:05.795 > S[37mPIFS: Mo[37mu[37mnting File[37m [37mSystem...[37m
+[37m19:18:05.871 > S[37mP[37mIFS: Loa[37md[37ming config[37m [37mfile
+[37m19:18:05.875 >  [37m[37m
+[37m19:18:05.877 > A[37mllDone[37m:[37m 
+19:18:05.877 > *wm:Aut[37mo[37mConnect 
+19:18:05.877 > *[37mw[37mm:Connecti[37mn[37mg to SAVED [37mA[37mP: GeorgeH[37mo[37mmeT
+[37m19:18:07.399 > *[37mw[37mm:[37mA[37mutoConnect:[37m [37mSUCCESS 
+19:18:07.402 > *[37mw[37mm:STA IP A[37md[37mdress: 192[37m.[37m168.1.25
+19:18:07.405 > [37m
+[37m19:18:07.406 > WiFi conne[37mc[37mted
+19:18:07.407 > IP add[37mr[37mess: 192.16[37m8[37m.1.25
+19:18:07.408 > Pri[37mv[37mate Key: d[37m3[37m871668e5321[37m0[37m2ca5293649d[37m8[37me9f0e9085d[37md[37m58e161cf93b[37me[37me6037abb5b[37m8[37ma3fb
+19:18:07.414 > Publi[37mc[37m Key: 8ceb[37m5[37mdcd9a7be4cb3[37mf[37m399c073d9[37md[37mad54acecdeb[37ma[37mc3176cdb04[37m1[37mb36f5be5678[37me[37m0
+19:18:07.414 > Relays:[37m [37mnostr.bitco[37mi[37mner.social[37m,[37mrelay.plebs[37mt[37mr.com,nos.[37ml[37mol,relay.da[37mm[37mus.io
+19:18:07.429 > Mas[37mt[37mer Pub Key:[37m [37m20f77fb3b0e[37ma[37m02216cd05f[37m3[37m8f2784e663d[37mb[37m02c3ea2e28[37m5[37meda0ffba40[37m2[37mc621ceb
+19:18:07.430 > Ti[37mm[37meZone fromU[37mT[37mC: -3
+19:18:07.430 > Set[37mt[37ming callbac[37mk[37ms
+19:18:07.430 > connect[37mi[37mng
+19:18:07.441 > Relays [37ma[37mre:
+19:18:07.442 > relay[37m.[37mplebstr.com[37m[37m
+19:18:07.444 > Connectin[37mg[37m to relay: [37mr[37melay.plebs[37mt[37mr.com
+[37m19:18:07.944 > S[37mE[37mTUP LIDAR[37m[37m
+19:18:07.944 > SETUP LIDA[37mR[37m START
+19:18:07.944 > Ver[37ms[37mão: 2.1.5[37m
+[37m19:18:07.995 > S[37mP[37mIFS: A[37ml[37mready Mount[37me[37md
+[37m19:18:08.010 > L[37mI[37mDAR[37m:[37m Loading LI[37mD[37mAR data file[37m[37m
+19:18:08.010 > SETUP L[37mI[37mDAR END
+19:18:08.010 > S[37mP[37mIFS: Alread[37my[37m Mounted
+[37m19:18:08.045 > P[37mL[37mUV: Lo[37ma[37mding Pluvi[37mo[37mmeter data [37mf[37mile
+19:18:08.048 > SETUP [37mP[37mLUVIOMETER[37m[37m
+19:18:08.048 > SETUP DHT[37m2[37m2
+19:18:08.048 > Guru Med[37mi[37mtation Erro[37mr[37m: Core  1 [37mp[37manic'ed (Il[37ml[37megalInstru[37mc[37mtion). Exce[37mp[37mtion was u[37mn[37mhandled.
+19:18:08.058 > M[37me[37mmory dump [37ma[37mt 0x400d313[37m0[37m: a520a220[37m [37mf01d18fc ac[37m0[37m04136
+19:18:08.063 > Cor[37me[37m  1 registe[37mr[37m dump:
+19:18:08.065 > PC[37m [37m     : 0x40[37m0[37md3136  PS [37m [37m    : 0x000[37m6[37m0630  A0  [37m [37m   : 0x0000[37m0[37m000  A1    [37m [37m : 0x3ffe8[37m0[37md0  
+19:18:08.074 > A2   [37m [37m  : 0x3ffc[37m5[37m2d0  A3    [37m [37m : 0x00000[37m0[37m00  A4    [37m [37m : 0x000000[37m0[37m0  A5      [37m:[37m 0x0000000[37m0[37m  
+19:18:08.082 > A6     [37m [37m: 0x000000[37m0[37m0  A7      [37m:[37m 0x0000000[37m0[37m  A8      :[37m [37m0x800d3136[37m [37m A9      : [37m0[37mx3ffe8090 [37m [37m
+19:18:08.082 > A10     :[37m [37m0xfaabecb7[37m [37m A11     : [37m0[37mxfaabecb7  [37mA[37m12     : 0[37mx[37m00000b63  [37mA[37m13     : 0x[37m3[37mffc7a18  
+[37m19:18:08.098 > A[37m14     : 0[37mx[37m3ffdd024  A[37m1[37m5     : 0x[37m8[37m0000001  SA[37mR[37m     : 0x0[37m0[37m00000a  EXC[37mC[37mAUSE: 0x00[37m0[37m00000  
+19:18:08.098 > EX[37mC[37mVADDR: 0x0[37m0[37m000000  LBE[37mG[37m    : 0x40[37m0[37m85a09  LEND[37m [37m   : 0x400[37m8[37m5a11  LCOUN[37mT[37m  : 0x0000[37m0[37m027  
+19:18:08.112 > 
+19:18:08.112 > 
+[37m19:18:08.113 > B[37macktrace: [37m0[37mx400d3133:0[37mx[37m3ffe80d0
+19:18:08.141 > 
+19:18:08.141 >   #0  0x400d3133:0x3ffe80d0 in NOSTRTask(void*) at src/main.cpp:23
+[37m19:18:08.142 > 
+19:18:08.142 > 
+19:18:08.142 > 
+19:18:08.142 > 
+19:18:08.142 > ELF file SHA256: 48406f6f93ddd618
+19:18:08.142 > 
+[37m19:18:08.378 > R[37me[37mbooting[37m.[37m..
+[37m19:18:08.378 > e[37mts Jun  8 [37m2[37m016 00:22:5[37m7[37m
+19:18:08.391 > 
+19:18:08.391 > rst:0x[37mc[37m (SW_CPU_RE[37mS[37mET),boot:0[37mx[37m13 (SPI_FAS[37mT[37m_FLASH_BOO[37mT[37m)
+19:18:08.395 > configs[37mi[37mp: 0, SPIWP[37m:[37m0xee
+19:18:08.395 > clk_d[37mr[37mv:0x00,q_d[37mr[37mv:0x00,d_d[37mr[37mv:0x00,cs0_[37md[37mrv:0x00,hd_[37md[37mrv:0x00,wp[37m_[37mdrv:0x00
+19:18:08.395 > m[37mo[37mde:DIO, cl[37mo[37mck div:2
+19:18:08.395 > l[37mo[37mad:0x3fff0[37m0[37m30,len:1184[37m[37m
+19:18:08.409 > load:0x400[37m7[37m8000,len:1[37m3[37m232
+19:18:08.411 > load:[37m0[37mx40080400,l[37me[37mn:3028
+19:18:08.413 > en[37mt[37mry 0x400805[37me[37m4
+[37m19:18:09.509 > T[37mo[37mtal hea[37mp[37m: 263504
+[37m19:18:09.511 > F[37mree heap: 2[37m3[37m7080
+19:18:09.511 > Total[37m [37mPSRAM: 4192[37m1[37m07
+19:18:09.511 > Free PS[37mR[37mAM: 4191847[37m
+[37m19:18:09.624 > S[37mP[37mIFS: Mount[37mi[37mng File Sy[37ms[37mtem...
+[37m19:18:09.704 > S[37mP[37mIFS: Loadin[37mg[37m config fil[37me[37m
+[37m19:18:09.709 >  [37m[37m
+[37m19:18:09.709 > A[37mllDone: [37m
+[37m19:18:09.709 > *wm:AutoCo[37mn[37mnect 
+19:18:09.709 > *wm:[37mC[37monnecting [37mt[37mo SAVED AP:[37m [37mGeorgeHomeT[37m[37m

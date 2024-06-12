@@ -118,7 +118,7 @@ void dht22_read(unsigned long dht22_currentMillis) {
     if (isnan(temp) || isnan(humidity)) {
       debugln("Failed to read from DHT sensor!");
       return;
-    }    
+    }
 
     // Armazenar os dados nos vetores de 1 minuto
     temp1Minute[dindex1Minute] = temp;

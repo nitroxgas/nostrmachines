@@ -1,0 +1,42 @@
+23:10:29.493 > SPIFS: Mounting File System...
+23:10:29.493 > SPIFS: Loading config file
+23:10:29.493 >  
+23:10:29.493 > AllDone: 
+23:10:29.493 > *wm:AutoConnect 
+23:10:29.493 > *wm:Connecting to SAVED AP: GeorgeHomeT
+23:10:29.902 > *wm:AutoConnect: SUCCESS 
+23:10:29.902 > *wm:STA IP Address: 192.168.1.25
+23:10:29.918 > 
+23:10:29.918 > WiFi connected
+23:10:29.920 > IP address: 192.168.1.25
+23:10:29.922 > Private Key: d3871668e532102ca5293649d8e9f0e9085dd58e161cf93bee6037abb5b8a3fb
+23:10:29.929 > Public Key: 8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0
+23:10:29.936 > Relays: nostr.bitcoiner.social,relay.plebstr.com,nos.lol,relay.damus.io
+23:10:29.941 > Master Pub Key: 20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb
+23:10:29.941 > TimeZone fromUTC: -3
+23:10:29.941 > SETUP NOSTR
+23:10:31.976 > Setting callbacks
+23:10:31.978 > connecting
+23:10:31.979 > Relays are:
+23:10:31.980 > relay.plebstr.com
+23:10:31.982 > Connecting to relay: relay.plebstr.com
+23:10:32.477 > SETUP LIDAR
+23:10:32.478 > SETUP LIDAR START
+23:10:32.480 > Versão: 2.1.5
+23:10:32.534 > SPIFS: Already Mounted
+23:10:32.539 > LIDAR: Loading LIDAR data file
+23:10:32.553 > SETUP LIDAR END
+23:10:32.553 > SPIFS: Already Mounted
+23:10:32.573 > PLUV: Loading Pluviometer data file
+23:10:32.586 > SETUP PLUVIOMETER
+23:10:32.588 > SETUP DHT22
+23:10:32.589 > SETUP END - HEAP:
+23:10:32.591 > Total heap: 260400
+23:10:32.591 > Free heap: 182160
+23:10:32.591 > Total PSRAM: 4192091
+23:10:32.591 > Free PSRAM: 4191571
+23:10:33.594 > Attempting MQTT connection...connected
+23:10:40.367 > 
+23:10:40.367 > Message from relay index:0
+23:10:40.367 > [WSc] Disconnected from relay: .
+23:10:40.382 > Relay disconnected: Heap: 178744

@@ -3,6 +3,7 @@
 #include <Arduino.h>
 #include "WiFiClientSecure.h"
 #include "time.h"
+#include "debug.h"
 #include <NostrEvent.h>
 #include <NostrRelayManager.h>
 #include <vector>
@@ -26,6 +27,7 @@ extern char const *nsecHex;
 extern char const *npubHex;
 extern String relayString;
 extern String master_pubkey;
+extern long start_time;
 
 void setup_machine();
 void sendPublicMessage(String message_to_send);

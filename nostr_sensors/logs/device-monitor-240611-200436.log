@@ -1,0 +1,97 @@
+[37m20:04:38.667 > SETUP NOSTR
+20:04:38.667 > ..............[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37mF[37ma[37mil[37me[37md to obtain[37m [37mtime
+20:04:57.203 > Settin[37mg[37m callback[37ms[37m
+20:04:57.203 > connecti[37mn[37mg
+20:04:57.217 > Relays a[37mr[37me:
+20:04:57.218 > relay.[37mp[37mlebstr.com[37m
+[37m20:04:57.221 > Connecting[37m [37mto relay: r[37me[37mlay.plebst[37mr[37m.com
+[37m20:04:57.714 > [[37m 21045][37m[[37mE][WiFiGen[37me[37mric.cpp:157[37m8[37m] hostByNam[37me[37m(): DNS Fa[37mi[37mled for rel[37ma[37my.plebstr.[37mc[37mom
+[37m20:04:57.833 > S[37mPIFS[37m:[37m Mounting [37mF[37mile System.[37m.[37m.
+[37m20:04:57.904 > S[37mP[37mIFS[37m:[37m Loading co[37mn[37mfig file
+[37m20:04:57.904 >  [37m[37m
+20:04:57.904 > All[37mD[37mone: 
+20:04:57.904 > *w[37mm[37m:AutoConnec[37mt[37m 
+20:04:57.917 > *wm:Con[37mn[37mecting to S[37mA[37mVED AP: Geo[37mr[37mgeHomeT
+[37m20:04:59.486 > *[37mwm:[37mA[37mutoConnect: [37mS[37mUCCESS 
+[37m20:04:59.486 > *[37mwm:STA IP [37mA[37mddress: 192[37m.[37m168.1.25
+[37m20:04:59.501 > [37m
+20:04:59.501 > WiFi conne[37mc[37mted
+20:04:59.501 > IP ad[37md[37mress: 192.1[37m6[37m8.1.25
+20:04:59.501 > Pr[37mi[37mvate Key: d[37m3[37m871668e5321[37m0[37m2ca5293649[37md[37m8e9f0e9085[37md[37md58e161cf93[37mb[37mee6037abb5b[37m8[37ma3fb
+20:04:59.501 > Publ[37mi[37mc Key: 8ce[37mb[37m5dcd9a7be4c[37mb[37m3f399c073d[37m9[37mdad54acecde[37mb[37mac3176cdb04[37m1[37mb36f5be567[37m8[37me0
+20:04:59.517 > Relays:[37m [37mnostr.bitc[37mo[37miner.socia[37ml[37m,relay.pleb[37ms[37mtr.com,nos.[37ml[37mol,relay.d[37ma[37mmus.io
+20:04:59.523 > Mas[37mt[37mer Pub Key[37m:[37m 20f77fb3b0[37me[37ma02216cd05[37mf[37m38f2784e663[37md[37mb02c3ea2e2[37m8[37m5eda0ffba40[37m2[37mc621ceb
+20:04:59.524 > Ti[37mm[37meZone from[37mU[37mTC: -3
+20:04:59.524 > SE[37mT[37mUP LIDAR
+20:04:59.534 > S[37mE[37mTUP LIDAR [37mS[37mTART
+20:04:59.536 > Vers[37mã[37mo: 2.1.5
+[37m20:04:59.571 > S[37mP[37mIFS: Al[37mr[37meady Mounte[37md[37m
+[37m20:04:59.588 > L[37mI[37mDAR:[37m [37mLoading LIDA[37mR[37m data file[37m[37m
+20:04:59.588 > SETUP L[37mI[37mDAR END
+20:04:59.588 > SP[37mI[37mFS: Alread[37my[37m Mounted
+[37m20:04:59.626 > P[37mL[37mUV:[37m [37mLoading Pluv[37mi[37mometer dat[37ma[37m file
+20:04:59.626 > SET[37mU[37mP PLUVIOMET[37mE[37mR
+20:04:59.626 > SETUP D[37mH[37mT22
+20:04:59.626 > SETUP [37mE[37mND - HEAP:[37m[37m
+20:04:59.637 > Total heap[37m:[37m 260360
+20:04:59.638 > Fr[37me[37me heap: 174[37m6[37m12
+20:04:59.640 > Total P[37mS[37mRAM: 4192091[37m
+[37m20:04:59.642 > Free PSRA[37mM[37m: 4191571
+[37m20:05:00.639 > A[37mt[37mtemptin[37mg[37m MQTT con[37mn[37mection...[37mc[37mo[37mnnecte[37md[37m
+[37m20:05:02.714 > G[37mu[37mru Medi[37mt[37mation Erro[37mr[37m: Core  0 [37mp[37manic'ed (Un[37mh[37mandled deb[37mu[37mg exception[37m)[37m. 
+20:05:02.720 > Debug [37me[37mxception re[37ma[37mson: Stack [37mc[37manary watc[37mh[37mpoint trigg[37me[37mred (Nostr[37mT[37mask) 
+20:05:02.726 > Cor[37me[37m  0 registe[37mr[37m dump:
+20:05:02.729 > PC [37m [37m    : 0x40[37m0[37m93baa  PS  [37m [37m   : 0x000[37m6[37m0336  A0   [37m [37m  : 0x8009[37m3[37mb1c  A1    [37m [37m : 0x3ffd0[37mf[37mc0  
+20:05:02.736 > A2   [37m [37m  : 0x3ffd[37me[37mb78  A3    [37m [37m : 0x00000[37m0[37m00  A4     [37m [37m: 0x0000001[37ma[37m  A5      [37m:[37m 0x0000ff00[37m [37m 
+20:05:02.738 > A6     [37m [37m: 0x00ff00[37m0[37m0  A7      [37m:[37m 0xff00000[37m0[37m  A8      :[37m [37m0x3ffdeb98 [37m [37mA9      : [37m0[37mxbaad5678  [37m[37m
+20:05:02.753 > A10     :[37m [37m0x3ffce1b0[37m [37m A11     : [37m0[37mx3ffdeb70  [37mA[37m12     : 0[37mx[37mfffffffe  A[37m1[37m3     : 0x[37mf[37mffffffd  
+[37m20:05:02.756 > A[37m14     : 0[37mx[37m00060320  A[37m1[37m5     : 0x[37m0[37m0000001  SA[37mR[37m     : 0x0[37m0[37m000020  EXC[37mC[37mAUSE: 0x00[37m0[37m00001  
+20:05:02.767 > EX[37mC[37mVADDR: 0x00[37m0[37m00000  LBE[37mG[37m    : 0x40[37m0[37m8c191  LEND[37m [37m   : 0x4008[37mc[37m1a1  LCOUN[37mT[37m  : 0xfffff[37mf[37mf9  
+20:05:02.774 > 
+20:05:02.774 > 
+[37m20:05:02.774 > B[37macktrace: [37m0[37mx40093ba7:0[37mx[37m3ffd0fc0 0x[37m4[37m0093b19:0x[37m3[37mffd0ff0 0x4[37m0[37m083e54:0x3[37mf[37mfd1010 0x40[37m0[37m83f11:0x3f[37mf[37md1040 0x400[37m8[37m4046:0x3ff[37md[37m1070 0x4009[37m3[37med9:0x3ffd[37m1[37m090 0x400ef[37m9[37m32:0x3ffd1[37m0[37mb0 0x400ef9[37ma[37m4:0x3ffd10f[37m0[37m 0x400ef9d[37md[37m:0x3ffd111[37m0[37m 0x400efa23[37m:[37m0x3ffd1130 [37m0[37mx400ed009:[37m0[37mx3ffd1150 0[37mx[37m400ed499:0[37mx[37m3ffd21d0 0x[37m4[37m01ba877:0x[37m3[37mffd2200 0x[37m4[37m0196d65:0x3[37mf[37mfd2230 0x40[37m1[37mba8b9:0x3f[37mf[37md2250 0x401[37m9[37m7e76:0x3ff[37md[37m2270 0x400e[37mc[37m04d:0x3ffd[37m2[37m290 0x400d3[37m1[37m31:0x3ffd2[37m2[37mb0
+20:05:03.388 > 
+20:05:03.388 >   #0  0x40093ba7:0x3ffd0fc0 in poison_allocated_region at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/heap/multi_heap_poisoning.c:76
+20:05:03.388 >   #1  0x40093b19:0x3ffd0ff0 in multi_heap_malloc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/heap/multi_heap_poisoning.c:237
+20:05:03.388 >       (inlined by) multi_heap_malloc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/heap/multi_heap_poisoning.c:223
+20:05:03.388 >   #2  0x40083e54:0x3ffd1010 in heap_caps_malloc_base at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/heap/heap_caps.c:175
+20:05:03.388 >       (inlined by) heap_caps_malloc_base at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/heap/heap_caps.c:120
+20:05:03.388 >   #3  0x40083f11:0x3ffd1040 in heap_caps_realloc_base at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/heap/heap_caps.c:396
+20:05:03.388 >   #4  0x40084046:0x3ffd1070 in heap_caps_realloc_default at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/heap/heap_caps.c:263
+20:05:03.388 >   #5  0x40093ed9:0x3ffd1090 in realloc at /Users/ficeto/Desktop/ESP32/ESP32S2/esp-idf-public/components/newlib/heap.c:34
+20:05:03.388 >   #6  0x400ef932:0x3ffd10b0 in String::changeBuffer(unsigned int) at C:/Users/nitro/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.cpp:200 (discriminator 4)
+20:05:03.388 >   #7  0x400ef9a4:0x3ffd10f0 in String::reserve(unsigned int) at C:/Users/nitro/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.cpp:165 (discriminator 4)
+20:05:03.388 >   #8  0x400ef9dd:0x3ffd1110 in String::copy(char const*, unsigned int) at C:/Users/nitro/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.cpp:224
+20:05:03.388 >   #9  0x400efa23:0x3ffd1130 in String::String(char const*) at C:/Users/nitro/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.cpp:36
+20:05:03.388 >       (inlined by) String::String(char const*) at C:/Users/nitro/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.cpp:33
+20:05:03.388 >   #10 0x400ed009:0x3ffd1150 in StringSumHelper::StringSumHelper(char const*) at C:/Users/nitro/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h:363
+20:05:03.388 >       (inlined by) NostrRelayManager::_webSocketEvent(WStype_t, unsigned char*, unsigned int, int) at .pio/libdeps/esp-wrover-kit/Nostr/src/NostrRelayManager.cpp:275
+20:05:03.388 >   #11 0x400ed499:0x3ffd21d0 in std::_Function_handler<void (WStype_t, unsigned char*, unsigned int), NostrRelayManager::connect(std::function<void (WStype_t, unsigned char*, unsigned int)>)::{lambda(WStype_t, unsigned char*, unsigned int)#1}>::_M_invoke(std::_Any_data const&, WStype_t&&, unsigned char*&&, unsigned int&&) at .pio/libdeps/esp-wrover-kit/Nostr/src/NostrRelayManager.cpp:215
+20:05:03.388 >       (inlined by) _M_invoke at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/std_function.h:297
+20:05:03.388 >   #12 0x401ba877:0x3ffd2200 in std::function<void (WStype_t, unsigned char*, unsigned int)>::operator()(WStype_t, unsigned char*, unsigned int) const at c:\users\nitro\.platformio\packages\toolchain-xtensa-esp32\xtensa-esp32-elf\include\c++\8.4.0\bits/std_function.h:687
+20:05:03.388 >       (inlined by) WebSocketsClient::runCbEvent(WStype_t, unsigned char*, unsigned int) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSocketsClient.h:164
+20:05:03.388 >   #13 0x40196d65:0x3ffd2230 in WebSocketsClient::clientDisconnect(WSclient_t*) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSocketsClient.cpp:520
+20:05:03.388 >   #14 0x401ba8b9:0x3ffd2250 in WebSocketsClient::clientIsConnected(WSclient_t*) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSocketsClient.cpp:549
+20:05:03.388 >       (inlined by) WebSocketsClient::clientIsConnected(WSclient_t*) at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSocketsClient.cpp:529
+20:05:03.388 >   #15 0x40197e76:0x3ffd2270 in WebSocketsClient::loop() at .pio/libdeps/esp-wrover-kit/WebSockets/src/WebSocketsClient.cpp:207
+20:05:03.388 >   #16 0x400ec04d:0x3ffd2290 in NostrRelayManager::loop() at .pio/libdeps/esp-wrover-kit/Nostr/src/NostrRelayManager.cpp:99 (discriminator 2)
+20:05:03.388 >   #17 0x400d3131:0x3ffd22b0 in NOSTRTask(void*) at src/main.cpp:24 (discriminator 1)
+20:05:03.388 > 
+20:05:03.388 > 
+20:05:03.388 > 
+20:05:03.388 > [37m
+20:05:03.388 > ELF file SHA256: 346b2c4252ca46f3
+20:05:03.388 > 
+20:05:03.388 > Rebooting...
+20:05:03.388 > ets Jun  8 2016 00:22:57
+20:05:03.388 > 
+20:05:03.388 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+20:05:03.388 > configsip: 0, SPIWP:0xee
+20:05:03.388 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+20:05:03.388 > mode:DIO, clock div:2
+20:05:03.388 > load:0x3fff0030,len:1184
+20:05:03.388 > load:0x40078000,len:13232
+20:05:03.388 > load:0x40080400,len:3028
+20:05:03.388 > entry 0x400805e4
+[37m20:05:04.320 > S[37mE[37mTUP NOST[37mR[37m
+[37m20:05:04.420 > .[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.[37m.

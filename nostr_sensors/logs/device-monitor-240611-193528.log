@@ -1,0 +1,33 @@
+[37m19:35:30.893 > Total heap: 263480
+19:35:30.893 > Free heap: 237080
+19:35:30.893 > Total PSRAM: 4192107
+19:35:30.893 > Free PSRAM: 4191847
+19:35:30.893 > SPIFS: Mounting File System...
+19:35:30.893 > SPIFS: Loading config file
+19:35:30.893 >  
+19:35:30.893 > AllDone: 
+19:35:30.893 > *wm:AutoConnect 
+19:35:30.893 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m19:35:31.221 > *[37mw[37mm:Auto[37mC[37monnect: SUCC[37mE[37mSS 
+19:35:31.224 > *wm:[37mS[37mTA IP Addre[37ms[37ms: 192.168[37m.[37m1.25
+19:35:31.227 > 
+19:35:31.227 > Wi[37mF[37mi connected[37m[37m
+19:35:31.229 > IP address[37m:[37m 192.168.1[37m.[37m25
+19:35:31.231 > Private[37m [37mKey: d3871[37m6[37m68e532102ca[37m5[37m293649d8e9[37mf[37m0e9085dd58e[37m1[37m61cf93bee6[37m0[37m37abb5b8a3f[37mb[37m
+19:35:31.238 > Public K[37me[37my: 8ceb5dcd[37m9[37ma7be4cb3f3[37m9[37m9c073d9dad5[37m4[37macecdebac3[37m1[37m76cdb041b36[37mf[37m5be5678e0
+[37m19:35:31.245 > R[37melays: nos[37mt[37mr.bitcoine[37mr[37m.social,rel[37ma[37my.plebstr.[37mc[37mom,nos.lol,[37mr[37melay.damus.[37mi[37mo
+19:35:31.251 > Master [37mP[37mub Key: 20f[37m7[37m7fb3b0ea02[37m2[37m16cd05f38f[37m2[37m784e663db02[37mc[37m3ea2e285eda[37m0[37mffba402c62[37m1[37mceb
+19:35:31.258 > TimeZo[37mn[37me fromUTC:[37m [37m-3
+19:35:31.260 > SETUP L[37mI[37mDAR
+19:35:31.261 > SETUP[37m [37mLIDAR START[37m[37m
+19:35:31.263 > Versão: [37m2[37m.1.5
+[37m19:35:31.306 > S[37mP[37mIFS: Alre[37ma[37mdy Mounted[37m[37m
+[37m19:35:31.322 > L[37mI[37mDAR: [37mL[37moading LIDA[37mR[37m data file[37m
+[37m19:35:31.326 > SETUP LI[37mD[37mAR END
+19:35:31.327 > SPI[37mF[37mS: Already[37m [37mMounted
+[37m19:35:31.356 > P[37mL[37mUV: Loa[37md[37ming Pluvio[37mm[37meter data f[37mi[37mle
+19:35:31.360 > SETUP [37mP[37mLUVIOMETER[37m
+[37m19:35:31.362 > SETUP DHT2[37m2[37m
+19:35:31.363 > SETUP END[37m [37m- HEAP:183[37m2[37m40
+19:35:31.365 > PAttempt[37mi[37mng MQTT con[37mn[37mection...[37mc[37mo[37mnnec[37mt[37med
+[37m19:35:31.880 > P[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP[37mP

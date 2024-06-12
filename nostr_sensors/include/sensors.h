@@ -21,7 +21,7 @@
     unsigned long dht22_previousMillis = 0;
 #endif
 #ifdef HAS_BATTERY
-    unsigned long bat_previousMillis = 0;
+    
 #endif
 #ifdef MQTT
     #include "mqtt.h"
@@ -29,3 +29,4 @@
 
 unsigned long nostr_previousMillis = 0;
 unsigned long currentMillis = 0;
+unsigned long pub_previousMillis = 0;

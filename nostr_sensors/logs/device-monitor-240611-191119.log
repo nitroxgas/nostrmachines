@@ -1,0 +1,37 @@
+[37m19:11:21.944 > Total heap: 263504
+19:11:21.944 > Free heap: 237080
+19:11:21.944 > Total PSRAM: 4192107
+19:11:21.944 > Free PSRAM: 4191847
+19:11:21.944 > SPIFS: Mounting File System...
+19:11:21.944 > SPIFS: Loading config file
+19:11:21.944 >  
+19:11:21.944 > AllDone: 
+19:11:21.944 > *wm:AutoConnect 
+19:11:21.944 > *wm:Connecting to SAVED AP: GeorgeHomeT
+[37m19:11:22.192 > *[37mw[37mm:Au[37mt[37moConnect: S[37mU[37mCCESS 
+19:11:22.192 > *w[37mm[37m:STA IP Add[37mr[37mess: 192.1[37m6[37m8.1.25
+19:11:22.192 > 
+19:11:22.192 > W[37mi[37mFi connect[37me[37md
+19:11:22.192 > IP addre[37ms[37ms: 192.168.[37m1[37m.25
+19:11:22.192 > Priva[37mt[37me Key: d387[37m1[37m668e532102[37mc[37ma5293649d8[37me[37m9f0e9085dd5[37m8[37me161cf93bee[37m6[37m037abb5b8a[37m3[37mfb
+19:11:22.211 > Public [37mK[37mey: 8ceb5d[37mc[37md9a7be4cb3f[37m3[37m99c073d9da[37md[37m54acecdebac[37m3[37m176cdb041b[37m3[37m6f5be5678e0[37m[37m
+19:11:22.218 > Relays: n[37mo[37mstr.bitcoin[37me[37mr.social,r[37me[37mlay.plebstr[37m.[37mcom,nos.lo[37ml[37m,relay.damu[37ms[37m.io
+19:11:22.218 > Master[37m [37mPub Key: 2[37m0[37mf77fb3b0ea0[37m2[37m216cd05f38[37mf[37m2784e663db[37m0[37m2c3ea2e285e[37md[37ma0ffba402c[37m6[37m21ceb
+19:11:22.232 > Time[37mZ[37mone fromUT[37mC[37m: -3
+[37m19:11:26.358 > S[37mett[37mi[37mng callback[37ms[37m
+19:11:26.361 > connectin[37mg[37m
+19:11:26.362 > Relays a[37mr[37me:
+19:11:26.363 > relay.[37mp[37mlebstr.com[37m
+[37m19:11:26.365 > Connecting [37mt[37mo relay: r[37me[37mlay.plebst[37mr[37m.com
+[37m19:11:26.859 > S[37mE[37mTUP LIDAR
+19:11:26.861 > S[37mE[37mTUP LIDAR [37mS[37mTART
+19:11:26.863 > Vers[37mã[37mo: 2.1.5
+[37m19:11:26.911 > S[37mP[37mIFS:[37m [37mAlready Mo[37mu[37mnted
+[37m19:11:26.928 > L[37mID[37mA[37mR: Loading[37m [37mLIDAR data [37mf[37mile
+19:11:26.928 > SETU[37mP[37m LIDAR END[37m
+[37m19:11:26.928 > SPIFS: Alr[37me[37mady Mounte[37md[37m
+[37m19:11:26.963 > P[37mL[37mUV: Loading [37mP[37mluviomete[37mr[37m data file[37m[37m
+19:11:26.965 > SETUP PLUV[37mI[37mOMETER
+19:11:26.965 > SE[37mT[37mUP DHT22
+19:11:26.965 > S[37mE[37mTUP END - [37mH[37mEAP:182120
+[37m19:11:27.965 > A[37mt[37mtemp[37mt[37ming MQTT co[37mn[37mnection...[37mc[37mo[37mnnected
