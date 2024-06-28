@@ -23,10 +23,10 @@ int distances15Minutes[vINTERVAL_1_HOUR];
 int distances1Hour[vINTERVAL_1_DAY];
 
 // Índices para controle de inserção nos vetores
-int indexSeconds = 0;
-int index1Minute = 0;
-int index15Minutes = 0;
-int index1Hour = 0;
+RTC_DATA_ATTR int indexSeconds = 0;
+RTC_DATA_ATTR int index1Minute = 0;
+RTC_DATA_ATTR int index15Minutes = 0;
+RTC_DATA_ATTR int index1Hour = 0;
 
 int calculateAverage(int* array, int size) {
   int sum = 0;
@@ -98,6 +98,7 @@ bool loadConfig(TLidarData* Settings)
                     // Error loading JSON data
                     debugln("LIDAR: Error parsing config file!");
                 }
+                json.clear();
             }
             else
             {
@@ -157,7 +158,7 @@ bool saveConfig(){
         }
 
         // Serialize JSON data to write to file
-        // serializeJsonPretty(doc, Serial);
+        
         // debug('\n');
         if (serializeJson(doc, configFile) == 0)
         {
@@ -167,7 +168,10 @@ bool saveConfig(){
         }
         // Close file
         configFile.close();
+        
         debugln(F("LIDAR: Success to write to file"));
+        serializeJson(doc, Serial);
+        doc.clear();
         return true;        
     }
     return false;
@@ -183,7 +187,7 @@ void tfmini_init() {
     tfmini.begin(&Serial1);
   #elif defined(LIDAR_SERIAL2)
     Serial2.begin(115200, SERIAL_8N1, RXD2, TXD2);
-    tfmini.begin(&Serial2); 
+    tfmini.begin(&Serial2);
   #else
     tfmini.begin(&Serial);
   #endif
@@ -192,13 +196,13 @@ void tfmini_init() {
   //tfmini.setBaudRate(115200);
 
   // Get firmware version
-  debugf("Versão: %s\n", tfmini.getVersion());
+  //debugf("Versão: %s\n", tfmini.getVersion());
 
   // System Reset
   // tfmini.systemReset();
 
   // Set the data frame rate 1Hz
-  tfmini.setFrameRate(1);
+  tfmini.setFrameRate(0);
 
   // If frame rate is 0 use this method to trigger a data frame
   // tfmini.triggerDetection();
@@ -227,6 +231,7 @@ void tfmini_init() {
   
 }
 
+/*
 void tfmini_PrintJson(){
    // Serializar e imprimir os dados em formato JSON
     StaticJsonDocument<1024> doc;
@@ -252,20 +257,25 @@ void tfmini_PrintJson(){
     }
 
     serializeJson(doc, Serial);
+    doc.clear();
     // serializeJsonPretty(doc, Serial);    
     debugln(" "); // Para separar cada conjunto de dados
 }
+*/
 
 void tfmini_read(unsigned long Lidar_currentMillis) {  
   // read the data frame sent by the mini
   // Enable readings
   if ( Lidar_currentMillis >= previousMillisSeconds + LIDAR_TIME ) {
-    //debug("LIDAR Reading:");
-    //debugf("%d \n", ESP.getFreeHeap());
+    /* debug("LIDAR Reading:");
+    debugf("%d \n", ESP.getFreeHeap()); */
+    //debug(".");
     previousMillisSeconds = millis();
     tfmini.setEnabled(false); 
+    tfmini.triggerDetection();
     if (tfmini.readData()) {
       LidarData.distance = tfmini.getDistance();
+      debugf("L:%d\n",LidarData.distance);
       LidarData.strength = tfmini.getSignalStrength();
       LidarData.temperature = tfmini.getSensorTemperature();   
       
@@ -282,7 +292,7 @@ void tfmini_read(unsigned long Lidar_currentMillis) {
           LidarData.avg15 = calculateAverage(distances1Minute, vINTERVAL_15_MINUTES);
           distances15Minutes[index15Minutes] = LidarData.avg15;
           index15Minutes = (index15Minutes + 1) % vINTERVAL_1_HOUR;    
-          saveConfig();
+          
 
           // Calcular a média das leituras de 1 hora
           if (index15Minutes == 0) {
@@ -295,12 +305,14 @@ void tfmini_read(unsigned long Lidar_currentMillis) {
         if (index1Hour == 0 && index15Minutes == 0) {
           LidarData.avg1Day = calculateAverage(distances1Hour, vINTERVAL_1_DAY);        
         }
-
-        LidarData.avg15 = calculateAverage(distancesSeconds, vINTERVAL_1_MINUTE);
-        LidarData.avg1Day = calculateAverage(distances1Hour, vINTERVAL_1_DAY);
-        LidarData.avg1Hour = calculateAverage(distances15Minutes, vINTERVAL_1_HOUR);        
       }
-    } else debugln("LIDAR: Falha de leitura");     
+      LidarData.avg15 = calculateAverage(distancesSeconds, vINTERVAL_1_MINUTE);
+      LidarData.avg1Day = calculateAverage(distances1Hour, vINTERVAL_1_DAY);
+      LidarData.avg1Hour = calculateAverage(distances15Minutes, vINTERVAL_1_HOUR);
+      saveConfig();
+    } else {
+      debugln("LIDAR: Falha de leitura");           
+    }
   // Disable readings, reduces temperature and readings buffer  
   tfmini.setEnabled(true); 
   //debugln("LIDAR FIM");

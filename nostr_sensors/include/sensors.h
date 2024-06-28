@@ -29,4 +29,5 @@
 
 unsigned long nostr_previousMillis = 0;
 unsigned long currentMillis = 0;
+unsigned long currentMillisOffSet = 0;
 unsigned long pub_previousMillis = 0;

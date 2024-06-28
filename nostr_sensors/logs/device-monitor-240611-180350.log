@@ -1,53 +1,0 @@
-[37m18:03:52.911 > Total heap: 263520
-18:03:52.911 > Free heap: 237132
-18:03:52.911 > Total PSRAM: 4192107
-18:03:52.911 > Free PSRAM: 4191847
-18:03:52.911 > SPIFS: Mounting File System...
-18:03:52.911 > SPIFS: Loading config file
-18:03:52.911 >  
-18:03:52.911 > AllDone: 
-18:03:52.911 > *wm:AutoConnect 
-18:03:52.911 > *wm:Connecting to SAVED AP: GeorgeHomeT
-[37m18:03:53.456 > *[37mw[37mm:Au[37mt[37moConnect: S[37mU[37mCCESS 
-18:03:53.458 > *w[37mm[37m:STA IP Add[37mr[37mess: 192.1[37m6[37m8.1.25
-18:03:53.461 > 
-18:03:53.461 > W[37mi[37mFi connect[37me[37md
-18:03:53.462 > IP addre[37ms[37ms: 192.168[37m.[37m1.25
-18:03:53.465 > Priva[37mt[37me Key: d38[37m7[37m1668e532102[37mc[37ma5293649d8[37me[37m9f0e9085dd5[37m8[37me161cf93be[37me[37m6037abb5b8a[37m3[37mfb
-18:03:53.472 > Public [37mK[37mey: 8ceb5d[37mc[37md9a7be4cb3[37mf[37m399c073d9da[37md[37m54acecdeba[37mc[37m3176cdb041b[37m3[37m6f5be5678e0[37m[37m
-18:03:53.478 > Relays: n[37mo[37mstr.bitcoi[37mn[37mer.social,r[37me[37mlay.plebstr[37m.[37mcom,nos.lo[37ml[37m,relay.damu[37ms[37m.io
-18:03:53.484 > Maste[37mr[37m Pub Key: 2[37m0[37mf77fb3b0ea[37m0[37m2216cd05f38[37mf[37m2784e663db[37m0[37m2c3ea2e285e[37md[37ma0ffba402c[37m6[37m21ceb
-18:03:53.491 > Time[37mZ[37mone fromUT[37mC[37m: -3
-[37m18:03:55.889 > S[37mett[37mi[37mng callback[37ms[37m
-18:03:55.891 > connecti[37mn[37mg
-18:03:55.892 > Relays a[37mr[37me:
-18:03:55.893 > freere[37ml[37may.xyz
-18:03:55.894 > Con[37mn[37mecting to [37mr[37melay: freer[37me[37mlay.xyz
-[37m18:03:56.390 > S[37mE[37mTUP LIDAR
-18:03:56.391 > S[37mE[37mTUP LIDAR [37mS[37mTART
-18:03:56.393 > Vers[37m[37mão: 2.1.5
-[37m18:03:56.438 > S[37mP[37mIFS: A[37ml[37mready Mount[37me[37md
-[37m18:03:56.455 > L[37mI[37mDAR:[37m [37mLoading LIDA[37mR[37m data file[37m[37m
-18:03:56.458 > SETUP L[37mI[37mDAR END
-18:03:56.459 > SP[37mI[37mFS: Alread[37my[37m Mounted
-[37m18:03:56.489 > P[37mL[37mUV: Loading[37m [37mPluviomete[37mr[37m data file[37m[37m
-18:03:56.493 > SETUP PLUV[37mI[37mOMETER
-18:03:56.494 > SET[37mU[37mP DHT22
-18:03:56.495 > S[37mE[37mTUP END - H[37mE[37mAP:182264
-[37m18:03:58.115 > A[37mt[37mtempting MQT[37mT[37m connectio[37mn[37m...[37mc[37mo[37mnnected
-[37m18:04:03.337 > 
-[37m18:04:03.338 > Me[37ms[37msage from r[37me[37mlay index:0[37m[37m
-18:04:03.340 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m18:04:03.344 > Relay disc[37mo[37mnnected: He[37ma[37mp: 179072
-[37m18:04:14.478 > 
-[37m18:04:14.478 > Mess[37ma[37mge from rel[37ma[37my index:0
-[37m18:04:14.480 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-18:04:14.482 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 178508
-[37m18:04:25.613 > 
-[37m18:04:25.614 > M[37message from r[37me[37mlay index:[37m0[37m
-18:04:25.616 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-18:04:25.619 > Relay dis[37mc[37monnected: H[37me[37map: 178624[37m[37m
-[37m18:04:36.218 > 
-[37m18:04:36.219 > M[37message from [37mr[37melay index[37m:[37m0
-18:04:36.221 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-18:04:36.224 > Relay dis[37mc[37monnected: H[37me[37map: 178404[37m

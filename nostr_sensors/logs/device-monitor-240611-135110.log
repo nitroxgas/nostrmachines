@@ -1,36 +1,0 @@
-[37m13:51:12.804 > Total heap: 263504
-13:51:12.804 > Free heap: 237080
-13:51:12.804 > Total PSRAM: 4192107
-13:51:12.804 > Free PSRAM: 4191847
-13:51:12.804 > SPIFS: Mounting File System...
-13:51:12.804 > SPIFS: Loading config file
-13:51:12.804 >  
-13:51:12.804 > AllDone: 
-13:51:12.804 > *wm:AutoConnect 
-13:51:12.804 > *wm:Connecting to SAVED AP: GeorgeHomeT
-[37m13:51:13.454 > *[37mw[37mm:AutoCon[37mn[37mect: SUCCES[37mS[37m 
-13:51:13.455 > *wm:STA[37m [37mIP Address:[37m [37m192.168.1.2[37m5[37m
-13:51:13.455 > 
-13:51:13.455 > WiFi c[37mo[37mnnected
-13:51:13.455 > IP[37m [37maddress: 1[37m9[37m2.168.1.25[37m[37m
-13:51:13.455 > Private Ke[37my[37m: d3871668e[37m5[37m32102ca529[37m3[37m649d8e9f0e9[37m0[37m85dd58e161[37mc[37mf93bee6037a[37mb[37mb5b8a3fb
-[37m13:51:13.470 > P[37mublic Key: [37m8[37mceb5dcd9a7[37mb[37me4cb3f399c0[37m7[37m3d9dad54ac[37me[37mcdebac3176c[37md[37mb041b36f5b[37me[37m5678e0
-13:51:13.476 > Rel[37ma[37mys: nostr.b[37mi[37mtcoiner.so[37mc[37mial,relay.p[37ml[37mebstr.com,[37mn[37mos.lol,rel[37ma[37my.damus.io[37m
-[37m13:51:13.476 > Master Pub [37mK[37mey: 20f77f[37mb[37m3b0ea02216c[37md[37m05f38f2784[37me[37m663db02c3e[37ma[37m2e285eda0ff[37mb[37ma402c621ceb[37m[37m
-13:51:13.491 > TimeZone [37mf[37mromUTC: -3[37m
-[37m13:51:18.167 > S[37metting c[37ma[37mllbacks
-13:51:18.168 > co[37mn[37mnecting
-13:51:18.170 > R[37me[37mlays are:[37m
-[37m13:51:18.170 > relay.plebs[37mt[37mr.com
-13:51:18.173 > Conn[37me[37mcting to r[37me[37mlay: relay.[37mp[37mlebstr.com[37m[37m
-[37m13:51:18.655 > S[37mETUP L[37mI[37mDAR
-13:51:18.655 > SETUP [37mL[37mIDAR START[37m[37m
-13:51:18.672 > Versão: [37m2[37m.1.5
-[37m13:51:18.711 > S[37mP[37mIFS: Alrea[37md[37my Mounted
-[37m13:51:18.724 > L[37mI[37mDAR: Loadin[37mg[37m LIDAR dat[37ma[37m file
-13:51:18.724 > S[37mE[37mTUP LIDAR [37mE[37mND
-13:51:18.738 > SPIFS: [37mA[37mlready Moun[37mt[37med
-[37m13:51:18.767 > P[37mL[37mUV: Load[37mi[37mng Pluviom[37me[37mter data fi[37ml[37me
-13:51:18.771 > SETUP P[37mL[37mUVIOMETER[37m
-[37m13:51:18.772 > SETUP DHT22[37m[37m
-13:51:18.773 > SETUP END [37m-[37m HEAP:1821[37m4[37m4

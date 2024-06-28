@@ -1,56 +1,0 @@
-[37m20:16:03.991 > SPIFS: Mounting File System...
-20:16:03.991 > SPIFS: Loading config file
-20:16:03.991 >  
-20:16:03.991 > AllDone: 
-20:16:03.991 > *wm:AutoConnect 
-20:16:03.991 > *wm:Connecting to SAVED AP: GeorgeHomeT
-[37m20:16:04.268 > *[37mw[37mm:AutoConn[37me[37mct: SUCCES[37mS[37m 
-20:16:04.268 > *wm:STA [37mI[37mP Address: [37m1[37m92.168.1.2[37m5[37m
-20:16:04.282 > 
-20:16:04.282 > WiFi c[37mo[37mnnected
-20:16:04.283 > IP[37m [37maddress: 19[37m2[37m.168.1.25[37m
-[37m20:16:04.286 > Private Key[37m:[37m d3871668e[37m5[37m32102ca5293[37m6[37m49d8e9f0e9[37m0[37m85dd58e161c[37mf[37m93bee6037a[37mb[37mb5b8a3fb
-20:16:04.292 > P[37mu[37mblic Key: [37m8[37mceb5dcd9a7b[37me[37m4cb3f399c0[37m7[37m3d9dad54ace[37mc[37mdebac3176c[37md[37mb041b36f5be[37m5[37m678e0
-20:16:04.300 > Rela[37my[37ms: nostr.b[37mi[37mtcoiner.so[37mc[37mial,relay.p[37ml[37mebstr.com,[37mn[37mos.lol,rela[37my[37m.damus.io
-[37m20:16:04.306 > M[37master Pub [37mK[37mey: 20f77fb[37m3[37mb0ea02216c[37md[37m05f38f2784[37me[37m663db02c3ea[37m2[37me285eda0ffb[37ma[37m402c621ceb[37m[37m
-20:16:04.308 > TimeZone f[37mr[37momUTC: -3[37m
-[37m20:16:04.308 > SETUP NOSTR[37m[37m
-[37m20:16:05.499 > S[37me[37mtting ca[37ml[37mlbacks
-20:16:05.502 > co[37mn[37mnecting
-20:16:05.503 > Re[37ml[37mays are:
-[37m20:16:05.505 > r[37melay.plebst[37mr[37m.com
-20:16:05.506 > Conn[37me[37mcting to re[37ml[37may: relay.p[37ml[37mebstr.com[37m
-[37m20:16:06.000 > .[37mA[37mttemp[37mt[37ming MQTT co[37mn[37mnection...[37mS[37mETUP LIDAR[37m
-[37m20:16:06.005 > SETUP LIDA[37mR[37m START
-20:16:06.006 > Ver[37ms[37mão: 2.1.5[37m
-[37m20:16:06.017 > c[37mo[37mnnec[37mt[37med
-[37m20:16:06.053 > S[37mP[37mIFS: Already[37m [37mMounted
-[37m20:16:06.070 > L[37mI[37mDAR: L[37mo[37mading LIDAR[37m [37mdata file[37m
-[37m20:16:06.070 > SETUP LID[37mA[37mR END
-20:16:06.070 > SPIF[37mS[37m: Already [37mM[37mounted
-[37m20:16:06.103 > P[37mL[37mUV: L[37mo[37mading Pluv[37mi[37mometer data[37m [37mfile
-20:16:06.106 > SETUP[37m [37mPLUVIOMETE[37mR[37m
-20:16:06.106 > SETUP DH[37mT[37m22
-20:16:06.106 > SETUP E[37mN[37mD - HEAP:[37m
-[37m20:16:06.106 > Total heap:[37m [37m260128
-20:16:06.106 > Free[37m [37mheap: 7944[37m0[37m
-20:16:06.116 > Total PSRA[37mM[37m: 4192091
-[37m20:16:06.117 > F[37mree PSRAM: [37m4[37m191571
-[37m20:16:09.017 > .[37m[[37m [37m 7448][E][[37ms[37msl_client.c[37mp[37mp:37] _han[37md[37mle_error()[37m:[37m [start_ssl[37m_[37mclient():2[37m6[37m4]: (-32512[37m)[37m SSL - Memo[37mr[37my allocati[37mo[37mn failed
-20:16:09.443 > [[37m [37m 7449][E][[37mW[37miFiClientS[37me[37mcure.cpp:14[37m4[37m] connect()[37m:[37m start_ssl[37m_[37mclient: -32[37m5[37m12
-[37m20:16:12.440 > .[37m
-[37m20:16:12.440 > Mess[37ma[37mge from re[37ml[37may index:0[37m[37m
-20:16:12.443 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m20:16:12.446 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 78968
-[37m20:16:15.441 > .[37m.[37m[[37m [37m16765][E][ss[37ml[37m_client.cp[37mp[37m:37] _handl[37me[37m_error(): [[37ms[37mtart_ssl_c[37ml[37mient():264[37m][37m: (-32512) [37mS[37mSL - Memor[37my[37m allocation[37m [37mfailed
-20:16:18.760 > [ 1[37m6[37m766][E][Wi[37mF[37miClientSec[37mu[37mre.cpp:144][37m [37mconnect():[37m [37mstart_ssl_c[37ml[37mient: -3251[37m2[37m
-[37m20:16:21.757 > .[37m
-[37m20:16:21.758 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m20:16:21.760 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-20:16:21.762 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 78756
-[37m20:16:24.761 > .[37m.[37m[[37m [37m26186][37m[[37mE][ssl_cli[37me[37mnt.cpp:37][37m [37m_handle_err[37mo[37mr(): [star[37mt[37m_ssl_client[37m([37m):264]: (-[37m3[37m2512) SSL -[37m [37mMemory all[37mo[37mcation fail[37me[37md
-20:16:28.169 > [ 26186][37m[[37mE][WiFiCli[37me[37mntSecure.c[37mp[37mp:144] conn[37me[37mct(): star[37mt[37m_ssl_client[37m:[37m -32512
-[37m20:16:31.168 > .[37m
-[37m20:16:31.168 > Messag[37me[37m from rela[37my[37m index:0
-[37m20:16:31.168 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-20:16:31.183 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m78532

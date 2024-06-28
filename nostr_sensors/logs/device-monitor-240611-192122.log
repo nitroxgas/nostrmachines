@@ -1,40 +1,0 @@
-[37m19:21:24.639 > Total heap: 263504
-19:21:24.639 > Free heap: 237080
-19:21:24.639 > Total PSRAM: 4192107
-19:21:24.639 > Free PSRAM: 4191847
-19:21:24.639 > SPIFS: Mounting File System...
-19:21:24.639 > SPIFS: Loading config file
-19:21:24.639 >  
-19:21:24.639 > AllDone: 
-19:21:24.639 > *wm:AutoConnect 
-19:21:24.639 > *wm:Connecting to SAVED AP: GeorgeHomeT
-[37m19:21:24.865 > *[37mw[37mm:Aut[37mo[37mConnect: S[37mU[37mCCESS 
-19:21:24.867 > *wm[37m:[37mSTA IP Addr[37me[37mss: 192.16[37m8[37m.1.25
-19:21:24.871 > 
-19:21:24.871 > Wi[37mF[37mi connecte[37md[37m
-19:21:24.872 > IP addres[37ms[37m: 192.168.[37m1[37m.25
-19:21:24.875 > Privat[37me[37m Key: d387[37m1[37m668e532102c[37ma[37m5293649d8e[37m9[37mf0e9085dd58[37me[37m161cf93bee[37m6[37m037abb5b8a3[37mf[37mb
-19:21:24.879 > Public K[37me[37my: 8ceb5dc[37md[37m9a7be4cb3f3[37m9[37m9c073d9dad[37m5[37m4acecdebac[37m3[37m176cdb041b3[37m6[37mf5be5678e0[37m
-[37m19:21:24.879 > Relays: no[37ms[37mtr.bitcoine[37mr[37m.social,re[37ml[37may.plebstr[37m.[37mcom,nos.lol[37m,[37mrelay.damus[37m.[37mio
-19:21:24.894 > Master[37m [37mPub Key: 20[37mf[37m77fb3b0ea0[37m2[37m216cd05f38f[37m2[37m784e663db0[37m2[37mc3ea2e285ed[37ma[37m0ffba402c6[37m2[37m1ceb
-19:21:24.897 > TimeZ[37mo[37mne fromUTC[37m:[37m -3
-[37m19:21:27.448 > S[37me[37mtti[37mn[37mg callback[37ms[37m
-19:21:27.451 > connecting[37m
-[37m19:21:27.452 > Relays ar[37me[37m:
-19:21:27.452 > relay.p[37ml[37mebstr.com
-[37m19:21:27.454 > C[37monnecting [37mt[37mo relay: re[37ml[37may.plebstr[37m.[37mcom
-[37m19:21:27.949 > S[37mET[37mU[37mP LIDAR
-19:21:27.950 > S[37mE[37mTUP LIDAR [37mS[37mTART
-19:21:27.952 > Vers[37mã[37mo: 2.1.5
-[37m19:21:27.994 > S[37mP[37mIFS[37m:[37m Already M[37mo[37munted
-[37m19:21:28.010 > L[37mI[37mDAR: Loadin[37mg[37m LIDAR data[37m [37mfile
-19:21:28.010 > SE[37mT[37mUP LIDAR EN[37mD[37m
-19:21:28.010 > SPIFS: A[37ml[37mready Mounte[37md[37m
-[37m19:21:28.047 > P[37mL[37mUV: Loadi[37mn[37mg Pluviome[37mt[37mer data fi[37ml[37me
-19:21:28.047 > SETUP PL[37mU[37mVIOMETER
-[37m19:21:28.047 > S[37mETUP DHT22[37m
-[37m19:21:28.047 > SETUP END [37m-[37m HEAP:17974[37m8[37m
-[37m19:21:29.049 > A[37mt[37mtempting MQTT[37m [37mconnectio[37mn[37m...[37mc[37mo[37mnnected
-[37m19:22:23.108 > F[37ma[37miled to[37m [37mread from [37mD[37mHT sensor![37m
-[37m19:22:23.108 > P[37mublicado [37mn[37mo MQTT: 
-19:22:23.108 > H[37mE[37mAP 1 Min:1[37m7[37m7024

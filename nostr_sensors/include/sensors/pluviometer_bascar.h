@@ -9,6 +9,7 @@
     #define PLUV_PIN=32
 #endif
 
+void pluviometer_AddReaging();
 void pluviometer_init();
 void pluviometer_PrintJson();
 void pluviometer_read(unsigned long pl_currentMillis);

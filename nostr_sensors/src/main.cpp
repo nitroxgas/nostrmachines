@@ -8,35 +8,163 @@
 #include "debug.h"
 // #include "timers.h"
 // freertos
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-#include <esp_task_wdt.h>
+
 
 //String read_tmp;
+#ifdef LORAV3
+  #define VBAT_CTRL GPIO_NUM_37
+  #define VBAT_ADC  GPIO_NUM_1
+  const float min_voltage = 3.04;
+  const float max_voltage = 4.26;
+  const uint8_t scaled_voltage[100] = {
+    254, 242, 230, 227, 223, 219, 215, 213, 210, 207,
+    206, 202, 202, 200, 200, 199, 198, 198, 196, 196,
+    195, 195, 194, 192, 191, 188, 187, 185, 185, 185,
+    183, 182, 180, 179, 178, 175, 175, 174, 172, 171,
+    170, 169, 168, 166, 166, 165, 165, 164, 161, 161,
+    159, 158, 158, 157, 156, 155, 151, 148, 147, 145,
+    143, 142, 140, 140, 136, 132, 130, 130, 129, 126,
+    125, 124, 121, 120, 118, 116, 115, 114, 112, 112,
+    110, 110, 108, 106, 106, 104, 102, 101, 99, 97,
+    94, 90, 81, 80, 76, 73, 66, 52, 32, 7,
+  };
+
+  float heltec_vbat() {
+    pinMode(VBAT_CTRL, OUTPUT);
+    digitalWrite(VBAT_CTRL, LOW);
+    delay(5);
+    float vbat = analogRead(VBAT_ADC) / 238.7;
+    // pulled up, no need to drive it
+    pinMode(VBAT_CTRL, INPUT);
+    return vbat;
+  }
+
+  int heltec_battery_percent(float vbat = -1) {
+    if (vbat == -1) {
+      vbat = heltec_vbat();
+    }
+    for (int n = 0; n < sizeof(scaled_voltage); n++) {
+      float step = (max_voltage - min_voltage) / 256;
+      if (vbat > min_voltage + (step * scaled_voltage[n])) {
+        return 100 - n;
+      }
+    }
+    return 0;
+  }
+#endif
 
 #ifdef NOSTR
   #include "nostr.h"
-
-void NOSTRTask(void *pvParameters) {  
-  // relayString = Settings.nrelays;  
-  while (1) {
-    // debug(".");
-    nostrRelayManager.loop();
-    //debug("E:NR");
-    nostrRelayManager.broadcastEvents();  
-    //debug("E:");     
-    vTaskDelay(3000/portTICK_PERIOD_MS);
+    #ifdef NOSTRTASK
+    #include "freertos/FreeRTOS.h"
+    #include "freertos/task.h"
+    #include <esp_task_wdt.h>
+    void NOSTRTask(void *pvParameters) {  
+      // relayString = Settings.nrelays;  
+      while (1) {
+        // debug(".");
+        nostrRelayManager.loop();
+        //debug("E:NR");
+        nostrRelayManager.broadcastEvents();  
+        //debug("E:");     
+        vTaskDelay(3000/portTICK_PERIOD_MS);
+      }
+    }
+    #endif
+#else
+  unsigned long getUnixTimestampLocal() {
+    time_t now;
+    struct tm timeinfo;
+    if(!getLocalTime(&timeinfo)){
+      debugln("Failed to obtain time");
+      return 0;
+    } else {
+    // debugf("Got timestamp of ", String(now));    
+    }
+    time(&now);
+    return now;
   }
-}
+#endif
+
+#ifdef MQTT
+  char mqtt_monitor = 0;
 #endif
 
 String message_data = "";
+char wifi_monitor = 0;
+
+const char* ntpServer = "pool.ntp.org";
+const long  gmtOffset_sec = -10800;
+const int   daylightOffset_sec = 0;
+String name_mac = "";
+char pub_counter = 0;
+
+#ifdef SET_DEEP_SLEEP_SECONDS
+ /*  void print_wakeup_reason(){
+    esp_sleep_wakeup_cause_t wakeup_reason;
+
+    wakeup_reason = esp_sleep_get_wakeup_cause();
+
+    switch(wakeup_reason)
+    {
+      case ESP_SLEEP_WAKEUP_EXT0 : Serial.println("Wakeup caused by external signal using RTC_IO"); break;
+      case ESP_SLEEP_WAKEUP_EXT1 : Serial.println("Wakeup caused by external signal using RTC_CNTL"); break;
+      case ESP_SLEEP_WAKEUP_TIMER : Serial.println("Wakeup caused by timer"); break;
+      case ESP_SLEEP_WAKEUP_TOUCHPAD : Serial.println("Wakeup caused by touchpad"); break;
+      case ESP_SLEEP_WAKEUP_ULP : Serial.println("Wakeup caused by ULP program"); break;
+      default : Serial.printf("Wakeup was not caused by deep sleep: %d\n",wakeup_reason); break;
+    }
+  } */
+#endif
 
 void setup() {  
   // put your setup code here, to run once:
   Serial.begin(115200);
+  
+  
+
+  #ifdef SET_DEEP_SLEEP_SECONDS    
+    esp_sleep_wakeup_cause_t wakeup_reason;
+    wakeup_reason = esp_sleep_get_wakeup_cause();
+    switch(wakeup_reason)
+    {
+      case ESP_SLEEP_WAKEUP_EXT0 : 
+            Serial.println("Wakeup caused by external signal using RTC_IO"); 
+            #ifdef PLUV
+              pluviometer_AddReaging();
+            #endif
+            // currentMillisOffSet = INTERVAL_1_MINUTE;
+            break;
+      case ESP_SLEEP_WAKEUP_EXT1 : Serial.println("Wakeup caused by external signal using RTC_CNTL"); break;
+      case ESP_SLEEP_WAKEUP_TIMER : 
+            Serial.println("Wakeup caused by timer"); 
+            currentMillisOffSet = INTERVAL_1_MINUTE;
+            break;
+      case ESP_SLEEP_WAKEUP_TOUCHPAD : Serial.println("Wakeup caused by touchpad"); break;
+      case ESP_SLEEP_WAKEUP_ULP : Serial.println("Wakeup caused by ULP program"); break;
+      default : Serial.printf("Wakeup was not caused by deep sleep: %d\n",wakeup_reason); break;
+    }
+
+    esp_sleep_enable_timer_wakeup(SET_DEEP_SLEEP_SECONDS * 1000000);
+    #ifdef PLUV
+      esp_sleep_enable_ext0_wakeup(PLUV_GPIO,1);
+    #endif
+  #endif
+  
+  #ifdef PLUV
+    pluviometer_init();
+  #endif
+  
   init_WifiManager(); 
+
+  configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
+  Settings.name+"_"+Settings.macaddr.substring(10);
+  name_mac = Settings.macaddr.substring(9);
+  name_mac.replace(":","");
+  name_mac = Settings.name+"_"+name_mac;
+  debugln_(name_mac);
   #ifdef MQTT
+    client_name = name_mac.c_str();
     mqtt_init();
   #endif
   #ifdef HAS_BATTERY
@@ -53,21 +181,21 @@ void setup() {
     debugln("SETUP LIDAR");
     tfmininl_init();
   #endif
-  #ifdef PLUV
-    pluviometer_init();
-  #endif
+
   #ifdef DHT22_SENSOR
     dht22_init();
   #endif     
   #ifdef NOSTR
     // Serial.printf("HEAP:%d\n",ESP.getFreeHeap());
-    TaskHandle_t nostrTask1 = NULL;
+    
     debugln("SETUP NOSTR");
     nsecHex = Settings.privkey.c_str();
     npubHex = Settings.pubkey.c_str();
     master_pubkey = Settings.masterpub;
+    start_time = getUnixTimestamp() - (864000);
     setup_machine();
     #ifdef NOSTRTASK
+     TaskHandle_t nostrTask1 = NULL;
      xTaskCreate(
       NOSTRTask,   /* Task function. */
       "NostrTask",     /* String with name of task. */
@@ -106,36 +234,45 @@ void dataCollectionJson(){
     char temp_message[40];
     message_data="";
     #ifdef BOARD_HAS_PSRAM
-      SpiRamJsonDocument sensor(100000);
+      SpiRamJsonDocument sensor(50000);
     #else      
       StaticJsonDocument<1024> sensor;
     #endif  
-    
+    sensor["Name"] = name_mac;
+    sensor["Date"] = getUnixTimestampLocal();
     // JsonObject sn = doc.createNestedObject("nostrmachines");
     // JsonObject  = doc.createNestedObject("sensor");    
-    #ifdef HAS_BATTERY        
-        // sprintf(temp_message,"%d", analogReadMilliVolts(BATTERY_VOLTAGE_DATA) * 2);
-        JsonObject battery_s = sensor.createNestedObject("battery");
-        int voltage = analogReadMilliVolts(BATTERY_VOLTAGE_DATA) * 2;
-        battery_s["voltage"] = voltage; // temp_message;
-        battery_s["unit"] = "mV";
-        int percent = 0;
-        if (voltage > 4300)
-        {
-          percent = 100;          
-        } else if (voltage < 3300)
-        {
-          percent = 0;
-        } else {
-          percent = (voltage - 3300) * 100 / 1000;
-        }
-        battery_s["percent"] = percent; // temp_message;        
-        /* debug("Battery Voltage Data: ");
-        debugln_(temp_message);  */       
+    #ifdef HAS_BATTERY  
+      JsonObject battery_s = sensor.createNestedObject("battery");
+        #ifdef LORAV3
+          battery_s["voltage"] = heltec_vbat();
+          battery_s["unit"] = "V";
+          battery_s["percent"] = heltec_battery_percent();
+        #else      
+          // sprintf(temp_message,"%d", analogReadMilliVolts(BATTERY_VOLTAGE_DATA) * 2);
+          
+          int voltage = analogReadMilliVolts(BATTERY_VOLTAGE_DATA) * 2;
+          battery_s["voltage"] = voltage; // temp_message;
+          battery_s["unit"] = "mV";
+          int percent = 0;
+          if (voltage > 4300)
+          {
+            percent = 100;          
+          } else if (voltage < 3300)
+          {
+            percent = 0;
+          } else {
+            percent = (voltage - 3300) * 100 / 1000;
+          }
+          battery_s["percent"] = percent; // temp_message;        
+          /* debug("Battery Voltage Data: ");
+          debugln_(temp_message);  */       
+        #endif
     #endif
     #ifdef LIDAR_TFMINIPlus
     //debugln("READ LIDAR");                         
-      /* debugf("Distance: D:%d", LidarData.distance); //, a15:%d, a1h:%d, a1d:%d");      
+      debugf("Distance: D:%d\n", LidarData.distance); //, a15:%d, a1h:%d, a1d:%d");      
+      /*
       debugf(" cm, Avg 15m:%d", LidarData.avg15);
       debugf(" cm, Avg 1h:%d", LidarData.avg1Hour);
       debugf(" cm, Avg 1d:%d", LidarData.avg1Day);
@@ -175,20 +312,24 @@ void dataCollectionJson(){
     
     sensor["ver"]=1;
 
-    char buffer[1056];
+    char buffer[512];
     size_t n = serializeJson(sensor, buffer);
+    // debugln_(n);
     // serializeJsonPretty(sensor, Serial);
-      
+    sensor.clear();     
     #ifdef MQTT        
-        if (!mqtt_publish("nostrmachines/sensors", buffer, true)){
+        String tag_mqtt = "nostrmachines/"+name_mac;
+        if (!mqtt_publish(tag_mqtt.c_str(), buffer, true)){
           debug("Erro publicacao MQTT: ");
           debugln_(n);  
           debugln_(buffer);
+          mqtt_monitor++;
         } else {
           debugln("Publicado no MQTT: ");
+          pub_counter++;
         }
+        if (mqtt_monitor>10) ESP.restart();
     #endif
-    sensor.clear();      
     message_data = buffer;
     debug("HEAP 1 Min:");
     debugln_(ESP.getFreeHeap());          
@@ -221,28 +362,33 @@ void dataCollectionString(){
       sprintf(temp_message,"{\"sn\":{\"DHT22\":{\"temperature\":{\"temperature\":%.2f,\"avg15\":%.2f,\"avg1hour\":%.2f,\"avg1day\":%.2f,\"unit\":\"°C\"},\"humidity\":{\"humidity\":%.2f,\"avg15\":%.2f,\"avg1hour\":%.2f,\"avg1day\":%.2f,\"unit\":\"%%\"}}}}", DhtData.temperature, DhtData.tavg15, DhtData.tavg1Hour, DhtData.tavg1Day, DhtData.humidity, DhtData.havg15, DhtData.havg1Hour, DhtData.havg1Day);      
       debugln_(temp_message);
       #ifdef MQTT                 
-          mqtt_publish("nostrmachines/sensors/dht22", temp_message);       
+          mqtt_publish("nostrmachines/sensors/dht22", temp_message);    
       #endif              
     #endif             
     debug("HEAP 1Min:");
     debugln_(ESP.getFreeHeap());          
 }
 
-char wifi_monitor = 0;
-
 void loop() {
   // put your main code here, to run repeatedly:    
-  currentMillis = millis();    
+  currentMillis = millis() + currentMillisOffSet;    
+
+  #ifdef MQTT          
+    //debug("M");
+    mqtt_loop();
+    // debug("E:");
+  #endif
+
   #ifdef LIDAR_TFMINIPlus 
     tfmini_read(currentMillis);  
   #endif
   #ifdef PLUV
-    //debug("P");
+    // debug("P");
     pluviometer_read(currentMillis);
     //debug("E:");
   #endif
   #ifdef DHT22_SENSOR
-    //debug("D");
+    // debug("D");
     dht22_read(currentMillis);
     //debug("E:");
   #endif
@@ -254,21 +400,21 @@ void loop() {
     // dataCollectionString(); 
     if(WiFi.status() == WL_CONNECTED) {
       dataCollectionJson();    
-      wifi_monitor=0;       
+      wifi_monitor=0;
+      #ifdef SET_DEEP_SLEEP_SECONDS
+        if (pub_counter>=SET_DEEP_SLEEP_PUB) {
+          debugln("Sleeping...");
+          vTaskDelay(1000/portTICK_PERIOD_MS);
+          esp_deep_sleep_start();
+        }
+      #endif
     }
     else {
-      wifi_monitor++;  
+      wifi_monitor++;
     }
     // Restart if no wifi connection for 5 minutes
-    if (wifi_monitor>4) ESP.restart();
-    
+    if (wifi_monitor>4) ESP.restart();    
   } // End publish   
-
-  #ifdef MQTT          
-    //debug("M");
-    mqtt_loop();
-    // debug("E:");
-  #endif
 
   #ifdef NOSTR
     // if ( currentMillis >= nostr_previousMillis + (5 * INTERVAL_1_MINUTE) ) { // testing 5 minutes
@@ -286,5 +432,5 @@ void loop() {
       nostrRelayManager.broadcastEvents();
     #endif     
   #endif    
-  vTaskDelay(1000 / portTICK_PERIOD_MS);  
+  vTaskDelay(500 / portTICK_PERIOD_MS);  
 }

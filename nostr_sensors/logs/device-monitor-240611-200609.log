@@ -1,41 +1,0 @@
-[37m20:06:11.811 > SPIFS: Mounting File System...
-20:06:11.811 > SPIFS: Loading config file
-20:06:11.811 >  
-20:06:11.811 > AllDone: 
-20:06:11.811 > *wm:AutoConnect 
-20:06:11.811 > *wm:Connecting to SAVED AP: GeorgeHomeT
-[37m20:06:12.084 > *[37mw[37mm:AutoCo[37mn[37mnect: SUC[37mC[37mESS 
-20:06:12.084 > *wm:[37mS[37mTA IP Addre[37ms[37ms: 192.168.[37m1[37m.25
-20:06:12.084 > 
-20:06:12.084 > WiF[37mi[37m connected[37m
-[37m20:06:12.084 > IP address[37m:[37m 192.168.1[37m.[37m25
-20:06:12.100 > Private[37m [37mKey: d38716[37m6[37m8e532102ca[37m5[37m293649d8e9f[37m0[37me9085dd58e[37m1[37m61cf93bee60[37m3[37m7abb5b8a3f[37mb[37m
-20:06:12.107 > Public Ke[37my[37m: 8ceb5dcd9[37ma[37m7be4cb3f39[37m9[37mc073d9dad5[37m4[37macecdebac31[37m7[37m6cdb041b36[37mf[37m5be5678e0
-[37m20:06:12.107 > R[37melays: nost[37mr[37m.bitcoiner[37m.[37msocial,rela[37my[37m.plebstr.c[37mo[37mm,nos.lol,re[37ml[37may.damus.[37mi[37mo
-20:06:12.120 > Master P[37mu[37mb Key: 20f[37m7[37m7fb3b0ea022[37m1[37m6cd05f38f2[37m7[37m84e663db02c[37m3[37mea2e285eda[37m0[37mffba402c621[37mc[37meb
-20:06:12.126 > TimeZo[37mn[37me fromUTC: [37m-[37m3
-20:06:12.126 > SETUP N[37mO[37mSTR
-[37m20:06:12.463 > S[37me[37mttin[37mg[37m callbacks[37m[37m
-20:06:12.465 > connecting[37m
-[37m20:06:12.466 > Relays are[37m:[37m
-20:06:12.468 > relay.pl[37me[37mbstr.com
-20:06:12.468 > C[37mo[37mnnecting t[37mo[37m relay: re[37ml[37may.plebstr.[37mc[37mom
-[37m20:06:12.950 > S[37mE[37mTUP LIDAR
-20:06:12.950 > SE[37mT[37mUP LIDAR S[37mT[37mART
-20:06:12.966 > Vers[37mã[37mo: 2.1.5
-[37m20:06:13.003 > S[37mP[37mIFS: Alre[37ma[37mdy Mounted[37m
-[37m20:06:13.020 > L[37mI[37mDAR: Lo[37ma[37mding LIDAR [37md[37mata file
-[37m20:06:13.035 > S[37mETUP LIDA[37mR[37m END
-20:06:13.036 > SPIF[37mS[37m: Already M[37mo[37munted
-[37m20:06:13.057 > P[37mLUV:[37m [37mLoading Pl[37mu[37mviometer da[37mt[37ma file
-20:06:13.069 > SE[37mT[37mUP PLUVIOME[37mT[37mER
-20:06:13.071 > SETUP [37mD[37mHT22
-20:06:13.071 > SETUP[37m [37mEND - HEAP[37m:[37m
-20:06:13.071 > Total hea[37mp[37m: 260368
-20:06:13.071 > Fr[37me[37me heap: 17[37m6[37m776
-20:06:13.071 > Total [37mP[37mSRAM: 41920[37m9[37m1
-20:06:13.071 > Free PSR[37mA[37mM: 4191571
-[37m20:06:13.071 > A[37mttempting M[37mQ[37mTT connect[37mi[37mon...[37mc[37mo[37mnnecte[37md[37m
-[37m20:07:10.152 > F[37ma[37miled to [37mr[37mead from D[37mH[37mT sensor!
-[37m20:07:10.153 > P[37mu[37mblic[37ma[37mdo no MQTT[37m:[37m 
-20:07:10.153 > HEAP 1 M[37mi[37mn:132224

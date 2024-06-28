@@ -1,37 +1,0 @@
-[37m13:52:42.276 > Total heap: 263504
-13:52:42.276 > Free heap: 237080
-13:52:42.276 > Total PSRAM: 4192107
-13:52:42.276 > Free PSRAM: 4191847
-13:52:42.276 > SPIFS: Mounting File System...
-13:52:42.276 > SPIFS: Loading config file
-13:52:42.276 >  
-13:52:42.276 > AllDone: 
-13:52:42.276 > *wm:AutoConnect 
-13:52:42.276 > *wm:Connecting to SAVED AP: GeorgeHomeT
-[37m13:52:42.942 > *[37mw[37mm:Au[37mt[37moConnect: [37mS[37mUCCESS 
-13:52:42.945 > *wm[37m:[37mSTA IP Ad[37md[37mress: 192.1[37m6[37m8.1.25
-13:52:42.948 > 
-[37m13:52:42.949 > W[37miFi connect[37me[37md
-13:52:42.950 > IP addre[37ms[37ms: 192.168[37m.[37m1.25
-13:52:42.952 > Priv[37ma[37mte Key: d38[37m7[37m1668e53210[37m2[37mca5293649d8[37me[37m9f0e9085dd5[37m8[37me161cf93be[37me[37m6037abb5b8a[37m3[37mfb
-13:52:42.959 > Public[37m [37mKey: 8ceb5[37md[37mcd9a7be4cb3[37mf[37m399c073d9da[37md[37m54acecdeba[37mc[37m3176cdb041b[37m3[37m6f5be5678e[37m0[37m
-13:52:42.961 > Relays: n[37mo[37mstr.bitcoi[37mn[37mer.social,r[37me[37mlay.plebst[37mr[37m.com,nos.lo[37ml[37m,relay.dam[37mu[37ms.io
-13:52:42.961 > Master [37mP[37mub Key: 20[37mf[37m77fb3b0ea[37m0[37m2216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285e[37md[37ma0ffba402c[37m6[37m21ceb
-13:52:42.978 > Tim[37me[37mZone fromUT[37mC[37m: -3
-[37m13:52:45.055 > S[37met[37mt[37ming callbac[37mk[37ms
-13:52:45.055 > connect[37mi[37mng
-13:52:45.055 > Relays [37ma[37mre:
-13:52:45.055 > relay[37m.[37mplebstr.com[37m[37m
-13:52:45.071 > Connectin[37mg[37m to relay: [37mr[37melay.plebs[37mt[37mr.com
-[37m13:52:45.555 > S[37mE[37mTUP LIDAR[37m
-[37m13:52:45.555 > SETUP LIDAR[37m [37mSTART
-13:52:45.555 > Ve[37mr[37msão: 2.1.5[37m
-[37m13:52:45.611 > S[37mP[37mIFS: Alread[37my[37m Mounted[37m
-[37m13:52:45.633 > L[37mI[37mDAR[37m:[37m Loading L[37mI[37mDAR data fi[37ml[37me
-13:52:45.637 > SETUP[37m [37mLIDAR END[37m
-[37m13:52:45.639 > SPIFS: Alre[37ma[37mdy Mounted[37m
-[37m13:52:45.660 > P[37mL[37mUV:[37m [37mLoading Plu[37mv[37miometer dat[37ma[37m file
-13:52:45.660 > SET[37mU[37mP PLUVIOME[37mT[37mER
-13:52:45.672 > SETUP D[37mH[37mT22
-13:52:45.673 > SETUP[37m [37mEND - HEAP:[37m1[37m82168
-[37m13:52:46.420 > N[37mL

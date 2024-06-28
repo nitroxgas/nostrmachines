@@ -1,62 +1,0 @@
-[37m19:12:10.182 > Total heap: 263512
-19:12:10.182 > Free heap: 237088
-19:12:10.182 > Total PSRAM: 4192107
-19:12:10.182 > Free PSRAM: 4191847
-19:12:10.182 > SPIFS: Mounting File System...
-19:12:10.182 > SPIFS: Loading config file
-19:12:10.182 >  
-19:12:10.182 > AllDone: 
-19:12:10.182 > *wm:AutoConnect 
-19:12:10.182 > *wm:Connecting to SAVED AP: GeorgeHomeT
-[37m19:12:10.861 > *[37mw[37mm:A[37mu[37mtoConnect: [37mS[37mUCCESS 
-19:12:10.864 > *[37mw[37mm:STA IP Ad[37md[37mress: 192.1[37m6[37m8.1.25
-19:12:10.867 > 
-[37m19:12:10.868 > W[37miFi connect[37me[37md
-19:12:10.869 > IP addr[37me[37mss: 192.16[37m8[37m.1.25
-19:12:10.871 > Priv[37ma[37mte Key: d3[37m8[37m71668e53210[37m2[37mca5293649d8[37me[37m9f0e9085dd[37m5[37m8e161cf93be[37me[37m6037abb5b8[37ma[37m3fb
-19:12:10.877 > Publi[37mc[37m Key: 8ceb5[37md[37mcd9a7be4cb3[37mf[37m399c073d9d[37ma[37md54acecdeba[37mc[37m3176cdb041[37mb[37m36f5be5678e[37m0[37m
-19:12:10.884 > Relays: [37mn[37mostr.bitcoi[37mn[37mer.social,[37mr[37melay.plebst[37mr[37m.com,nos.l[37mo[37ml,relay.dam[37mu[37ms.io
-19:12:10.891 > Mast[37me[37mr Pub Key: [37m2[37m0f77fb3b0ea[37m0[37m2216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285[37me[37mda0ffba402[37mc[37m621ceb
-19:12:10.898 > Tim[37me[37mZone fromU[37mT[37mC: -3
-[37m19:12:14.935 > S[37met[37mt[37ming callbac[37mk[37ms
-19:12:14.937 > connect[37mi[37mng
-19:12:14.938 > Relays[37m [37mare:
-19:12:14.939 > relay[37m.[37mplebstr.co[37mm[37m
-19:12:14.941 > nos.lol
-[37m19:12:14.942 > C[37monnecting [37mt[37mo relay: re[37ml[37may.plebstr[37m.[37mcom
-19:12:14.945 > Connec[37mt[37ming to rel[37ma[37my: nos.lol[37m
-[37m19:12:15.446 > S[37mE[37mTUP LIDAR
-[37m19:12:15.449 > S[37mETUP LIDAR[37m [37mSTART
-19:12:15.450 > Vers[37m[37mão: 2.1.5
-[37m19:12:15.494 > S[37mP[37mIFS: Alr[37me[37mady Mounte[37md[37m
-[37m19:12:15.506 > L[37mI[37mDAR: Load[37mi[37mng LIDAR d[37ma[37mta file
-19:12:15.510 > S[37mE[37mTUP LIDAR [37mE[37mND
-19:12:15.511 > SPIFS:[37m [37mAlready Mou[37mn[37mted
-[37m19:12:15.540 > P[37mL[37mUV: Loadin[37mg[37m Pluviomet[37me[37mr data file[37m[37m
-19:12:15.545 > {"1_minute[37m"[37m:[0,0,0,0,[37m0[37m,0,0,0,0,0[37m,[37m0,0,0,0,0],[37m"[37m15_minutes[37m"[37m:[0,0,0,0],[37m"[37m1_hour":[0,[37m0[37m,0,0,0,0,0[37m,[37m0,0,0,0,0,0[37m,[37m0,0,0,0,0,[37m0[37m,0,0,0,0,0[37m][37m} 
-19:12:15.556 > SETUP P[37mL[37mUVIOMETER
-[37m19:12:15.558 > S[37mETUP DHT22[37m[37m
-19:12:15.559 > SETUP END:[37m1[37m82116
-19:12:15.560 > HEAP[37m:[37m182116
-[37m19:12:37.304 > A[37mt[37mtempting M[37mQ[37mTT connecti[37mo[37mn...[37mc[37mo[37mnnec[37mt[37med
-[37m19:12:38.321 > M[37me[37mssage f[37mr[37mom relay [37mi[37mndex:1
-19:12:38.324 > [WS[37mc[37m] Connected[37m [37mto relay: [37m.[37m
-19:12:38.327 > Relay conn[37me[37mcted: 
-19:12:38.328 > me[37ms[37msage
-19:12:38.329 > Reque[37ms[37mting event[37ms[37m:
-19:12:38.331 > SETUP EN[37mD[37m:93632
-19:12:38.332 > Br[37mo[37madcasting e[37mv[37ment: ["REQ[37m"[37m, "2zEeW1BU[37m2[37m33k3cbFdO7[37mr[37mvUKYsBhee3O[37m2[37mB0QiXqF5sHR[37mP[37mE2TTWzuxHb[37mh[37mljAG6wJRk"[37m,[37m {"#p": ["2[37m0[37mf77fb3b0ea0[37m2[37m216cd05f38[37mf[37m2784e663db0[37m2[37mc3ea2e285e[37md[37ma0ffba402c[37m6[37m21ceb"], "k[37mi[37mnds": [4], [37m"[37mlimit": 1}[37m][37m
-[37m19:12:40.350 > M[37mes[37ms[37mage from re[37ml[37may index:1[37m[37m
-19:12:40.354 > [WSc]: Rec[37me[37mived text [37mf[37mrom relay .[37m:[37m ["EVENT","[37m2[37mzEeW1BU233[37mk[37m3cbFdO7rvU[37mK[37mYsBhee3O2B0[37mQ[37miXqF5sHRPE[37m2[37mTTWzuxHbhlj[37mA[37mG6wJRk",{"c[37mo[37mntent":"06[37mx[37mR2jkhNCQ/3f[37mK[37mzV2gQAw==?[37mi[37mv=pcxsrINi[37m7[37muEIybHY+/mo[37mB[37mg==","creat[37me[37md_at":1698[37m9[37m68988,"id":[37m"[37mddc7145f6f[37m8[37mf40dbb60592[37m5[37md980f645f3[37m9[37mc57002ff941[37ma[37mf317456b7d[37m2[37m022f804","k[37mi[37mnd":4,"pub[37mk[37mey":"8ceb5d[37mc[37md9a7be4cb3[37mf[37m399c073d9da[37md[37m54acecdeba[37mc[37m3176cdb041b[37m3[37m6f5be5678e0[37m"[37m,"sig":"96[37m4[37md35b68f9f9[37md[37m8bdd864c409[37m1[37m745a2b202aa[37mc[37m19b7f4f931[37m1[37m99e4d33f459[37m2[37m4e60a55488[37mc[37m0f28ded29a[37m4[37mfcad96f4906[37m4[37m2aa143d511e[37m6[37me143292f8e[37me[37m488c97f945"[37m,[37m"tags":[["[37mp[37m","20f77fb3[37mb[37m0ea02216cd[37m0[37m5f38f2784e6[37m6[37m3db02c3ea2[37me[37m285eda0ffba[37m4[37m02c621ceb"[37m][37m]}]
-19:12:40.403 > NIP04 e[37mv[37ment: 83328[37m
-[37m19:12:40.406 > 06xR2jkhNC[37mQ[37m/3fKzV2gQAw[37m=[37m=
-19:12:40.407 > pcxsrIN[37mi[37m7uEIybHY+/[37mm[37moBg==
-[37m19:12:40.427 > P[37mu[37mbKey:[37m2[37m0f77fb3b0ea[37m0[37m2216cd05f38[37mf[37m2784e663db[37m0[37m2c3ea2e285e[37md[37ma0ffba402[37m
-[37m19:12:40.541 > M[37me[37mnsagem:K[37m�[37m���
-[37m19:12:40.545 > M[37me[37mssage from r[37me[37mlay index:[37m1[37m
-19:12:40.548 > [WSc]: Re[37mc[37meived text[37m [37mfrom relay [37m.[37m: ["EOSE",[37m"[37m2zEeW1BU233[37mk[37m3cbFdO7rvU[37mK[37mYsBhee3O2B0[37mQ[37miXqF5sHRPE[37m2[37mTTWzuxHbhlj[37mA[37mG6wJRk"]
-[37m19:12:40.559 > M[37me[37mssage f[37mr[37mom relay i[37mn[37mdex:0
-19:12:40.562 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-19:12:40.565 > Relay[37m [37mdisconnecte[37md[37m: Heap: 13[37m3[37m648
-19:12:40.568 > Messag[37me[37m:relay.ple[37mb[37mstr.com
-19:12:40.569 > Ke[37my[37m:disconnec[37mt[37med

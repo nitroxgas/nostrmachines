@@ -1,41 +1,0 @@
-[37m19:18:53.820 > Total heap: 263504
-19:18:53.820 > Free heap: 237080
-19:18:53.820 > Total PSRAM: 4192107
-19:18:53.820 > Free PSRAM: 4191847
-19:18:53.820 > SPIFS: Mounting File System...
-19:18:53.820 > SPIFS: Loading config file
-19:18:53.820 >  
-19:18:53.820 > AllDone: 
-19:18:53.820 > *wm:AutoConnect 
-19:18:53.820 > *wm:Connecting to SAVED AP: GeorgeHomeT
-[37m19:18:53.991 > *[37mw[37mm:Auto[37mC[37monnect: SUC[37mC[37mESS 
-19:18:54.007 > *wm:[37mS[37mTA IP Addre[37ms[37ms: 192.168[37m.[37m1.25
-19:18:54.007 > 
-19:18:54.007 > WiF[37mi[37m connected[37m[37m
-19:18:54.007 > IP address[37m:[37m 192.168.1[37m.[37m25
-19:18:54.007 > Private[37m [37mKey: d3871[37m6[37m68e532102ca[37m5[37m293649d8e9[37mf[37m0e9085dd58e[37m1[37m61cf93bee6[37m0[37m37abb5b8a3f[37mb[37m
-19:18:54.048 > Public Key: 8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0
-19:18:54.048 > Relays: nostr.bitcoiner.social,relay.plebstr.com,nos.lol,relay.damus.io
-19:18:54.048 > Master Pub Key: 20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb
-19:18:54.048 > TimeZone fromUTC: -3
-[37m19:18:59.039 > F[37ma[37miled to[37m [37mobtain time[37m[37m
-19:18:59.041 > Setting c[37ma[37mllbacks
-19:18:59.042 > co[37mn[37mnecting
-19:18:59.043 > R[37me[37mlays are:
-[37m19:18:59.045 > r[37melay.plebst[37mr[37m.com
-19:18:59.046 > Conn[37me[37mcting to re[37ml[37may: relay.[37mp[37mlebstr.com[37m[37m
-[37m19:18:59.541 > S[37mETU[37mP[37m LIDAR
-19:18:59.542 > SET[37mU[37mP LIDAR ST[37mA[37mRT
-19:18:59.542 > Versão[37m:[37m 2.1.5
-[37m19:18:59.581 > S[37mPIF[37mS[37m: Already M[37mo[37munted
-[37m19:18:59.594 > L[37mI[37mDAR: Loading[37m [37mLIDAR data[37m [37mfile
-19:18:59.609 > SET[37mU[37mP LIDAR END[37m[37m
-19:18:59.610 > SPIFS: Al[37mr[37meady Mounte[37md[37m
-[37m19:18:59.632 > P[37mLUV:[37m [37mLoading Pl[37mu[37mviometer da[37mt[37ma file
-19:18:59.643 > SE[37mT[37mUP PLUVIOME[37mT[37mER
-19:18:59.645 > SETUP [37mD[37mHT22
-19:18:59.646 > SETUP[37m [37mEND - HEAP[37m:[37m182132
-[37m19:19:00.641 > A[37mt[37mtempting [37mM[37mQTT connect[37mi[37mon...[37mc[37mo[37mnnected[37m
-[37m19:19:52.207 > F[37ma[37miled to [37mr[37mead from D[37mH[37mT sensor![37m
-[37m19:19:52.207 > P[37mublicado[37m [37mno MQTT: 
-[37m19:19:52.207 > H[37mEAP 1 Min:[37m1[37m77004

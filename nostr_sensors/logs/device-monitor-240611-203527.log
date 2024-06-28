@@ -1,2802 +1,0 @@
-[37m20:35:29.914 > SPIFS: Mounting File System...
-20:35:29.914 > SPIFS: Loading config file
-20:35:29.914 >  
-20:35:29.914 > AllDone: 
-20:35:29.914 > *wm:AutoConnect 
-20:35:29.914 > *wm:Connecting to SAVED AP: GeorgeHomeT
-[37m20:35:30.114 > *[37mwm[37m:[37mAutoConnect[37m:[37m SUCCESS 
-[37m20:35:30.131 > *[37mwm:STA IP [37mA[37mddress: 192[37m.[37m168.1.25
-[37m20:35:30.134 > [37m
-20:35:30.134 > WiFi conn[37me[37mcted
-20:35:30.135 > IP ad[37md[37mress: 192.1[37m6[37m8.1.25
-20:35:30.137 > Pr[37mi[37mvate Key: d[37m3[37m871668e532[37m1[37m02ca5293649[37md[37m8e9f0e9085[37md[37md58e161cf93[37mb[37mee6037abb5[37mb[37m8a3fb
-20:35:30.144 > Publ[37mi[37mc Key: 8ce[37mb[37m5dcd9a7be4c[37mb[37m3f399c073d[37m9[37mdad54acecde[37mb[37mac3176cdb0[37m4[37m1b36f5be567[37m8[37me0
-20:35:30.151 > Relays:[37m [37mnostr.bitc[37mo[37miner.social[37m,[37mrelay.pleb[37ms[37mtr.com,nos[37m.[37mlol,relay.da[37mm[37mus.io
-20:35:30.157 > Mas[37mt[37mer Pub Key[37m:[37m 20f77fb3b0[37me[37ma02216cd05[37mf[37m38f2784e663[37md[37mb02c3ea2e2[37m8[37m5eda0ffba4[37m0[37m2c621ceb
-20:35:30.164 > T[37mi[37mmeZone from[37mU[37mTC: -3
-20:35:30.166 > SE[37mT[37mUP NOSTR
-[37m20:35:31.714 > S[37me[37mtting callb[37ma[37mcks
-20:35:31.714 > conne[37mc[37mting
-20:35:31.714 > Relay[37ms[37m are:
-20:35:31.714 > rel[37ma[37my.plebstr.c[37mo[37mm
-20:35:31.714 > Connect[37mi[37mng to relay[37m:[37m relay.pleb[37ms[37mtr.com
-[37m20:35:32.214 > .[37mS[37mETUP LID[37mA[37mR
-20:35:32.214 > SETUP L[37mI[37mDAR START[37m
-[37m20:35:32.214 > Versão: 2[37m.[37m1.5
-[37m20:35:32.271 > S[37mP[37mIFS: Alrea[37md[37my Mounted[37m
-[37m20:35:32.284 > L[37mI[37mDAR: L[37mo[37mading LIDAR[37m [37mdata file[37m
-[37m20:35:32.284 > SETUP LID[37mA[37mR END
-20:35:32.284 > SPI[37mF[37mS: Already [37mM[37mounted
-[37m20:35:32.320 > P[37mL[37mUV: Load[37mi[37mng Pluviome[37mt[37mer data fi[37ml[37me
-20:35:32.320 > SETUP PL[37mU[37mVIOMETER
-20:35:32.320 > S[37mE[37mTUP DHT22[37m
-[37m20:35:32.320 > SETUP END [37m-[37m HEAP:
-20:35:32.330 > Tot[37ma[37ml heap: 26[37m0[37m368
-20:35:32.332 > Free he[37ma[37mp: 166768
-20:35:32.333 > T[37mo[37mtal PSRAM:[37m [37m4192091
-20:35:32.335 > Fr[37me[37me PSRAM: 41[37m9[37m1571
-20:35:32.335 > Attemp[37mt[37ming MQTT c[37mo[37mnnection...[37mc[37mo[37mnnected[37m[37m
-[37m20:35:35.213 > .[37m.[37m.[37m
-[37m20:35:43.100 > M[37mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-20:35:43.103 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m20:35:43.105 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 163176
-[37m20:35:46.100 > .[37m.[37m.[37m.[37m
-[37m20:35:56.913 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-20:35:56.913 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-20:35:56.929 > Relay d[37mi[37msconnected:[37m [37mHeap: 16314[37m4[37m
-[37m20:35:58.354 > P[37mub[37ml[37micado no M[37mQ[37mTT: 
-20:35:58.356 > HEAP [37m1[37m Min:16051[37m6[37m
-[37m20:35:59.924 > .[37m.[37m.[37m.[37m
-[37m20:36:10.849 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-20:36:10.851 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-20:36:10.854 > Relay di[37ms[37mconnected:[37m [37mHeap: 16221[37m2[37m
-[37m20:36:13.849 > .[37m.[37m.[37m.[37m
-[37m20:36:24.616 > M[37message from [37mr[37melay index[37m:[37m0
-20:36:24.618 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay:[37m [37m.
-20:36:24.621 > Relay dis[37mc[37monnected: H[37me[37map: 162192[37m[37m
-[37m20:36:27.616 > .[37mF[37mail[37me[37md to read f[37mr[37mom DHT sen[37ms[37mor!
-[37m20:36:28.417 > P[37mublicado n[37mo[37m MQTT: 
-20:36:28.418 > HE[37mA[37mP 1 Min:16[37m0[37m204
-[37m20:36:30.616 > .[37m.[37m.[37m
-[37m20:36:38.499 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-20:36:38.501 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-20:36:38.504 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m1972
-[37m20:36:41.499 > .[37m.[37m.[37m.[37m
-[37m20:36:52.836 > Mes[37ms[37mage from re[37ml[37may index:0[37m
-[37m20:36:52.840 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m20:36:52.842 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 161756
-[37m20:36:55.837 > .[37m.[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-20:36:59.428 > H[37mE[37mAP 1 Min:11[37m4[37m512
-[37m20:37:03.652 > .[37m.[37m
-[37m20:37:06.658 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-20:37:06.660 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-20:37:06.663 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m1[37m328
-[37m20:37:09.657 > .[37m.[37m.[37m.[37m
-[37m20:37:20.482 > Message from relay index:0
-20:37:20.482 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-20:37:20.485 > Relay [37md[37misconnecte[37md[37m: Heap: 161[37m0[37m20
-[37m20:37:23.479 > .[37m.[37mF[37ma[37miled to[37m [37mread from [37mD[37mHT sensor![37m
-[37m20:37:28.493 > Publ[37mi[37mcado no MQ[37mT[37mT: 
-20:37:28.495 > HEAP 1[37m [37mMin:114768[37m[37m
-[37m20:37:31.298 > .[37m.[37m
-[37m20:37:34.303 > Me[37ms[37msage from [37mr[37melay index:[37m0[37m
-20:37:34.306 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
-[37m20:37:34.309 > Relay disc[37mo[37mnnected: He[37ma[37mp: 160736[37m
-[37m20:37:37.304 > .[37m.[37m.[37m.[37m
-[37m20:37:48.129 > M[37message from[37m [37mrelay index[37m:[37m0
-20:37:48.131 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-20:37:48.134 > Relay dis[37mc[37monnected: H[37me[37map: 160868[37m[37m
-[37m20:37:51.129 > .[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m20:37:58.504 > HEAP 1 Min[37m:[37m115892
-[37m20:37:58.947 > .[37m.[37m
-[37m20:38:01.953 > M[37message from [37mr[37melay index[37m:[37m0
-20:38:01.955 > [WSc] D[37mi[37msconnected [37mf[37mrom relay: [37m.[37m
-20:38:01.959 > Relay dis[37mc[37monnected: H[37me[37map: 161072[37m[37m
-[37m20:38:04.952 > .[37m.[37m.[37m.[37m
-[37m20:38:15.673 > M[37mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m20:38:15.676 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m20:38:15.679 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 160876
-[37m20:38:18.674 > .[37m.[37m.[37m.[37m
-[37m20:38:29.498 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m20:38:29.502 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-20:38:29.503 > Re[37ml[37may disconn[37me[37mcted: Heap[37m:[37m 161096
-[37m20:38:29.550 > F[37mai[37ml[37med to read [37mf[37mrom DHT se[37mn[37msor!
-[37m20:38:29.562 > P[37mu[37mb[37mlicado no M[37mQ[37mTT: 
-20:38:29.564 > HEAP[37m [37m1 Min:1587[37m9[37m6
-[37m20:38:32.499 > .[37m.[37m.[37m.[37m
-[37m20:38:43.322 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m20:38:43.325 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-20:38:43.327 > Re[37ml[37may disconnected: Heap: 161076
-[37m20:38:46.323 > .[37m.[37m.[37m.[37m
-[37m20:38:57.146 > M[37message from [37mr[37melay index:[37m0[37m
-20:38:57.148 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-20:38:57.151 > Relay disc[37mo[37mnnected: H[37me[37map: 160868[37m
-[37m20:38:58.573 > P[37mu[37mblica[37md[37mo no MQTT:[37m [37m
-20:38:58.575 > HEAP 1 Mi[37mn[37m:158944
-[37m20:39:00.145 > .[37m.[37m.[37m.[37m
-[37m20:39:10.969 > Mes[37ms[37mage from re[37ml[37may index:0[37m
-[37m20:39:10.973 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m20:39:10.975 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 160880
-[37m20:39:13.970 > .[37m.[37m.[37m.[37m
-[37m20:39:24.895 > Mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m20:39:24.898 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-20:39:24.900 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 161072
-[37m20:39:27.895 > .[37mF[37ma[37miled t[37mo[37m read from[37m [37mDHT sensor![37m[37m
-[37m20:39:29.629 > P[37mublicad[37mo[37m no MQTT: [37m
-[37m20:39:29.629 > HEAP 1 Min[37m:[37m156760
-[37m20:39:30.895 > .[37m.[37m.[37m
-[37m20:39:38.720 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m20:39:38.723 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-20:39:38.725 > Re[37ml[37may disconn[37me[37mcted: Heap[37m:[37m 161068
-[37m20:39:41.720 > .[37m.[37m.[37m.[37m
-[37m20:39:52.429 > M[37messa[37mg[37me from relay[37m [37mindex:0
-[37m20:39:52.429 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-20:39:52.429 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m160880
-[37m20:39:55.429 > .[37m.[37mP[37mu[37mblicado no M[37mQ[37mTT: 
-20:39:59.651 > HEA[37mP[37m 1 Min:1116[37m1[37m2
-[37m20:40:03.157 > .[37m.[37m
-[37m20:40:06.163 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-20:40:06.165 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-20:40:06.168 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m1308
-[37m20:40:09.163 > .[37m.[37m.[37m.[37m
-[37m20:40:19.979 > Me[37ms[37msage from r[37me[37mlay index:0[37m
-[37m20:40:19.979 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m20:40:19.979 > Relay disco[37mn[37mnected: He[37ma[37mp: 161312[37m
-[37m20:40:22.979 > .[37m.[37mF[37ma[37miled to read[37m [37mfrom DHT [37ms[37mensor!
-[37m20:40:30.707 > P[37mu[37mblicado n[37mo[37m MQTT: 
-20:40:30.709 > H[37mE[37mAP 1 Min:11[37m6[37m136
-[37m20:40:30.908 > .[37m.[37m
-[37m20:40:33.913 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-20:40:33.916 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
-[37m20:40:33.919 > Relay disc[37mo[37mnnected: He[37ma[37mp: 161300[37m
-[37m20:40:36.914 > .[37m.[37m.[37m.[37m
-[37m20:40:47.729 > Me[37ms[37msage from r[37me[37mlay index:0[37m[37m
-20:40:47.729 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m20:40:47.729 > Relay disco[37mn[37mnected: He[37ma[37mp: 161032
-[37m20:40:50.729 > .[37m.[37m.[37mP[37mu[37mbl[37mi[37mcado no MQT[37mT[37m: 
-20:40:59.720 > HEAP 1[37m [37mMin:116604[37m
-[37m20:41:01.659 > .[37m
-[37m20:41:01.663 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-20:41:01.665 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-20:41:01.668 > Relay di[37ms[37mconnected:[37m [37mHeap: 16128[37m8[37m
-[37m20:41:04.662 > .[37m.[37m.[37m.[37m
-[37m20:41:15.479 > M[37messag[37me[37m from rela[37my[37m index:0
-20:41:15.479 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-20:41:15.479 > Re[37ml[37may disconne[37mc[37mted: Heap: [37m1[37m61108
-[37m20:41:18.479 > .[37m.[37m.[37m.[37m
-[37m20:41:29.412 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-20:41:29.415 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m20:41:29.417 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161288
-[37m20:41:30.777 > F[37mailed[37m to read fr[37mo[37mm DHT senso[37mr[37m!
-[37m20:41:30.779 > P[37mubl[37mi[37mcado no MQ[37mT[37mT: 
-20:41:30.779 > HEAP 1[37m [37mMin:159168[37m[37m
-[37m20:41:32.412 > .[37m.[37m.[37m.[37m
-[37m20:41:43.229 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-20:41:43.229 > [WS[37mc[37m] Disconnec[37mt[37med from rel[37ma[37my: .
-20:41:43.229 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m1[37m092
-[37m20:41:46.229 > .[37m.[37m.[37m.[37m
-[37m20:41:56.958 > M[37messa[37mg[37me from rel[37ma[37my index:0
-[37m20:41:56.961 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-20:41:56.963 > Re[37ml[37may disconn[37me[37mcted: Heap[37m:[37m 161076
-[37m20:41:59.958 > .[37mP[37mu[37mblicado[37m [37mno MQTT: 
-[37m20:42:00.792 > H[37mEAP 1 Min:[37m1[37m59168
-[37m20:42:02.958 > .[37m.[37m.[37m
-[37m20:42:10.779 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-20:42:10.779 > [WSc][37m [37mDisconnecte[37md[37m from relay[37m:[37m .
-20:42:10.779 > Relay d[37mi[37msconnected:[37m [37mHeap: 1608[37m6[37m8
-[37m20:42:13.779 > .[37m.[37m.[37m.[37m
-[37m20:42:24.605 > M[37message f[37mr[37mom relay in[37md[37mex:0
-20:42:24.608 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-20:42:24.611 > Relay [37md[37misconnecte[37md[37m: Heap: 160[37m7[37m72
-[37m20:42:27.605 > .[37m.[37mF[37ma[37miled to read [37mf[37mrom DHT s[37me[37mnsor!
-[37m20:42:31.860 > P[37mu[37mb[37ml[37micado no M[37mQ[37mTT: 
-20:42:31.863 > HEAP [37m1[37m Min:11268[37m0[37m
-[37m20:42:35.423 > .[37m.[37m
-[37m20:42:38.429 > M[37message from [37mr[37melay index[37m:[37m0
-20:42:38.429 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-20:42:38.429 > Relay dis[37mc[37monnected: H[37me[37map: 161064[37m
-[37m20:42:41.429 > .[37m.[37m.[37m.[37m
-[37m20:42:52.257 > Me[37ms[37msage from [37mr[37melay index:[37m0[37m
-20:42:52.260 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
-[37m20:42:52.263 > Relay disc[37mo[37mnnected: H[37me[37map: 161064[37m
-[37m20:42:55.257 > .[37m.[37mP[37mu[37mblicado no [37mM[37mQTT: 
-20:43:01.871 > HEAP [37m1[37m Min:1158[37m6[37m8
-[37m20:43:03.176 > .[37m.[37m
-[37m20:43:06.178 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-20:43:06.178 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-20:43:06.178 > Relay d[37mi[37msconnected:[37m [37mHeap: 1610[37m7[37m2
-[37m20:43:09.178 > .[37m.[37m.[37m.[37m
-[37m20:43:20.311 > M[37messag[37me[37m from relay[37m [37mindex:0
-20:43:20.313 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-20:43:20.316 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m60728
-[37m20:43:23.312 > .[37m.[37m.[37mF[37mail[37me[37md to read [37mf[37mrom DHT sen[37ms[37mor!
-[37m20:43:31.928 > P[37mu[37mblicado no [37mM[37mQTT: 
-20:43:31.928 > HEA[37mP[37m 1 Min:1163[37m5[37m6
-[37m20:43:34.423 > .[37m
-[37m20:43:34.427 > M[37message from[37m [37mrelay index[37m:[37m0
-20:43:34.429 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-20:43:34.429 > Relay dis[37mc[37monnected: [37mH[37meap: 160864[37m[37m
-[37m20:43:37.412 > .[37m.[37m.[37m.[37m
-[37m20:43:48.471 > M[37message[37m [37mfrom relay i[37mn[37mdex:0
-20:43:48.473 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-20:43:48.476 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m0860
-[37m20:43:51.472 > .[37m.[37m.[37m.[37m
-[37m20:44:02.497 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-20:44:02.497 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-20:44:02.497 > Relay[37m [37mdisconnecte[37md[37m: Heap: 160[37m7[37m40
-[37m20:44:02.928 > P[37mu[37mblicado no M[37mQ[37mTT: 
-20:44:02.944 > HEAP[37m [37m1 Min:15894[37m8[37m
-[37m20:44:05.500 > .[37m.[37m.[37m.[37m
-[37m20:44:16.629 > M[37messa[37mg[37me from rel[37ma[37my index:0
-[37m20:44:16.630 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-20:44:16.630 > Re[37ml[37may disconn[37me[37mcted: Heap[37m:[37m 161080
-[37m20:44:19.629 > .[37m.[37m.[37m.[37m
-[37m20:44:30.556 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m20:44:30.559 > [[37mWSc] Discon[37mn[37mected from [37mr[37melay: .
-20:44:30.561 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m160868
-[37m20:44:32.001 > F[37ma[37miled to [37mr[37mead from [37mD[37mHT sensor![37m
-[37m20:44:32.001 > Pub[37ml[37micado no M[37mQ[37mTT: 
-20:44:32.001 > HEAP [37m1[37m Min:158944[37m[37m
-[37m20:44:33.556 > .[37m.[37m.[37m.[37m
-[37m20:44:44.478 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-20:44:44.478 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-20:44:44.478 > Relay d[37mi[37msconnected:[37m [37mHeap: 16088[37m0[37m
-[37m20:44:47.478 > .[37m.[37m.[37m.[37m
-[37m20:44:58.307 > M[37message from[37m [37mrelay inde[37mx[37m:0
-20:44:58.310 > [WSc] [37mD[37misconnected[37m [37mfrom relay:[37m [37m.
-20:44:58.313 > Relay di[37ms[37mconnected: [37mH[37meap: 16108[37m8[37m
-[37m20:45:01.308 > .[37mP[37mu[37mblicado no [37mM[37mQTT: 
-20:45:03.015 > HEA[37mP[37m 1 Min:1591[37m6[37m8
-[37m20:45:04.308 > .[37m.[37m.[37m
-[37m20:45:12.128 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-20:45:12.128 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m20:45:12.128 > Relay disco[37mn[37mnected: He[37ma[37mp: 161084[37m
-[37m20:45:15.128 > .[37m.[37m.[37m.[37m
-[37m20:45:25.852 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-20:45:25.854 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m20:45:25.858 > Relay disc[37mo[37mnnected: He[37ma[37mp: 160860
-[37m20:45:28.853 > .[37m.[37mF[37ma[37miled to read [37mf[37mrom DHT s[37me[37mnsor!
-[37m20:45:34.076 > P[37mu[37mblicado no MQ[37mT[37mT: 
-20:45:34.078 > HEAP[37m [37m1 Min:11584[37m4[37m
-[37m20:45:36.672 > .[37m.[37m
-[37m20:45:39.678 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-20:45:39.679 > [WSc] D[37mi[37msconnected[37m [37mfrom relay[37m:[37m .
-20:45:39.679 > Relay di[37ms[37mconnected:[37m [37mHeap: 16084[37m8[37m
-[37m20:45:42.677 > .[37m.[37m.[37m.[37m
-[37m20:45:53.499 > Mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m20:45:53.503 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m20:45:53.505 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 160880
-[37m20:45:56.500 > .[37m.[37mP[37mu[37mbli[37mc[37mado no MQT[37mT[37m: 
-20:46:03.078 > HEAP 1 [37mM[37min:115856
-[37m20:46:04.327 > .[37m.[37m
-[37m20:46:07.328 > M[37messa[37mg[37me from rel[37ma[37my index:0
-[37m20:46:07.328 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-20:46:07.328 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m161064
-[37m20:46:10.329 > .[37m.[37m.[37m.[37m
-[37m20:46:21.147 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-20:46:21.150 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .
-[37m20:46:21.152 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161064
-[37m20:46:24.147 > .[37m.[37m.[37mF[37ma[37miled [37mt[37mo read from [37mD[37mHT sensor[37m![37m
-[37m20:46:33.150 > P[37mub[37ml[37micado no M[37mQ[37mTT: 
-20:46:33.152 > HEAP [37m1[37m Min:11633[37m6[37m
-[37m20:46:34.971 > .[37m
-[37m20:46:34.974 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-20:46:34.976 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-20:46:34.978 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m0880
-[37m20:46:37.975 > .[37m.[37m.[37m.[37m
-[37m20:46:48.898 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-20:46:48.900 > [WS[37mc[37m] Disconne[37mc[37mted from r[37me[37mlay: .
-20:46:48.903 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m0920
-[37m20:46:51.899 > .[37m.[37m.[37m.[37m
-[37m20:47:03.128 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-20:47:03.128 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-20:47:03.128 > Relay dis[37mc[37monnected:[37m [37mHeap: 1610[37m6[37m4
-[37m20:47:04.157 > P[37mu[37mblicado no MQ[37mT[37mT: 
-20:47:04.159 > HEAP[37m [37m1 Min:1589[37m4[37m0
-[37m20:47:06.128 > .[37m.[37m.[37m.[37m
-[37m20:47:16.955 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-20:47:16.957 > [WSc][37m [37mDisconnecte[37md[37m from relay[37m:[37m .
-20:47:16.960 > Relay d[37mi[37msconnected:[37m [37mHeap: 1610[37m6[37m4
-[37m20:47:19.956 > .[37m.[37m.[37m.[37m
-[37m20:47:30.882 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-20:47:30.882 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-20:47:30.882 > Relay [37md[37misconnecte[37md[37m: Heap: 16[37m1[37m080
-[37m20:47:33.214 > F[37ma[37miled to r[37me[37mad from DHT[37m [37msensor!
-[37m20:47:33.214 > P[37mu[37mblicado n[37mo[37m MQTT: 
-20:47:33.214 > H[37mE[37mAP 1 Min:1[37m5[37m8944
-[37m20:47:33.882 > .[37m.[37m.[37m.[37m
-[37m20:47:44.706 > M[37mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-20:47:44.709 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m20:47:44.712 > Relay disco[37mn[37mnected: He[37ma[37mp: 161064
-[37m20:47:47.707 > .[37m.[37m.[37m.[37m
-[37m20:47:59.688 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-20:47:59.688 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-20:47:59.688 > Relay d[37mi[37msconnected[37m:[37m Heap: 1610[37m6[37m4
-[37m20:48:02.688 > .[37mP[37mub[37ml[37micado no MQ[37mT[37mT: 
-20:48:04.388 > HEAP [37m1[37m Min:159168[37m[37m
-[37m20:48:05.688 > .[37m.[37m.[37m
-[37m20:48:13.616 > M[37message from[37m [37mrelay index[37m:[37m0
-20:48:13.619 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-20:48:13.621 > Relay di[37ms[37mconnected: [37mH[37meap: 160868[37m[37m
-[37m20:48:16.617 > .[37m.[37m.[37m.[37m
-[37m20:48:27.441 > M[37message from[37m [37mrelay inde[37mx[37m:0
-20:48:27.443 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-20:48:27.446 > Relay dis[37mc[37monnected: [37mH[37meap: 16106[37m4[37m
-[37m20:48:30.438 > .[37m.[37mF[37mail[37me[37md to read [37mf[37mrom DHT sen[37ms[37mor!
-[37m20:48:35.457 > P[37mu[37mblicado n[37mo[37m MQTT: 
-20:48:35.459 > H[37mE[37mAP 1 Min:11[37m4[37m788
-[37m20:48:38.361 > .[37m.[37m
-[37m20:48:41.367 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-20:48:41.369 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-20:48:41.372 > Rela[37my[37m disconnect[37me[37md: Heap: 16[37m0[37m728
-[37m20:48:44.367 > .[37m.[37m.[37m.[37m
-[37m20:48:55.188 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m20:48:55.188 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-20:48:55.188 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 160876
-[37m20:48:58.188 > .[37m.[37mP[37mu[37mblica[37md[37mo no MQTT: [37m
-[37m20:49:04.469 > HEAP 1 Mi[37mn[37m:115892
-[37m20:49:05.905 > .[37m.[37m
-[37m20:49:08.912 > Mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m20:49:08.915 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-20:49:08.917 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 161088
-[37m20:49:11.912 > .[37m.[37m.[37m.[37m
-[37m20:49:22.736 > M[37messa[37mg[37me from rel[37ma[37my index:0
-[37m20:49:22.739 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-20:49:22.739 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m160880
-[37m20:49:25.737 > .[37m.[37m.[37mF[37ma[37miled to[37m [37mread from D[37mH[37mT sensor![37m
-[37m20:49:35.528 > P[37mublicad[37mo[37m no MQTT: [37m[37m
-20:49:35.530 > HEAP 1 Min[37m:[37m116072
-[37m20:49:36.556 > .[37m
-[37m20:49:36.560 > M[37messa[37mg[37me from rel[37ma[37my index:0
-[37m20:49:36.563 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-20:49:36.565 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m161068
-[37m20:49:39.560 > .[37m.[37m.[37m.[37m
-[37m20:49:50.385 > M[37message from[37m [37mrelay inde[37mx[37m:0
-20:49:50.387 > [WSc] [37mD[37misconnected[37m [37mfrom relay:[37m [37m.
-20:49:50.388 > Relay di[37ms[37mconnected: [37mH[37meap: 16108[37m8[37m
-[37m20:49:53.386 > .[37m.[37m.[37m.[37m
-[37m20:50:04.208 > M[37message from [37mr[37melay index[37m:[37m0
-20:50:04.210 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
-[37m20:50:04.213 > Relay dis[37mc[37monnected: H[37me[37map: 161080[37m[37m
-[37m20:50:04.538 > P[37mub[37ml[37micado no MQ[37mT[37mT: 
-20:50:04.539 > HEAP [37m1[37m Min:158788[37m[37m
-[37m20:50:07.209 > .[37m.[37m.[37m.[37m
-[37m20:50:18.032 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-20:50:18.035 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .
-[37m20:50:18.038 > R[37melay disco[37mn[37mnected: He[37ma[37mp: 161088
-[37m20:50:21.032 > .[37m.[37m.[37m.[37m
-[37m20:50:31.859 > Mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m20:50:31.862 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m20:50:31.865 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 161080
-[37m20:50:34.542 > S[37mP[37mIFS:[37m [37mAlready Mo[37mu[37mnted
-[37m20:50:34.567 > P[37mL[37mUV: Succ[37me[37mss to wri[37mt[37me to file
-[37m20:50:34.621 > F[37mai[37ml[37med to read[37m [37mfrom DHT se[37mn[37msor!
-[37m20:50:34.626 > P[37mu[37mblicado n[37mo[37m MQTT: 
-20:50:34.626 > H[37mE[37mAP 1 Min:15[37m8[37m944
-[37m20:50:34.859 > .[37m.[37m.[37m.[37m
-[37m20:50:45.681 > M[37message from[37m [37mrelay index[37m:[37m0
-20:50:45.684 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-20:50:45.687 > Relay dis[37mc[37monnected: [37mH[37meap: 161088[37m[37m
-[37m20:50:48.681 > .[37m.[37m.[37m.[37m
-[37m20:50:59.507 > M[37message from [37mr[37melay index[37m:[37m0
-20:50:59.508 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-20:50:59.511 > Relay dis[37mc[37monnected: H[37me[37map: 161080[37m
-[37m20:51:02.505 > .[37m.[37mP[37mu[37mblic[37ma[37mdo no MQTT:[37m [37m
-20:51:05.639 > HEAP 1 Mi[37mn[37m:156068
-[37m20:51:09.635 > S[37mP[37mIFS: Already[37m [37mMounted
-[37m20:51:09.639 > L[37mI[37mDAR: [37mS[37muccess to w[37mr[37mite to fil[37me[37m
-[37m20:51:10.219 > .[37m.[37m
-[37m20:51:13.224 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-20:51:13.226 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-20:51:13.229 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m0[37m744
-[37m20:51:16.225 > .[37m.[37m.[37m.[37m
-[37m20:51:27.042 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-20:51:27.042 > [WSc][37m [37mDisconnect[37me[37md from rel[37ma[37my: .
-20:51:27.042 > Relay [37md[37misconnected[37m:[37m Heap: 160[37m4[37m56
-[37m20:51:30.042 > .[37m.[37mF[37ma[37mile[37md[37m to read fr[37mo[37mm DHT sens[37mo[37mr!
-[37m20:51:36.704 > P[37mubli[37mc[37mado no MQT[37mT[37m: 
-20:51:36.707 > HEAP 1 [37mM[37min:115912[37m
-[37m20:51:37.868 > .[37m.[37m
-[37m20:51:40.873 > M[37message f[37mr[37mom relay in[37md[37mex:0
-20:51:40.875 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-20:51:40.878 > Relay[37m [37mdisconnecte[37md[37m: Heap: 161[37m0[37m68
-[37m20:51:43.873 > .[37m.[37m.[37m.[37m
-[37m20:51:54.688 > M[37message from[37m [37mrelay inde[37mx[37m:0
-20:51:54.688 > [WSc] D[37mi[37msconnected[37m [37mfrom relay[37m:[37m .
-20:51:54.688 > Relay di[37ms[37mconnected: [37mH[37meap: 16072[37m8[37m
-[37m20:51:57.688 > .[37m.[37m.[37mP[37mubl[37mi[37mcado no MQT[37mT[37m: 
-20:52:06.716 > HEAP 1[37m [37mMin:116388[37m
-[37m20:52:08.521 > .[37m
-[37m20:52:08.525 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m20:52:08.527 > [[37mWSc] Discon[37mn[37mected from [37mr[37melay: .
-20:52:08.529 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m161076
-[37m20:52:11.525 > .[37m.[37m.[37m.[37m
-[37m20:52:22.345 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-20:52:22.347 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-20:52:22.350 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m1080
-[37m20:52:25.338 > .[37m.[37m.[37mF[37ma[37miled t[37mo[37m read from [37mD[37mHT sensor![37m[37m
-[37m20:52:35.780 > P[37mu[37mblicado no M[37mQ[37mTT: 
-20:52:35.782 > HEAP[37m [37m1 Min:11637[37m6[37m
-[37m20:52:36.164 > .[37m
-[37m20:52:36.169 > M[37message from [37mr[37melay index[37m:[37m0
-20:52:36.171 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-20:52:36.174 > Relay dis[37mc[37monnected: H[37me[37map: 160880[37m[37m
-[37m20:52:39.169 > .[37m.[37m.[37m.[37m
-[37m20:52:49.986 > Me[37ms[37msage from r[37me[37mlay index:0[37m[37m
-20:52:49.986 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m20:52:49.986 > Relay disco[37mn[37mnected: He[37ma[37mp: 161080[37m
-[37m20:52:52.988 > .[37m.[37m.[37m.[37m
-[37m20:53:03.816 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m20:53:03.819 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-20:53:03.821 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 160876
-[37m20:53:05.788 > P[37mu[37mblic[37ma[37mdo no MQTT[37m:[37m 
-20:53:05.788 > HEAP 1 M[37mi[37mn:158944
-[37m20:53:06.817 > .[37m.[37m.[37m.[37m
-[37m20:53:17.638 > M[37mess[37ma[37mge from rel[37ma[37my index:0
-[37m20:53:17.638 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-20:53:17.638 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 161080
-[37m20:53:20.638 > .[37m.[37m.[37m.[37m
-[37m20:53:31.464 > M[37message from [37mr[37melay index:[37m0[37m
-20:53:31.466 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: [37m.[37m
-20:53:31.469 > Relay disc[37mo[37mnnected: He[37ma[37mp: 161068[37m
-[37m20:53:34.463 > .[37mF[37ma[37mile[37md[37m to read fr[37mo[37mm DHT sens[37mo[37mr!
-[37m20:53:36.857 > P[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m20:53:36.860 > HEAP 1 Min:[37m1[37m59168
-[37m20:53:37.463 > .[37m.[37m.[37m
-[37m20:53:45.287 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-20:53:45.290 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .
-[37m20:53:45.292 > R[37melay disco[37mn[37mnected: He[37ma[37mp: 160864
-[37m20:53:48.287 > .[37m.[37m.[37m.[37m
-[37m20:53:59.110 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-20:53:59.112 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-20:53:59.115 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m1[37m068
-[37m20:54:02.111 > .[37m.[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-[37m20:54:05.873 > H[37mEAP 1 Min:1[37m1[37m4552
-[37m20:54:09.930 > .[37m.[37m
-[37m20:54:12.935 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-20:54:12.937 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-20:54:12.938 > Relay d[37mi[37msconnected[37m:[37m Heap: 1610[37m6[37m8
-[37m20:54:15.935 > .[37m.[37m.[37m.[37m
-[37m20:54:26.763 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-20:54:26.765 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-20:54:26.768 > Relay [37md[37misconnected[37m:[37m Heap: 160[37m7[37m44
-[37m20:54:29.764 > .[37m.[37mF[37mailed to [37mr[37mead from D[37mH[37mT sensor![37m
-[37m20:54:36.933 > P[37mu[37mblicado [37mn[37mo MQTT: [37m
-[37m20:54:36.935 > HEAP 1 Min[37m:[37m115908
-[37m20:54:37.579 > .[37m.[37m
-[37m20:54:40.584 > M[37message[37m [37mfrom relay[37m [37mindex:0
-20:54:40.587 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-20:54:40.588 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m61084
-[37m20:54:43.585 > .[37m.[37m.[37m.[37m
-[37m20:54:54.412 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-20:54:54.414 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-20:54:54.418 > Relay di[37ms[37mconnected: [37mH[37meap: 16106[37m8[37m
-[37m20:54:57.412 > .[37m.[37m.[37mP[37mu[37mblicado no[37m [37mMQTT: 
-20:55:05.938 > HEA[37mP[37m 1 Min:1163[37m8[37m4
-[37m20:55:08.226 > .[37m
-[37m20:55:08.231 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-20:55:08.233 > [WS[37mc[37m] Disconne[37mc[37mted from r[37me[37mlay: .
-20:55:08.236 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m1076
-[37m20:55:11.230 > .[37m.[37m.[37m.[37m
-[37m20:55:22.041 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-20:55:22.057 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .
-[37m20:55:22.059 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161068
-[37m20:55:25.042 > .[37m.[37mF[37ma[37miled to read [37mf[37mrom DHT s[37me[37mnsor!
-[37m20:55:37.007 > P[37mub[37ml[37micado no MQ[37mT[37mT: 
-20:55:37.009 > HEAP 1[37m [37mMin:120228[37m[37m
-[37m20:56:01.337 > .[37m.[37m
-[37m20:56:04.337 > M[37message from [37mr[37melay index[37m:[37m0
-20:56:04.337 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-20:56:04.337 > Relay dis[37mc[37monnected: H[37me[37map: 161540[37m[37m
-[37m20:56:07.337 > .[37mP[37mu[37mblicado no M[37mQ[37mTT: 
-20:56:08.018 > HEAP[37m [37m1 Min:1593[37m9[37m2
-[37m20:56:10.335 > .[37mF[37ma[37miled[37m [37mto read from[37m [37mDHT sensor[37m![37m
-[37m20:56:37.078 > P[37mu[37mblicado [37mn[37mo MQTT: 
-20:56:37.079 > H[37mE[37mAP 1 Min:1[37m2[37m1124
-[37m20:57:07.083 > P[37mu[37mblicado no MQ[37mT[37mT: 
-20:57:07.085 > HEAP [37m1[37m Min:12160[37m4[37m
-[37m20:57:37.137 > F[37ma[37miled to re[37ma[37md from DHT[37m [37msensor!
-[37m20:57:38.137 > P[37mu[37mblic[37ma[37mdo no MQTT: [37m[37m
-20:57:38.137 > HEAP 1 Mi[37mn[37m:121828
-[37m20:58:08.137 > P[37mu[37mblicad[37mo[37m no MQTT: [37m
-[37m20:58:08.154 > HEAP 1 Min[37m:[37m122052
-[37m20:58:10.625 > [[37m13[37m6[37m1624][E][W[37mi[37mFiClientSec[37mu[37mre.cpp:144][37m [37mconnect():[37m [37mstart_ssl_c[37ml[37mient: -1
-[37m20:58:13.626 > .[37m
-[37m20:58:13.627 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-20:58:13.630 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m20:58:13.633 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 163296
-[37m20:58:16.628 > .[37m.[37mF[37ma[37miled to read[37m [37mfrom DHT [37ms[37mensor!
-[37m20:58:39.210 > P[37mu[37mblicad[37mo[37m no MQTT: [37m
-[37m20:58:39.213 > HEAP 1 Min:[37m1[37m21744
-[37m20:59:09.205 > P[37mu[37mblicado no MQ[37mT[37mT: 
-20:59:09.205 > HEAP[37m [37m1 Min:12203[37m2[37m
-[37m20:59:36.273 > F[37ma[37miled to [37mr[37mead from D[37mH[37mT sensor!
-[37m20:59:40.277 > P[37mubl[37mi[37mcado no MQT[37mT[37m: 
-20:59:40.278 > HEAP 1 [37mM[37min:122032[37m
-[37m21:00:10.284 > P[37mubli[37mc[37mado no MQTT[37m:[37m 
-21:00:10.287 > HEAP 1 [37mM[37min:122032
-[37m21:00:20.457 > [[37m1[37m491458][E][37m[[37mWiFiClientS[37me[37mcure.cpp:1[37m4[37m4] connect([37m)[37m: start_ss[37ml[37m_client: -1[37m[37m
-[37m21:00:23.459 > .[37m
-[37m21:00:23.459 > Me[37ms[37msage from re[37ml[37may index:[37m0[37m
-21:00:23.463 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
-[37m21:00:23.466 > Relay disc[37mo[37mnnected: He[37ma[37mp: 163252[37m
-[37m21:00:26.460 > .[37m.[37m.[37mF[37mai[37ml[37med to read [37mf[37mrom DHT se[37mn[37msor!
-[37m21:00:37.337 > .[37m
-[37m21:00:37.337 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:00:37.337 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-21:00:37.337 > Relay di[37ms[37mconnected: [37mH[37meap: 16287[37m6[37m
-[37m21:00:40.337 > .[37mP[37mu[37mbli[37mc[37mado no MQTT[37m:[37m 
-21:00:40.355 > HEAP 1 [37mM[37min:160736
-[37m21:00:43.337 > .[37m.[37m.[37m
-[37m21:00:51.165 > M[37message from[37m [37mrelay index[37m:[37m0
-21:00:51.167 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-21:00:51.170 > Relay dis[37mc[37monnected: [37mH[37meap: 16265[37m2[37m
-[37m21:00:54.155 > .[37m.[37m.[37m.[37m
-[37m21:01:05.086 > M[37messag[37me[37m from relay[37m [37mindex:0
-21:01:05.086 > [[37mW[37mSc] Disconn[37me[37mcted from r[37me[37mlay: .
-21:01:05.086 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m62428
-[37m21:01:08.089 > .[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: [37m[37m
-21:01:11.368 > HEAP 1 Min[37m:[37m157208
-[37m21:01:15.807 > .[37m.[37m
-[37m21:01:18.812 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-21:01:18.814 > [WSc[37m][37m Disconnec[37mt[37med from re[37ml[37may: .
-21:01:18.817 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m2[37m000
-[37m21:01:21.813 > .[37m.[37m.[37m.[37m
-[37m21:01:34.173 > Mess[37ma[37mge from rel[37ma[37my index:0
-[37m21:01:34.176 > [[37mWSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-21:01:34.178 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 161976
-[37m21:01:37.173 > .[37mF[37ma[37miled t[37mo[37m read from [37mD[37mHT sensor![37m[37m
-[37m21:01:40.173 > .[37mP[37mublicado n[37mo[37m MQTT: 
-21:01:42.435 > H[37mE[37mAP 1 Min:11[37m6[37m564
-[37m21:01:44.986 > .[37m.[37m
-[37m21:01:47.986 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-21:01:47.986 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-21:01:48.001 > Relay d[37mi[37msconnected[37m:[37m Heap: 1617[37m4[37m8
-[37m21:01:50.986 > .[37m.[37m.[37m.[37m
-[37m21:02:01.819 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:02:01.822 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-21:02:01.825 > Relay di[37ms[37mconnected: [37mH[37meap: 16154[37m0[37m
-[37m21:02:04.820 > .[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: 
-[37m21:02:11.436 > H[37mEAP 1 Min:[37m1[37m20452
-[37m21:02:36.487 > F[37ma[37miled t[37mo[37m read from [37mD[37mHT sensor![37m[37m
-[37m21:02:41.508 > P[37mubl[37mi[37mcado no MQT[37mT[37m: 
-21:02:41.509 > HEAP 1[37m [37mMin:116564[37m
-[37m21:02:41.515 > .[37m.[37m
-[37m21:02:44.520 > M[37message from [37mr[37melay index[37m:[37m0
-21:02:44.522 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-21:02:44.525 > Relay dis[37mc[37monnected: H[37me[37map: 161528[37m[37m
-[37m21:02:47.519 > .[37m.[37mP[37mu[37mbli[37mc[37mado no MQT[37mT[37m: 
-21:03:11.514 > HEAP 1 Mi[37mn[37m:121124
-[37m21:03:36.570 > F[37ma[37mile[37md[37m to read fr[37mo[37mm DHT sens[37mo[37mr!
-[37m21:03:41.574 > P[37mu[37mblicado n[37mo[37m MQTT: 
-21:03:41.576 > HE[37mA[37mP 1 Min:12[37m1[37m564
-[37m21:04:11.582 > P[37mu[37mblicado no[37m [37mMQTT: 
-21:04:11.583 > HE[37mA[37mP 1 Min:122[37m0[37m20
-[37m21:04:37.636 > F[37ma[37miled to [37mr[37mead from D[37mH[37mT sensor!
-[37m21:04:42.636 > P[37mubl[37mi[37mcado no MQT[37mT[37m: 
-21:04:42.636 > HEAP 1[37m [37mMin:122020[37m
-[37m21:04:50.786 > [[37m1[37m761804][E[37m][37m[WiFiClient[37mS[37mecure.cpp:[37m1[37m44] connect[37m([37m): start_s[37ms[37ml_client: -[37m1[37m
-[37m21:04:53.803 > .[37m
-[37m21:04:53.804 > M[37message from[37m [37mrelay inde[37mx[37m:0
-21:04:53.807 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-21:04:53.810 > Relay di[37ms[37mconnected: [37mH[37meap: 16325[37m2[37m
-[37m21:04:56.803 > .[37m.[37mP[37mub[37ml[37micado no MQ[37mT[37mT: 
-21:05:13.654 > HEAP [37m1[37m Min:122032[37m[37m
-[37m21:05:29.653 > N[37mo[37mstr [37mA[37mntes:124356
-[37m21:05:30.057 > A[37ml[37ml good, s[37mi[37mgnature is [37mv[37malid
-21:05:30.060 > Nost[37mr[37m:124356
-[37m21:05:39.057 > S[37mP[37mIFS: [37mA[37mlready Moun[37mt[37med
-[37m21:05:39.072 > P[37mL[37mUV: Succe[37ms[37ms to write [37mt[37mo file
-[37m21:05:39.124 > F[37mai[37ml[37med to read [37mf[37mrom DHT se[37mn[37msor!
-[37m21:05:44.132 > P[37mubli[37mc[37mado no MQTT[37m:[37m 
-21:05:44.134 > HEAP 1 [37mM[37min:122032
-[37m21:06:14.136 > P[37mu[37mblicado n[37mo[37m MQTT: 
-21:06:14.136 > HE[37mA[37mP 1 Min:12[37m2[37m032
-[37m21:06:39.186 > F[37ma[37miled t[37mo[37m read from [37mD[37mHT sensor![37m[37m
-[37m21:06:42.186 > S[37mP[37mIFS: Already [37mM[37mounted
-[37m21:06:42.204 > L[37mI[37mDAR: Su[37mc[37mcess to wri[37mt[37me to file[37m
-[37m21:06:44.216 > P[37mu[37mblicado n[37mo[37m MQTT: 
-21:06:44.217 > H[37mE[37mAP 1 Min:12[37m2[37m032
-[37m21:07:00.131 > [[37m1[37m891136][[37mE[37m][WiFiClie[37mn[37mtSecure.cp[37mp[37m:144] conne[37mc[37mt(): start_[37ms[37msl_client:[37m [37m-1
-[37m21:07:03.134 > .[37m
-21:07:03.135 > Message fr[37mo[37mm relay ind[37me[37mx:0
-21:07:03.136 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-21:07:03.136 > Relay d[37mi[37msconnected[37m:[37m Heap: 1632[37m5[37m2
-[37m21:07:06.135 > .[37m.[37mP[37mu[37mblic[37ma[37mdo no MQTT: [37m[37m
-21:07:16.212 > HEAP 1 M[37mi[37mn:121744
-[37m21:07:39.266 > F[37ma[37miled to re[37ma[37md from DHT [37ms[37mensor!
-[37m21:07:45.269 > P[37mu[37mblicad[37mo[37m no MQTT:[37m [37m
-21:07:45.272 > HEAP 1 Mi[37mn[37m:122032
-[37m21:08:15.277 > P[37mu[37mblicado [37mn[37mo MQTT: 
-21:08:15.279 > H[37mE[37mAP 1 Min:1[37m2[37m2032
-[37m21:08:39.335 > F[37mailed to read fro[37mm[37m DHT senso[37mr[37m!
-[37m21:08:46.335 > P[37mubl[37mi[37mcado no MQT[37mT[37m: 
-21:08:46.335 > HEAP 1 [37mM[37min:122064[37m
-[37m21:09:09.563 > [[37m2[37m020569][[37mE[37m][WiFiCli[37me[37mntSecure.cp[37mp[37m:144] conn[37me[37mct(): start[37m_[37mssl_client[37m:[37m -1
-[37m21:09:12.565 > .[37m
-[37m21:09:12.567 > Message fr[37mo[37mm relay i[37mn[37mdex:0
-21:09:12.568 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-21:09:12.571 > Relay [37md[37misconnecte[37md[37m: Heap: 16[37m3[37m296
-[37m21:09:15.334 > P[37mu[37mblicado no MQ[37mT[37mT: 
-21:09:15.350 > HEAP[37m [37m1 Min:1610[37m0[37m4
-[37m21:09:15.566 > .[37m.[37m.[37m.[37m
-[37m21:09:36.985 > M[37message from[37m [37mrelay index[37m:[37m0
-21:09:36.985 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay:[37m [37m.
-21:09:36.985 > Relay dis[37mc[37monnected: H[37me[37map: 162876[37m[37m
-[37m21:09:39.984 > .[37mF[37ma[37miled [37mt[37mo read from D[37mH[37mT sensor[37m![37m
-[37m21:09:42.984 > .[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-21:09:45.415 > H[37mE[37mAP 1 Min:1[37m1[37m7336
-[37m21:09:47.803 > .[37m.[37m
-[37m21:09:50.809 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:09:50.811 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-21:09:50.814 > Relay di[37ms[37mconnected:[37m [37mHeap: 16264[37m8[37m
-[37m21:09:53.809 > .[37m.[37m.[37m.[37m
-[37m21:10:04.633 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-21:10:04.635 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .[37m
-[37m21:10:04.635 > Relay disco[37mn[37mnected: He[37ma[37mp: 162428
-[37m21:10:07.633 > .[37m.[37m.[37mP[37mu[37mblicado no [37mM[37mQTT: 
-21:10:16.428 > HEA[37mP[37m 1 Min:117[37m5[37m00
-[37m21:10:18.453 > .[37m
-[37m21:10:18.456 > Mes[37ms[37mage from re[37ml[37may index:0[37m
-[37m21:10:18.460 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m21:10:18.462 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 162004
-[37m21:10:21.457 > .[37m.[37m.[37m.[37m
-[37m21:10:32.383 > M[37messa[37mg[37me from rela[37my[37m index:0
-21:10:32.385 > [[37mW[37mSc] Discon[37mn[37mected from[37m [37mrelay: .
-21:10:32.386 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m161976
-[37m21:10:35.383 > .[37m.[37mF[37mail[37me[37md to read f[37mr[37mom DHT sen[37ms[37mor!
-[37m21:10:43.302 > .[37mP[37mu[37mblica[37md[37mo no MQTT:[37m [37m
-21:10:45.495 > HEAP 1 Min[37m:[37m117056
-[37m21:10:46.304 > .[37m
-[37m21:10:46.308 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-21:10:46.310 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-21:10:46.313 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m1408
-[37m21:10:49.309 > .[37m.[37m.[37m.[37m
-[37m21:11:00.133 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-21:11:00.135 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m21:11:00.135 > Relay disco[37mn[37mnected: He[37ma[37mp: 161324
-[37m21:11:03.132 > .[37m.[37m.[37m.[37m
-[37m21:11:14.058 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-21:11:14.060 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-21:11:14.063 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m1[37m020
-[37m21:11:15.505 > P[37mu[37mblicad[37mo[37m no MQTT: [37m
-[37m21:11:15.507 > HEAP 1 Min[37m:[37m159168
-[37m21:11:17.056 > .[37m.[37m.[37m.[37m
-[37m21:11:27.882 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-21:11:27.885 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-21:11:27.885 > Relay [37md[37misconnecte[37md[37m: Heap: 16[37m0[37m880
-[37m21:11:30.883 > .[37m.[37m.[37mF[37ma[37miled[37m [37mto read fr[37mo[37mm DHT sensor![37m[37m
-[37m21:11:41.803 > .[37m
-[37m21:11:41.803 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-21:11:41.803 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-21:11:41.803 > Relay [37md[37misconnected[37m:[37m Heap: 161[37m0[37m84
-[37m21:11:44.810 > .[37mP[37mu[37mblicado no[37m [37mMQTT: 
-21:11:45.568 > HE[37mA[37mP 1 Min:158[37m7[37m00
-[37m21:11:47.810 > .[37m.[37m.[37m
-[37m21:11:55.633 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-21:11:55.635 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-21:11:55.635 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m0880
-[37m21:11:58.634 > .[37m.[37m.[37m.[37m
-[37m21:12:09.559 > M[37message from[37m [37mrelay index[37m:[37m0
-21:12:09.561 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay:[37m [37m.
-21:12:09.564 > Relay dis[37mc[37monnected: H[37me[37map: 161084[37m[37m
-[37m21:12:12.553 > .[37m.[37mP[37mu[37mblicado no [37mM[37mQTT: 
-21:12:15.576 > HEA[37mP[37m 1 Min:1562[37m2[37m4
-[37m21:12:20.376 > .[37m.[37m
-[37m21:12:23.382 > Me[37ms[37msage from [37mr[37melay index:[37m0[37m
-21:12:23.385 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
-[37m21:12:23.385 > Relay disc[37mo[37mnnected: H[37me[37map: 160888[37m
-[37m21:12:26.383 > .[37m.[37m.[37m.[37m
-[37m21:12:37.309 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-21:12:37.312 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .
-[37m21:12:37.315 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161092
-[37m21:12:40.309 > .[37mF[37ma[37miled to read[37m [37mfrom DHT s[37me[37mnsor!
-[37m21:12:43.309 > .[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-[37m21:12:45.635 > H[37mEAP 1 Min:1[37m1[37m6008
-[37m21:12:48.127 > .[37m.[37m
-[37m21:12:51.132 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m21:12:51.135 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-21:12:51.135 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 161084
-[37m21:12:54.133 > .[37m.[37m.[37m.[37m
-[37m21:13:04.958 > M[37message from[37m [37mrelay index[37m:[37m0
-21:13:04.960 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay:[37m [37m.
-21:13:04.963 > Relay dis[37mc[37monnected: [37mH[37meap: 161080[37m[37m
-[37m21:13:07.958 > .[37m.[37mP[37mubli[37mc[37mado no MQTT[37m:[37m 
-21:13:15.655 > HEAP 1 M[37mi[37mn:115876
-[37m21:13:15.879 > .[37m.[37m
-[37m21:13:18.885 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m21:13:18.885 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-21:13:18.885 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 161092
-[37m21:13:21.885 > .[37m.[37m.[37m.[37m
-[37m21:13:32.809 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-21:13:32.811 > [WS[37mc[37m] Disconnec[37mt[37med from rel[37ma[37my: .
-21:13:32.814 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m0[37m876
-[37m21:13:35.810 > .[37m.[37mF[37ma[37miled[37m [37mto read from[37m [37mDHT senso[37mr[37m!
-[37m21:13:43.628 > .[37mP[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m21:13:45.723 > HEAP 1 Min:[37m1[37m16360
-[37m21:13:46.631 > .[37m
-[37m21:13:46.634 > M[37message[37m [37mfrom relay[37m [37mindex:0
-21:13:46.636 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-21:13:46.639 > Rela[37my[37m disconnec[37mt[37med: Heap: [37m1[37m60876
-[37m21:13:49.635 > .[37m.[37m.[37m.[37m
-[37m21:14:00.559 > M[37messa[37mg[37me from relay [37mi[37mndex:0
-21:14:00.562 > [W[37mS[37mc] Discon[37mn[37mected from[37m [37mrelay: .
-21:14:00.564 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m160876
-[37m21:14:03.560 > .[37m.[37m.[37m.[37m
-[37m21:14:14.383 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:14:14.385 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-21:14:14.385 > Relay di[37ms[37mconnected: [37mH[37meap: 16074[37m4[37m
-[37m21:14:16.735 > P[37mublicado n[37mo[37m MQTT: 
-21:14:16.735 > H[37mE[37mAP 1 Min:15[37m8[37m944
-[37m21:14:17.383 > .[37m.[37m.[37m.[37m
-[37m21:14:28.310 > M[37message from[37m [37mrelay index[37m:[37m0
-21:14:28.313 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-21:14:28.316 > Relay dis[37mc[37monnected: [37mH[37meap: 161092[37m[37m
-[37m21:14:31.310 > .[37m.[37m.[37mF[37ma[37miled to re[37ma[37md from DHT[37m [37msensor!
-[37m21:14:42.130 > .[37m
-[37m21:14:42.134 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-21:14:42.135 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-21:14:42.135 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m1084
-[37m21:14:45.133 > .[37mP[37mu[37mblicado no MQ[37mT[37mT: 
-21:14:47.805 > HEAP [37m1[37m Min:159168[37m[37m
-[37m21:14:48.134 > .[37m.[37m.[37m
-[37m21:14:56.059 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-21:14:56.062 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
-[37m21:14:56.065 > Relay disc[37mo[37mnnected: He[37ma[37mp: 161088[37m
-[37m21:14:59.060 > .[37m.[37m.[37m.[37m
-[37m21:15:09.883 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:15:09.884 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-21:15:09.884 > Relay di[37ms[37mconnected:[37m [37mHeap: 16086[37m4[37m
-[37m21:15:12.884 > .[37m.[37mP[37mub[37ml[37micado no MQ[37mT[37mT: 
-21:15:17.817 > HEAP [37m1[37m Min:114920[37m[37m
-[37m21:15:20.806 > .[37m.[37m
-[37m21:15:23.812 > M[37message from[37m [37mrelay index[37m:[37m0
-21:15:23.814 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-21:15:23.817 > Relay dis[37mc[37monnected: [37mH[37meap: 160884[37m[37m
-[37m21:15:26.812 > .[37m.[37m.[37m.[37m
-[37m21:15:37.634 > M[37message from[37m [37mrelay inde[37mx[37m:0
-21:15:37.634 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-21:15:37.634 > Relay di[37ms[37mconnected: [37mH[37meap: 16108[37m4[37m
-[37m21:15:40.634 > .[37mF[37maile[37md[37m to read f[37mr[37mom DHT sens[37mo[37mr!
-[37m21:15:43.635 > .[37mP[37mublic[37ma[37mdo no MQTT: [37m[37m
-21:15:47.884 > HEAP 1 M[37mi[37mn:115904
-[37m21:15:48.554 > .[37m.[37m
-[37m21:15:51.560 > M[37messag[37me[37m from relay[37m [37mindex:0
-21:15:51.562 > [[37mW[37mSc] Disconn[37me[37mcted from r[37me[37mlay: .
-21:15:51.565 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m60876
-[37m21:15:54.560 > .[37m.[37m.[37m.[37m
-[37m21:16:05.384 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-21:16:05.384 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m21:16:05.384 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161100
-[37m21:16:08.384 > .[37m.[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: [37m[37m
-21:16:18.894 > HEAP 1 Min[37m:[37m116372
-[37m21:16:19.307 > .[37m
-[37m21:16:19.310 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-21:16:19.312 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-21:16:19.315 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m0[37m888
-[37m21:16:22.311 > .[37m.[37m.[37m.[37m
-[37m21:16:33.135 > M[37messag[37me[37m from rela[37my[37m index:0
-[37m21:16:33.136 > [[37mWSc] Discon[37mn[37mected from [37mr[37melay: .
-21:16:33.136 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m161080
-[37m21:16:36.134 > .[37m.[37mF[37ma[37miled to [37mr[37mead from[37m [37mDHT sensor![37m[37m
-[37m21:16:43.984 > .[37m.[37m
-[37m21:16:46.984 > M[37messag[37me[37m from relay[37m [37mindex:0
-21:16:46.984 > [W[37mS[37mc] Disconn[37me[37mcted from [37mr[37melay: .
-21:16:47.000 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m61092
-[37m21:16:49.962 > P[37mu[37mblicado n[37mo[37m MQTT: 
-21:16:49.964 > HE[37mA[37mP 1 Min:15[37m8[37m944
-[37m21:16:49.989 > .[37m.[37m.[37m.[37m
-[37m21:17:00.883 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-21:17:00.885 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m21:17:00.885 > Relay disc[37mo[37mnnected: He[37ma[37mp: 160752
-[37m21:17:03.884 > .[37m.[37m.[37m.[37m
-[37m21:17:14.813 > M[37message from [37mr[37melay index[37m:[37m0
-21:17:14.815 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-21:17:14.818 > Relay dis[37mc[37monnected: H[37me[37map: 161092[37m
-[37m21:17:17.813 > .[37m.[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-21:17:20.976 > H[37mE[37mAP 1 Min:15[37m6[37m088
-[37m21:17:25.529 > .[37m.[37m
-[37m21:17:28.534 > Mes[37ms[37mage from re[37ml[37may index:0[37m
-[37m21:17:28.537 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m21:17:28.539 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161080
-[37m21:17:31.535 > .[37m.[37m.[37mF[37ma[37mi[37mled to read[37m [37mfrom DHT se[37mn[37msor!
-[37m21:17:42.352 > .[37m
-[37m21:17:42.356 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-21:17:42.358 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-21:17:42.361 > Relay d[37mi[37msconnected[37m:[37m Heap: 1610[37m8[37m0
-[37m21:17:45.356 > .[37m.[37mP[37mu[37mblicado no MQ[37mT[37mT: 
-21:17:51.034 > HEAP[37m [37m1 Min:11589[37m2[37m
-[37m21:17:53.277 > .[37m.[37m
-[37m21:17:56.282 > M[37mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m21:17:56.284 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-21:17:56.284 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 161084
-[37m21:17:59.283 > .[37m.[37m.[37m.[37m
-[37m21:18:10.106 > M[37messag[37me[37m from rela[37my[37m index:0
-21:18:10.108 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-21:18:10.111 > Re[37ml[37may disconne[37mc[37mted: Heap: [37m1[37m61084
-[37m21:18:13.107 > .[37m.[37m.[37mP[37mu[37mblic[37ma[37mdo no MQTT: [37m[37m
-21:18:21.062 > HEAP 1 M[37mi[37mn:116416
-[37m21:18:24.028 > .[37m
-[37m21:18:24.032 > M[37messag[37me[37m from relay[37m [37mindex:0
-21:18:24.034 > [W[37mS[37mc] Disconn[37me[37mcted from [37mr[37melay: .
-21:18:24.038 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m61080
-[37m21:18:27.033 > .[37m.[37m.[37m.[37m
-[37m21:18:37.852 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-21:18:37.852 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-21:18:37.852 > Rela[37my[37m disconnect[37me[37md: Heap: 16[37m1[37m080
-[37m21:18:40.860 > .[37mF[37mailed [37mt[37mo read from[37m [37mDHT sensor[37m![37m
-[37m21:18:43.860 > .[37m.[37m.[37m
-[37m21:18:51.783 > M[37messag[37me[37m from rela[37my[37m index:0
-[37m21:18:51.785 > [[37mWSc] Discon[37mn[37mected from [37mr[37melay: .
-21:18:51.785 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m160876
-[37m21:18:52.127 > P[37mubli[37mc[37mado no MQTT[37m:[37m 
-21:18:52.129 > HEAP 1 [37mM[37min:159084[37m
-[37m21:18:54.783 > .[37m.[37m.[37m.[37m
-[37m21:19:05.608 > M[37messag[37me[37m from relay[37m [37mindex:0
-21:19:05.610 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-21:19:05.613 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m61084
-[37m21:19:08.602 > .[37m.[37m.[37m.[37m
-[37m21:19:19.532 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:19:19.534 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-21:19:19.537 > Relay di[37ms[37mconnected:[37m [37mHeap: 16085[37m2[37m
-[37m21:19:21.134 > P[37mu[37mblicado no[37m [37mMQTT: 
-21:19:21.134 > HE[37mA[37mP 1 Min:159[37m2[37m12
-[37m21:19:22.532 > .[37m.[37m.[37m.[37m
-[37m21:19:35.406 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-21:19:35.409 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-21:19:35.412 > Relay disc[37mo[37mnnected: He[37ma[37mp: 160824[37m
-[37m21:19:38.406 > .[37mF[37ma[37miled to re[37ma[37md from DHT[37m [37msensor!
-[37m21:19:41.407 > .[37m.[37m.[37m
-[37m21:19:49.331 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-21:19:49.333 > [WSc][37m [37mDisconnect[37me[37md from rela[37my: .
-21:19:49.334 > Relay [37md[37misconnected[37m:[37m Heap: 161[37m3[37m08
-[37m21:19:51.208 > P[37mu[37mblicado no MQ[37mT[37mT: 
-21:19:51.210 > HEAP[37m [37m1 Min:15913[37m6[37m
-[37m21:19:52.331 > .[37m.[37m.[37m.[37m
-[37m21:20:03.154 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-21:20:03.157 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .
-[37m21:20:03.159 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161304
-[37m21:20:06.155 > .[37m.[37m.[37m.[37m
-[37m21:20:17.080 > Mess[37ma[37mge from rel[37ma[37my index:0
-[37m21:20:17.083 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-21:20:17.084 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 161304
-[37m21:20:20.080 > .[37mP[37mubl[37mi[37mcado no MQT[37mT[37m: 
-21:20:21.219 > HEAP 1[37m [37mMin:159392[37m[37m
-[37m21:20:23.081 > .[37m.[37m.[37m
-[37m21:20:30.903 > Messa[37mg[37me from rel[37ma[37my index:0
-[37m21:20:30.906 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-21:20:30.908 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m161308
-[37m21:20:33.904 > .[37m.[37mS[37mP[37mIFS: Al[37mr[37meady Mount[37me[37md
-[37m21:20:41.234 > P[37mL[37mUV: [37mS[37muccess to w[37mr[37mite to fil[37me[37m
-[37m21:20:41.288 > F[37ma[37mile[37md[37m to read from[37m [37mDHT senso[37mr[37m!
-[37m21:20:41.830 > .[37m.[37m
-[37m21:20:44.834 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-21:20:44.834 > [WSc[37m][37m Disconnec[37mt[37med from re[37ml[37may: .
-21:20:44.834 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m1[37m192
-[37m21:20:47.832 > .[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m21:20:52.303 > HEAP 1 Min:[37m1[37m12268
-[37m21:20:55.649 > .[37m.[37m
-[37m21:20:58.655 > M[37message[37m [37mfrom relay[37m [37mindex:0
-21:20:58.657 > [W[37mS[37mc] Disconn[37me[37mcted from [37mr[37melay: .
-21:20:58.660 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m61532
-[37m21:21:01.655 > .[37m.[37m.[37m.[37m
-[37m21:21:12.582 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-21:21:12.585 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-21:21:12.586 > Relay [37md[37misconnected[37m:[37m Heap: 1612[37m4[37m8
-[37m21:21:15.583 > .[37m.[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-[37m21:21:23.312 > H[37mEAP 1 Min:[37m1[37m16112
-[37m21:21:23.400 > .[37m.[37m
-[37m21:21:26.403 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-21:21:26.403 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-21:21:26.403 > Relay [37md[37misconnected[37m:[37m Heap: 1611[37m0[37m0
-[37m21:21:29.407 > .[37m.[37m.[37m.[37m
-[37m21:21:40.128 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:21:40.130 > [WSc] D[37mi[37msconnected[37m [37mfrom relay[37m:[37m .
-21:21:40.133 > Relay di[37ms[37mconnected: [37mH[37meap: 16130[37m4[37m
-[37m21:21:41.371 > F[37ma[37miled to [37mr[37mead from D[37mH[37mT sensor!
-[37m21:21:43.128 > .[37m.[37m.[37m.[37m
-[37m21:21:53.956 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-21:21:53.956 > [W[37mS[37mc] Disconne[37mc[37mted from re[37ml[37may: .
-21:21:53.956 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m1304
-[37m21:21:54.370 > P[37mu[37mblicado [37mn[37mo MQTT: [37m
-[37m21:21:54.370 > HEAP 1 Min[37m:[37m159012
-[37m21:21:56.958 > .[37m.[37m.[37m.[37m
-[37m21:22:08.081 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-21:22:08.084 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m21:22:08.088 > Relay disc[37mo[37mnnected: He[37ma[37mp: 161112[37m
-[37m21:22:11.082 > .[37m.[37mS[37mP[37mIFS:[37m [37mAlready Mo[37mu[37mnted
-[37m21:22:14.384 > L[37mI[37mDAR: Succe[37ms[37ms to write[37m [37mto file
-[37m21:22:18.783 > .[37m.[37m
-[37m21:22:21.802 > Mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m21:22:21.806 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m21:22:21.808 > R[37melay discon[37mn[37mected: Heap[37m:[37m 160968
-[37m21:22:23.386 > P[37mu[37mblicado no MQ[37mT[37mT: 
-21:22:23.386 > HEAP[37m [37m1 Min:15916[37m8[37m
-[37m21:22:24.791 > .[37m.[37m.[37m.[37m
-[37m21:22:35.731 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:22:35.733 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-21:22:35.736 > Relay d[37mi[37msconnected[37m:[37m Heap: 1610[37m9[37m2
-[37m21:22:38.730 > .[37m.[37mF[37ma[37miled[37m [37mto read fr[37mo[37mm DHT senso[37mr[37m!
-[37m21:22:46.548 > .[37m.[37m
-[37m21:22:49.553 > Mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m21:22:49.556 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-21:22:49.558 > R[37me[37mlay discon[37mn[37mected: Hea[37mp[37m: 160888
-[37m21:22:52.554 > .[37mP[37mubli[37mc[37mado no MQT[37mT[37m: 
-21:22:53.467 > HEAP 1 [37mM[37min:159168[37m
-[37m21:22:55.554 > .[37m.[37m.[37m
-[37m21:23:03.377 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m21:23:03.380 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-21:23:03.382 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m160612
-[37m21:23:06.377 > .[37m.[37m.[37m.[37m
-[37m21:23:17.304 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-21:23:17.307 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m21:23:17.310 > Relay disc[37mo[37mnnected: He[37ma[37mp: 161092[37m
-[37m21:23:20.305 > .[37m.[37mP[37mu[37mblica[37md[37mo no MQTT:[37m [37m
-21:23:23.478 > HEAP 1 Mi[37mn[37m:153828
-[37m21:23:28.021 > .[37m.[37m
-[37m21:23:31.026 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-21:23:31.029 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-21:23:31.032 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m1[37m088
-[37m21:23:34.027 > .[37m.[37m.[37mF[37ma[37miled t[37mo[37m read from[37m [37mDHT sensor![37m[37m
-[37m21:23:44.847 > .[37m
-[37m21:23:44.850 > M[37mes[37ms[37mage from re[37ml[37may index:0[37m
-[37m21:23:44.854 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m21:23:44.856 > R[37melay disconn[37me[37mcted: Hea[37mp[37m: 161092
-[37m21:23:47.850 > .[37m.[37mP[37mublicado[37m [37mno MQTT: [37m[37m
-21:23:54.547 > HEAP 1 Min[37m:[37m115876
-[37m21:23:55.666 > .[37m.[37m
-[37m21:23:58.673 > M[37messa[37mg[37me from rel[37ma[37my index:0
-[37m21:23:58.676 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-21:23:58.678 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 161084
-[37m21:24:01.673 > .[37m.[37m.[37m.[37m
-[37m21:24:12.601 > M[37messag[37me[37m from relay[37m [37mindex:0
-21:24:12.603 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-21:24:12.607 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m61088
-[37m21:24:15.601 > .[37m.[37m.[37mP[37mu[37mblicado no [37mM[37mQTT: 
-21:24:25.558 > HEA[37mP[37m 1 Min:1163[37m5[37m2
-[37m21:24:26.425 > .[37m
-[37m21:24:26.429 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-21:24:26.431 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-21:24:26.434 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m1092
-[37m21:24:29.429 > .[37m.[37m.[37m.[37m
-[37m21:24:40.351 > M[37message from[37m [37mrelay index[37m:[37m0
-21:24:40.353 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-21:24:40.356 > Relay di[37ms[37mconnected: [37mH[37meap: 160752[37m[37m
-[37m21:24:42.614 > F[37ma[37miled to re[37ma[37md from DHT[37m [37msensor!
-[37m21:24:43.351 > .[37m.[37m.[37m.[37m
-[37m21:24:54.173 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-21:24:54.176 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-21:24:54.179 > Relay disc[37mo[37mnnected: He[37ma[37mp: 161088[37m
-[37m21:24:55.622 > P[37mu[37mblic[37ma[37mdo no MQTT:[37m [37m
-21:24:55.625 > HEAP 1 M[37mi[37mn:158944
-[37m21:24:57.173 > .[37m.[37m.[37m.[37m
-[37m21:25:07.998 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:25:08.000 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-21:25:08.003 > Relay di[37ms[37mconnected:[37m [37mHeap: 16080[37m8[37m
-[37m21:25:10.997 > .[37m.[37m.[37m.[37m
-[37m21:25:21.820 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m21:25:21.823 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-21:25:21.825 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m161084
-[37m21:25:24.635 > P[37mu[37mbli[37mc[37mado no MQTT[37m:[37m 
-21:25:24.638 > HEAP 1 M[37mi[37mn:158944
-[37m21:25:24.821 > .[37m.[37m.[37m.[37m
-[37m21:25:35.615 > M[37message from [37mr[37melay index[37m:[37m0
-21:25:35.618 > [WSc] D[37mi[37msconnected [37mf[37mrom relay: [37m.[37m
-21:25:35.620 > Relay dis[37mc[37monnected: [37mH[37meap: 161080[37m[37m
-[37m21:25:38.614 > .[37m.[37mF[37ma[37mil[37me[37md to read f[37mr[37mom DHT sen[37ms[37mor!
-[37m21:25:46.463 > .[37m.[37m
-[37m21:25:49.469 > M[37message[37m [37mfrom relay[37m [37mindex:0
-21:25:49.471 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-21:25:49.474 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m60864
-[37m21:25:52.469 > .[37mP[37mu[37mblicado [37mn[37mo MQTT: [37m
-[37m21:25:54.706 > HEAP 1 Min[37m:[37m158880
-[37m21:25:55.469 > .[37m.[37m.[37m
-[37m21:26:03.295 > M[37mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m21:26:03.298 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-21:26:03.300 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 160864
-[37m21:26:06.294 > .[37m.[37m.[37m.[37m
-[37m21:26:17.015 > M[37message f[37mr[37mom relay in[37md[37mex:0
-21:26:17.017 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-21:26:17.020 > Relay[37m [37mdisconnecte[37md[37m: Heap: 161[37m0[37m84
-[37m21:26:20.015 > .[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: [37m[37m
-21:26:25.717 > HEAP 1 Mi[37mn[37m:115568
-[37m21:26:27.729 > .[37m.[37m
-[37m21:26:30.735 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-21:26:30.738 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-21:26:30.741 > Relay d[37mi[37msconnected:[37m [37mHeap: 1610[37m8[37m8
-[37m21:26:33.736 > .[37m.[37m.[37mF[37ma[37miled to [37mr[37mead from D[37mH[37mT sensor![37m
-[37m21:26:44.659 > .[37m
-[37m21:26:44.663 > M[37messag[37me[37m from rela[37my[37m index:0
-21:26:44.665 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-21:26:44.668 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m161080
-[37m21:26:47.664 > .[37m.[37m.[37mP[37mub[37ml[37micado no MQT[37mT[37m: 
-21:26:56.777 > HEAP [37m1[37m Min:116388[37m[37m
-[37m21:26:58.380 > .[37m
-[37m21:26:58.385 > Message[37m from relay[37m [37mindex:0
-21:26:58.386 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-21:26:58.389 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m60600
-[37m21:27:01.384 > .[37m.[37m.[37m.[37m
-[37m21:27:12.209 > M[37message from [37mr[37melay index[37m:[37m0
-21:27:12.211 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-21:27:12.214 > Relay disc[37mo[37mnnected: H[37me[37map: 160864[37m[37m
-[37m21:27:15.208 > .[37m.[37m.[37mP[37mu[37mblicado no M[37mQ[37mTT: 
-21:27:25.789 > HEAP[37m [37m1 Min:11640[37m4[37m
-[37m21:27:26.131 > .[37m
-[37m21:27:26.135 > M[37message f[37mr[37mom relay in[37md[37mex:0
-21:27:26.137 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-21:27:26.140 > Relay [37md[37misconnecte[37md[37m: Heap: 161[37m0[37m88
-[37m21:27:29.135 > .[37m.[37m.[37m.[37m
-[37m21:27:39.955 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-21:27:39.957 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-21:27:39.960 > Relay [37md[37misconnected[37m:[37m Heap: 1608[37m7[37m6
-[37m21:27:42.955 > .[37mF[37mai[37ml[37med to read[37m [37mfrom DHT se[37mn[37msor!
-[37m21:27:45.955 > .[37m.[37m.[37m
-[37m21:27:54.088 > M[37message from[37m [37mrelay inde[37mx[37m:0
-21:27:54.090 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-21:27:54.093 > Relay di[37ms[37mconnected: [37mH[37meap: 16130[37m8[37m
-[37m21:27:55.853 > P[37mu[37mblicado no[37m [37mMQTT: 
-21:27:55.855 > HE[37mA[37mP 1 Min:159[37m1[37m68
-[37m21:27:57.087 > .[37m.[37m.[37m.[37m
-[37m21:28:08.014 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-21:28:08.016 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-21:28:08.019 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m0968
-[37m21:28:11.015 > .[37m.[37m.[37m.[37m
-[37m21:28:21.840 > Me[37ms[37msage from r[37me[37mlay index:0[37m[37m
-21:28:21.843 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m21:28:21.846 > Relay disco[37mn[37mnected: He[37ma[37mp: 161308
-[37m21:28:24.840 > .[37mP[37mu[37mblicado[37m [37mno MQTT: [37m[37m
-21:28:26.865 > HEAP 1 Mi[37mn[37m:159392
-[37m21:28:27.841 > .[37m.[37m.[37m
-[37m21:28:35.559 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-21:28:35.562 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-21:28:35.565 > Relay[37m [37mdisconnect[37me[37md: Heap: 1[37m6[37m1304
-[37m21:28:38.559 > .[37m.[37mF[37ma[37miled [37mt[37mo read fro[37mm[37m DHT sensor[37m![37m
-[37m21:28:46.382 > .[37m.[37m
-[37m21:28:49.387 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-21:28:49.389 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-21:28:49.392 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m1[37m308
-[37m21:28:52.387 > .[37m.[37mP[37mu[37mbli[37mc[37mado no MQTT[37m:[37m 
-21:28:57.933 > HEAP 1 [37mM[37min:116088[37m
-[37m21:29:00.304 > .[37m.[37m
-[37m21:29:03.310 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:29:03.312 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-21:29:03.315 > Relay di[37ms[37mconnected:[37m [37mHeap: 1610[37m2[37m8
-[37m21:29:06.310 > .[37m.[37m.[37m.[37m
-[37m21:29:17.135 > M[37message from[37m [37mrelay inde[37mx[37m:0
-21:29:17.137 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-21:29:17.140 > Relay dis[37mc[37monnected: [37mH[37meap: 16110[37m8[37m
-[37m21:29:20.135 > .[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: [37m[37m
-21:29:26.944 > HEAP 1 Min[37m:[37m116104
-[37m21:29:27.952 > .[37m.[37m
-[37m21:29:30.958 > M[37message from [37mr[37melay index:[37m0[37m
-21:29:30.960 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-21:29:30.963 > Relay disc[37mo[37mnnected: H[37me[37map: 161352[37m
-[37m21:29:33.957 > .[37m.[37m.[37mF[37ma[37miled to re[37ma[37md from DHT [37ms[37mensor!
-[37m21:29:45.293 > .[37m
-[37m21:29:45.297 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-21:29:45.299 > [WS[37mc[37m] Disconnec[37mt[37med from rel[37ma[37my: .
-21:29:45.302 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m1[37m084
-[37m21:29:48.297 > .[37m.[37m.[37mP[37mub[37ml[37micado no MQ[37mT[37mT: 
-21:29:58.009 > HEAP [37m1[37m Min:11640[37m0[37m
-[37m21:29:59.115 > .[37m
-[37m21:29:59.118 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-21:29:59.121 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m21:29:59.124 > Relay disc[37mo[37mnnected: He[37ma[37mp: 161084[37m
-[37m21:30:02.119 > .[37m.[37m.[37m.[37m
-[37m21:30:12.941 > M[37mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m21:30:12.944 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-21:30:12.946 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 160876
-[37m21:30:15.941 > .[37m.[37m.[37m.[37m
-[37m21:30:26.869 > M[37message from [37mr[37melay index[37m:[37m0
-21:30:26.872 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-21:30:26.875 > Relay disc[37mo[37mnnected: H[37me[37map: 160876[37m[37m
-[37m21:30:29.017 > P[37mu[37mblic[37ma[37mdo no MQTT:[37m [37m
-21:30:29.020 > HEAP 1 Mi[37mn[37m:158944
-[37m21:30:29.869 > .[37m.[37m.[37m.[37m
-[37m21:30:40.693 > M[37messag[37me[37m from relay[37m [37mindex:0
-21:30:40.695 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-21:30:40.698 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m60880
-[37m21:30:43.693 > .[37mF[37ma[37miled[37m [37mto read fr[37mo[37mm DHT sensor![37m[37m
-[37m21:30:46.693 > .[37m.[37m.[37m
-[37m21:30:54.617 > M[37message f[37mr[37mom relay [37mi[37mndex:0
-21:30:54.620 > [WS[37mc[37m] Disconne[37mc[37mted from r[37me[37mlay: .
-21:30:54.622 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m0444
-[37m21:30:57.618 > .[37mP[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m21:31:00.084 > HEAP 1 Min:[37m1[37m59168
-[37m21:31:00.618 > .[37m.[37m.[37m
-[37m21:31:08.442 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-21:31:08.444 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-21:31:08.448 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m0[37m744
-[37m21:31:11.442 > .[37m.[37m.[37m.[37m
-[37m21:31:22.370 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-21:31:22.372 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-21:31:22.375 > Relay [37md[37misconnected[37m:[37m Heap: 161[37m0[37m92
-[37m21:31:25.369 > .[37m.[37mP[37mu[37mblicad[37mo[37m no MQTT: [37m[37m
-21:31:30.096 > HEAP 1 Mi[37mn[37m:107632
-[37m21:31:33.106 > .[37m.[37m
-[37m21:31:36.112 > M[37message f[37mr[37mom relay in[37md[37mex:0
-21:31:36.114 > [WSc][37m [37mDisconnect[37me[37md from rel[37ma[37my: .
-21:31:36.118 > Relay [37md[37misconnected[37m:[37m Heap: 160[37m8[37m76
-[37m21:31:39.113 > .[37m.[37mF[37ma[37miled to re[37ma[37md from DH[37mT[37m sensor!
-[37m21:31:46.908 > .[37m.[37m
-[37m21:31:49.914 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-21:31:49.916 > [WSc] D[37mi[37msconnecte[37md[37m from rela[37my[37m: .
-21:31:49.918 > Relay d[37mi[37msconnected:[37m [37mHeap: 1608[37m8[37m0
-[37m21:31:52.913 > .[37m.[37m.[37mP[37mu[37mblicado no[37m [37mMQTT: 
-21:32:01.162 > HEA[37mP[37m 1 Min:116[37m3[37m52
-[37m21:32:03.734 > .[37m
-[37m21:32:03.740 > M[37message from[37m [37mrelay index[37m:[37m0
-21:32:03.741 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-21:32:03.744 > Relay di[37ms[37mconnected: [37mH[37meap: 160752[37m[37m
-[37m21:32:06.739 > .[37m.[37m.[37m.[37m
-[37m21:32:17.561 > M[37messa[37mg[37me from rel[37ma[37my index:0
-[37m21:32:17.564 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-21:32:17.566 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 160740
-[37m21:32:20.562 > .[37m.[37m.[37m.[37m
-[37m21:32:31.597 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-21:32:31.600 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m21:32:31.603 > Relay disco[37mn[37mnected: Hea[37mp[37m: 160868
-[37m21:32:32.168 > P[37mu[37mblicado[37m [37mno MQTT: 
-[37m21:32:32.170 > H[37mEAP 1 Min:1[37m5[37m8944
-[37m21:32:34.598 > .[37m.[37m.[37mF[37mail[37me[37md to read f[37mr[37mom DHT sen[37ms[37mor!
-[37m21:32:45.415 > .[37m
-[37m21:32:45.417 > Messa[37mg[37me from rel[37ma[37my index:0
-[37m21:32:45.420 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-21:32:45.422 > R[37me[37mlay disconn[37me[37mcted: Heap:[37m [37m160812
-[37m21:32:48.417 > .[37m.[37m.[37m.[37m
-[37m21:32:59.446 > M[37me[37mssage from [37mr[37melay index[37m:0
-21:32:59.449 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-21:32:59.452 > Relay dis[37mc[37monnected: H[37me[37map: 161092[37m
-[37m21:33:01.230 > P[37mu[37mblica[37md[37mo no MQTT: [37m[37m
-21:33:01.233 > HEAP 1 Mi[37mn[37m:158676
-[37m21:33:02.446 > .[37m.[37m.[37m.[37m
-[37m21:33:13.471 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-21:33:13.473 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-21:33:13.476 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m1[37m084
-[37m21:33:16.471 > .[37m.[37m.[37m.[37m
-[37m21:33:27.295 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-21:33:27.297 > [WSc][37m [37mDisconnect[37me[37md from rel[37ma[37my: .
-21:33:27.300 > Relay [37md[37misconnected[37m:[37m Heap: 160[37m8[37m88
-[37m21:33:30.295 > .[37mP[37mubl[37mi[37mcado no MQT[37mT: 
-21:33:31.237 > HEAP 1 [37mM[37min:159168[37m
-[37m21:33:33.295 > .[37m.[37m.[37m
-[37m21:33:41.121 > Message f[37mr[37mom relay i[37mn[37mdex:0
-21:33:41.122 > [WS[37mc[37m] Disconnec[37mt[37med from rel[37ma[37my: .
-21:33:41.125 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m0[37m752
-[37m21:33:44.120 > .[37mF[37ma[37miled to[37m [37mread from [37mD[37mHT sensor![37m
-[37m21:33:47.119 > .[37m.[37m.[37m
-[37m21:33:54.946 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-21:33:54.949 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-21:33:54.952 > Relay d[37mi[37msconnected[37m:[37m Heap: 1608[37m8[37m8
-[37m21:33:57.946 > .[37m.[37mP[37mu[37mblicado no [37mM[37mQTT: 
-21:34:02.307 > HEAP[37m [37m1 Min:1129[37m4[37m0
-[37m21:34:05.868 > .[37m.[37m
-[37m21:34:08.875 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:34:08.877 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-21:34:08.880 > Relay di[37ms[37mconnected:[37m [37mHeap: 16108[37m4[37m
-[37m21:34:11.875 > .[37m.[37m.[37m.[37m
-[37m21:34:22.693 > M[37message f[37mr[37mom relay in[37md[37mex:0
-21:34:22.695 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-21:34:22.699 > Relay [37md[37misconnecte[37md[37m: Heap: 161[37m0[37m80
-[37m21:34:25.693 > .[37m.[37mP[37mu[37mblicado no[37m [37mMQTT: 
-21:34:32.315 > HEA[37mP[37m 1 Min:115[37m8[37m68
-[37m21:34:33.615 > .[37m.[37m
-[37m21:34:36.619 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-21:34:36.623 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m21:34:36.626 > Relay disco[37mn[37mnected: He[37ma[37mp: 161088
-[37m21:34:39.620 > .[37m.[37mF[37ma[37miled to rea[37md[37m from DHT s[37me[37mnsor!
-[37m21:34:47.540 > .[37m.[37m
-[37m21:34:50.546 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m21:34:50.549 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-21:34:50.551 > Re[37ml[37may disconn[37me[37mcted: Heap[37m:[37m 160744
-[37m21:34:53.546 > .[37m.[37m.[37mP[37mubl[37mi[37mcado no MQT[37mT[37m: 
-21:35:02.382 > HEAP 1[37m [37mMin:116428[37m
-[37m21:35:04.366 > .[37m
-[37m21:35:04.370 > Me[37ms[37msage from [37mr[37melay index:[37m0[37m
-21:35:04.373 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-21:35:04.376 > Relay disc[37mo[37mnnected: H[37me[37map: 161100[37m
-[37m21:35:07.370 > .[37m.[37m.[37m.[37m
-[37m21:35:18.194 > M[37messag[37me[37m from relay[37m [37mindex:0
-21:35:18.196 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-21:35:18.199 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m61096
-[37m21:35:21.194 > .[37m.[37m.[37mN[37mo[37mstr Antes:[37m1[37m18692
-[37m21:35:31.732 > A[37ml[37ml go[37mo[37md, signatu[37mr[37me is valid[37m
-[37m21:35:31.736 > Nostr:11869[37m2[37m
-[37m21:35:32.117 > .[37m
-[37m21:35:32.121 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-21:35:32.124 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m21:35:32.126 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 161092
-[37m21:35:32.738 > P[37mublic[37ma[37mdo no MQTT[37m:[37m 
-21:35:32.740 > HEAP 1 M[37mi[37mn:158944
-[37m21:35:35.121 > .[37m.[37m.[37mS[37mP[37mIFS: Alr[37me[37mady Mounted[37m[37m
-[37m21:35:45.750 > P[37mL[37mUV: Su[37mc[37mcess to wr[37mi[37mte to file[37m
-[37m21:35:45.805 > F[37ma[37miled t[37mo[37m read from[37m [37mDHT sensor[37m![37m
-[37m21:35:46.044 > .[37m
-[37m21:35:46.047 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-21:35:46.050 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m21:35:46.053 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161080
-[37m21:35:49.048 > .[37m.[37m.[37m.[37m
-[37m21:36:00.072 > M[37messag[37me[37m from relay[37m [37mindex:0
-21:36:00.074 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-21:36:00.077 > Re[37ml[37may disconne[37mc[37mted: Heap: [37m1[37m60888
-[37m21:36:02.811 > P[37mu[37mblicado n[37mo[37m MQTT: 
-21:36:02.813 > H[37mE[37mAP 1 Min:15[37m8[37m944
-[37m21:36:03.073 > .[37m.[37mP[37mu[37mblicado [37mn[37mo MQTT: [37m
-[37m21:36:33.818 > HEAP 1 Min:[37m1[37m20900
-[37m21:36:45.869 > F[37ma[37miled to r[37me[37mad from DHT[37m [37msensor!
-[37m21:37:03.877 > P[37mu[37mblic[37ma[37mdo no MQTT:[37m [37m
-21:37:03.879 > HEAP 1 Mi[37mn[37m:121348
-[37m21:37:34.879 > P[37mu[37mblicado no[37m [37mMQTT: 
-21:37:34.880 > HEA[37mP[37m 1 Min:121[37m7[37m96
-[37m21:37:46.933 > F[37ma[37mile[37md[37m to read fr[37mo[37mm DHT sens[37mo[37mr!
-[37m21:37:55.933 > S[37mP[37mIFS: Already[37m [37mMounted
-[37m21:37:55.945 > L[37mI[37mDA[37mR[37m: Success t[37mo[37m write to [37mf[37mile
-[37m21:38:03.939 > P[37mu[37mblica[37md[37mo no MQTT: 
-[37m21:38:03.941 > H[37mEAP 1 Min[37m:[37m122020
-[37m21:38:06.359 > [[37m3[37m7573[37m8[37m3][E][WiFiCli[37me[37mntSecure.[37mc[37mpp:144] co[37mn[37mnect(): sta[37mr[37mt_ssl_clie[37mn[37mt: -1
-[37m21:38:09.363 > .[37m
-[37m21:38:09.365 > Message[37m [37mfrom relay[37m [37mindex:0
-21:38:09.366 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-21:38:09.369 > Rel[37ma[37my disconnec[37mt[37med: Heap: 1[37m6[37m3252
-[37m21:38:12.364 > .[37m.[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-21:38:34.947 > H[37mE[37mAP 1 Min:1[37m2[37m2032
-[37m21:38:47.002 > F[37ma[37miled to [37mr[37mead from D[37mH[37mT sensor![37m
-[37m21:39:04.007 > P[37mu[37mblicado no[37m [37mMQTT: 
-21:39:04.008 > HE[37mA[37mP 1 Min:122[37m0[37m32
-[37m21:39:35.012 > P[37mu[37mblicad[37mo[37m no MQTT: 
-[37m21:39:35.014 > H[37mEAP 1 Min[37m:[37m122032
-[37m21:39:47.066 > F[37mai[37ml[37med to read f[37mr[37mom DHT sens[37mo[37mr!
-[37m21:40:04.071 > P[37mu[37mblicado [37mn[37mo MQTT: 
-[37m21:40:04.074 > H[37mEAP 1 Min:[37m1[37m22064
-[37m21:40:15.682 > [[37m3[37m8867[37m0[37m8][E][WiFi[37mC[37mlientSecure[37m.[37mcpp:144] c[37mo[37mnnect(): st[37ma[37mrt_ssl_cli[37me[37mnt: -1
-[37m21:40:18.685 > .[37m
-[37m21:40:18.686 > Messag[37me[37m from relay[37m [37mindex:0
-21:40:18.687 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-21:40:18.690 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m63296
-[37m21:40:21.685 > .[37m.[37mP[37mu[37mbl[37mi[37mcado no MQT[37mT[37m: 
-21:40:35.080 > HEAP 1[37m [37mMin:122032[37m
-[37m21:40:47.128 > F[37ma[37miled [37mt[37mo read from [37mD[37mHT sensor![37m[37m
-[37m21:41:04.136 > P[37mubl[37mi[37mcado no MQ[37mT[37mT: 
-21:41:04.138 > HEAP 1[37m [37mMin:121744[37m[37m
-[37m21:41:34.138 > P[37mu[37mblic[37ma[37mdo no MQTT: [37m[37m
-21:41:34.140 > HEAP 1 M[37mi[37mn:122032
-[37m21:41:48.192 > F[37ma[37miled to rea[37md[37m from DHT [37ms[37mensor!
-[37m21:42:04.197 > P[37mu[37mblicad[37mo[37m no MQTT: 
-[37m21:42:04.199 > H[37mEAP 1 Min[37m:[37m122032
-[37m21:42:15.537 > .[37m.[37m
-[37m21:42:18.542 > Mes[37ms[37mage from re[37ml[37may index:0[37m
-[37m21:42:18.545 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m21:42:18.548 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 162872
-[37m21:42:21.543 > .[37m.[37m.[37m.[37m
-[37m21:42:32.365 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m21:42:32.368 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-21:42:32.370 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 162308
-[37m21:42:35.208 > P[37mu[37mblicado no MQTT[37m:[37m 
-21:42:35.210 > HEAP 1 M[37mi[37mn:160512
-[37m21:42:35.365 > .[37m.[37m.[37m.[37m
-[37m21:42:46.189 > Mes[37ms[37mage from re[37ml[37may index:0[37m
-[37m21:42:46.192 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m21:42:46.194 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 162084
-[37m21:42:48.264 > F[37ma[37miled [37mt[37mo read fro[37mm[37m DHT senso[37mr[37m!
-[37m21:42:49.189 > .[37m.[37m.[37m.[37m
-[37m21:43:00.218 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-21:43:00.220 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-21:43:00.223 > Relay d[37mi[37msconnected[37m:[37m Heap: 1618[37m6[37m4
-[37m21:43:03.219 > .[37m.[37mP[37mu[37mblic[37ma[37mdo no MQTT[37m:[37m 
-21:43:06.272 > HEAP 1 Mi[37mn[37m:157120
-[37m21:43:11.242 > .[37m.[37m
-[37m21:43:14.247 > M[37message from[37m [37mrelay inde[37mx[37m:0
-21:43:14.250 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-21:43:14.253 > Relay dis[37mc[37monnected: [37mH[37meap: 16164[37m0[37m
-[37m21:43:17.248 > .[37m.[37m.[37m.[37m
-[37m21:43:28.174 > M[37message from [37mr[37melay index[37m:[37m0
-21:43:28.176 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-21:43:28.179 > Relay dis[37mc[37monnected: [37mH[37meap: 161132[37m[37m
-[37m21:43:31.174 > .[37m.[37mP[37mu[37mblicado no [37mM[37mQTT: 
-21:43:35.284 > HEAP[37m [37m1 Min:1135[37m8[37m0
-[37m21:43:39.198 > .[37m.[37m
-[37m21:43:42.204 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-21:43:42.206 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-21:43:42.209 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m1[37m312
-[37m21:43:45.203 > .[37m.[37mF[37ma[37miled to r[37me[37mad from DHT[37m [37msensor!
-[37m21:43:53.327 > .[37m.[37m
-[37m21:43:56.332 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-21:43:56.335 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m21:43:56.338 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 160968
-[37m21:43:59.333 > .[37m.[37mP[37mub[37ml[37micado no MQ[37mT[37mT: 
-21:44:06.348 > HEAP 1[37m [37mMin:115900[37m[37m
-[37m21:44:07.150 > .[37m.[37m
-[37m21:44:10.156 > M[37mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m21:44:10.159 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-[37m21:44:10.162 > R[37melay discon[37mn[37mected: Heap[37m:[37m 160744
-[37m21:44:13.157 > .[37m.[37m.[37m.[37m
-[37m21:44:24.186 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:44:24.188 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-21:44:24.191 > Relay d[37mi[37msconnected:[37m [37mHeap: 16074[37m4[37m
-[37m21:44:27.185 > .[37m.[37m.[37mP[37mubl[37mi[37mcado no MQ[37mT[37mT: 
-21:44:35.358 > HEAP 1[37m [37mMin:116352[37m[37m
-[37m21:44:38.108 > .[37m
-[37m21:44:38.111 > Mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m21:44:38.115 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-21:44:38.117 > R[37me[37mlay discon[37mn[37mected: Hea[37mp[37m: 160740
-[37m21:44:41.112 > .[37m.[37m.[37mF[37mail[37me[37md to read f[37mr[37mom DHT sen[37ms[37mor!
-[37m21:44:51.932 > .[37m
-[37m21:44:51.935 > M[37messag[37me[37m from rela[37my[37m index:0
-21:44:51.937 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-21:44:51.940 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m160748
-[37m21:44:54.936 > .[37m.[37m.[37mP[37mu[37mblica[37md[37mo no MQTT:[37m [37m
-21:45:05.423 > HEAP 1 Mi[37mn[37m:116380
-[37m21:45:05.859 > .[37m
-[37m21:45:05.863 > M[37messag[37me[37m from relay[37m [37mindex:0
-21:45:05.866 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-21:45:05.869 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m60876
-[37m21:45:08.863 > .[37m.[37m.[37m.[37m
-[37m21:45:19.890 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-21:45:19.892 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-21:45:19.895 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m0732
-[37m21:45:22.891 > .[37m.[37m.[37m.[37m
-[37m21:45:33.918 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-21:45:33.920 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-21:45:33.923 > Relay d[37mi[37msconnected[37m:[37m Heap: 160[37m8[37m76
-[37m21:45:36.429 > P[37mu[37mblicado[37m [37mno MQTT: 
-[37m21:45:36.432 > H[37mEAP 1 Min:1[37m5[37m8936
-[37m21:45:36.919 > .[37m.[37m.[37m.[37m
-[37m21:45:47.948 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-21:45:47.950 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-21:45:47.953 > Relay d[37mi[37msconnected:[37m [37mHeap: 1605[37m9[37m2
-[37m21:45:50.488 > F[37mailed to [37mr[37mead from D[37mH[37mT sensor![37m
-[37m21:45:50.947 > .[37m.[37m.[37m.[37m
-[37m21:46:01.875 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:46:01.877 > [WSc] D[37mi[37msconnected[37m [37mfrom relay[37m:[37m .
-21:46:01.879 > Relay di[37ms[37mconnected: [37mH[37meap: 16073[37m2[37m
-[37m21:46:04.874 > .[37mP[37mu[37mblicado no[37m [37mMQTT: 
-21:46:06.496 > HE[37mA[37mP 1 Min:159[37m1[37m60
-[37m21:46:07.874 > .[37m.[37m.[37m
-[37m21:46:15.699 > Me[37ms[37msage from [37mr[37melay index:[37m0[37m
-21:46:15.701 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
-[37m21:46:15.705 > Relay disc[37mo[37mnnected: He[37ma[37mp: 160752[37m
-[37m21:46:18.699 > .[37m.[37m.[37m.[37m
-[37m21:46:29.931 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-21:46:29.933 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-21:46:29.936 > Relay d[37mi[37msconnected[37m:[37m Heap: 1610[37m8[37m4
-[37m21:46:32.931 > .[37m.[37mP[37mubli[37mc[37mado no MQT[37mT[37m: 
-21:46:37.507 > HEAP 1 [37mM[37min:113984[37m
-[37m21:46:40.853 > .[37m.[37m
-[37m21:46:43.858 > Me[37ms[37msage from [37mr[37melay index:[37m0[37m
-21:46:43.861 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-21:46:43.864 > Relay disc[37mo[37mnnected: He[37ma[37mp: 160732[37m
-[37m21:46:46.859 > .[37mF[37ma[37miled to read[37m [37mfrom DHT s[37me[37mnsor!
-[37m21:46:49.859 > .[37m.[37m.[37m
-[37m21:46:57.579 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-21:46:57.582 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m21:46:57.585 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 160716
-[37m21:47:00.579 > .[37m.[37mP[37mub[37ml[37micado no MQ[37mT[37mT: 
-21:47:06.571 > HEAP [37m1[37m Min:11559[37m2[37m
-[37m21:47:08.573 > .[37m.[37m
-[37m21:47:11.580 > M[37message from[37m [37mrelay inde[37mx[37m:0
-21:47:11.582 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-21:47:11.585 > Relay di[37ms[37mconnected: [37mH[37meap: 161076[37m[37m
-[37m21:47:14.580 > .[37m.[37m.[37m.[37m
-[37m21:47:25.533 > M[37messag[37me[37m from rela[37my[37m index:0
-21:47:25.535 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-21:47:25.538 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m60868
-[37m21:47:28.535 > .[37m.[37m.[37mP[37mub[37ml[37micado no MQT[37mT[37m: 
-21:47:37.576 > HEAP [37m1[37m Min:116404[37m[37m
-[37m21:47:39.355 > .[37m
-[37m21:47:39.359 > M[37messag[37me[37m from relay[37m [37mindex:0
-21:47:39.361 > [[37mW[37mSc] Disconn[37me[37mcted from r[37me[37mlay: .
-21:47:39.364 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m60468
-[37m21:47:42.359 > .[37m.[37mF[37ma[37miled [37mt[37mo read from[37m [37mDHT sensor[37m![37m
-[37m21:47:50.177 > .[37m.[37m
-[37m21:47:53.182 > M[37message f[37mr[37mom relay in[37md[37mex:0
-21:47:53.184 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-21:47:53.187 > Relay [37md[37misconnecte[37md[37m: Heap: 160[37m7[37m48
-[37m21:47:56.183 > .[37m.[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m21:48:06.640 > HEAP 1 Min:[37m1[37m16352
-[37m21:48:07.105 > .[37m
-[37m21:48:07.108 > M[37message f[37mr[37mom relay in[37md[37mex:0
-21:48:07.110 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-21:48:07.114 > Relay [37mdisconnecte[37md[37m: Heap: 160[37m8[37m80
-[37m21:48:10.109 > .[37m.[37m.[37m.[37m
-[37m21:48:20.931 > M[37message[37m [37mfrom relay[37m [37mindex:0
-21:48:20.933 > [W[37mS[37mc] Disconn[37me[37mcted from [37mr[37melay: .
-21:48:20.936 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m60884
-[37m21:48:23.931 > .[37m.[37m.[37m.[37m
-[37m21:48:35.269 > M[37message from[37m [37mrelay inde[37mx[37m:0
-21:48:35.271 > [WSc] D[37mi[37msconnected[37m [37mfrom relay[37m:[37m .
-21:48:35.274 > Relay di[37ms[37mconnected: [37mH[37meap: 16086[37m8[37m
-[37m21:48:36.646 > P[37mu[37mblica[37md[37mo no MQTT:[37m [37m
-21:48:36.648 > HEAP 1 Mi[37mn[37m:158944
-[37m21:48:38.269 > .[37m.[37m.[37m.[37m
-[37m21:48:49.092 > M[37message from [37mr[37melay index[37m:[37m0
-21:48:49.094 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-21:48:49.097 > Relay dis[37mc[37monnected: H[37me[37map: 160876[37m[37m
-[37m21:48:49.704 > F[37ma[37miled to re[37ma[37md from DHT[37m [37msensor!
-[37m21:48:52.093 > .[37m.[37m.[37m.[37m
-[37m21:49:02.814 > M[37message f[37mr[37mom relay in[37md[37mex:0
-21:49:02.816 > [WSc[37m] Disconnect[37me[37md from rel[37ma[37my: .
-21:49:02.819 > Relay [37md[37misconnecte[37md[37m: Heap: 160[37m8[37m60
-[37m21:49:05.813 > .[37mP[37mubli[37mc[37mado no MQT[37mT[37m: 
-21:49:07.711 > HEAP 1 [37mM[37min:159168[37m
-[37m21:49:08.813 > .[37m.[37m.[37m
-[37m21:49:16.846 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-21:49:16.849 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m21:49:16.851 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 160860
-[37m21:49:19.846 > .[37m.[37m.[37m.[37m
-[37m21:49:30.666 > Mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m21:49:30.669 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-21:49:30.671 > R[37me[37mlay discon[37mn[37mected: Hea[37mp[37m: 161072
-[37m21:49:33.666 > .[37m.[37mP[37mu[37mbli[37mc[37mado no MQT[37mT[37m: 
-21:49:36.722 > HEAP 1 [37mM[37min:156196
-[37m21:49:41.587 > .[37m.[37m
-[37m21:49:44.593 > M[37message from [37mr[37melay index[37m:[37m0
-21:49:44.595 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-21:49:44.598 > Relay dis[37mc[37monnected: H[37me[37map: 160872[37m[37m
-[37m21:49:47.593 > .[37m.[37mF[37ma[37mile[37md[37m to read f[37mr[37mom DHT sens[37mo[37mr!
-[37m21:49:55.410 > .[37m.[37m
-[37m21:49:58.416 > Me[37ms[37msage from [37mr[37melay index:[37m0[37m
-21:49:58.419 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-21:49:58.423 > Relay disc[37mo[37mnnected: He[37ma[37mp: 161076[37m
-[37m21:50:01.417 > .[37m.[37mP[37mu[37mbli[37mc[37mado no MQTT:[37m [37m
-21:50:06.786 > HEAP 1 [37mM[37min:116004
-[37m21:50:09.338 > .[37m.[37m
-[37m21:50:12.344 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-21:50:12.347 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-21:50:12.350 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m0744
-[37m21:50:15.344 > .[37m.[37m.[37m.[37m
-[37m21:50:26.269 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-21:50:26.271 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-21:50:26.274 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m1[37m124
-[37m21:50:29.269 > .[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m21:50:36.799 > HEAP 1 Min[37m:[37m115896
-[37m21:50:37.394 > .[37m.[37m
-[37m21:50:40.400 > M[37message f[37mr[37mom relay in[37md[37mex:0
-21:50:40.402 > [WSc][37m [37mDisconnect[37me[37md from rel[37ma[37my: .
-21:50:40.405 > Relay [37md[37misconnecte[37md[37m: Heap: 161[37m0[37m72
-[37m21:50:43.400 > .[37m.[37mS[37mP[37mIFS: Alread[37my[37m Mounted
-[37m21:50:50.806 > P[37mL[37mUV: Succe[37ms[37ms to write[37m [37mto file
-[37m21:50:50.862 > F[37ma[37miled to [37mr[37mead from D[37mH[37mT sensor!
-[37m21:50:51.435 > .[37m.[37m
-[37m21:50:54.441 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-21:50:54.444 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-21:50:54.447 > Relay di[37ms[37mconnected:[37m [37mHeap: 1610[37m8[37m0
-[37m21:50:57.441 > .[37m.[37m.[37mP[37mu[37mblicado no[37m [37mMQTT: 
-21:51:06.870 > HEA[37mP[37m 1 Min:116[37m1[37m16
-[37m21:51:08.351 > .[37m
-[37m21:51:08.356 > M[37message from [37mr[37melay ind[37me[37mx:0
-21:51:08.357 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-21:51:08.360 > Relay di[37ms[37mconnected:[37m [37mHeap: 16108[37m0[37m
-[37m21:51:11.355 > .[37m.[37m.[37m.[37m
-[37m21:51:22.279 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-21:51:22.281 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-21:51:22.284 > Rela[37my[37m disconnect[37me[37md: Heap: 16[37m1[37m084
-[37m21:51:25.279 > .[37m.[37m.[37m.[37m
-[37m21:51:36.413 > Mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m21:51:36.416 > [WSc] Disc[37monnected fro[37mm[37m relay: .
-[37m21:51:36.419 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 161104
-[37m21:51:36.873 > P[37mu[37mblicado no M[37mQ[37mTT: 
-21:51:36.875 > HEAP[37m [37m1 Min:15930[37m4[37m
-[37m21:51:39.413 > .[37m.[37m.[37m.[37m
-[37m21:51:50.338 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-21:51:50.383 > [WSc] Disconnected from relay: .
-21:51:50.383 > Relay disconnected: Heap: 161308
-[37m21:51:50.930 > F[37ma[37miled to read[37m [37mfrom DHT se[37mn[37msor!
-[37m21:51:53.337 > .[37m.[37m.[37m.[37m
-[37m21:52:04.163 > M[37messa[37mg[37me from rela[37my[37m index:0
-21:52:04.165 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-21:52:04.168 > Re[37mlay disconne[37mc[37mted: Heap:[37m [37m161308
-[37m21:52:06.938 > P[37mubl[37mi[37mcado no MQT[37mT[37m: 
-21:52:06.941 > HEAP 1[37m [37mMin:159168[37m
-[37m21:52:07.163 > .[37m.[37m.[37m.[37m
-[37m21:52:18.193 > M[37message from [37mr[37melay index[37m:[37m0
-21:52:18.195 > [WSc] D[37mi[37msconnected [37mf[37mrom relay: [37m.[37m
-21:52:18.198 > Relay dis[37mc[37monnected: H[37me[37map: 161304[37m[37m
-[37m21:52:21.193 > .[37m.[37m.[37m.[37m
-[37m21:52:32.014 > Mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m21:52:32.017 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m21:52:32.019 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 161104
-[37m21:52:35.014 > .[37mP[37mu[37mblicado[37m [37mno MQTT: [37m[37m
-21:52:37.950 > HEAP 1 Mi[37mn[37m:159392
-[37m21:52:38.014 > .[37m.[37m.[37m
-[37m21:52:45.940 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-21:52:45.941 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-21:52:45.944 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m1[37m304
-[37m21:52:48.940 > .[37mF[37ma[37miled t[37mo[37m read from[37m [37mDHT sensor[37m![37m
-[37m21:52:51.940 > .[37m.[37m.[37m
-[37m21:52:59.868 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-21:52:59.870 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-21:52:59.873 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m1[37m100
-[37m21:53:02.868 > .[37m.[37mP[37mubli[37mc[37mado no MQT[37mT[37m: 
-21:53:09.014 > HEAP 1 [37mM[37min:116104[37m
-[37m21:53:10.687 > .[37m.[37m
-[37m21:53:13.693 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m21:53:13.696 > [[37mWSc] Discon[37mn[37mected from [37mr[37melay: .
-21:53:13.698 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m161308
-[37m21:53:16.693 > .[37m.[37mS[37mPIFS:[37m [37mAlready Mou[37mn[37mted
-[37m21:53:23.024 > L[37mI[37mDAR: Succe[37ms[37ms to write [37mt[37mo file
-[37m21:53:24.612 > .[37m.[37m
-[37m21:53:27.617 > M[37messag[37me[37m from relay[37m [37mindex:0
-21:53:27.619 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-21:53:27.622 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m61080
-[37m21:53:30.616 > .[37m.[37m.[37mP[37mu[37mblicado n[37mo[37m MQTT: 
-21:53:40.023 > HE[37mA[37mP 1 Min:11[37m6[37m364
-[37m21:53:41.540 > .[37m
-[37m21:53:41.544 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:53:41.546 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-21:53:41.549 > Relay di[37ms[37mconnected:[37m [37mHeap: 16106[37m8[37m
-[37m21:53:44.543 > .[37m.[37mF[37ma[37miled to re[37ma[37md from DHT[37m [37msensor!
-[37m21:53:52.366 > .[37m.[37m
-[37m21:53:55.372 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-21:53:55.375 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m21:53:55.378 > Relay disco[37mn[37mnected: He[37ma[37mp: 160876
-[37m21:53:58.373 > .[37m.[37m.[37m.[37m
-[37m21:54:09.192 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-21:54:09.195 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-21:54:09.197 > Relay di[37ms[37mconnected:[37m [37mHeap: 1610[37m7[37m6
-[37m21:54:11.082 > P[37mu[37mblica[37md[37mo no MQTT: [37m[37m
-21:54:11.085 > HEAP 1 Mi[37mn[37m:158944
-[37m21:54:12.192 > .[37m.[37m.[37m.[37m
-[37m21:54:23.118 > M[37message from [37mr[37melay index:[37m0[37m
-21:54:23.120 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-21:54:23.123 > Relay disc[37mo[37mnnected: H[37me[37map: 160728[37m
-[37m21:54:26.117 > .[37m.[37m.[37m.[37m
-[37m21:54:36.940 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-21:54:36.942 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-21:54:36.945 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m0756
-[37m21:54:39.940 > .[37mP[37mublic[37ma[37mdo no MQTT[37m:[37m 
-21:54:40.095 > HEAP 1 M[37mi[37mn:158944
-[37m21:54:42.940 > .[37m.[37m.[37m
-[37m21:54:50.867 > Me[37ms[37msage from [37mr[37melay index:[37m0[37m
-21:54:50.870 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
-[37m21:54:50.874 > Relay disc[37mo[37mnnected: He[37ma[37mp: 160876[37m
-[37m21:54:52.151 > F[37maile[37md[37m to read fr[37mo[37mm DHT sens[37mo[37mr!
-[37m21:54:53.868 > .[37m.[37m.[37m.[37m
-[37m21:55:04.692 > Me[37ms[37msage from r[37me[37mlay index:0[37m[37m
-21:55:04.695 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m21:55:04.698 > Relay disc[37mo[37mnnected: He[37ma[37mp: 161080[37m
-[37m21:55:07.693 > .[37mP[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m21:55:10.161 > HEAP 1 Min:[37m1[37m59168
-[37m21:55:10.692 > .[37m.[37m.[37m
-[37m21:55:18.519 > Messa[37mg[37me from rela[37my[37m index:0
-[37m21:55:18.522 > [[37mWSc] Discon[37mn[37mected from [37mr[37melay: .
-21:55:18.524 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m160864
-[37m21:55:21.519 > .[37m.[37m.[37m.[37m
-[37m21:55:32.341 > M[37messag[37me[37m from rela[37my[37m index:0
-21:55:32.344 > [W[37mS[37mc] Discon[37mn[37mected from[37m [37mrelay: .
-21:55:32.347 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m161080
-[37m21:55:35.342 > .[37m.[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-[37m21:55:40.171 > H[37mEAP 1 Min:[37m1[37m14920
-[37m21:55:43.158 > .[37m.[37m
-[37m21:55:46.164 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m21:55:46.167 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-21:55:46.169 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m161080
-[37m21:55:49.164 > .[37mF[37ma[37miled to[37m [37mread from D[37mH[37mT sensor!
-[37m21:55:52.164 > .[37m.[37m.[37m
-[37m21:55:59.987 > M[37message from[37m [37mrelay index[37m:[37m0
-21:55:59.989 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay:[37m [37m.
-21:55:59.992 > Relay dis[37mc[37monnected: [37mH[37meap: 160876[37m[37m
-[37m21:56:02.987 > .[37m.[37m.[37mP[37mu[37mblicado no M[37mQ[37mTT: 
-21:56:11.233 > HEAP[37m [37m1 Min:1158[37m9[37m6
-[37m21:56:13.805 > .[37m
-[37m21:56:13.810 > M[37message from[37m [37mrelay index[37m:[37m0
-21:56:13.812 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-21:56:13.815 > Relay dis[37mc[37monnected: [37mH[37meap: 161084[37m[37m
-[37m21:56:16.810 > .[37m.[37m.[37m.[37m
-[37m21:56:27.634 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-21:56:27.638 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m21:56:27.641 > Relay disco[37mn[37mnected: He[37ma[37mp: 161080
-[37m21:56:30.635 > .[37m.[37m.[37mP[37mu[37mbl[37mi[37mcado no MQT[37mT[37m: 
-21:56:40.240 > HEAP 1 M[37mi[37mn:116072[37m
-[37m21:56:41.558 > .[37m
-[37m21:56:41.562 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-21:56:41.565 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m21:56:41.568 > Relay disco[37mn[37mnected: He[37ma[37mp: 161076[37m
-[37m21:56:44.563 > .[37m.[37mF[37mai[37ml[37med to read[37m [37mfrom DHT se[37mn[37msor!
-[37m21:56:52.383 > .[37m.[37m
-[37m21:56:55.387 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-21:56:55.390 > [WS[37mc[37m] Disconne[37mc[37mted from r[37me[37mlay: .
-21:56:55.392 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m0804
-[37m21:56:58.389 > .[37m.[37m.[37m.[37m
-[37m21:57:09.210 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-21:57:09.212 > [W[37mS[37mc] Disconne[37mc[37mted from re[37ml[37may: .
-21:57:09.215 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m0876
-[37m21:57:11.301 > P[37mu[37mblica[37md[37mo no MQTT: [37m
-[37m21:57:11.304 > HEAP 1 Mi[37mn[37m:158656
-[37m21:57:12.210 > .[37m.[37m.[37m.[37m
-[37m21:57:23.134 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-21:57:23.136 > [WS[37mc[37m] Disconnec[37mt[37med from rel[37ma[37my: .
-21:57:23.139 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m0[37m752
-[37m21:57:26.135 > .[37m.[37m.[37m.[37m
-[37m21:57:37.065 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-21:57:37.067 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-21:57:37.070 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m0[37m888
-[37m21:57:40.065 > .[37mP[37mu[37mblicado no [37mM[37mQTT: 
-21:57:42.309 > HE[37mA[37mP 1 Min:159[37m1[37m68
-[37m21:57:43.065 > .[37m.[37m.[37m
-[37m21:57:50.884 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-21:57:50.886 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-21:57:50.889 > Relay d[37mi[37msconnected[37m:[37m Heap: 1610[37m8[37m4
-[37m21:57:51.367 > F[37ma[37miled [37mt[37mo read from[37m [37mDHT sensor[37m![37m
-[37m21:57:53.884 > .[37m.[37m.[37m.[37m
-[37m21:58:04.812 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-21:58:04.814 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-21:58:04.817 > Relay di[37ms[37mconnected:[37m [37mHeap: 16109[37m2[37m
-[37m21:58:07.811 > .[37m.[37mP[37mu[37mblica[37md[37mo no MQTT: [37m
-[37m21:58:11.375 > HEAP 1 Mi[37mn[37m:118664
-[37m21:58:15.527 > .[37m.[37m
-[37m21:58:18.533 > M[37message from[37m [37mrelay inde[37mx[37m:0
-21:58:18.535 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-21:58:18.538 > Relay di[37ms[37mconnected: [37mH[37meap: 16109[37m2[37m
-[37m21:58:21.533 > .[37m.[37m.[37m.[37m
-[37m21:58:32.357 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-21:58:32.360 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-21:58:32.363 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m0800
-[37m21:58:35.358 > .[37m.[37mP[37mu[37mblicado no M[37mQ[37mTT: 
-21:58:42.383 > HEAP[37m [37m1 Min:11590[37m4[37m
-[37m21:58:43.179 > .[37m.[37m
-[37m21:58:46.185 > Me[37ms[37msage from r[37me[37mlay index:0[37m[37m
-21:58:46.188 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m21:58:46.191 > Relay disco[37mn[37mnected: He[37ma[37mp: 160876
-[37m21:58:49.185 > .[37m.[37mF[37ma[37miled to rea[37md[37m from DHT [37ms[37mensor!
-[37m21:58:57.102 > .[37m.[37m
-[37m21:59:00.108 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-21:59:00.110 > [WSc][37m [37mDisconnecte[37md[37m from relay[37m:[37m .
-21:59:00.113 > Relay d[37mi[37msconnected:[37m [37mHeap: 1610[37m8[37m8
-[37m21:59:03.108 > .[37m.[37m.[37mP[37mu[37mblicado no MQ[37mT[37mT: 
-21:59:11.448 > HEAP[37m [37m1 Min:11652[37m8[37m
-[37m21:59:13.928 > .[37m
-[37m21:59:13.932 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-21:59:13.934 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-21:59:13.938 > Relay d[37mi[37msconnected[37m:[37m Heap: 1608[37m7[37m6
-[37m21:59:16.931 > .[37m.[37m.[37m.[37m
-[37m21:59:27.756 > M[37message from[37m [37mrelay index[37m:[37m0
-21:59:27.758 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-21:59:27.761 > Relay dis[37mc[37monnected: [37mH[37meap: 161060[37m[37m
-[37m21:59:30.756 > .[37m.[37m.[37mP[37mu[37mblic[37ma[37mdo no MQTT: [37m[37m
-21:59:41.456 > HEAP 1 M[37mi[37mn:116364
-[37m21:59:41.490 > .[37m
-[37m21:59:41.492 > M[37messag[37me[37m from rela[37my[37m index:0
-21:59:41.494 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-21:59:41.497 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m159488
-[37m21:59:44.492 > .[37m.[37mF[37ma[37miled[37m [37mto read from[37m [37mDHT sensor[37m![37m
-[37m21:59:52.295 > .[37m.[37m
-[37m21:59:55.300 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-21:59:55.302 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-21:59:55.305 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m1060
-[37m21:59:58.301 > .[37m.[37m.[37m.[37m
-[37m22:00:09.126 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-22:00:09.128 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-22:00:09.132 > Relay [37md[37misconnecte[37md[37m: Heap: 16[37m1[37m068
-[37m22:00:11.520 > P[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m22:00:11.522 > HEAP 1 Min:[37m1[37m58944
-[37m22:00:12.126 > .[37m.[37m.[37m.[37m
-[37m22:00:22.949 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-22:00:22.951 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-22:00:22.954 > Relay [37md[37misconnected[37m:[37m Heap: 1608[37m1[37m2
-[37m22:00:25.949 > .[37m.[37m.[37m.[37m
-[37m22:00:36.773 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-22:00:36.775 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-22:00:36.778 > Relay d[37mi[37msconnected:[37m [37mHeap: 1611[37m3[37m2
-[37m22:00:39.773 > .[37mP[37mubl[37mi[37mcado no MQT[37mT[37m: 
-22:00:42.529 > HEAP 1[37m [37mMin:159212[37m[37m
-[37m22:00:42.773 > .[37m.[37m.[37m
-[37m22:00:51.108 > M[37message from r[37me[37mlay index[37m:[37m0
-22:00:51.110 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-22:00:51.113 > Relay dis[37mc[37monnected: H[37me[37map: 161088[37m[37m
-[37m22:00:51.583 > F[37ma[37miled to r[37me[37mad from DH[37mT[37m sensor!
-[37m22:00:54.107 > .[37m.[37m.[37m.[37m
-[37m22:01:04.933 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-22:01:04.935 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-22:01:04.938 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m1[37m084
-[37m22:01:07.932 > .[37m.[37mP[37mubl[37mi[37mcado no MQT[37mT[37m: 
-22:01:11.595 > HEAP 1 [37mM[37min:118800[37m
-[37m22:01:15.751 > .[37m.[37m
-[37m22:01:18.756 > Mes[37ms[37mage from r[37me[37mlay index:[37m0[37m
-22:01:18.759 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m22:01:18.763 > Relay disco[37mn[37mnected: He[37ma[37mp: 161080
-[37m22:01:21.756 > .[37m.[37m.[37m.[37m
-[37m22:01:32.580 > M[37mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m22:01:32.583 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m22:01:32.585 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 161088
-[37m22:01:35.581 > .[37m.[37mP[37mu[37mblicad[37mo[37m no MQTT: [37m[37m
-22:01:42.598 > HEAP 1 Mi[37mn[37m:115916
-[37m22:01:43.397 > .[37m.[37m
-[37m22:01:46.403 > M[37message from[37m [37mrelay index[37m:[37m0
-22:01:46.405 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-22:01:46.408 > Relay di[37ms[37mconnected: [37mH[37meap: 161092[37m[37m
-[37m22:01:49.402 > .[37mF[37ma[37mil[37me[37md to read [37mf[37mrom DHT sen[37ms[37mor!
-[37m22:01:52.403 > .[37m.[37m.[37m
-[37m22:02:00.431 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m22:02:00.434 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-22:02:00.436 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m161092
-[37m22:02:03.432 > .[37m.[37m.[37mP[37mu[37mblicado n[37mo[37m MQTT: 
-22:02:11.660 > HE[37mA[37mP 1 Min:11[37m6[37m416
-[37m22:02:14.253 > .[37m
-[37m22:02:14.256 > M[37message from [37mr[37melay index[37m:[37m0
-22:02:14.259 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-22:02:14.262 > Relay dis[37mc[37monnected: H[37me[37map: 161088[37m
-[37m22:02:17.256 > .[37m.[37m.[37m.[37m
-[37m22:02:28.079 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-22:02:28.081 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-22:02:28.084 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m0876
-[37m22:02:31.079 > .[37m.[37m.[37mP[37mu[37mblicad[37mo[37m no MQTT: 
-[37m22:02:41.669 > H[37mEAP 1 Min[37m:[37m116360
-[37m22:02:41.901 > .[37m
-[37m22:02:41.905 > M[37messa[37mg[37me from rel[37ma[37my index:0[37m
-[37m22:02:41.908 > [WSc] Disco[37mn[37mnected from[37m [37mrelay: .
-22:02:41.909 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 161080
-[37m22:02:44.904 > .[37m.[37mF[37ma[37miled to[37m [37mread from [37mD[37mHT sensor![37m
-[37m22:02:52.829 > .[37m.[37m
-[37m22:02:55.834 > M[37messag[37me[37m from relay[37m [37mindex:0
-22:02:55.836 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-22:02:55.840 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m61080
-[37m22:02:58.834 > .[37m.[37m.[37m.[37m
-[37m22:03:09.552 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-22:03:09.555 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-22:03:09.558 > Relay d[37mi[37msconnected:[37m [37mHeap: 1608[37m8[37m4
-[37m22:03:12.553 > .[37mP[37mu[37mbl[37mi[37mcado no MQTT[37m:[37m 
-22:03:12.734 > HEAP 1 [37mM[37min:158944[37m
-[37m22:03:15.552 > .[37m.[37m.[37m
-[37m22:03:23.479 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-22:03:23.480 > [WS[37mc[37m] Disconnec[37mt[37med from rel[37ma[37my: .
-22:03:23.483 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m1[37m068
-[37m22:03:26.478 > .[37m.[37m.[37m.[37m
-[37m22:03:37.303 > M[37message from [37mr[37melay index:[37m0[37m
-22:03:37.305 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-22:03:37.308 > Relay disc[37mo[37mnnected: H[37me[37map: 161088[37m
-[37m22:03:40.302 > .[37mP[37mu[37mblicado no M[37mQ[37mTT: 
-22:03:41.745 > HEAP[37m [37m1 Min:15916[37m8[37m
-[37m22:03:43.302 > .[37m.[37m.[37m
-[37m22:03:51.124 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-22:03:51.128 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m22:03:51.130 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161072
-[37m22:03:51.803 > F[37ma[37miled to rea[37md[37m from DHT s[37me[37mnsor!
-[37m22:03:54.125 > .[37m.[37m.[37m.[37m
-[37m22:04:05.056 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-22:04:05.058 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-22:04:05.061 > Relay di[37ms[37mconnected:[37m [37mHeap: 1610[37m8[37m8
-[37m22:04:08.055 > .[37m.[37mP[37mu[37mblica[37md[37mo no MQTT: [37m[37m
-22:04:11.814 > HEAP 1 Mi[37mn[37m:114524
-[37m22:04:15.869 > .[37m.[37m
-[37m22:04:18.874 > M[37messa[37mg[37me from rela[37my[37m index:0
-22:04:18.876 > [[37mW[37mSc] Discon[37mn[37mected from[37m [37mrelay: .
-22:04:18.879 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m161084
-[37m22:04:21.874 > .[37m.[37m.[37m.[37m
-[37m22:04:32.699 > Mes[37ms[37mage from r[37me[37mlay index:[37m0[37m
-22:04:32.703 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m22:04:32.706 > Relay disco[37mn[37mnected: He[37ma[37mp: 161084
-[37m22:04:35.700 > .[37m.[37mP[37mu[37mblic[37ma[37mdo no MQTT: [37m[37m
-22:04:41.823 > HEAP 1 M[37mi[37mn:115892
-[37m22:04:43.520 > .[37m.[37m
-[37m22:04:46.526 > M[37mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-22:04:46.530 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m22:04:46.532 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161080
-[37m22:04:49.527 > .[37mF[37ma[37miled [37mt[37mo read from [37mD[37mHT sensor![37m[37m
-[37m22:04:52.527 > .[37m.[37m.[37m
-[37m22:05:00.451 > M[37message f[37mr[37mom relay in[37md[37mex:0
-22:05:00.454 > [WSc[37m][37m Disconnect[37me[37md from rela[37my[37m: .
-22:05:00.456 > Relay [37md[37misconnecte[37md[37m: Heap: 161[37m0[37m84
-[37m22:05:03.452 > .[37m.[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m22:05:11.886 > HEAP 1 Min:[37m1[37m16068
-[37m22:05:14.277 > .[37m
-[37m22:05:14.282 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-22:05:14.283 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-22:05:14.287 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m0[37m740
-[37m22:05:17.280 > .[37m.[37m.[37m.[37m
-[37m22:05:28.097 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-22:05:28.099 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-22:05:28.102 > Relay di[37ms[37mconnected:[37m [37mHeap: 1608[37m0[37m0
-[37m22:05:30.885 > N[37mo[37mstr Antes:1[37m6[37m1280
-[37m22:05:31.098 > .[37mA[37ml[37ml good, sig[37mn[37mature is v[37ma[37mlid
-22:05:31.237 > Nostr[37m:[37m161280
-[37m22:05:34.099 > .[37m.[37m.[37m
-[37m22:05:41.920 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-22:05:41.923 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-22:05:41.926 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m1080
-[37m22:05:42.239 > P[37mu[37mblicado n[37mo[37m MQTT: 
-22:05:42.241 > HE[37mA[37mP 1 Min:15[37m8[37m788
-[37m22:05:44.921 > .[37m.[37mS[37mPI[37mF[37mS: Already [37mM[37mounted
-[37m22:05:52.254 > P[37mL[37mUV: Success[37m [37mto write t[37mo[37m file
-[37m22:05:52.309 > F[37ma[37miled to r[37me[37mad from DHT[37m [37msensor!
-[37m22:05:52.947 > .[37m.[37m
-22:05:55.959 > Message from relay index:0
-22:05:55.959 > [WSc] Disconnected from relay: .
-22:05:55.959 > Relay dis[37mconnected: Heap: 161084[37m[37m
-[37m22:05:58.953 > .[37m.[37m.[37m.[37m
-[37m22:06:09.875 > Mess[37ma[37mge from re[37ml[37may index:0[37m[37m
-22:06:09.879 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m22:06:09.882 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 161080
-[37m22:06:12.314 > P[37mublicado no MQTT: 
-22:06:12.318 > HEAP 1 Min:158944
-[37m22:06:12.876 > .[37m.[37m.[37m.[37m
-[37m22:06:23.699 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m22:06:23.702 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m22:06:23.704 > R[37melay discon[37mn[37mected: Heap[37m:[37m 161092
-[37m22:06:26.699 > .[37m.[37m.[37m.[37m
-[37m22:06:37.628 > M[37message from[37m [37mrelay inde[37mx[37m:0
-22:06:37.630 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-22:06:37.633 > Relay di[37ms[37mconnected: [37mH[37meap: 16106[37m8[37m
-[37m22:06:40.627 > .[37mP[37mu[37mbli[37mc[37mado no MQT[37mT[37m: 
-22:06:42.324 > HEAP 1 [37mM[37min:159168
-[37m22:06:43.627 > .[37m.[37m.[37m
-[37m22:06:51.758 > M[37messag[37me[37m from rela[37my[37m index:0
-22:06:51.760 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-22:06:51.763 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m161084
-[37m22:06:52.380 > F[37ma[37mile[37md[37m to read fro[37mm[37m DHT senso[37mr[37m!
-[37m22:06:54.758 > .[37m.[37m.[37m.[37m
-[37m22:07:05.890 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-22:07:05.892 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-22:07:05.895 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m0800
-[37m22:07:08.890 > .[37m.[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-[37m22:07:13.392 > H[37mEAP 1 Min:1[37m1[37m1084
-[37m22:07:16.809 > .[37m.[37m
-[37m22:07:19.815 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-22:07:19.817 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-22:07:19.819 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m1[37m084
-[37m22:07:22.815 > .[37m.[37m.[37m.[37m
-[37m22:07:33.639 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-22:07:33.641 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-22:07:33.644 > Relay d[37mi[37msconnected:[37m [37mHeap: 16109[37m2[37m
-[37m22:07:36.639 > .[37m.[37mP[37mu[37mblicado n[37mo[37m MQTT: 
-[37m22:07:44.398 > H[37mEAP 1 Min:1[37m1[37m5872
-[37m22:07:44.560 > .[37m.[37m
-[37m22:07:47.565 > M[37messag[37me[37m from relay[37m [37mindex:0
-22:07:47.568 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-22:07:47.571 > Re[37ml[37may disconne[37mc[37mted: Heap: [37m1[37m61080
-[37m22:07:50.565 > .[37mF[37ma[37miled to [37mr[37mead from DH[37mT[37m sensor!
-[37m22:07:53.566 > .[37m.[37m.[37m
-[37m22:08:01.594 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-22:08:01.596 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-22:08:01.598 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m1080
-[37m22:08:04.593 > .[37m.[37m.[37mP[37mu[37mblicado no M[37mQ[37mTT: 
-22:08:13.464 > HEAP[37m [37m1 Min:11635[37m6[37m
-[37m22:08:15.414 > .[37m
-[37m22:08:15.418 > M[37message from[37m [37mrelay index[37m:[37m0
-22:08:15.421 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-22:08:15.423 > Relay dis[37mc[37monnected: H[37me[37map: 161080[37m[37m
-[37m22:08:18.418 > .[37m.[37m.[37m.[37m
-[37m22:08:29.343 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-22:08:29.346 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-22:08:29.348 > Relay [37md[37misconnected[37m:[37m Heap: 160[37m8[37m76
-[37m22:08:32.343 > .[37m.[37m.[37m.[37m
-[37m22:08:43.374 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-22:08:43.377 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-22:08:43.379 > Relay d[37mi[37msconnected:[37m [37mHeap: 1608[37m0[37m0
-[37m22:08:44.470 > P[37mubl[37mi[37mcado no MQ[37mT[37mT: 
-22:08:44.472 > HEAP 1[37m [37mMin:158944[37m[37m
-[37m22:08:46.374 > .[37mS[37mP[37mI[37mFS: Already[37m [37mMounted
-[37m22:08:48.479 > L[37mIDAR[37m:[37m Success to [37mw[37mrite to fi[37ml[37me
-[37m22:08:49.374 > .[37mF[37ma[37mil[37me[37md to read [37mf[37mrom DHT se[37mn[37msor!
-[37m22:08:54.190 > .[37m.[37m
-22:08:57.210 > Message from relay index:0
-22:08:57.210 > [WSc] Disconnected from relay: .
-22:08:57.210 > Relay disconnected: Heap: 161084
-[37m22:09:00.196 > .[37m.[37m.[37m.[37m
-[37m22:09:11.122 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-22:09:11.126 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m22:09:11.129 > Relay disc[37mo[37mnnected: He[37ma[37mp: 161092[37m
-[37m22:09:14.123 > .[37mP[37mu[37mblica[37md[37mo no MQTT:[37m [37m
-22:09:15.536 > HEAP 1 Mi[37mn[37m:158880
-[37m22:09:17.123 > .[37m.[37m.[37m
-[37m22:09:24.844 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-22:09:24.846 > [WS[37mc[37m] Disconnec[37mt[37med from rel[37ma[37my: .
-22:09:24.850 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m0[37m872
-[37m22:09:27.845 > .[37m.[37m.[37m.[37m
-[37m22:09:38.667 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-22:09:38.670 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m22:09:38.672 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 161084
-[37m22:09:41.668 > .[37m.[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-22:09:45.547 > H[37mE[37mAP 1 Min:1[37m1[37m4516
-[37m22:09:49.588 > .[37m.[37m
-[37m22:09:52.594 > M[37message f[37mr[37mom relay in[37md[37mex:0
-22:09:52.596 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-22:09:52.600 > Relay [37md[37misconnecte[37md[37m: Heap: 161[37m0[37m92
-[37m22:09:53.603 > F[37ma[37miled to[37m [37mread from [37mD[37mHT sensor![37m
-[37m22:09:55.593 > .[37m.[37m.[37m.[37m
-[37m22:10:06.520 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-22:10:06.522 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-22:10:06.525 > Relay d[37mi[37msconnected[37m:[37m Heap: 1610[37m8[37m0
-[37m22:10:09.520 > .[37m.[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-[37m22:10:15.612 > H[37mEAP 1 Min:1[37m1[37m5876
-[37m22:10:17.441 > .[37m.[37m
-[37m22:10:20.447 > M[37message[37m [37mfrom relay[37m [37mindex:0
-22:10:20.449 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-22:10:20.452 > Rela[37my[37m disconnec[37mt[37med: Heap: [37m1[37m61092
-[37m22:10:23.447 > .[37m.[37m.[37m.[37m
-[37m22:10:34.268 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-22:10:34.271 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m22:10:34.275 > Relay disc[37mo[37mnnected: He[37ma[37mp: 161080[37m
-[37m22:10:37.270 > .[37m.[37m.[37mP[37mu[37mblicado no[37m [37mMQTT: 
-22:10:45.618 > HEA[37mP[37m 1 Min:116[37m4[37m52
-[37m22:10:48.090 > .[37m
-[37m22:10:48.095 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-22:10:48.097 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-22:10:48.100 > Relay [37md[37misconnected[37m:[37m Heap: 161[37m1[37m24
-[37m22:10:51.095 > .[37m.[37mF[37ma[37miled to read[37m [37mfrom DHT s[37me[37mnsor!
-[37m22:11:01.268 > .[37m.[37m
-[37m22:11:04.274 > M[37mess[37ma[37mge from rel[37ma[37my index:0
-[37m22:11:04.277 > [[37mWSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-22:11:04.279 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 161076
-[37m22:11:07.274 > .[37m.[37m.[37mP[37mu[37mbl[37mi[37mcado no MQT[37mT[37m: 
-22:11:16.681 > HEAP 1[37m [37mMin:116360[37m[37m
-[37m22:11:18.093 > .[37m
-[37m22:11:18.097 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m22:11:18.100 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-22:11:18.102 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 161088
-[37m22:11:21.097 > .[37m.[37m.[37m.[37m
-[37m22:11:31.921 > M[37messag[37me[37m from relay[37m [37mindex:0
-22:11:31.922 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-22:11:31.926 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m60884
-[37m22:11:34.921 > .[37m.[37m.[37m.[37m
-[37m22:11:45.745 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-22:11:45.748 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .
-[37m22:11:45.750 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161076
-[37m22:11:46.689 > P[37mu[37mblicado n[37mo[37m MQTT: 
-22:11:46.691 > H[37mE[37mAP 1 Min:1[37m5[37m8940
-[37m22:11:48.745 > .[37m.[37mF[37ma[37miled [37mt[37mo read from[37m [37mDHT sensor[37m![37m
-[37m22:11:56.564 > .[37m.[37m
-[37m22:11:59.570 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m22:11:59.573 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-22:11:59.575 > R[37me[37mlay discon[37mn[37mected: Hea[37mp[37m: 161084
-[37m22:12:02.570 > .[37m.[37m.[37m.[37m
-[37m22:12:13.394 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-22:12:13.396 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-22:12:13.399 > Relay[37m [37mdisconnecte[37md[37m: Heap: 160[37m8[37m84
-[37m22:12:16.394 > .[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-[37m22:12:16.753 > H[37mEAP 1 Min:[37m1[37m59164
-[37m22:12:19.393 > .[37m.[37m.[37m
-[37m22:12:27.324 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-22:12:27.327 > [WSc] [37mD[37misconnecte[37md[37m from relay: .
-22:12:27.341 > Relay disconnected: Heap: 160876
-[37m22:12:30.324 > .[37m.[37m.[37m.[37m
-[37m22:12:41.349 > M[37message from[37m [37mrelay index[37m:[37m0
-22:12:41.351 > [WSc] D[37mi[37msconnected [37mf[37mrom relay: [37m.[37m
-22:12:41.354 > Relay dis[37mc[37monnected: [37mH[37meap: 161088[37m[37m
-[37m22:12:44.348 > .[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: 
-[37m22:12:47.760 > H[37mEAP 1 Min:[37m1[37m18664
-[37m22:12:52.065 > .[37mF[37ma[37miled to re[37ma[37md from DHT[37m [37msensor!
-[37m22:12:55.068 > .[37m
-[37m22:12:55.072 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-22:12:55.074 > [WSc[37m][37m Disconnec[37mt[37med from re[37ml[37may: .
-22:12:55.078 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m1[37m072
-[37m22:12:58.072 > .[37m.[37m.[37m.[37m
-[37m22:13:08.892 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-22:13:08.894 > [WSc][37m [37mDisconnecte[37md[37m from relay[37m:[37m .
-22:13:08.898 > Relay d[37mi[37msconnected[37m:[37m Heap: 1608[37m7[37m6
-[37m22:13:11.892 > .[37m.[37mP[37mu[37mblicado no M[37mQ[37mTT: 
-22:13:18.820 > HEAP[37m [37m1 Min:11590[37m0[37m
-[37m22:13:19.917 > .[37m.[37m
-[37m22:13:22.922 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-22:13:22.924 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-22:13:22.927 > Relay [37md[37misconnected[37m:[37m Heap: 1610[37m8[37m4
-[37m22:13:25.922 > .[37m.[37m.[37m.[37m
-[37m22:13:36.745 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-22:13:36.749 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-22:13:36.751 > Relay d[37mi[37msconnected:[37m [37mHeap: 16108[37m8[37m
-[37m22:13:39.746 > .[37m.[37m.[37mP[37mu[37mblic[37ma[37mdo no MQTT: [37m[37m
-22:13:48.827 > HEAP 1 M[37mi[37mn:116388
-[37m22:13:50.772 > .[37m
-[37m22:13:50.775 > M[37messag[37me[37m from rela[37my[37m index:0
-22:13:50.779 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-22:13:50.782 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m160740
-[37m22:13:53.777 > .[37mF[37ma[37mile[37md[37m to read from[37m [37mDHT sens[37mo[37mr!
-[37m22:13:56.776 > .[37m.[37m.[37m
-[37m22:14:04.908 > M[37mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-22:14:04.911 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m22:14:04.914 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161088
-[37m22:14:07.909 > .[37m.[37m.[37m.[37m
-[37m22:14:18.728 > Mess[37ma[37mge from rel[37ma[37my index:0
-[37m22:14:18.731 > [[37mWSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-22:14:18.734 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 160784
-[37m22:14:19.885 > P[37mub[37ml[37micado no MQ[37mT[37mT: 
-22:14:19.889 > HEAP 1[37m [37mMin:158944[37m
-[37m22:14:21.729 > .[37m.[37m.[37m.[37m
-[37m22:14:32.861 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m22:14:32.864 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-22:14:32.867 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m161080
-[37m22:14:35.861 > .[37m.[37m.[37m.[37m
-[37m22:14:46.993 > M[37messag[37me[37m from relay[37m [37mindex:0
-22:14:46.995 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-22:14:46.998 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m61076
-[37m22:14:49.891 > P[37mu[37mblicado [37mn[37mo MQTT: 
-22:14:49.893 > H[37mE[37mAP 1 Min:1[37m5[37m9304
-[37m22:14:49.992 > .[37m.[37mF[37ma[37miled to[37m [37mread from D[37mH[37mT sensor![37m
-[37m22:14:57.811 > .[37m.[37m
-[37m22:15:00.817 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-22:15:00.819 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-22:15:00.822 > Rel[37ma[37my disconnec[37mt[37med: Heap: 1[37m6[37m1092
-[37m22:15:03.817 > .[37m.[37m.[37m.[37m
-[37m22:15:14.739 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-22:15:14.742 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-22:15:14.745 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m1[37m068
-[37m22:15:17.740 > .[37m.[37mP[37mu[37mblicado n[37mo[37m MQTT: 
-22:15:20.956 > H[37mE[37mAP 1 Min:15[37m6[37m088
-[37m22:15:25.560 > .[37m.[37m
-[37m22:15:28.566 > Me[37ms[37msage from r[37me[37mlay index:0[37m[37m
-22:15:28.569 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m22:15:28.572 > Relay disc[37mo[37mnnected: He[37ma[37mp: 161088
-[37m22:15:31.566 > .[37m.[37m.[37m.[37m
-[37m22:15:42.493 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-22:15:42.496 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m22:15:42.499 > Relay disco[37mn[37mnected: He[37ma[37mp: 161084
-[37m22:15:45.494 > .[37m.[37mP[37mub[37ml[37micado no M[37mQ[37mTT: 
-22:15:51.965 > HEAP [37m1[37m Min:115860[37m[37m
-[37m22:15:53.418 > .[37mF[37mai[37ml[37med to read [37mf[37mrom DHT se[37mn[37msor!
-[37m22:15:56.420 > .[37m
-[37m22:15:56.424 > M[37mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m22:15:56.427 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-[37m22:15:56.430 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 161076
-[37m22:15:59.425 > .[37m.[37m.[37m.[37m
-[37m22:16:10.345 > M[37messag[37me[37m from relay[37m [37mindex:0
-22:16:10.346 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-22:16:10.349 > Re[37ml[37may disconne[37mc[37mted: Heap: [37m1[37m61084
-[37m22:16:13.344 > .[37m.[37m.[37mP[37mu[37mblic[37ma[37mdo no MQTT: [37m[37m
-22:16:22.026 > HEAP 1 M[37mi[37mn:116368
-[37m22:16:24.165 > .[37m
-[37m22:16:24.169 > M[37messag[37me[37m from relay[37m [37mindex:0
-22:16:24.171 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-22:16:24.174 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m61092
-[37m22:16:27.169 > .[37m.[37m.[37m.[37m
-[37m22:16:38.094 > Message [37mf[37mrom relay i[37mn[37mdex:0
-22:16:38.096 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-22:16:38.099 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m1[37m084
-[37m22:16:41.095 > .[37m.[37m.[37m.[37m
-[37m22:16:51.918 > M[37message[37m [37mfrom relay[37m [37mindex:0
-22:16:51.921 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-22:16:51.924 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m0876
-[37m22:16:53.030 > P[37mublica[37md[37mo no MQTT:[37m [37m
-22:16:53.033 > HEAP 1 Mi[37mn[37m:158944
-[37m22:16:54.919 > .[37mF[37mailed to[37m [37mread from [37mD[37mHT sensor![37m
-[37m22:16:57.918 > .[37m.[37m.[37m
-[37m22:17:05.742 > M[37messag[37me[37m from rela[37my[37m index:0
-22:17:05.744 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-22:17:05.747 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m160884
-[37m22:17:08.742 > .[37m.[37m.[37m.[37m
-[37m22:17:19.565 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-22:17:19.567 > [WSc] [37mD[37misconnected[37m [37mfrom relay:[37m [37m.
-22:17:19.570 > Relay di[37ms[37mconnected:[37m [37mHeap: 16079[37m2[37m
-[37m22:17:22.094 > P[37mu[37mblicado no [37mM[37mQTT: 
-22:17:22.096 > HEA[37mP[37m 1 Min:158[37m9[37m44
-[37m22:17:22.564 > .[37m.[37m.[37m.[37m
-[37m22:17:33.491 > Me[37ms[37msage from [37mr[37melay index:[37m0[37m
-22:17:33.494 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
-[37m22:17:33.498 > Relay disc[37mo[37mnnected: H[37me[37map: 161080[37m
-[37m22:17:36.492 > .[37m.[37m.[37m.[37m
-[37m22:17:47.420 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-22:17:47.422 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-22:17:47.426 > Relay [37md[37misconnecte[37md[37m: Heap: 161[37m0[37m80
-[37m22:17:50.420 > .[37mP[37mu[37mb[37ml[37micado no MQ[37mT[37mT: 
-22:17:53.101 > HEAP [37m1[37m Min:158888[37m[37m
-[37m22:17:53.420 > .[37mF[37ma[37miled to re[37ma[37md from DHT[37m [37msensor!
-[37m22:17:58.340 > .[37m.[37m
-[37m22:18:01.346 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m22:18:01.349 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-22:18:01.351 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 161080
-[37m22:18:04.346 > .[37m.[37m.[37m.[37m
-[37m22:18:15.171 > M[37message from[37m [37mrelay inde[37mx[37m:0
-22:18:15.173 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-22:18:15.176 > Relay di[37ms[37mconnected: [37mH[37meap: 16108[37m0[37m
-[37m22:18:18.171 > .[37m.[37mP[37mu[37mblic[37ma[37mdo no MQTT: [37m[37m
-22:18:23.163 > HEAP 1 M[37mi[37mn:114788
-[37m22:18:26.088 > .[37m.[37m
-[37m22:18:29.095 > M[37message from [37mr[37melay index[37m:[37m0
-22:18:29.097 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-22:18:29.101 > Relay dis[37mc[37monnected: H[37me[37map: 161092[37m[37m
-[37m22:18:32.095 > .[37m.[37m.[37m.[37m
-[37m22:18:42.918 > Me[37ms[37msage from [37mr[37melay index:[37m0[37m
-22:18:42.921 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
-[37m22:18:42.924 > Relay disc[37mo[37mnnected: H[37me[37map: 160888[37m
-[37m22:18:45.919 > .[37m.[37m.[37mP[37mublicad[37mo[37m no MQTT:[37m [37m
-22:18:54.167 > HEAP 1 Mi[37mn[37m:116368
-[37m22:18:55.219 > F[37ma[37miled [37mt[37mo read fro[37mm[37m DHT sensor[37m![37m
-[37m22:18:56.739 > .[37m
-[37m22:18:56.743 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-22:18:56.746 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m22:18:56.749 > Relay disco[37mn[37mnected: He[37ma[37mp: 160876[37m
-[37m22:18:59.743 > .[37m.[37m.[37m.[37m
-[37m22:19:10.566 > M[37message f[37mr[37mom relay in[37md[37mex:0
-22:19:10.569 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-22:19:10.572 > Relay [37md[37misconnecte[37md[37m: Heap: 161[37m0[37m84
-[37m22:19:13.566 > .[37m.[37m.[37m.[37m
-[37m22:19:24.390 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-22:19:24.392 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-22:19:24.396 > Relay d[37mi[37msconnected:[37m [37mHeap: 1610[37m8[37m8
-[37m22:19:25.227 > P[37mu[37mblicado n[37mo[37m MQTT: 
-22:19:25.228 > HE[37mA[37mP 1 Min:158[37m9[37m44
-[37m22:19:27.391 > .[37m.[37m.[37m.[37m
-[37m22:19:38.215 > M[37message[37m [37mfrom relay[37m [37mindex:0
-22:19:38.217 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-22:19:38.220 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m61056
-[37m22:19:41.214 > .[37m.[37m.[37m.[37m
-[37m22:19:52.038 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-22:19:52.040 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-22:19:52.043 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m1092
-[37m22:19:54.235 > P[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m22:19:54.238 > HEAP 1 Min:[37m1[37m59168
-[37m22:19:55.038 > .[37mF[37ma[37miled to re[37ma[37md from DHT[37m [37msensor!
-[37m22:19:58.037 > .[37m.[37m.[37m
-[37m22:20:05.861 > Mes[37ms[37mage from r[37me[37mlay index:[37m0[37m
-22:20:05.864 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m22:20:05.867 > Relay disco[37mn[37mnected: He[37ma[37mp: 161304
-[37m22:20:08.862 > .[37m.[37m.[37m.[37m
-[37m22:20:19.684 > M[37mess[37ma[37mge from re[37ml[37may index:0[37m[37m
-22:20:19.688 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m22:20:19.691 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 161304
-[37m22:20:22.685 > .[37mP[37mu[37mblic[37ma[37mdo no MQTT: [37m[37m
-22:20:25.297 > HEAP 1 M[37mi[37mn:159392
-[37m22:20:25.685 > .[37m.[37m.[37m
-[37m22:20:33.613 > M[37message from[37m [37mrelay index[37m:[37m0
-22:20:33.615 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-22:20:33.617 > Relay dis[37mc[37monnected: [37mH[37meap: 161304[37m[37m
-[37m22:20:36.613 > .[37m.[37m.[37m.[37m
-[37m22:20:47.436 > M[37messag[37me[37m from relay[37m [37mindex:0
-22:20:47.439 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-22:20:47.441 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m61312
-[37m22:20:50.437 > .[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m22:20:54.307 > HEAP 1 Min[37m:[37m114284
-[37m22:20:55.306 > S[37mP[37mIFS: A[37ml[37mready Moun[37mt[37med
-[37m22:20:55.316 > P[37mL[37mUV: Success[37m [37mto write to[37m [37mfile
-[37m22:20:55.371 > F[37mai[37ml[37med to read [37mf[37mrom DHT se[37mn[37msor!
-[37m22:20:58.379 > .[37m.[37m
-[37m22:21:01.383 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-22:21:01.386 > [W[37mS[37mc] Disconne[37mc[37mted from re[37ml[37may: .
-22:21:01.389 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m1012
-[37m22:21:04.384 > .[37m.[37m.[37m.[37m
-[37m22:21:15.697 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m22:21:15.701 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-[37m22:21:15.703 > R[37melay discon[37mn[37mected: Heap[37m:[37m 161304
-[37m22:21:18.697 > .[37m.[37mP[37mu[37mblicad[37mo[37m no MQTT:[37m [37m
-22:21:24.376 > HEAP 1 M[37mi[37mn:116092
-[37m22:21:26.721 > .[37m.[37m
-[37m22:21:29.726 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-22:21:29.729 > [WSc[37m][37m Disconnect[37me[37md from rela[37my[37m: .
-22:21:29.732 > Relay [37md[37misconnected[37m:[37m Heap: 161[37m3[37m04
-[37m22:21:32.726 > .[37m.[37m.[37m.[37m
-[37m22:21:43.756 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-22:21:43.758 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-22:21:43.761 > Relay dis[37mc[37monnected:[37m [37mHeap: 1611[37m0[37m0
-[37m22:21:46.756 > .[37m.[37m.[37mF[37ma[37miled to r[37me[37mad from DH[37mT[37m sensor!
-[37m22:21:55.432 > P[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m22:21:55.435 > HEAP 1 Min:[37m1[37m16360
-[37m22:21:57.780 > .[37m
-[37m22:21:57.785 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-22:21:57.787 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-22:21:57.790 > Relay di[37ms[37mconnected:[37m [37mHeap: 16109[37m2[37m
-[37m22:22:00.784 > .[37m.[37m.[37m.[37m
-[37m22:22:11.608 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-22:22:11.611 > [WSc[37m][37m Disconnecte[37md[37m from rel[37ma[37my: .
-22:22:11.613 > Relay[37m [37mdisconnecte[37md[37m: Heap: 16[37m1[37m080
-[37m22:22:14.608 > .[37m.[37m.[37m.[37m
-[37m22:22:25.546 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-22:22:25.548 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-22:22:25.551 > Relay d[37mi[37msconnected[37m:[37m Heap: 1610[37m9[37m2
-[37m22:22:26.439 > P[37mu[37mblicado no[37m [37mMQTT: 
-22:22:26.441 > HE[37mA[37mP 1 Min:15[37m8[37m944
-[37m22:22:28.545 > .[37m.[37m.[37m.[37m
-[37m22:22:39.255 > Mess[37ma[37mge from rel[37ma[37my index:0
-[37m22:22:39.258 > [[37mWSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-22:22:39.260 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 161076
-[37m22:22:42.256 > .[37m.[37m.[37m.[37m
-22:22:55.341 > Message from relay index:0
-22:22:55.341 > [WSc] Disconnected from relay: .
-22:22:55.341 > Relay disconnected: Heap: 161100
-[37m22:22:55.498 > F[37mail[37me[37md to read f[37mr[37mom DHT sen[37ms[37mor!
-[37m22:22:55.502 > P[37mu[37mblicado no [37mM[37mQTT: 
-22:22:55.505 > HEAP[37m [37m1 Min:1587[37m9[37m6
-[37m22:22:58.332 > .[37m.[37m.[37m.[37m
-[37m22:23:09.157 > M[37message[37m [37mfrom relay[37m [37mindex:0
-22:23:09.160 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-22:23:09.163 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m61080
-[37m22:23:12.157 > .[37m.[37m.[37m.[37m
-[37m22:23:22.978 > M[37messag[37me[37m from relay[37m [37mindex:0
-22:23:22.981 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-22:23:22.983 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m61092
-[37m22:23:25.979 > .[37mP[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m22:23:26.511 > HEAP 1 Min[37m:[37m159392
-[37m22:23:28.978 > .[37m.[37m.[37m
-[37m22:23:36.805 > M[37messag[37me[37m from rela[37my[37m index:0
-22:23:36.807 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-22:23:36.810 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m161044
-[37m22:23:39.805 > .[37m.[37m.[37m.[37m
-[37m22:23:50.631 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m22:23:50.633 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-22:23:50.637 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m161312
-[37m22:23:53.631 > .[37mF[37ma[37miled to[37m [37mread from D[37mH[37mT sensor![37m
-[37m22:23:56.631 > .[37mP[37mu[37mblicado no[37m [37mMQTT: 
-22:23:57.576 > HEA[37mP[37m 1 Min:1131[37m2[37m0
-[37m22:24:01.547 > .[37m.[37m
-[37m22:24:04.554 > M[37message[37m [37mfrom relay[37m [37mindex:0
-22:24:04.556 > [[37mW[37mSc] Disconn[37me[37mcted from r[37me[37mlay: .
-22:24:04.559 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m61304
-[37m22:24:07.554 > .[37m.[37m.[37m.[37m
-[37m22:24:18.787 > M[37message[37m [37mfrom relay[37m [37mindex:0
-22:24:18.789 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-22:24:18.792 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m1304
-[37m22:24:19.572 > S[37mP[37mIFS: Alre[37ma[37mdy Mounted[37m
-[37m22:24:19.583 > L[37mI[37mDAR: Success[37m [37mto write t[37mo[37m file
-[37m22:24:21.786 > .[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m22:24:26.586 > HEAP 1 Min:[37m1[37m07896
-[37m22:24:29.592 > .[37m.[37m
-[37m22:24:32.598 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-22:24:32.601 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m22:24:32.604 > Relay disco[37mn[37mnected: Hea[37mp[37m: 161108
-[37m22:24:35.598 > .[37m.[37m.[37m.[37m
-[37m22:24:46.435 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-22:24:46.438 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m22:24:46.441 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161104
-[37m22:24:49.435 > .[37m.[37mF[37ma[37miled to read[37m [37mfrom DHT s[37me[37mnsor!
-[37m22:24:57.361 > .[37mP[37mublicado no [37mM[37mQTT: 
-22:24:57.644 > HEAP[37m [37m1 Min:11659[37m6[37m
-[37m22:25:00.363 > .[37m
-[37m22:25:00.368 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-22:25:00.370 > [WSc][37m [37mDisconnecte[37md[37m from relay[37m:[37m .
-22:25:00.372 > Relay d[37mi[37msconnected:[37m [37mHeap: 1613[37m0[37m8
-[37m22:25:03.367 > .[37m.[37m.[37m.[37m
-[37m22:25:14.187 > M[37message from [37mr[37melay index[37m:[37m0
-22:25:14.189 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-22:25:14.192 > Relay dis[37mc[37monnected: H[37me[37map: 161020[37m[37m
-[37m22:25:17.186 > .[37m.[37m.[37mP[37mu[37mblic[37ma[37mdo no MQTT: [37m[37m
-22:25:26.650 > HEAP 1 M[37mi[37mn:116356
-[37m22:25:28.109 > .[37m
-[37m22:25:28.113 > Messag[37me[37m from rela[37my[37m index:0
-22:25:28.115 > [[37mW[37mSc] Discon[37mn[37mected from[37m [37mrelay: .
-22:25:28.117 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m161092
-[37m22:25:31.113 > .[37m.[37m.[37m.[37m
-[37m22:25:41.937 > M[37mes[37ms[37mage from re[37ml[37may index:0[37m
-[37m22:25:41.940 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-[37m22:25:41.943 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 160888
-[37m22:25:44.937 > .[37m.[37m.[37mF[37ma[37miled t[37mo[37m read from[37m [37mDHT sensor[37m![37m
-[37m22:25:55.756 > .[37m
-[37m22:25:55.760 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-22:25:55.762 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-22:25:55.764 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m0[37m888
-[37m22:25:57.708 > P[37mub[37ml[37micado no M[37mQ[37mTT: 
-22:25:57.711 > HEAP [37m1[37m Min:15894[37m4[37m
-[37m22:25:58.760 > .[37m.[37m.[37m.[37m
-[37m22:26:09.686 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-22:26:09.689 > [WSc][37m [37mDisconnect[37me[37md from relay[37m:[37m .
-22:26:09.692 > Relay d[37mi[37msconnected[37m:[37m Heap: 161[37m0[37m84
-[37m22:26:12.686 > .[37m.[37m.[37m.[37m
-[37m22:26:23.621 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-22:26:23.623 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-22:26:23.626 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m1084
-[37m22:26:26.620 > .[37mP[37mu[37mbli[37mc[37mado no MQTT[37m:[37m 
-22:26:26.719 > HEAP 1 [37mM[37min:158944[37m
-[37m22:26:29.621 > .[37m.[37m.[37m
-[37m22:26:37.445 > M[37message from [37mr[37melay index[37m:[37m0
-22:26:37.447 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-22:26:37.450 > Relay dis[37mc[37monnected: H[37me[37map: 161092[37m[37m
-[37m22:26:40.444 > .[37m.[37m.[37m.[37m
-[37m22:26:51.369 > Mes[37ms[37mage from re[37ml[37may index:0[37m
-[37m22:26:51.372 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m22:26:51.374 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 160580
-[37m22:26:54.369 > .[37mF[37ma[37miled to rea[37md[37m from DHT s[37me[37mnsor!
-[37m22:26:56.777 > P[37mu[37mblicado no[37m [37mMQTT: 
-22:26:56.779 > HEA[37mP[37m 1 Min:1591[37m6[37m8
-[37m22:26:57.369 > .[37m.[37m.[37m
-[37m22:27:05.188 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-22:27:05.190 > [WSc] [37mD[37misconnected[37m [37mfrom relay:[37m [37m.
-22:27:05.194 > Relay di[37ms[37mconnected: [37mH[37meap: 16106[37m8[37m
-[37m22:27:08.188 > .[37m.[37m.[37m.[37m
-[37m22:27:19.113 > Mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m22:27:19.117 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-22:27:19.119 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 161068
-[37m22:27:22.114 > .[37m.[37mP[37mu[37mblicado no [37mM[37mQTT: 
-22:27:26.788 > HEA[37mP[37m 1 Min:1076[37m3[37m2
-[37m22:27:29.828 > .[37m.[37m
-[37m22:27:32.834 > M[37message from [37mr[37melay index[37m:[37m0
-22:27:32.836 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-22:27:32.839 > Relay disc[37mo[37mnnected: H[37me[37map: 161068[37m[37m
-[37m22:27:35.832 > .[37m.[37m.[37m.[37m
-[37m22:27:46.660 > M[37message[37m [37mfrom relay[37m [37mindex:0
-22:27:46.662 > [WS[37mc[37m] Disconn[37me[37mcted from r[37me[37mlay: .
-22:27:46.665 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m1084
-[37m22:27:49.661 > .[37m.[37m.[37mF[37ma[37miled [37mt[37mo read fro[37mm[37m DHT sensor[37m![37m
-[37m22:27:57.848 > P[37mublicado[37m [37mno MQTT: 
-[37m22:27:57.850 > H[37mEAP 1 Min:1[37m1[37m6372
-[37m22:28:00.477 > .[37m
-[37m22:28:00.481 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-22:28:00.485 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m22:28:00.487 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161068
-[37m22:28:03.481 > .[37m.[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-22:28:26.854 > H[37mE[37mAP 1 Min:1[37m1[37m6332
-[37m22:28:28.706 > .[37m.[37m
-[37m22:28:31.709 > M[37message f[37mr[37mom relay in[37md[37mex:0
-22:28:31.712 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-22:28:31.715 > Relay [37md[37misconnecte[37md[37m: Heap: 161[37m3[37m08
-[37m22:28:34.710 > .[37m.[37mF[37ma[37miled [37mt[37mo read fro[37mm[37m DHT sensor[37m![37m
-[37m22:28:56.906 > P[37mubli[37mc[37mado no MQTT[37m:[37m 
-22:28:56.908 > HEAP 1 [37mM[37min:120884[37m
-[37m22:29:27.906 > P[37mu[37mblicado[37m [37mno MQTT: [37m[37m
-22:29:27.909 > HEAP 1 Min[37m:[37m121556
-[37m22:29:56.960 > F[37maile[37md[37m to read fr[37mo[37mm DHT sens[37mo[37mr!
-[37m22:29:58.967 > P[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m22:29:58.970 > HEAP 1 Min:[37m1[37m16184
-[37m22:30:17.559 > .[37m.[37m
-[37m22:30:20.561 > M[37mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m22:30:20.565 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-22:30:20.567 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 162876
-[37m22:30:23.562 > .[37m.[37mP[37mu[37mblica[37md[37mo no MQTT: [37m[37m
-22:30:27.973 > HEAP 1 Mi[37mn[37m:122032
-[37m22:30:57.023 > F[37ma[37miled to [37mr[37mead from DH[37mT[37m sensor!
-[37m22:30:59.025 > P[37mubl[37mi[37mcado no MQT[37mT[37m: 
-22:30:59.028 > HEAP [37m1[37m Min:122032[37m[37m
-[37m22:31:28.029 > P[37mu[37mblic[37ma[37mdo no MQTT:[37m [37m
-22:31:28.032 > HEAP 1 M[37mi[37mn:122076
-[37m22:31:57.078 > F[37ma[37mil[37me[37md to read fr[37mo[37mm DHT sens[37mo[37mr!
-[37m22:31:58.084 > P[37mu[37mblicado [37mn[37mo MQTT: 
-[37m22:31:58.087 > H[37mEAP 1 Min:1[37m2[37m1792
-[37m22:32:26.843 > [[37m7[37m01790[37m2[37m][E][WiFiClie[37mn[37mtSecure.[37mc[37mpp:144] con[37mn[37mect(): sta[37mr[37mt_ssl_clien[37mt[37m: -1
-[37m22:32:28.084 > P[37mu[37mblicado n[37mo[37m MQTT: 
-22:32:28.086 > HE[37mA[37mP 1 Min:158[37m6[37m76
-[37m22:32:29.846 > .[37m
-[37m22:32:29.847 > Message [37mf[37mrom relay [37mi[37mndex:0
-22:32:29.849 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-22:32:29.852 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m3296
-[37m22:32:32.846 > .[37m.[37mF[37ma[37miled to [37mr[37mead from D[37mH[37mT sensor!
-[37m22:32:59.141 > P[37mu[37mblicado no [37mM[37mQTT: 
-22:32:59.144 > HEAP[37m [37m1 Min:12203[37m2[37m
-[37m22:33:29.143 > P[37mu[37mblica[37md[37mo no MQTT: [37m
-[37m22:33:29.146 > HEAP 1 Mi[37mn[37m:122032
-[37m22:33:57.196 > F[37mail[37me[37md to read [37mf[37mrom DHT sen[37ms[37mor!
-[37m22:34:00.199 > P[37mu[37mblicado [37mn[37mo MQTT: 
-[37m22:34:00.201 > H[37mEAP 1 Min:1[37m2[37m2032
-[37m22:34:30.202 > P[37mu[37mblicado no [37mM[37mQTT: 
-22:34:30.204 > HEA[37mP[37m 1 Min:122[37m0[37m32
-[37m22:34:36.479 > [[37m7[37m147540[37m][37m[E][WiFiCl[37mi[37mentSecure.c[37mp[37mp:144] con[37mn[37mect(): sta[37mr[37mt_ssl_clien[37mt[37m: -1
-[37m22:34:39.482 > .[37m
-[37m22:34:39.483 > Message [37mf[37mrom relay i[37mn[37mdex:0
-22:34:39.484 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-22:34:39.487 > Rela[37my[37m disconnect[37me[37md: Heap: 16[37m3[37m252
-[37m22:34:42.482 > .[37m.[37mF[37ma[37mile[37md[37m to read fr[37mo[37mm DHT sens[37mo[37mr!
-[37m22:35:01.259 > P[37mu[37mblicado no[37m [37mMQTT: 
-22:35:01.262 > HE[37mA[37mP 1 Min:122[37m0[37m32
-[37m22:35:31.262 > P[37mub[37ml[37micado no M[37mQ[37mTT: 
-22:35:31.265 > HEAP [37m1[37m Min:12174[37m4[37m
-22:35:31.267 > Nostr Ant[37me[37ms:122024
-[37m22:35:31.667 > A[37ml[37ml good, sig[37mn[37mature is va[37ml[37mid
-22:35:31.670 > Nostr:1[37m2[37m4360
-[37m22:35:58.664 > S[37mP[37mIFS: [37mA[37mlready Mount[37me[37md
-[37m22:35:58.674 > P[37mL[37mUV: Succes[37ms[37m to write [37mt[37mo file
-[37m22:35:58.729 > F[37mai[37ml[37med to read[37m [37mfrom DHT se[37mn[37msor!
-[37m22:36:02.732 > P[37mu[37mblicado[37m [37mno MQTT: 
-[37m22:36:02.735 > H[37mEAP 1 Min:[37m1[37m22032
-[37m22:36:09.095 > .[37m.[37m
-[37m22:36:12.100 > M[37messag[37me[37m from rela[37my[37m index:0
-22:36:12.102 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-22:36:12.105 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m162872
-[37m22:36:15.100 > .[37m.[37mP[37mu[37mblic[37ma[37mdo no MQTT: [37m[37m
-22:36:31.737 > HEAP 1 M[37mi[37mn:121808
-[37m22:36:53.636 > .[37m.[37m
-[37m22:36:56.640 > Messa[37mg[37me from rel[37ma[37my index:0
-[37m22:36:56.643 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-22:36:56.645 > R[37me[37mlay disconn[37me[37mcted: Heap:[37m [37m162648
-[37m22:36:58.788 > F[37ma[37miled to[37m [37mread from D[37mH[37mT sensor![37m
-[37m22:36:59.640 > .[37m.[37mP[37mu[37mblica[37md[37mo no MQTT: [37m[37m
-22:37:02.792 > HEAP 1 Mi[37mn[37m:157432
-[37m22:37:31.792 > P[37mubl[37mi[37mcado no MQT[37mT[37m: 
-22:37:31.795 > HEAP 1[37m [37mMin:121944[37m
-[37m22:37:58.844 > F[37ma[37miled to rea[37md[37m from DHT s[37me[37mnsor!
-[37m22:38:02.847 > P[37mu[37mbl[37mi[37mcado no MQTT:[37m [37m
-22:38:02.849 > HEAP 1 [37mM[37min:121808[37m
-[37m22:38:32.848 > P[37mu[37mblic[37ma[37mdo no MQTT[37m:[37m 
-22:38:32.849 > HEAP 1 Mi[37mn[37m:122032
-[37m22:38:59.897 > F[37ma[37miled t[37mo[37m read from[37m [37mDHT sensor![37m
-[37m22:39:03.025 > [[37m7[37m414089][37m[[37mE][WiFiCli[37me[37mntSecure.c[37mp[37mp:144] con[37mn[37mect(): star[37mt[37m_ssl_client[37m:[37m -1
-[37m22:39:03.898 > P[37mu[37mblicado no MQ[37mT[37mT: 
-22:39:03.901 > HEAP[37m [37m1 Min:15863[37m2[37m
-[37m22:39:06.028 > .[37m
-[37m22:39:06.029 > Message f[37mr[37mom relay [37mi[37mndex:0
-22:39:06.031 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-22:39:06.034 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m3[37m248
-[37m22:39:09.029 > .[37m.[37mP[37mu[37mblicad[37mo[37m no MQTT: [37m[37m
-22:39:33.901 > HEAP 1 Mi[37mn[37m:122012
-[37m22:39:41.896 > S[37mP[37mIFS: Alread[37my[37m Mounted
-[37m22:39:41.908 > L[37mI[37mDAR: Succe[37ms[37ms to write[37m [37mto file
-[37m22:39:59.951 > F[37ma[37miled to[37m [37mread from D[37mH[37mT sensor![37m
-[37m22:40:03.953 > P[37mublicado [37mn[37mo MQTT: 
-[37m22:40:03.955 > H[37mEAP 1 Min:[37m1[37m22012
-[37m22:40:33.955 > P[37mublicad[37mo[37m no MQTT: [37m[37m
-22:40:33.958 > HEAP 1 Min[37m:[37m122012
-[37m22:41:00.007 > F[37ma[37miled t[37mo[37m read fro[37mm[37m DHT sensor[37m![37m
-[37m22:41:05.009 > P[37mu[37mblicado no M[37mQ[37mTT: 
-22:41:05.012 > HEA[37mP[37m 1 Min:122[37m0[37m12
-[37m22:41:12.361 > [[37m7[37m543426[37m][37m[E][WiFiCli[37me[37mntSecure.c[37mp[37mp:144] conn[37me[37mct(): star[37mt[37m_ssl_clien[37mt[37m: -1
-[37m22:41:15.363 > .[37m
-[37m22:41:15.364 > Message f[37mr[37mom relay i[37mn[37mdex:0
-22:41:15.366 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-22:41:15.369 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m3[37m248
-[37m22:41:18.364 > .[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: [37m[37m
-22:41:35.014 > HEAP 1 Mi[37mn[37m:122012
-[37m22:42:01.060 > F[37ma[37miled to rea[37md[37m from DHT[37m [37msensor!
-[37m22:42:06.066 > P[37mu[37mblicad[37mo[37m no MQTT:[37m [37m
-22:42:06.068 > HEAP 1 Mi[37mn[37m:121724
-[37m22:42:36.066 > P[37mublicado [37mn[37mo MQTT: 
-[37m22:42:36.068 > H[37mEAP 1 Min:1[37m2[37m2044
-[37m22:43:01.118 > F[37ma[37miled[37m [37mto read from[37m [37mDHT sensor[37m![37m
-[37m22:43:06.120 > P[37mubl[37mi[37mcado no MQT[37mT[37m: 
-22:43:06.123 > HEAP 1[37m [37mMin:122044[37m
-[37m22:43:21.786 > [[37m7[37m672853[37m][37m[E][WiFiClie[37mn[37mtSecure.c[37mp[37mp:144] conn[37me[37mct(): star[37mt[37m_ssl_client[37m:[37m -1
-[37m22:43:24.789 > .[37m
-[37m22:43:24.790 > Message [37mf[37mrom relay i[37mn[37mdex:0
-22:43:24.792 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-22:43:24.795 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m3[37m284
-[37m22:43:27.790 > .[37m.[37mP[37mu[37mblicado no M[37mQ[37mTT: 
-22:43:36.123 > HEAP [37m1[37m Min:12203[37m2[37m
-[37m22:44:02.173 > F[37ma[37miled to r[37me[37mad from DHT[37m [37msensor!
-[37m22:44:07.176 > P[37mubl[37mi[37mcado no MQT[37mT[37m: 
-22:44:07.178 > HEAP 1 [37mM[37min:122036[37m
-[37m22:44:37.178 > P[37mubl[37mi[37mcado no MQ[37mT[37mT: 
-22:44:37.179 > HEAP 1[37m [37mMin:122032[37m[37m
-[37m22:45:03.226 > F[37ma[37mile[37md[37m to read f[37mr[37mom DHT senso[37mr[37m!
-[37m22:45:08.232 > P[37mu[37mblicado n[37mo[37m MQTT: 
-22:45:08.234 > HE[37mA[37mP 1 Min:12[37m1[37m744
-[37m22:45:31.525 > [[37m7802[37m5[37m93][E][WiF[37mi[37mClientSecu[37mr[37me.cpp:144] [37mc[37monnect(): s[37mt[37mart_ssl_cl[37mi[37ment: -1
-[37m22:45:34.528 > .[37m
-[37m22:45:34.529 > Message [37mf[37mrom relay [37mi[37mndex:0
-22:45:34.531 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-22:45:34.534 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m3252
-[37m22:45:37.529 > .[37mP[37mu[37mblica[37md[37mo no MQTT:[37m [37m
-22:45:39.232 > HEAP 1 Mi[37mn[37m:160960
-[37m22:45:40.528 > .[37mF[37ma[37miled to [37mr[37mead from D[37mH[37mT sensor!
-[37m22:46:09.285 > P[37mu[37mblicado no M[37mQ[37mTT: 
-22:46:09.287 > HEAP[37m [37m1 Min:12203[37m2[37m
-[37m22:46:39.287 > P[37mu[37mblic[37ma[37mdo no MQTT: [37m[37m
-22:46:39.289 > HEAP 1 Mi[37mn[37m:122032
-[37m22:47:05.338 > F[37mail[37me[37md to read [37mf[37mrom DHT sen[37ms[37mor!
-[37m22:47:10.341 > P[37mu[37mblicad[37mo[37m no MQTT: [37m[37m
-22:47:10.344 > HEAP 1 Min[37m:[37m122032
-[37m22:47:40.344 > P[37mu[37mblicado [37mn[37mo MQTT: 
-[37m22:47:40.346 > H[37mEAP 1 Min:1[37m2[37m2032
-[37m22:47:40.855 > [[37m7[37m93192[37m5[37m][E][WiFiCl[37mi[37mentSecure.[37mc[37mpp:144] conn[37me[37mct(): sta[37mr[37mt_ssl_clien[37mt[37m: -1
-[37m22:47:43.858 > .[37m
-[37m22:47:43.859 > Message [37mf[37mrom relay [37mi[37mndex:0
-22:47:43.861 > [WS[37mc[37m] Disconne[37mc[37mted from r[37me[37mlay: .
-22:47:43.864 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m3252
-[37m22:47:46.859 > .[37m.[37m[[37m7945[37m9[37m34][E][WiFi[37mC[37mlientSecur[37me[37m.cpp:144] c[37mo[37mnnect(): s[37mt[37mart_ssl_cli[37me[37mnt: -1
-[37m22:47:57.863 > .[37m
-[37m22:47:57.865 > Message [37mf[37mrom relay i[37mn[37mdex:0
-22:47:57.867 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-22:47:57.870 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m3[37m252
-[37m22:48:00.865 > .[37m.[37mF[37mailed to [37mr[37mead from D[37mH[37mT sensor![37m
-[37m22:48:08.869 > [[37m7[37m9599[37m4[37m0][E][WiFi[37mC[37mlientSecure.[37mc[37mpp:144] c[37mo[37mnnect(): st[37ma[37mrt_ssl_cli[37me[37mnt: -1
-[37m22:48:11.400 > P[37mu[37mblicado no MQT[37mT[37m: 
-22:48:11.402 > HEAP [37m1[37m Min:15835[37m2[37m
-[37m22:48:11.869 > .[37m
-[37m22:48:11.870 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-22:48:11.873 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-22:48:11.876 > Relay [37md[37misconnected[37m:[37m Heap: 163[37m2[37m52
-[37m22:48:14.871 > .[37m.[37m[[37m7[37m97394[37m6[37m][E][WiFiCli[37me[37mntSecure.[37mc[37mpp:144] co[37mn[37mnect(): sta[37mr[37mt_ssl_clie[37mn[37mt: -1
-[37m22:48:25.875 > .[37m
-22:48:25.876 > M[37me[37mssage from[37m [37mrelay index[37m:[37m0
-22:48:25.879 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-22:48:25.882 > Relay dis[37mc[37monnected: [37mH[37meap: 163252[37m[37m
-[37m22:48:28.876 > .[37m.[37m[[37m7[37m987952][37m[[37mE][WiFiCli[37me[37mntSecure.cp[37mp[37m:144] conn[37me[37mct(): start[37m_[37mssl_client[37m:[37m -1
-[37m22:48:39.881 > .[37m
-[37m22:48:39.882 > Me[37ms[37msage from [37mr[37melay index:[37m0[37m
-22:48:39.885 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-22:48:39.887 > Relay disc[37mo[37mnnected: He[37ma[37mp: 163252[37m
-[37m22:48:42.397 > P[37mubl[37mi[37mcado no MQT[37mT[37m: 
-22:48:42.401 > HEAP 1[37m [37mMin:160960[37m
-[37m22:48:42.882 > .[37m.[37m[[37m8[37m001959][37m[[37mE][WiFiClie[37mn[37mtSecure.cp[37mp[37m:144] conne[37mc[37mt(): start[37m_[37mssl_client:[37m [37m-1
-[37m22:48:53.888 > .[37m
-[37m22:48:53.889 > Me[37ms[37msage from r[37me[37mlay index:0[37m[37m
-22:48:53.892 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m22:48:53.895 > Relay disco[37mn[37mnected: He[37ma[37mp: 163252
-[37m22:48:56.889 > .[37m.[37m[[37m8[37m015965][E[37m][37m[WiFiClient[37mS[37mecure.cpp:[37m1[37m44] connect[37m([37m): start_s[37ms[37ml_client: -[37m1[37m
-[37m22:49:07.452 > F[37mail[37me[37md to read [37mf[37mrom DHT sen[37ms[37mor!
-[37m22:49:07.894 > .[37m
-[37m22:49:07.895 > Messa[37mg[37me from rel[37ma[37my index:0[37m
-[37m22:49:07.898 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m22:49:07.900 > R[37melay discon[37mn[37mected: Heap[37m:[37m 163252
-[37m22:49:10.895 > .[37mP[37mu[37mblicado[37m [37mno MQTT: [37m[37m
-22:49:12.458 > HEAP 1 Mi[37mn[37m:160960
-[37m22:49:13.895 > .[37m[[37m8[37m029971][E][[37mW[37miFiClient[37mS[37mecure.cpp:1[37m4[37m4] connect[37m([37m): start_ss[37ml[37m_client: -[37m1[37m
-[37m22:49:21.900 > .[37m
-22:49:21.901 > Messa[37mg[37me from rela[37my[37m index:0
-[37m22:49:21.904 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-22:49:21.906 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m163252
-[37m22:49:24.901 > .[37m.[37m.[37m.[37m
-[37m22:49:36.141 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-22:49:36.143 > [W[37mS[37mc] Disconne[37mc[37mted from re[37ml[37may: .
-22:49:36.146 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m2872
-[37m22:49:39.141 > .[37m.[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-[37m22:49:43.466 > H[37mEAP 1 Min:1[37m1[37m4460
-[37m22:49:47.057 > .[37m.[37m
-[37m22:49:50.062 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-22:49:50.064 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-22:49:50.067 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m2380
-[37m22:49:53.062 > .[37m.[37m.[37m.[37m
-[37m22:50:03.886 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-22:50:03.889 > [WSc][37m [37mDisconnect[37me[37md from rel[37ma[37my: .
-22:50:03.892 > Relay [37md[37misconnected[37m:[37m Heap: 162[37m4[37m28
-[37m22:50:06.886 > .[37mF[37ma[37miled to[37m [37mread from [37mD[37mHT sensor![37m
-[37m22:50:09.887 > .[37mP[37mu[37mblicado [37mn[37mo MQTT: [37m[37m
-22:50:12.529 > HEAP 1 Min[37m:[37m117020
-[37m22:50:14.712 > .[37m.[37m
-[37m22:50:17.717 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-22:50:17.720 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-22:50:17.723 > Relay di[37ms[37mconnected:[37m [37mHeap: 16220[37m4[37m
-[37m22:50:20.718 > .[37m.[37m.[37m.[37m
-[37m22:50:31.535 > M[37message from[37m [37mrelay index[37m:[37m0
-22:50:31.537 > [WSc] D[37mi[37msconnected [37mf[37mrom relay: [37m.[37m
-22:50:31.540 > Relay dis[37mc[37monnected: H[37me[37map: 161972[37m[37m
-[37m22:50:34.534 > .[37m.[37m.[37mP[37mu[37mblicado no M[37mQ[37mTT: 
-22:50:43.532 > HEA[37mP[37m 1 Min:1170[37m7[37m2
-[37m22:50:45.354 > .[37m
-[37m22:50:45.359 > M[37message from[37m [37mrelay index[37m:[37m0
-22:50:45.362 > [WSc] D[37mi[37msconnected [37mf[37mrom relay: [37m.[37m
-22:50:45.364 > Relay dis[37mc[37monnected: H[37me[37map: 161756[37m[37m
-[37m22:50:48.359 > .[37m.[37m.[37m.[37m
-[37m22:50:59.283 > M[37mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m22:50:59.286 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m22:50:59.289 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 161536
-[37m22:51:02.283 > .[37m.[37mS[37mP[37mIFS[37m:[37m Already Mou[37mn[37mted
-[37m22:51:07.541 > P[37mLUV[37m:[37m Success t[37mo[37m write to f[37mi[37mle
-[37m22:51:07.596 > F[37mailed to read from DHT sensor!
-[37m22:51:10.103 > .[37m.[37m
-[37m22:51:13.108 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-22:51:13.111 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-22:51:13.115 > Relay di[37ms[37mconnected:[37m [37mHeap: 1613[37m1[37m6
-[37m22:51:14.601 > P[37mu[37mblicado [37mn[37mo MQTT: 
-22:51:14.603 > H[37mEAP 1 Min:1[37m5[37m9168
-[37m22:51:16.108 > .[37m.[37m.[37m.[37m
-[37m22:51:27.140 > M[37message from[37m [37mrelay index[37m:[37m0
-22:51:27.142 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-22:51:27.145 > Relay dis[37mc[37monnected: [37mH[37meap: 161084[37m[37m
-[37m22:51:30.139 > .[37m.[37m.[37m.[37m
-[37m22:51:41.171 > M[37message[37m [37mfrom relay [37mi[37mndex:0
-22:51:41.173 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-22:51:41.177 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m1080
-[37m22:51:43.606 > P[37mu[37mblica[37md[37mo no MQTT: [37m
-[37m22:51:43.609 > HEAP 1 Mi[37mn[37m:158944
-[37m22:51:44.172 > .[37m.[37m.[37m.[37m
-[37m22:51:55.303 > Mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m22:51:55.306 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m22:51:55.309 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 161080
-[37m22:51:58.303 > .[37m.[37m.[37mF[37ma[37miled t[37mo[37m read from[37m [37mDHT sensor![37m[37m
-[37m22:52:09.121 > .[37m
-[37m22:52:09.125 > M[37mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m22:52:09.129 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-22:52:09.131 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 161080
-[37m22:52:12.126 > .[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-22:52:13.667 > H[37mE[37mAP 1 Min:1[37m5[37m8880
-[37m22:52:15.126 > .[37m.[37m.[37m
-[37m22:52:23.048 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-22:52:23.050 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-22:52:23.053 > Relay di[37ms[37mconnected:[37m [37mHeap: 16108[37m4[37m
-[37m22:52:26.047 > .[37m.[37m.[37m.[37m
-[37m22:52:36.974 > M[37message from[37m [37mrelay inde[37mx[37m:0
-22:52:36.976 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-22:52:36.979 > Relay dis[37mc[37monnected: [37mH[37meap: 161092[37m[37m
-[37m22:52:39.974 > .[37m.[37mP[37mublic[37ma[37mdo no MQTT:[37m [37m
-22:52:43.672 > HEAP 1 M[37mi[37mn:116492
-[37m22:52:47.893 > .[37m.[37m
-[37m22:52:50.899 > M[37message from [37mr[37melay index[37m:[37m0
-22:52:50.902 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-22:52:50.905 > Relay dis[37mc[37monnected: H[37me[37map: 161088[37m
-[37m22:52:53.900 > .[37m.[37m.[37m.[37m
-[37m22:53:04.836 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-22:53:04.838 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-22:53:04.840 > Relay d[37mi[37msconnected[37m:[37m Heap: 1610[37m8[37m4
-[37m22:53:07.835 > .[37mF[37ma[37miled to read[37m [37mfrom DHT s[37me[37mnsor!
-[37m22:53:10.836 > .[37mP[37mu[37mblicado no[37m [37mMQTT: 
-22:53:13.732 > HEA[37mP[37m 1 Min:1158[37m7[37m2
-[37m22:53:15.854 > .[37m.[37m
-[37m22:53:18.861 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-22:53:18.863 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-22:53:18.866 > Relay d[37mi[37msconnected:[37m [37mHeap: 16108[37m4[37m
-[37m22:53:21.860 > .[37m.[37m.[37m.[37m
-[37m22:53:32.692 > M[37message from[37m [37mrelay index[37m:[37m0
-22:53:32.694 > [WSc] D[37mi[37msconnected [37mf[37mrom relay: [37m.[37m
-22:53:32.697 > Relay dis[37mc[37monnected: H[37me[37map: 161124[37m[37m
-[37m22:53:35.691 > .[37m.[37mP[37mu[37mbli[37mc[37mado no MQTT[37m:[37m 
-22:53:43.738 > HEAP 1 Mi[37mn[37m:115892
-[37m22:53:44.432 > .[37m.[37m
-[37m22:53:47.437 > M[37message[37m [37mfrom relay[37m [37mindex:0
-22:53:47.439 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-22:53:47.442 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m61076
-[37m22:53:50.438 > .[37m.[37m.[37m.[37m
-[37m22:54:01.349 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-22:54:01.352 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m22:54:01.355 > Relay disco[37mn[37mnected: Hea[37mp[37m: 161080
-[37m22:54:04.349 > .[37m.[37mF[37ma[37miled [37mt[37mo read fro[37mm[37m DHT senso[37mr[37m!
-[37m22:54:12.169 > .[37mP[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m22:54:14.800 > HEAP 1 Min:[37m1[37m16360
-[37m22:54:15.170 > .[37m
-[37m22:54:15.174 > Mess[37ma[37mge from re[37ml[37may index:0[37m
-[37m22:54:15.177 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m22:54:15.180 > R[37melay discon[37mn[37mected: Heap[37m:[37m 161088
-[37m22:54:18.175 > .[37m.[37m.[37m.[37m
-[37m22:54:29.105 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-22:54:29.107 > [WSc][37m [37mDisconnecte[37md[37m from rela[37my[37m: .
-22:54:29.110 > Relay [37md[37misconnected[37m:[37m Heap: 1610[37m7[37m2
-[37m22:54:32.104 > .[37m.[37m.[37m.[37m
-[37m22:54:42.925 > M[37message[37m [37mfrom relay[37m [37mindex:0
-22:54:42.927 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-22:54:42.930 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m6[37m1088
-[37m22:54:44.804 > P[37mu[37mblic[37ma[37mdo no MQTT: [37m
-[37m22:54:44.806 > HEAP 1 Mi[37mn[37m:158940
-[37m22:54:45.924 > .[37m.[37m.[37m.[37m
-[37m22:54:56.857 > M[37message from[37m [37mrelay index[37m:[37m0
-22:54:56.859 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay:[37m [37m.
-22:54:56.862 > Relay dis[37mc[37monnected: [37mH[37meap: 161080[37m[37m
-[37m22:54:59.857 > .[37m.[37m.[37mS[37mPIFS[37m:[37m Already Mo[37mu[37mnted
-[37m22:55:07.812 > L[37mI[37mDAR: Succes[37ms[37m to write t[37mo[37m file
-[37m22:55:09.874 > F[37ma[37miled to read[37m [37mfrom DHT [37ms[37mensor!
-[37m22:55:10.675 > .[37m
-[37m22:55:10.679 > M[37message from [37mr[37melay index[37m:[37m0
-22:55:10.681 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-22:55:10.684 > Relay dis[37mc[37monnected: H[37me[37map: 161064[37m[37m
-[37m22:55:13.679 > .[37mP[37mub[37ml[37micado no MQ[37mT[37mT: 
-22:55:14.867 > HEAP [37m1[37m Min:159164[37m[37m
-[37m22:55:16.679 > .[37m.[37m.[37m
-[37m22:55:24.601 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-22:55:24.604 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m22:55:24.607 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161088
-[37m22:55:27.602 > .[37m.[37m.[37m.[37m
-[37m22:55:38.425 > M[37messa[37mg[37me from rela[37my[37m index:0
-[37m22:55:38.428 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-22:55:38.430 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m161064
-[37m22:55:41.425 > .[37m.[37mP[37mu[37mblicad[37mo[37m no MQTT: [37m[37m
-22:55:45.877 > HEAP 1 Mi[37mn[37m:112124
-[37m22:55:49.348 > .[37m.[37m
-[37m22:55:52.353 > Me[37ms[37msage from r[37me[37mlay index:[37m0[37m
-22:55:52.356 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: [37m.[37m
-22:55:52.359 > Relay disc[37mo[37mnnected: He[37ma[37mp: 161084[37m
-[37m22:55:55.353 > .[37m.[37m.[37m.[37m
-[37m22:56:06.177 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-22:56:06.180 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m22:56:06.183 > Relay disco[37mn[37mnected: He[37ma[37mp: 161068
-[37m22:56:09.177 > .[37mF[37ma[37miled[37m [37mto read from[37m [37mDHT senso[37mr[37m!
-[37m22:56:12.177 > .[37mP[37mu[37mbli[37mc[37mado no MQT[37mT[37m: 
-22:56:14.937 > HEAP 1 [37mM[37min:116036[37m
-[37m22:56:17.409 > .[37m.[37m
-[37m22:56:20.415 > M[37message [37mf[37mrom relay i[37mn[37mdex:0
-22:56:20.417 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-22:56:20.420 > Relay[37m [37mdisconnect[37me[37md: Heap: 16[37m1[37m088
-[37m22:56:23.415 > .[37m.[37m.[37m.[37m
-[37m22:56:34.338 > M[37message f[37mr[37mom relay in[37md[37mex:0
-22:56:34.340 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-22:56:34.343 > Relay [37md[37misconnecte[37md[37m: Heap: 160[37m8[37m64
-[37m22:56:37.338 > .[37m.[37mP[37mu[37mblicado[37m [37mno MQTT: [37m
-[37m22:56:44.941 > HEAP 1 Min:[37m1[37m15880
-[37m22:56:45.150 > .[37m.[37m
-[37m22:56:48.157 > M[37messag[37me[37m from relay[37m [37mindex:0
-22:56:48.159 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-22:56:48.162 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m61080
-[37m22:56:51.157 > .[37m.[37m.[37m.[37m
-[37m22:57:02.084 > M[37message f[37mr[37mom relay [37mi[37mndex:0
-22:57:02.086 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-22:57:02.089 > Rel[37ma[37my disconnec[37mt[37med: Heap: 1[37m6[37m1084
-[37m22:57:05.084 > .[37m.[37mF[37ma[37miled to r[37me[37mad from DH[37mT[37m sensor!
-[37m22:57:12.904 > .[37mP[37mu[37mblicado no [37mM[37mQTT: 
-22:57:15.003 > HEAP[37m [37m1 Min:1163[37m5[37m6
-[37m22:57:15.906 > .[37m
-[37m22:57:15.910 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-22:57:15.912 > [WS[37mc[37m] Disconne[37mc[37mted from r[37me[37mlay: .
-22:57:15.915 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m1068
-[37m22:57:18.910 > .[37m.[37m.[37m.[37m
-22:57:29.854 > Message from relay index:0
-22:57:29.854 > [WSc] Disconnected from relay: .
-22:57:29.854 > Relay disconnected: Heap: 161084
-[37m22:57:32.837 > .[37m.[37m.[37m.[37m
-[37m22:57:43.656 > M[37message fr[37mo[37mm relay ind[37me[37mx:0
-22:57:43.658 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-22:57:43.661 > Relay d[37mi[37msconnected[37m:[37m Heap: 1610[37m6[37m8
-[37m22:57:46.002 > P[37mu[37mblicado [37mn[37mo MQTT: 
-[37m22:57:46.005 > H[37mEAP 1 Min:[37m1[37m59168
-[37m22:57:46.656 > .[37m.[37m.[37m.[37m
-[37m22:57:57.585 > M[37message from [37mr[37melay index[37m:[37m0
-22:57:57.587 > [WSc] D[37mi[37msconnected [37mf[37mrom relay: [37m.[37m
-22:57:57.590 > Relay dis[37mc[37monnected: H[37me[37map: 161308[37m[37m
-[37m22:58:00.584 > .[37m.[37m.[37mF[37maile[37md[37m to read fr[37mo[37mm DHT sens[37mo[37mr!
-[37m22:58:11.403 > .[37m
-[37m22:58:11.407 > M[37messag[37me[37m from relay[37m [37mindex:0
-22:58:11.409 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-22:58:11.412 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m61308
-[37m22:58:14.408 > .[37mP[37mu[37mblica[37md[37mo no MQTT:[37m [37m
-22:58:15.065 > HEAP 1 Mi[37mn[37m:159168
-[37m22:58:17.407 > .[37m.[37m.[37m
-[37m22:58:25.337 > M[37messag[37me[37m from relay[37m [37mindex:0
-22:58:25.339 > [[37mW[37mSc] Disconn[37me[37mcted from [37mr[37melay: .
-22:58:25.342 > Rel[37ma[37my disconne[37mc[37mted: Heap: [37m1[37m61304
-[37m22:58:28.338 > .[37m.[37m.[37m.[37m
-[37m22:58:39.159 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m22:58:39.162 > [WSc] Disco[37mn[37mnected fro[37mm[37m relay: .
-22:58:39.164 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 161032
-[37m22:58:42.158 > .[37m.[37mP[37mu[37mblicado n[37mo[37m MQTT: 
-22:58:46.074 > HE[37mA[37mP 1 Min:11[37m4[37m552
-[37m22:58:50.181 > .[37m.[37m
-[37m22:58:53.186 > M[37message fr[37mo[37mm relay in[37md[37mex:0
-22:58:53.188 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-22:58:53.191 > Relay [37md[37misconnected[37m:[37m Heap: 161[37m3[37m00
-[37m22:58:56.186 > .[37m.[37m.[37m.[37m
-[37m22:59:07.108 > M[37message fro[37mm[37m relay ind[37me[37mx:0
-22:59:07.108 > [WSc] [37mD[37misconnecte[37md[37m from rela[37my[37m: .
-22:59:07.108 > Relay d[37mi[37msconnected:[37m [37mHeap: 1613[37m0[37m8
-[37m22:59:10.127 > .[37mF[37mailed to[37m [37mread from D[37mH[37mT sensor![37m
-[37m22:59:13.128 > .[37mP[37mu[37mblicado[37m [37mno MQTT: 
-[37m22:59:15.139 > H[37mEAP 1 Min:[37m1[37m15044
-[37m22:59:18.034 > .[37m.[37m
-[37m22:59:21.040 > M[37message from[37m [37mrelay inde[37mx[37m:0
-22:59:21.042 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-22:59:21.042 > Relay di[37ms[37mconnected: [37mH[37meap: 16130[37m8[37m
-[37m22:59:24.036 > .[37m.[37m.[37m.[37m
-[37m22:59:34.870 > M[37message f[37mr[37mom relay in[37md[37mex:0
-22:59:34.873 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-22:59:34.876 > Relay [37md[37misconnected[37m:[37m Heap: 161[37m3[37m12
-[37m22:59:37.870 > .[37m.[37m.[37mP[37mu[37mblicad[37mo[37m no MQTT: [37m
-[37m22:59:46.137 > HEAP 1 Min:[37m1[37m16384
-[37m22:59:48.785 > .[37m
-[37m22:59:48.786 > M[37message f[37mr[37mom relay in[37md[37mex:0
-22:59:48.786 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-22:59:48.786 > Relay [37md[37misconnecte[37md[37m: Heap: 161[37m0[37m80
-[37m22:59:51.788 > .[37m.[37m.[37m.[37m
-[37m23:00:02.603 > M[37messa[37mg[37me from rel[37ma[37my index:0[37m
-[37m23:00:02.603 > [WSc] Disco[37mn[37mnected from[37m [37mrelay: .
-23:00:02.603 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 161080
-[37m23:00:05.614 > .[37m.[37mF[37ma[37miled to read[37m [37mfrom DHT se[37mn[37msor!
-[37m23:00:13.432 > .[37mP[37mu[37mbli[37mc[37mado no MQTT[37m:[37m 
-23:00:15.204 > HEAP 1 [37mM[37min:116364
-[37m23:00:16.434 > .[37m
-[37m23:00:16.436 > M[37message from[37m [37mrelay index[37m:[37m0
-23:00:16.436 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-23:00:16.436 > Relay dis[37mc[37monnected: H[37me[37map: 160880[37m[37m
-[37m23:00:19.437 > .[37m.[37m.[37m.[37m
-[37m23:00:30.364 > Mes[37ms[37mage from re[37ml[37may index:0[37m[37m
-23:00:30.367 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m23:00:30.369 > R[37melay discon[37mn[37mected: Hea[37mp[37m: 160816
-[37m23:00:33.365 > .[37m.[37m.[37m.[37m
-[37m23:00:44.290 > M[37message [37mf[37mrom relay [37mi[37mndex:0
-23:00:44.292 > [WS[37mc[37m] Disconne[37mc[37mted from r[37me[37mlay: .
-23:00:44.295 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m6[37m1088
-[37m23:00:46.204 > P[37mu[37mblicado no M[37mQ[37mTT: 
-23:00:46.206 > HEAP [37m1[37m Min:15894[37m4[37m
-[37m23:00:47.290 > .[37m.[37m.[37m.[37m
-[37m23:00:58.114 > M[37message f[37mr[37mom relay i[37mn[37mdex:0
-23:00:58.116 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-23:00:58.119 > Relay[37m [37mdisconnecte[37md[37m: Heap: 161[37m0[37m84
-[37m23:01:01.114 > .[37m.[37m.[37mF[37ma[37miled t[37mo[37m read from [37mD[37mHT sensor![37m[37m
-[37m23:01:11.920 > .[37m
-[37m23:01:11.936 > M[37message f[37mr[37mom relay in[37md[37mex:0
-23:01:11.936 > [WSc[37m][37m Disconnect[37me[37md from rela[37my[37m: .
-23:01:11.936 > Relay [37md[37misconnecte[37md[37m: Heap: 161[37m0[37m80
-[37m23:01:14.936 > .[37mP[37mu[37mblicado [37mn[37mo MQTT: 
-23:01:15.265 > H[37mE[37mAP 1 Min:1[37m5[37m8944
-[37m23:01:17.937 > .[37m.[37m.[37m
-[37m23:01:25.658 > M[37message from[37m [37mrelay index[37m:[37m0
-23:01:25.660 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-23:01:25.663 > Relay dis[37mc[37monnected: [37mH[37meap: 161088[37m[37m
-[37m23:01:28.659 > .[37m.[37m.[37m.[37m
-[37m23:01:39.585 > M[37message from[37m [37mrelay inde[37mx[37m:0
-23:01:39.587 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-23:01:39.590 > Relay di[37ms[37mconnected: [37mH[37meap: 161092[37m[37m
-[37m23:01:42.585 > .[37m.[37mP[37mublicado no MQTT: 
-23:01:46.288 > HEAP 1 Min:114688
-[37m23:01:50.402 > .[37m.[37m
-[37m23:01:53.408 > M[37message from [37mr[37melay index:[37m0[37m
-23:01:53.410 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-23:01:53.413 > Relay disc[37mo[37mnnected: H[37me[37map: 161072[37m
-[37m23:01:56.409 > .[37m.[37m.[37m.[37m
-[37m23:02:07.334 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-23:02:07.334 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m23:02:07.334 > Relay disco[37mn[37mnected: He[37ma[37mp: 161068
-[37m23:02:10.329 > F[37ma[37miled to rea[37md[37m from DHT s[37me[37mnsor!
-[37m23:02:10.329 > .[37m.[37mP[37mublicado[37m [37mno MQTT: [37m[37m
-23:02:17.335 > HEAP 1 Min[37m:[37m115904
-[37m23:02:18.368 > .[37m.[37m
-[37m23:02:21.374 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-23:02:21.376 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-23:02:21.379 > Relay di[37ms[37mconnected: [37mH[37meap: 16108[37m8[37m
-[37m23:02:24.375 > .[37m.[37m.[37m.[37m
-[37m23:02:35.287 > Mes[37ms[37mage from re[37ml[37may index:0[37m
-[37m23:02:35.287 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m23:02:35.287 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 161092
-[37m23:02:38.286 > .[37m.[37m.[37mP[37mu[37mbli[37mc[37mado no MQTT:[37m [37m
-23:02:46.337 > HEAP 1 [37mM[37min:116408[37m
-[37m23:02:49.316 > .[37m
-[37m23:02:49.319 > M[37message from [37mr[37melay index:[37m0[37m
-23:02:49.321 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-23:02:49.324 > Relay disc[37mo[37mnnected: H[37me[37map: 161092[37m
-[37m23:02:52.319 > .

@@ -1,0 +1,244 @@
+19:22:29.557 > Wakeup was not caused by deep sleep: 0
+19:22:29.557 > SPIFS: Mounting File System...
+19:22:29.557 > PLUV: Loading Pluviometer data file
+19:22:29.557 > {"1_minute":[0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"15_minutes":[0.5,0,0,0],"1_hour":[0.75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}SETUP PLUVIOMETER
+19:22:29.557 > SPIFS: Already Mounted
+19:22:29.557 > SPIFS: Loading config file
+19:22:29.557 >  
+19:22:29.557 > AllDone: 
+19:22:29.557 > *wm:AutoConnect 
+19:22:29.557 > *wm:Connecting to SAVED AP: GeorgeHome
+19:22:29.557 > *wm:AutoConnect: SUCCESS 
+19:22:29.557 > *wm:STA IP Address: 192.168.1.138
+19:22:29.557 > 
+19:22:29.557 > WiFi connected
+19:22:29.557 > IP address: 192.168.1.138
+19:22:29.557 > 48:CA:43:3F:28:F8
+19:22:29.557 > Sensor Name: NOSTRLORAV3
+19:22:29.557 > Private Key: d3871668e532102ca5293649d8e9f0e9085dd58e161cf93bee6037abb5b8a3fb
+19:22:29.557 > Public Key: 8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0
+19:22:29.557 > Relays: relay.nostrmachines.xyz,nostr.bitcoiner.social,relay.plebstr.com,nos.lol,relay.damus.io
+19:22:29.557 > Master Pub Key: 20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb
+19:22:29.557 > TimeZone fromUTC: -3
+19:22:29.557 > NOSTRLORAV3_3F28F8
+19:22:29.557 > SETUP LIDAR
+19:22:29.557 > SETUP LIDAR START
+19:22:29.557 > SPIFS: Already Mounted
+19:22:29.557 > LIDAR: Loading LIDAR data file
+19:22:29.557 > SETUP LIDAR END
+19:22:29.557 > SETUP DHT22
+19:22:29.557 > SETUP END - HEAP:
+19:22:29.557 > Total heap: 321332
+19:22:29.557 > Free heap: 240612
+19:22:29.557 > Total PSRAM: 0
+19:22:29.557 > Free PSRAM: 0
+19:22:29.557 > Attempting MQTT connection...connected
+19:22:32.047 > L:109
+19:22:32.049 > SPIFS: Already Mounted
+19:22:32.070 > LIDAR: Success to write to file
+19:22:32.070 > {"seconds":[109,107],"1_minute":[87,87,185,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}L:107
+19:22:37.102 > SPIFS: Already Mounted
+19:22:37.110 > LIDAR: Success to write to file
+19:22:37.113 > {"seconds":[109,107],"1_minute":[87,87,185,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}L:91
+19:22:42.129 > SPIFS: Already Mounted
+19:22:42.144 > LIDAR: Success to write to file
+19:22:42.149 > {"seconds":[91,107],"1_minute":[87,87,185,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}L:106
+19:22:47.174 > SPIFS: Already Mounted
+19:22:47.255 > LIDAR: Success to write to file
+19:22:47.262 > {"seconds":[91,106],"1_minute":[87,87,185,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}L:103
+19:22:52.279 > SPIFS: Already Mounted
+19:22:52.295 > LIDAR: Success to write to file
+19:22:52.298 > {"seconds":[103,106],"1_minute":[87,87,185,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}L:105
+19:22:57.322 > SPIFS: Already Mounted
+19:22:57.329 > LIDAR: Success to write to file
+19:22:57.329 > {"seconds":[103,105],"1_minute":[87,87,185,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}L:104
+19:23:02.360 > SPIFS: Already Mounted
+19:23:02.368 > LIDAR: Success to write to file
+19:23:02.370 > {"seconds":[104,105],"1_minute":[87,87,185,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}L:106
+19:23:07.396 > SPIFS: Already Mounted
+19:23:07.402 > LIDAR: Success to write to file
+19:23:07.405 > {"seconds":[104,106],"1_minute":[87,87,185,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}L:105
+19:23:12.430 > SPIFS: Already Mounted
+19:23:12.516 > LIDAR: Success to write to file
+19:23:12.519 > {"seconds":[105,106],"1_minute":[87,87,185,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}L:105
+19:23:17.545 > SPIFS: Already Mounted
+19:23:17.553 > LIDAR: Success to write to file
+19:23:17.556 > {"seconds":[105,105],"1_minute":[87,87,185,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}L:106
+19:23:22.579 > SPIFS: Already Mounted
+19:23:22.579 > LIDAR: Success to write to file
+19:23:22.589 > {"seconds":[106,105],"1_minute":[87,87,185,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}Leituras:0
+19:23:27.103 > SPIFS: Already Mounted
+19:23:27.148 > PLUV: Success to write to file
+19:23:27.149 > {"1_minute":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"15_minutes":[0.5,0,0,0],"1_hour":[0.75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}Failed to read from DHT sensor!
+19:23:27.231 > Distance: D:106
+19:23:27.240 > Publicado no MQTT: 
+19:23:27.240 > HEAP 1 Min:234928
+19:23:27.240 > Sleeping...
+19:24:23.258 > ESP-ROM:esp32s3-20210327
+19:24:23.263 > Build:Mar 27 2021
+19:24:23.265 > rst:0x5 (DSLEEP),boot:0x1c (SPI_FAST_FLASH_BOOT)
+19:24:23.270 > pro cpu reset by JTAG
+19:24:23.272 > SPIWP:0xee
+19:24:23.273 > mode:DIO, clock div:1
+19:24:23.275 > load:0x3fce3808,len:0x44c
+19:24:23.276 > load:0x403c9700,len:0xbe4
+19:24:23.279 > load:0x403cc700,len:0x2a68
+19:24:23.282 > entry 0x403c98d4
+19:24:23.349 > Wakeup caused by timer
+19:24:23.349 > SPIFS: Mounting File System...
+19:24:23.474 > PLUV: Loading Pluviometer data file
+19:24:23.478 > {"1_minute":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"15_minutes":[0.5,0,0,0],"1_hour":[0.75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}SETUP PLUVIOMETER
+19:24:23.529 > SPIFS: Already Mounted
+19:24:23.549 > SPIFS: Loading config file
+19:24:23.549 >  
+19:24:23.549 > AllDone: 
+19:24:23.549 > *wm:AutoConnect 
+19:24:23.549 > *wm:Connecting to SAVED AP: GeorgeHome
+19:24:25.377 > *wm:AutoConnect: SUCCESS 
+19:24:25.379 > *wm:STA IP Address: 192.168.1.138
+19:24:25.379 > 
+19:24:25.379 > WiFi connected
+19:24:25.379 > IP address: 192.168.1.138
+19:24:25.379 > 48:CA:43:3F:28:F8
+19:24:25.389 > Sensor Name: NOSTRLORAV3
+19:24:25.389 > Private Key: d3871668e532102ca5293649d8e9f0e9085dd58e161cf93bee6037abb5b8a3fb
+19:24:25.398 > Public Key: 8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0
+19:24:25.401 > Relays: relay.nostrmachines.xyz,nostr.bitcoiner.social,relay.plebstr.com,nos.lol,relay.damus.io
+19:24:25.413 > Master Pub Key: 20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb
+19:24:25.420 > TimeZone fromUTC: -3
+19:24:25.422 > NOSTRLORAV3_3F28F8
+19:24:25.424 > SETUP LIDAR
+19:24:25.425 > SETUP LIDAR START
+19:24:25.468 > SPIFS: Already Mounted
+19:24:25.482 > LIDAR: Loading LIDAR data file
+19:24:25.489 > SETUP LIDAR END
+19:24:25.489 > SETUP DHT22
+19:24:25.489 > SETUP END - HEAP:
+19:24:25.495 > Total heap: 321316
+19:24:25.497 > Free heap: 240464
+19:24:25.498 > Total PSRAM: 0
+19:24:25.500 > Free PSRAM: 0
+19:24:25.501 > Attempting MQTT connection...connected
+19:24:25.817 > L:104
+19:24:25.817 > SPIFS: Already Mounted
+19:24:25.839 > LIDAR: Success to write to file
+19:24:25.847 > {"seconds":[106,104],"1_minute":[105,87,185,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}Leituras:0
+19:24:25.863 > SPIFS: Already Mounted
+19:24:25.946 > PLUV: Success to write to file
+19:24:25.949 > {"1_minute":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"15_minutes":[0.5,0,0,0],"1_hour":[0.75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}Failed to read from DHT sensor!
+19:24:26.030 > Distance: D:104
+19:24:26.030 > Publicado no MQTT: 
+19:24:26.039 > HEAP 1 Min:234840
+19:24:26.039 > Sleeping...
+19:25:22.023 > ESP-ROM:esp32s3-20210327
+19:25:22.029 > Build:Mar 27 2021
+19:25:22.031 > rst:0x5 (DSLEEP),boot:0x1c (SPI_FAST_FLASH_BOOT)
+19:25:22.035 > pro cpu reset by JTAG
+19:25:22.037 > SPIWP:0xee
+19:25:22.037 > mode:DIO, clock div:1
+19:25:22.040 > load:0x3fce3808,len:0x44c
+19:25:22.043 > load:0x403c9700,len:0xbe4
+19:25:22.045 > load:0x403cc700,len:0x2a68
+19:25:22.047 > entry 0x403c98d4
+19:25:22.121 > Wakeup caused by timer
+19:25:22.123 > SPIFS: Mounting File System...
+19:25:22.239 > PLUV: Loading Pluviometer data file
+19:25:22.244 > {"1_minute":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"15_minutes":[0.5,0,0,0],"1_hour":[0.75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}SETUP PLUVIOMETER
+19:25:22.297 > SPIFS: Already Mounted
+19:25:22.315 > SPIFS: Loading config file
+19:25:22.319 >  
+19:25:22.319 > AllDone: 
+19:25:22.319 > *wm:AutoConnect 
+19:25:22.319 > *wm:Connecting to SAVED AP: GeorgeHome
+19:25:25.742 > *wm:AutoConnect: SUCCESS 
+19:25:25.745 > *wm:STA IP Address: 192.168.1.138
+19:25:25.748 > 
+19:25:25.748 > WiFi connected
+19:25:25.750 > IP address: 192.168.1.138
+19:25:25.752 > 48:CA:43:3F:28:F8
+19:25:25.754 > Sensor Name: NOSTRLORAV3
+19:25:25.756 > Private Key: d3871668e532102ca5293649d8e9f0e9085dd58e161cf93bee6037abb5b8a3fb
+19:25:25.763 > Public Key: 8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0
+19:25:25.769 > Relays: relay.nostrmachines.xyz,nostr.bitcoiner.social,relay.plebstr.com,nos.lol,relay.damus.io
+19:25:25.769 > Master Pub Key: 20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb
+19:25:25.784 > TimeZone fromUTC: -3
+19:25:25.784 > NOSTRLORAV3_3F28F8
+19:25:25.784 > SETUP LIDAR
+19:25:25.789 > SETUP LIDAR START
+19:25:25.832 > SPIFS: Already Mounted
+19:25:25.849 > LIDAR: Loading LIDAR data file
+19:25:25.849 > SETUP LIDAR END
+19:25:25.849 > SETUP DHT22
+19:25:25.859 > SETUP END - HEAP:
+19:25:25.859 > Total heap: 321316
+19:25:25.863 > Free heap: 240484
+19:25:25.864 > Total PSRAM: 0
+19:25:25.865 > Free PSRAM: 0
+19:25:25.867 > Attempting MQTT connection...connected
+19:25:26.502 > L:103
+19:25:26.503 > SPIFS: Already Mounted
+19:25:26.529 > LIDAR: Success to write to file
+19:25:26.532 > {"seconds":[103,104],"1_minute":[105,103,185,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}Leituras:0
+19:25:26.547 > SPIFS: Already Mounted
+19:25:26.549 > PLUV: Success to write to file
+19:25:26.549 > {"1_minute":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"15_minutes":[0.5,0,0,0],"1_hour":[0.75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}Failed to read from DHT sensor!
+19:25:26.640 > Distance: D:103
+19:25:26.642 > Publicado no MQTT: 
+19:25:26.644 > HEAP 1 Min:234528
+19:25:26.645 > Sleeping...
+19:26:22.660 > ESP-ROM:esp32s3-20210327
+19:26:22.665 > Build:Mar 27 2021
+19:26:22.668 > rst:0x5 (DSLEEP),boot:0x1c (SPI_FAST_FLASH_BOOT)
+19:26:22.672 > pro cpu reset by JTAG
+19:26:22.674 > SPIWP:0xee
+19:26:22.675 > mode:DIO, clock div:1
+19:26:22.677 > load:0x3fce3808,len:0x44c
+19:26:22.679 > load:0x403c9700,len:0xbe4
+19:26:22.680 > load:0x403cc700,len:0x2a68
+19:26:22.680 > entry 0x403c98d4
+19:26:22.757 > Wakeup caused by timer
+19:26:22.761 > SPIFS: Mounting File System...
+19:26:22.878 > PLUV: Loading Pluviometer data file
+19:26:22.882 > {"1_minute":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"15_minutes":[0.5,0,0,0],"1_hour":[0.75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}SETUP PLUVIOMETER
+19:26:22.936 > SPIFS: Already Mounted
+19:26:22.957 > SPIFS: Loading config file
+19:26:22.961 >  
+19:26:22.962 > AllDone: 
+19:26:22.963 > *wm:AutoConnect 
+19:26:22.965 > *wm:Connecting to SAVED AP: GeorgeHome
+19:26:24.682 > *wm:AutoConnect: SUCCESS 
+19:26:24.685 > *wm:STA IP Address: 192.168.1.138
+19:26:24.688 > 
+19:26:24.688 > WiFi connected
+19:26:24.689 > IP address: 192.168.1.138
+19:26:24.692 > 48:CA:43:3F:28:F8
+19:26:24.693 > Sensor Name: NOSTRLORAV3
+19:26:24.696 > Private Key: d3871668e532102ca5293649d8e9f0e9085dd58e161cf93bee6037abb5b8a3fb
+19:26:24.702 > Public Key: 8ceb5dcd9a7be4cb3f399c073d9dad54acecdebac3176cdb041b36f5be5678e0
+19:26:24.709 > Relays: relay.nostrmachines.xyz,nostr.bitcoiner.social,relay.plebstr.com,nos.lol,relay.damus.io
+19:26:24.718 > Master Pub Key: 20f77fb3b0ea02216cd05f38f2784e663db02c3ea2e285eda0ffba402c621ceb
+19:26:24.725 > TimeZone fromUTC: -3
+19:26:24.727 > NOSTRLORAV3_3F28F8
+19:26:24.728 > SETUP LIDAR
+19:26:24.729 > SETUP LIDAR START
+19:26:24.772 > SPIFS: Already Mounted
+19:26:24.793 > LIDAR: Loading LIDAR data file
+19:26:24.796 > SETUP LIDAR END
+19:26:24.798 > SETUP DHT22
+19:26:24.799 > SETUP END - HEAP:
+19:26:24.800 > Total heap: 321316
+19:26:24.802 > Free heap: 240456
+19:26:24.804 > Total PSRAM: 0
+19:26:24.805 > Free PSRAM: 0
+19:26:24.806 > Attempting MQTT connection...connected
+19:26:25.020 > L:190
+19:26:25.022 > SPIFS: Already Mounted
+19:26:25.047 > LIDAR: Success to write to file
+19:26:25.051 > {"seconds":[103,190],"1_minute":[105,103,146,188,91,89,94,98,90,91,99,95,91,85,88],"15_minutes":[120,0,0,0],"1_hour":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}Leituras:0
+19:26:25.067 > SPIFS: Already Mounted
+19:26:25.070 > PLUV: Success to write to file
+19:26:25.073 > {"1_minute":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"15_minutes":[0.5,0,0,0],"1_hour":[0.75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}Failed to read from DHT sensor!
+19:26:25.159 > Distance: D:190
+19:26:25.161 > Publicado no MQTT: 
+19:26:25.163 > HEAP 1 Min:234908
+19:26:25.165 > Sleeping...

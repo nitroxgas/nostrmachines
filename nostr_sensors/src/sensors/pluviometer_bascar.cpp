@@ -2,7 +2,7 @@
 
 TPluvData PluvData;
 
-static volatile int readings = 0;
+RTC_DATA_ATTR static volatile int readings = 0;
 // static volatile int flux_adjust = 0;
 static portMUX_TYPE spinlock = portMUX_INITIALIZER_UNLOCKED;
 
@@ -22,10 +22,10 @@ float volume15Minutes[pl_vINTERVAL_1_HOUR];
 float volume1Hour[pl_vINTERVAL_1_DAY];
 
 // Índices para controle de inserção nos vetores
-int pindexSeconds = 0;
-int pindex1Minute = 0;
-int pindex15Minutes = 0;
-int pindex1Hour = 0;
+RTC_DATA_ATTR int pindexSeconds = 0;
+RTC_DATA_ATTR int pindex1Minute = 0;
+RTC_DATA_ATTR int pindex15Minutes = 0;
+RTC_DATA_ATTR int pindex1Hour = 0;
 
 volatile unsigned long DebounceTimer;
 volatile unsigned int delayTime = 500;
@@ -57,13 +57,13 @@ bool pluviometer_loadConfig()
                 StaticJsonDocument<1024> json;
                 DeserializationError error = deserializeJson(json, configFile);
                 configFile.close();
-                // serializeJson(json, Serial);
+                serializeJson(json, Serial);
                 // debugln_(' ');
                 if (!error)
                 {
                   if (json.containsKey("1_minute")) {
                         JsonArray arraySeconds = json["1_minute"];                        
-                        for (int i = 0; i < vINTERVAL_1_MINUTE; i++){
+                        for (int i = 0; i < pl_vINTERVAL_15_MINUTES; i++){
                           volume1Minute[i] = arraySeconds[i];
                         }
                   }                  
@@ -94,13 +94,14 @@ bool pluviometer_loadConfig()
         }
         else
         {
-            debugln("PLUV: No config file available! Starting with zeros!");            
+            debugln("PLUV: No config file available! Starting with zeros!"); 
+                       
         }
     }
+    debugln("PLUV: Starting with zeros!");
     memset(volume1Minute, 0, sizeof(volume1Minute));
     memset(volume15Minutes, 0, sizeof(volume15Minutes));
     memset(volume1Hour, 0, sizeof(volume1Hour));
-
     PluvData.sum15 = 0;
     PluvData.sum1Day = 0;
     PluvData.sum1Hour = 0;
@@ -145,9 +146,18 @@ bool pluviometer_saveConfig(){
       // Close file
       configFile.close();
       debugln("PLUV: Success to write to file");
+      serializeJson(doc, Serial);
+      doc.clear();
       return true;
   }
   return false;
+}
+
+void pluviometer_AddReaging(){
+    portENTER_CRITICAL_ISR(&spinlock);      
+        readings++;
+        DebounceTimer = millis();    
+    portEXIT_CRITICAL_ISR(&spinlock); 
 }
 
 void pluviometer_PrintJson(){
@@ -174,24 +184,25 @@ void pluviometer_PrintJson(){
     debugln(" "); // Para separar cada conjunto de dados    
 }
 
-void IRAM_ATTR pulseCounter()
+void RTC_IRAM_ATTR pulseCounter()
 {
     portENTER_CRITICAL_ISR(&spinlock);  
     if ((millis() - DebounceTimer) >= delayTime ) {
         readings++;
         DebounceTimer = millis();
     }        
+    Serial.println(readings);    
     portEXIT_CRITICAL_ISR(&spinlock);    
 }
 /* [] {if (ButtonPressed+= (millis() - DebounceTimer) >= (delayTime )) DebounceTimer = millis();} */
 
 void pluviometer_init(){
     // disableCore0WDT();
-    pinMode(PLUV_PIN, INPUT_PULLUP);        
+    pinMode(PLUV_PIN, INPUT_PULLUP);
     attachInterrupt(digitalPinToInterrupt(PLUV_PIN), pulseCounter, HIGH);
     // attachInterrupt(digitalPinToInterrupt(PLUV_PIN), pulseCounter, FALLING);
-    pluviometer_loadConfig();        
-    debugln("SETUP PLUVIOMETER");  
+    pluviometer_loadConfig();
+    debugln("SETUP PLUVIOMETER");
 }
 
 void pluviometer_read(unsigned long pl_currentMillis){
@@ -204,26 +215,27 @@ void pluviometer_read(unsigned long pl_currentMillis){
         // Calcular o volume atual com base nos pulsos
         PluvData.volume = reading_tmp * PLUV_VOL;
         portEXIT_CRITICAL_ISR(&spinlock);
-        /* debug("Leituras:");
-        debugln(reading_tmp);   */        
+        
         // Armazenar o volume no vetor de 1 minuto
         volume1Minute[pindex1Minute] = PluvData.volume;
         pindex1Minute = (pindex1Minute + 1) % pl_vINTERVAL_15_MINUTES;
-        
+        debug("Leituras:");
+        debugln_(reading_tmp);
+        //debug("INDICE:");
+        //debugln_(pindex1Minute);
         // Calcular a soma dos volumes dos últimos 15 minutos
         if (pindex1Minute == 0) {      
             float sum15Minutes = calculateSum(volume1Minute, pl_vINTERVAL_15_MINUTES);
-            volume15Minutes[pindex15Minutes] = sum15Minutes;      
-            pindex15Minutes = (pindex15Minutes + 1) % pl_vINTERVAL_1_HOUR;
-            pluviometer_saveConfig();
+            volume15Minutes[pindex15Minutes] = sum15Minutes;    
+            pindex15Minutes = (pindex15Minutes + 1) % pl_vINTERVAL_1_HOUR;            
 
             // Calcular a soma dos volumes da última 1 hora
             if (pindex15Minutes == 0) {
                 float sum1Hour = calculateSum(volume15Minutes, pl_vINTERVAL_1_HOUR);
-                volume1Hour[pindex1Hour] = sum1Hour;
+                volume1Hour[pindex1Hour] = sum1Hour; 
                 pindex1Hour = (pindex1Hour + 1) % pl_vINTERVAL_1_DAY;
 
-            /*  // Calcular a soma dos volumes das últimas 24 horas
+             /* // Calcular a soma dos volumes das últimas 24 horas
                 if (pindex1Hour == 0) {
                 PluvData.sum1Day = calculateSum(volume1Hour, pl_vINTERVAL_1_DAY);          
                 } */
@@ -231,8 +243,11 @@ void pluviometer_read(unsigned long pl_currentMillis){
         }
         portENTER_CRITICAL_ISR(&spinlock);
         PluvData.sum15 = calculateSum(volume1Minute, pl_vINTERVAL_15_MINUTES);
+        // volume15Minutes[pindex15Minutes] = PluvData.sum15;
         PluvData.sum1Hour = calculateSum(volume15Minutes, pl_vINTERVAL_1_HOUR);
+        // volume1Hour[pindex1Hour] = PluvData.sum1Hour;
         PluvData.sum1Day = calculateSum(volume1Hour, pl_vINTERVAL_1_DAY); 
         portEXIT_CRITICAL_ISR(&spinlock);
+        pluviometer_saveConfig();
     }
 }

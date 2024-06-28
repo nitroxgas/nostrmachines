@@ -15,6 +15,8 @@
 #include <esp_random.h>
 #include <math.h>
 #include <ArduinoJson.h>
+#include "timers.h"
+#include "global.h"
 
 // freertos
 #include "freertos/FreeRTOS.h"
@@ -27,9 +29,11 @@ extern char const *nsecHex;
 extern char const *npubHex;
 extern String relayString;
 extern String master_pubkey;
-extern long start_time;
+// extern unsigned long start_timer = 0;
+extern unsigned long start_time;
 
 void setup_machine();
 void sendPublicMessage(String message_to_send);
+unsigned long getUnixTimestamp();
 
 #endif // _NOSTR_H_

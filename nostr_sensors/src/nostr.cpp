@@ -45,9 +45,9 @@ NostrQueueProcessor nostrQueue;
 bool hasSentEvent = false;
 
 // NTP server to request epoch time
-const char* ntpServer = "pool.ntp.org";
+/* const char* ntpServer = "pool.ntp.org";
 const long  gmtOffset_sec = -10800;
-const int   daylightOffset_sec = 0;
+const int   daylightOffset_sec = 0; */
 
 bool lastInternetConnectionState = true;
 
@@ -130,7 +130,6 @@ unsigned long getUnixTimestamp() {
   return now;
 }
 
-
 //free rtos task for control
 void MachineControlTask(void *pvParameters) {
   debugln("Starting control task");
@@ -193,13 +192,13 @@ void relayConnectedEvent(const std::string& key, const std::string& message) {
   eventRequestOptions->p = p;
   eventRequestOptions->p_count = sizeof(p) / sizeof(p[0]);
   // Populate kinds
-  int kinds[] = {4};
+  int kinds[] = {4,1};
   eventRequestOptions->kinds = kinds;
   eventRequestOptions->kinds_count = sizeof(kinds) / sizeof(kinds[0]);
   // Populate other fields
   eventRequestOptions->since = start_time;
   // eventRequestOptions->until = 1640995200;
-  eventRequestOptions->limit = 5;
+  //eventRequestOptions->limit = 5;
   
   nostrRelayManager.requestEvents(eventRequestOptions);
   delete eventRequestOptions;
@@ -455,7 +454,7 @@ void nip04Event(const std::string& key, const char* payload) {
 
 // ------------------------------    
     #ifdef BOARD_HAS_PSRAM
-      SpiRamJsonDocument doc(1048576);
+      SpiRamJsonDocument doc(500000);
     #else
       StaticJsonDocument<1052> doc;
     #endif  
@@ -574,7 +573,8 @@ void connectToNostrRelays() {
   nostrRelayManager.connect();
 }
 
-long start_time = 0;
+unsigned long start_time = 0;
+
 /**
  * @brief Initialise the nostr machine task
  * 
@@ -614,11 +614,7 @@ void setup_machine() {
     }
     else {
       hasInternetConnection = false;      
-    }
-  
-  configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
-
-  start_time = getUnixTimestamp() - (86400);
+    }    
   
   // initMachine();
 

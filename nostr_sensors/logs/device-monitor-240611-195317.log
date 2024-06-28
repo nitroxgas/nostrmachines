@@ -1,32 +1,0 @@
-[37m19:53:20.203 > Total heap: 263504
-19:53:20.203 > Free heap: 237080
-19:53:20.203 > Total PSRAM: 4192107
-19:53:20.203 > Free PSRAM: 4191847
-19:53:20.203 > SPIFS: Mounting File System...
-19:53:20.203 > SPIFS: Loading config file
-19:53:20.203 >  
-19:53:20.203 > AllDone: 
-19:53:20.203 > *wm:AutoConnect 
-19:53:20.203 > *wm:Connecting to SAVED AP: GeorgeHomeT
-[37m19:53:20.501 > *[37mwm:A[37mu[37mtoConnect: [37mS[37mUCCESS 
-19:53:20.501 > *[37mw[37mm:STA IP Ad[37md[37mress: 192.[37m1[37m68.1.25
-19:53:20.501 > 
-[37m19:53:20.501 > W[37miFi connec[37mt[37med
-19:53:20.501 > IP addr[37me[37mss: 192.16[37m8[37m.1.25
-19:53:20.501 > Priv[37ma[37mte Key: d3[37m8[37m71668e53210[37m2[37mca5293649d8[37me[37m9f0e9085dd[37m5[37m8e161cf93b[37me[37me6037abb5b8[37ma[37m3fb
-19:53:20.519 > Publi[37mc[37m Key: 8ceb5[37md[37mcd9a7be4cb3[37mf[37m399c073d9d[37ma[37md54acecdeba[37mc[37m3176cdb041[37mb[37m36f5be5678[37me[37m0
-19:53:20.525 > Relays: [37mn[37mostr.bitcoi[37mn[37mer.social,[37mr[37melay.plebst[37mr[37m.com,nos.l[37mo[37ml,relay.dam[37mu[37ms.io
-19:53:20.525 > Mast[37me[37mr Pub Key: [37m2[37m0f77fb3b0e[37ma[37m02216cd05f3[37m8[37mf2784e663db[37m0[37m2c3ea2e285[37me[37mda0ffba402[37mc[37m621ceb
-19:53:20.539 > Tim[37me[37mZone fromU[37mT[37mC: -3
-19:53:20.541 > SETU[37mP[37m LIDAR
-19:53:20.542 > SE[37mT[37mUP LIDAR ST[37mA[37mRT
-19:53:20.544 > Versão[37m:[37m 2.1.5
-[37m19:53:20.586 > S[37mP[37mIFS: Alr[37me[37mady Mounte[37md[37m
-[37m19:53:20.602 > L[37mI[37mDAR: [37mL[37moading LIDA[37mR[37m data file[37m[37m
-19:53:20.606 > SETUP LI[37mD[37mAR END
-19:53:20.606 > SPI[37mF[37mS: Already[37m [37mMounted
-[37m19:53:20.636 > P[37mL[37mUV: Loa[37md[37ming Pluviom[37me[37mter data f[37mi[37mle
-19:53:20.640 > SETUP P[37mL[37mUVIOMETER[37m
-[37m19:53:20.643 > SETUP DHT22[37m[37m
-19:53:20.643 > SETUP END[37m [37m- HEAP:1832[37m1[37m6
-19:53:20.643 > Attemptin[37mg[37m MQTT conn[37me[37mction...[37mc[37mo[37mnnected

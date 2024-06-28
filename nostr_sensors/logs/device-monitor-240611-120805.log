@@ -1,81 +1,0 @@
-[37m12:08:08.275 > Total heap: 263480
-12:08:08.275 > Free heap: 237080
-12:08:08.275 > Total PSRAM: 4192107
-12:08:08.275 > Free PSRAM: 4191847
-12:08:08.275 > SPIFS: Mounting File System...
-12:08:08.275 > SPIFS: Loading config file
-12:08:08.275 >  
-12:08:08.275 > AllDone: 
-12:08:08.275 > *wm:AutoConnect 
-12:08:08.275 > *wm:Connecting to SAVED AP: GeorgeHomeT
-[37m12:08:08.937 > *[37mw[37mm:[37mA[37mutoConnect:[37m [37mSUCCESS 
-12:08:08.937 > *[37mw[37mm:STA IP A[37md[37mdress: 192.[37m1[37m68.1.25
-12:08:08.937 > [37m
-[37m12:08:08.937 > WiFi connec[37mt[37med
-12:08:08.937 > IP add[37mr[37mess: 192.16[37m8[37m.1.25
-12:08:08.953 > Pri[37mv[37mate Key: d3[37m8[37m71668e5321[37m0[37m2ca5293649d[37m8[37me9f0e9085d[37md[37m58e161cf93b[37me[37me6037abb5b[37m8[37ma3fb
-12:08:08.960 > Publi[37mc[37m Key: 8ceb5[37md[37mcd9a7be4cb[37m3[37mf399c073d9[37md[37mad54acecdeb[37ma[37mc3176cdb04[37m1[37mb36f5be5678[37me[37m0
-12:08:08.960 > Relays: [37mn[37mostr.bitco[37mi[37mner.social[37m,[37mrelay.plebs[37mt[37mr.com,nos.[37ml[37mol,relay.da[37mm[37mus.io
-12:08:08.973 > Mast[37me[37mr Pub Key:[37m [37m20f77fb3b0e[37ma[37m02216cd05f[37m3[37m8f2784e663d[37mb[37m02c3ea2e28[37m5[37meda0ffba402[37mc[37m621ceb
-12:08:08.976 > Ti[37mm[37meZone fromU[37mT[37mC: -3
-[37m12:08:09.277 > S[37me[37mtting callb[37ma[37mcks
-12:08:09.279 > connec[37mt[37ming
-12:08:09.280 > Relay[37ms[37m are:
-12:08:09.281 > rel[37ma[37my.plebstr.c[37mo[37mm
-12:08:09.283 > nos.lol[37m[37m
-12:08:09.284 > Connecting[37m [37mto relay: r[37me[37mlay.plebst[37mr[37m.com
-12:08:09.287 > Conne[37mc[37mting to re[37ml[37may: nos.lo[37ml[37m
-[37m12:08:09.786 > S[37mE[37mTUP LIDAR[37m[37m
-12:08:09.786 > SETUP LIDA[37mR[37m START
-12:08:09.786 > Ve[37mr[37msão: 2.1.5[37m
-[37m12:08:09.836 > S[37mP[37mIFS: Alr[37me[37mady Mounted[37m[37m
-[37m12:08:09.839 > L[37mI[37mDA[37mR[37m: Loading L[37mI[37mDAR data fi[37ml[37me
-12:08:09.856 > SETUP[37m [37mLIDAR END
-[37m12:08:09.856 > S[37mPIFS: Alre[37ma[37mdy Mounted[37m
-[37m12:08:09.856 > PLUV: Load[37mi[37mng Pluviome[37mt[37mer data fi[37ml[37me
-12:08:09.856 > SETUP PL[37mU[37mVIOMETER
-[37m12:08:09.856 > S[37mETUP DHT22[37m
-[37m12:08:09.856 > SETUP END [37m-[37m HEAP:18207[37m6[37m
-12:08:09.856 > Attempting[37m [37mMQTT conne[37mc[37mtion...[37mc[37mo[37mnnected
-[37m12:10:11.790 > [[37m1[37m25424][E[37m][37m[WiFiClien[37mt[37mSecure.cpp:[37m1[37m44] connec[37mt[37m(): start_ss[37ml[37m_client: -[37m1[37m
-[37m12:10:13.545 > A[37mt[37mtemptin[37mg[37m MQTT conn[37me[37mction...[37mc[37mo[37mnnec[37mt[37med
-12:10:13.743 > LIDAR Re[37ma[37mding:1338[37m1[37m6 
-[37m12:10:14.736 > L[37mI[37mDAR FIM
-[37m12:10:14.792 > F[37ma[37miled to r[37me[37mad from DH[37mT[37m sensor!
-[37m12:10:14.792 > P[37mu[37mblicad[37mo[37m no MQTT: [37m
-[37m12:10:14.803 > HEAP 1 Min[37m:[37m130984
-12:10:14.804 > Mes[37ms[37mage from r[37me[37mlay index:0[37m[37m
-12:10:14.806 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m12:10:14.806 > Relay disco[37mn[37mnected: He[37ma[37mp: 133412
-[37m12:10:14.806 > M[37message fro[37mm[37m relay inde[37mx[37m:1
-12:10:14.806 > [WSc] C[37mo[37mnnected to[37m [37mrelay: .
-12:10:14.806 > R[37me[37mlay connect[37me[37md: 
-12:10:14.806 > messag[37me[37m
-12:10:14.819 > Requesti[37mn[37mg events:
-[37m12:10:14.822 > S[37mETUP END:1[37m3[37m5980
-12:10:14.823 > Broa[37md[37mcasting eve[37mn[37mt: ["REQ", [37m"[37mWCujHhVHIX[37mn[37m5GIC2MLaQ0D[37mg[37mPf5zunxg9y[37mD[37m0LNoE2X0252[37mE[37mqKjJXvXkXO[37mM[37mYdHM6kk", {[37m"[37m#p": ["20f[37m7[37m7fb3b0ea022[37m1[37m6cd05f38f27[37m8[37m4e663db02c[37m3[37mea2e285eda[37m0[37mffba402c621[37mc[37meb"], "kin[37md[37ms": [4], "l[37mi[37mmit": 999}][37m
-[37m12:10:16.837 > M[37me[37mssa[37mg[37me from rela[37my[37m index:1
-[37m12:10:16.837 > [[37mWSc]: Recei[37mv[37med text fr[37mo[37mm relay .: [37m[[37m"EVENT","WC[37mu[37mjHhVHIXn5G[37mI[37mC2MLaQ0DgPf[37m5[37mzunxg9yD0L[37mN[37moE2X0252Eq[37mK[37mjJXvXkXOMYd[37mH[37mM6kk",{"con[37mt[37ment":"06xR[37m2[37mjkhNCQ/3fKz[37mV[37m2gQAw==?iv[37m=[37mpcxsrINi7uE[37mI[37mybHY+/moBg[37m=[37m=","created[37m_[37mat":1698968[37m9[37m88,"id":"d[37md[37mc7145f6f8f[37m4[37m0dbb605925d[37m9[37m80f645f39c[37m5[37m7002ff941af[37m3[37m17456b7d20[37m2[37m2f804","kin[37md[37m":4,"pubkey[37m"[37m:"8ceb5dcd[37m9[37ma7be4cb3f3[37m9[37m9c073d9dad5[37m4[37macecdebac3[37m1[37m76cdb041b36[37mf[37m5be5678e0",[37m"[37msig":"964d[37m3[37m5b68f9f9d8b[37md[37md864c40917[37m4[37m5a2b202aac1[37m9[37mb7f4f93119[37m9[37me4d33f45924[37me[37m60a55488c0[37mf[37m28ded29a4fc[37ma[37md96f490642[37ma[37ma143d511e6e[37m1[37m43292f8ee4[37m8[37m8c97f945","[37mt[37mags":[["p"[37m,[37m"20f77fb3b0[37me[37ma02216cd05f[37m3[37m8f2784e663[37md[37mb02c3ea2e2[37m8[37m5eda0ffba40[37m2[37mc621ceb"]][37m}[37m]
-12:10:16.890 > NIP04 eve[37mn[37mt: HEAP:121[37m0[37m24
-[37m12:10:17.028 > -[37m----[37m-[37m---------
-[37m12:10:17.030 > M[37mensagem:Ye[37ma[37mp
-12:10:17.031 > --------[37m-[37m------
-12:10:17.032 > Me[37ms[37msage from r[37me[37mlay index:[37m1[37m
-12:10:17.035 > [WSc]: Re[37mc[37meived text [37mf[37mrom relay [37m.[37m: ["EOSE",[37m"[37mWCujHhVHIXn[37m5[37mGIC2MLaQ0D[37mg[37mPf5zunxg9yD[37m0[37mLNoE2X0252E[37mq[37mKjJXvXkXOM[37mY[37mdHM6kk"]
-[37m12:10:18.741 > L[37mI[37mDAR Reading:[37m1[37m36188 
-[37m12:10:19.742 > L[37mI[37mDAR FI[37mM[37m
-[37m12:12:20.086 > [[37m2[37m53729][E[37m][37m[WiFiClie[37mn[37mtSecure.cpp[37m:[37m144] conne[37mc[37mt(): start_[37ms[37msl_client:[37m [37m-1
-[37m12:12:20.104 > A[37mt[37mtempti[37mn[37mg MQTT con[37mn[37mection...[37mc[37mo[37mnnecte[37md[37m
-12:12:20.115 > LIDAR Rea[37md[37ming:173220 [37m
-[37m12:12:21.114 > L[37mI[37mDAR FIM[37m[37m
-[37m12:12:21.168 > F[37ma[37miled to[37m [37mread from [37mD[37mHT sensor![37m
-[37m12:12:21.173 > P[37mublic[37ma[37mdo no MQTT:[37m [37m
-12:12:21.173 > HEAP 1 M[37mi[37mn:171656
-12:12:21.173 > M[37me[37mssage from[37m [37mrelay inde[37mx[37m:0
-12:12:21.173 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-12:12:21.173 > Relay dis[37mc[37monnected: [37mH[37meap: 17408[37m0[37m
-12:12:21.173 > Message f[37mr[37mom relay in[37md[37mex:1
-12:12:21.187 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-12:12:21.190 > Relay [37md[37misconnecte[37md[37m: Heap: 177[37m0[37m52
-[37m12:12:25.104 > L[37mI[37mDAR Reading:[37m1[37m78644 
-[37m12:12:26.112 > L[37mI[37mDAR FIM

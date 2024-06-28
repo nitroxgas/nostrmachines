@@ -1,244 +1,0 @@
-[37m15:51:15.963 > Total heap: 263504
-15:51:15.963 > Free heap: 237060
-15:51:15.963 > Total PSRAM: 4192107
-15:51:15.963 > Free PSRAM: 4191847
-15:51:15.963 > SPIFS: Mounting File System...
-15:51:15.963 > SPIFS: Loading config file
-15:51:15.963 >  
-15:51:15.963 > AllDone: 
-15:51:15.963 > *wm:AutoConnect 
-15:51:15.963 > *wm:Connecting to SAVED AP: GeorgeHomeT
-[37m15:51:17.367 > *[37mw[37mm:AutoC[37mo[37mnnect: SU[37mC[37mCESS 
-15:51:17.370 > *wm:[37mS[37mTA IP Addr[37me[37mss: 192.168[37m.[37m1.25
-15:51:17.373 > 
-15:51:17.373 > Wi[37mF[37mi connected[37m[37m
-15:51:17.375 > IP addres[37ms[37m: 192.168.1[37m.[37m25
-15:51:17.377 > Private[37m [37mKey: d3871[37m6[37m68e532102c[37ma[37m5293649d8e9[37mf[37m0e9085dd58[37me[37m161cf93bee6[37m0[37m37abb5b8a3f[37mb[37m
-15:51:17.383 > Public K[37me[37my: 8ceb5dcd[37m9[37ma7be4cb3f3[37m9[37m9c073d9dad[37m5[37m4acecdebac3[37m1[37m76cdb041b36[37mf[37m5be5678e0[37m
-[37m15:51:17.391 > Relays: nos[37mt[37mr.bitcoine[37mr[37m.social,rel[37ma[37my.plebstr.[37mc[37mom,nos.lol,[37mr[37melay.damus[37m.[37mio
-15:51:17.396 > Master [37mP[37mub Key: 20[37mf[37m77fb3b0ea02[37m2[37m16cd05f38f[37m2[37m784e663db02[37mc[37m3ea2e285ed[37ma[37m0ffba402c62[37m1[37mceb
-15:51:17.404 > TimeZo[37mn[37me fromUTC:[37m [37m-3
-[37m15:51:21.161 > S[37metti[37mn[37mg callbacks[37m[37m
-15:51:21.163 > connectin[37mg[37m
-15:51:21.164 > Relays a[37mr[37me:
-15:51:21.165 > nos.lol[37m[37m
-15:51:21.166 > freerelay[37m.[37mxyz
-15:51:21.167 > relay.[37mp[37mlebstr.com[37m
-[37m15:51:21.169 > Connecting[37m [37mto relay: [37mn[37mos.lol
-15:51:21.171 > Con[37mn[37mecting to [37mr[37melay: freer[37me[37mlay.xyz
-15:51:21.174 > Co[37mn[37mnecting to[37m [37mrelay: rela[37my[37m.plebstr.c[37mo[37mm
-[37m15:51:21.672 > S[37mET[37mU[37mP LIDAR
-15:51:21.674 > SET[37mU[37mP LIDAR ST[37mA[37mRT
-15:51:21.676 > Versã[37mo[37m: 2.1.5
-[37m15:51:21.721 > S[37mP[37mIFS: Al[37mr[37meady Mounte[37md[37m
-[37m15:51:21.737 > L[37mI[37mDAR: Loadi[37mn[37mg LIDAR d[37ma[37mta file
-[37m15:51:21.741 > S[37mETUP LIDAR [37mE[37mND
-15:51:21.742 > SPIFS:[37m [37mAlready Mou[37mn[37mted
-[37m15:51:21.771 > P[37mL[37mUV: Loading [37mP[37mluviomete[37mr[37m data file[37m
-[37m15:51:21.775 > SETUP PLUVI[37mO[37mMETER
-15:51:21.776 > SET[37mU[37mP DHT22
-15:51:21.777 > S[37mE[37mTUP END - H[37mE[37mAP:182028
-[37m15:51:30.284 > [[37m [37m16247][E][37m[[37mWiFiClient[37mS[37mecure.cpp:1[37m4[37m4] connect[37m([37m): start_ss[37ml[37m_client: -[37m1[37m
-15:51:30.291 > Attemptin[37mg[37m MQTT conn[37me[37mction...[37mc[37mo[37mnnected
-[37m15:51:32.304 > 
-[37m15:51:32.304 > M[37message[37m [37mfrom relay[37m [37mindex:0
-15:51:32.304 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-15:51:32.304 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m2[37m9584
-15:51:32.314 > 
-15:51:32.314 > Mes[37ms[37mage from re[37ml[37may index:1[37m[37m
-15:51:32.314 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m15:51:32.321 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 175820
-[37m15:51:32.324 > 
-[37m15:51:32.324 > Message fro[37mm[37m relay inde[37mx[37m:2
-15:51:32.326 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-15:51:32.326 > Relay d[37mi[37msconnected:[37m [37mHeap: 17824[37m8[37m
-[37m15:51:44.739 > [[37m [37m30702][[37mE[37m][WiFiClie[37mn[37mtSecure.cpp[37m:[37m144] conne[37mc[37mt(): start_[37ms[37msl_client: [37m-[37m1
-[37m15:51:46.744 > 
-[37m15:51:46.744 > M[37message fr[37mo[37mm relay i[37mn[37mdex:0
-15:51:46.746 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-15:51:46.749 > Relay[37m [37mdisconnecte[37md[37m: Heap: 12[37m8[37m988
-15:51:46.752 > 
-15:51:46.752 > Messa[37mg[37me from rel[37ma[37my index:1
-[37m15:51:46.755 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-15:51:46.757 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 175472
-15:51:46.760 > 
-15:51:46.760 > M[37me[37mssage from[37m [37mrelay index[37m:[37m2
-15:51:46.764 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay:[37m [37m.
-15:51:46.767 > Relay dis[37mc[37monnected: [37mH[37meap: 177908[37m[37m
-[37m15:53:24.883 > [[37m1[37m30848][E][[37ms[37msl_client.[37mc[37mpp:37] _han[37md[37mle_error()[37m:[37m [start_ssl[37m_[37mclient():2[37m7[37m3]: (-80) U[37mN[37mKNOWN ERROR[37m [37mCODE (0050[37m)[37m
-15:53:24.893 > [130848][37m[[37mE][WiFiClie[37mn[37mtSecure.cpp[37m:[37m144] conne[37mc[37mt(): start_[37ms[37msl_client:[37m [37m-80
-15:53:24.899 > Attem[37mp[37mting MQTT c[37mo[37mnnection...[37mc[37mo[37mnnected
-[37m15:53:27.142 > F[37ma[37miled to read[37m [37mfrom DHT s[37me[37mnsor!
-[37m15:53:27.146 > P[37mu[37mblicado no [37mM[37mQTT: 
-15:53:27.149 > HEA[37mP[37m 1 Min:8290[37m4[37m
-[37m15:53:27.152 > 
-[37m15:53:27.152 > M[37messa[37mg[37me from rel[37ma[37my index:0
-[37m15:53:27.155 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-15:53:27.158 > Re[37ml[37may disconn[37me[37mcted: Heap[37m:[37m 128860
-15:53:27.161 > 
-15:53:27.161 > M[37me[37mssage from [37mr[37melay index[37m:[37m1
-15:53:27.164 > [WSc] Di[37ms[37mconnected [37mf[37mrom relay: [37m.[37m
-15:53:27.166 > Relay dis[37mc[37monnected: H[37me[37map: 175328[37m[37m
-15:53:27.169 > 
-15:53:27.169 > Message f[37mr[37mom relay i[37mn[37mdex:2
-15:53:27.171 > [WSc[37m][37m Disconnec[37mt[37med from rel[37ma[37my: .
-15:53:27.174 > Relay [37md[37misconnecte[37md[37m: Heap: 17[37m7[37m772
-[37m15:53:39.472 > [[37m1[37m45436][[37mE[37m][WiFiClie[37mn[37mtSecure.cpp[37m:[37m144] conne[37mc[37mt(): start_[37ms[37msl_client:[37m [37m-1
-[37m15:53:41.476 > 
-[37m15:53:41.476 > Messa[37mg[37me from rela[37my[37m index:0
-[37m15:53:41.480 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-15:53:41.482 > Re[37ml[37may disconn[37me[37mcted: Heap:[37m [37m128692
-15:53:41.485 > 
-15:53:41.485 > Me[37ms[37msage from [37mr[37melay index[37m:[37m1
-15:53:41.488 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-15:53:41.490 > Relay dis[37mc[37monnected: H[37me[37map: 175184[37m
-[37m15:53:41.494 > 
-15:53:41.494 > Message f[37mr[37mom relay in[37md[37mex:2
-15:53:41.496 > [WSc[37m][37m Disconnect[37me[37md from rel[37ma[37my: .
-15:53:41.498 > Relay [37md[37misconnecte[37md[37m: Heap: 177[37m6[37m20
-[37m15:53:53.819 > [[37m159784][E[37m][37m[WiFiClient[37mS[37mecure.cpp:[37m1[37m44] connect[37m([37m): start_s[37ms[37ml_client: -[37m1[37m
-[37m15:53:55.823 > 
-[37m15:53:55.823 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m15:53:55.826 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-15:53:55.828 > R[37me[37mlay discon[37mn[37mected: Hea[37mp[37m: 128492
-15:53:55.831 > 
-[37m15:53:55.832 > M[37message fro[37mm[37m relay inde[37mx[37m:1
-15:53:55.834 > [WSc] D[37mi[37msconnected[37m [37mfrom relay:[37m [37m.
-15:53:55.837 > Relay di[37ms[37mconnected:[37m [37mHeap: 17493[37m6[37m
-15:53:55.840 > 
-15:53:55.840 > Message [37mf[37mrom relay [37mi[37mndex:2
-15:53:55.842 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-15:53:55.845 > Rela[37my[37m disconnect[37me[37md: Heap: 17[37m7[37m224
-[37m15:54:08.203 > [[37m1[37m74167][E][37m[[37mWiFiClient[37mS[37mecure.cpp:1[37m4[37m4] connect[37m([37m): start_ss[37ml[37m_client: -[37m1[37m
-[37m15:54:10.207 > 
-[37m15:54:10.207 > Mess[37ma[37mge from rel[37ma[37my index:0[37m
-[37m15:54:10.210 > [WSc] Disco[37mn[37mnected from[37m [37mrelay: .
-15:54:10.212 > R[37me[37mlay disconn[37me[37mcted: Heap[37m:[37m 128044
-15:54:10.215 > 
-[37m15:54:10.216 > M[37message from[37m [37mrelay index[37m:[37m1
-15:54:10.218 > [WSc] D[37mi[37msconnected [37mf[37mrom relay:[37m [37m.
-15:54:10.221 > Relay dis[37mc[37monnected: [37mH[37meap: 174504[37m[37m
-15:54:10.224 > 
-15:54:10.224 > Message [37mf[37mrom relay i[37mn[37mdex:2
-15:54:10.226 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-15:54:10.229 > Relay[37m [37mdisconnecte[37md[37m: Heap: 17[37m6[37m732
-[37m15:54:51.622 > [[37m2[37m17587][E[37m][37m[ssl_client[37m.[37mcpp:37] _h[37ma[37mndle_error([37m)[37m: [start_s[37ms[37ml_client()[37m:[37m273]: (-103[37m6[37m8) X509 - A[37ml[37mlocation o[37mf[37m memory fai[37ml[37med
-15:54:51.633 > [21758[37m8[37m][E][WiFiC[37ml[37mientSecure.[37mc[37mpp:144] con[37mn[37mect(): sta[37mr[37mt_ssl_clien[37mt[37m: -10368
-[37m15:54:51.639 > A[37mttempting M[37mQ[37mTT connect[37mi[37mon...[37mc[37mo[37mnnected[37m[37m
-[37m15:54:53.702 > F[37mailed to[37m [37mread from [37mD[37mHT sensor![37m
-[37m15:54:53.706 > P[37mublica[37md[37mo no MQTT: [37m[37m
-15:54:53.709 > HEAP 1 Mi[37mn[37m:82556
-[37m15:54:53.710 > 
-[37m15:54:53.711 > M[37message fro[37mm[37m relay inde[37mx[37m:0
-15:54:53.713 > [WSc] [37mD[37misconnected[37m [37mfrom relay:[37m [37m.
-15:54:53.716 > Relay di[37ms[37mconnected:[37m [37mHeap: 12522[37m4[37m
-15:54:53.719 > 
-15:54:53.719 > Message [37mf[37mrom relay [37mi[37mndex:1
-15:54:53.721 > [WS[37mc[37m] Disconne[37mc[37mted from re[37ml[37may: .
-15:54:53.725 > Rela[37my[37m disconnect[37me[37md: Heap: 1[37m7[37m2632
-15:54:53.728 > 
-15:54:53.728 > Mess[37ma[37mge from re[37ml[37may index:2[37m
-[37m15:54:53.731 > [WSc] Disc[37mo[37mnnected fro[37mm[37m relay: .
-[37m15:54:53.733 > R[37melay discon[37mn[37mected: Heap[37m:[37m 174924
-[37m15:55:01.657 > [[37m2[37m27623][E][[37ms[37msl_client.c[37mp[37mp:37] _han[37md[37mle_error():[37m [37m[start_ssl[37m_[37mclient():27[37m3[37m]: (-10368)[37m [37mX509 - All[37mo[37mcation of [37mm[37memory faile[37md[37m
-15:55:01.669 > [227624][[37mE[37m][WiFiClie[37mn[37mtSecure.cpp[37m:[37m144] conne[37mc[37mt(): start[37m_[37mssl_client:[37m [37m-10368
-[37m15:55:02.671 > 
-[37m15:55:02.672 > Message fro[37mm[37m relay inde[37mx[37m:2
-15:55:02.674 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-15:55:02.677 > Relay di[37ms[37mconnected:[37m [37mHeap: 85928[37m[37m
-[37m15:55:05.675 > 
-[37m15:55:05.676 > M[37message from[37m [37mrelay inde[37mx[37m:0
-15:55:05.678 > [WSc] [37mD[37misconnected[37m [37mfrom relay[37m:[37m .
-15:55:05.681 > Relay di[37ms[37mconnected: [37mH[37meap: 13022[37m4[37m
-[37m15:55:06.679 > 
-[37m15:55:06.679 > Me[37ms[37msage from r[37me[37mlay index[37m:[37m1
-15:55:06.682 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-15:55:06.685 > Relay disc[37mo[37mnnected: H[37me[37map: 175892[37m
-[37m15:55:13.263 > [[37m2[37m39228][E][37m[[37mssl_client[37m.[37mcpp:37] _ha[37mn[37mdle_error([37m)[37m: [start_s[37ms[37ml_client():[37m2[37m73]: (-1036[37m8[37m) X509 - A[37ml[37mlocation of[37m [37mmemory fai[37ml[37med
-15:55:13.273 > [23922[37m9[37m][E][WiFiCl[37mi[37mentSecure.c[37mp[37mp:144] con[37mn[37mect(): star[37mt[37m_ssl_clien[37mt[37m: -10368
-[37m15:55:14.276 > 
-[37m15:55:14.276 > Me[37ms[37msage from [37mr[37melay index:[37m1[37m
-15:55:14.279 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: .[37m
-[37m15:55:14.282 > Relay disc[37mo[37mnnected: He[37ma[37mp: 90864
-[37m15:55:15.280 > 
-[37m15:55:15.281 > M[37message fr[37mo[37mm relay in[37md[37mex:2
-15:55:15.283 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-15:55:15.286 > Relay d[37mi[37msconnected[37m:[37m Heap: 133[37m0[37m28
-[37m15:55:18.283 > 
-[37m15:55:18.284 > M[37mess[37mage from relay index:0[37m
-[37m15:55:18.287 > [WSc] Disco[37mn[37mnected from[37m [37mrelay: .
-15:55:18.289 > R[37me[37mlay discon[37mn[37mected: Heap[37m:[37m 175272
-[37m15:55:44.155 > A[37mt[37mtempt[37mi[37mng MQTT con[37mn[37mection...[37mc[37mo[37mnnected[37m[37m
-[37m15:55:46.611 > [[37m2[37m72576][E][ssl[37m_[37mclient.cp[37mp[37m:37] _handl[37me[37m_error(): [37m[[37mstart_ssl_c[37ml[37mient():273[37m][37m: (-10368) [37mX[37m509 - Allo[37mc[37mation of me[37mm[37mory failed[37m[37m
-15:55:46.622 > [272577][E[37m][37m[WiFiClient[37mS[37mecure.cpp:[37m1[37m44] connect[37m([37m): start_s[37ms[37ml_client: [37m-[37m10368
-15:55:46.628 > 
-15:55:46.628 > Mes[37ms[37mage from re[37ml[37may index:1[37m[37m
-15:55:46.631 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m15:55:46.633 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 130396
-[37m15:55:47.633 > 
-[37m15:55:47.633 > Me[37ms[37msage from [37mr[37melay index:0[37m[37m
-15:55:47.636 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-15:55:47.639 > Relay disc[37mo[37mnnected: H[37me[37map: 133216[37m
-[37m15:55:49.637 > 
-[37m15:55:49.638 > Messa[37mg[37me from rel[37ma[37my index:2
-[37m15:55:49.641 > [[37mWSc] Disco[37mn[37mnected from[37m [37mrelay: .
-15:55:49.643 > Re[37ml[37may disconn[37me[37mcted: Heap[37m:[37m 175584
-[37m15:55:53.214 > F[37ma[37miled to rea[37md[37m from DHT [37ms[37mensor!
-[37m15:55:53.217 > P[37mu[37mblicado no [37mM[37mQTT: 
-15:55:53.219 > HEA[37mP[37m 1 Min:1270[37m4[37m0
-[37m15:55:55.624 > [[37m2[37m81590][E[37m][37m[ssl_clie[37mn[37mt.cpp:37] [37m_[37mhandle_erro[37mr[37m(): [start_[37ms[37msl_client([37m)[37m:273]: (-10[37m3[37m68) X509 -[37m [37mAllocation[37m [37mof memory f[37ma[37miled
-15:55:55.635 > [2815[37m9[37m0][E][WiFi[37mC[37mlientSecure[37m.[37mcpp:144] c[37mo[37mnnect(): s[37mt[37mart_ssl_cli[37me[37mnt: -10368[37m
-[37m15:55:57.637 > 
-[37m15:55:57.637 > Mes[37ms[37mage from r[37me[37mlay index:1[37m[37m
-15:55:57.640 > [WSc] Disc[37mo[37mnnected fr[37mo[37mm relay: .
-[37m15:55:57.642 > R[37melay disco[37mn[37mnected: Hea[37mp[37m: 130772
-[37m15:55:57.645 > 
-[37m15:55:57.646 > Message fro[37mm[37m relay ind[37me[37mx:2
-15:55:57.648 > [WSc] [37mD[37misconnecte[37md[37m from relay[37m:[37m .
-15:55:57.651 > Relay d[37mi[37msconnected:[37m [37mHeap: 1332[37m1[37m6
-[37m15:56:00.657 > 
-[37m15:56:00.657 > Messag[37me[37m from rela[37my[37m index:0
-15:56:00.659 > [[37mW[37mSc] Discon[37mn[37mected from [37mr[37melay: .
-15:56:00.662 > Re[37ml[37may disconne[37mc[37mted: Heap:[37m [37m175132
-[37m15:56:06.477 > [[37m292[37m4[37m43][E][ssl_[37mc[37mlient.cpp:3[37m7[37m] _handle_[37me[37mrror(): [s[37mt[37mart_ssl_cli[37me[37mnt():273]:[37m [37m(-10368) X5[37m0[37m9 - Allocat[37mi[37mon of memo[37mr[37my failed
-[37m15:56:06.488 > [[37m292444][E][[37mW[37miFiClientSe[37mc[37mure.cpp:14[37m4[37m] connect()[37m:[37m start_ssl[37m_[37mclient: -10[37m3[37m68
-[37m15:56:08.487 > 
-[37m15:56:08.487 > M[37message fr[37mo[37mm relay inde[37mx[37m:0
-15:56:08.489 > [WSc][37m [37mDisconnect[37me[37md from rela[37my[37m: .
-15:56:08.492 > Relay [37md[37misconnected[37m:[37m Heap: 8754[37m8[37m
-15:56:08.495 > 
-15:56:08.495 > Message[37m [37mfrom relay[37m [37mindex:1
-15:56:08.498 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-15:56:08.500 > Rela[37my[37m disconnec[37mt[37med: Heap: 1[37m3[37m3192
-[37m15:56:10.505 > 
-[37m15:56:10.506 > M[37message[37m [37mfrom relay [37mi[37mndex:2
-15:56:10.508 > [W[37mS[37mc] Disconne[37mc[37mted from r[37me[37mlay: .
-15:56:10.511 > Rel[37ma[37my disconnec[37mt[37med: Heap: 1[37m7[37m5364
-[37m15:56:16.201 > [[37m3[37m02167][E[37m][37m[ssl_clie[37mn[37mt.cpp:37] [37m_[37mhandle_erro[37mr[37m(): [start_[37ms[37msl_client([37m)[37m:264]: (-32[37m5[37m12) SSL - [37mM[37memory alloc[37ma[37mtion faile[37md[37m
-15:56:16.211 > [302167][[37mE[37m][WiFiClien[37mt[37mSecure.cpp[37m:[37m144] conne[37mc[37mt(): start_[37ms[37msl_client:[37m [37m-32512
-[37m15:56:17.216 > 
-[37m15:56:17.217 > M[37message from [37mr[37melay index:[37m2[37m
-15:56:17.219 > [WSc] Di[37ms[37mconnected f[37mr[37mom relay: [37m.[37m
-15:56:17.222 > Relay disc[37mo[37mnnected: H[37me[37map: 86988
-[37m15:56:21.221 > 
-[37m15:56:21.222 > M[37message[37m [37mfrom relay[37m [37mindex:0
-15:56:21.224 > [W[37mS[37mc] Disconn[37me[37mcted from r[37me[37mlay: .
-15:56:21.227 > Rel[37ma[37my disconnec[37mt[37med: Heap: [37m1[37m29708
-15:56:21.230 > 
-15:56:21.230 > Mes[37ms[37mage from r[37me[37mlay index:1[37m[37m
-15:56:21.233 > [WSc] Dis[37mc[37monnected fr[37mo[37mm relay: .[37m
-[37m15:56:21.236 > Relay disco[37mn[37mnected: Hea[37mp[37m: 175608
-[37m15:56:28.841 > [[37m3[37m14807][[37mE[37m][ssl_cli[37me[37mnt.cpp:37][37m [37m_handle_er[37mr[37mor(): [star[37mt[37m_ssl_clien[37mt[37m():273]: (-[37m1[37m0368) X509 [37m-[37m Allocatio[37mn[37m of memory [37mf[37mailed
-15:56:28.852 > [31[37m4[37m808][E][Wi[37mF[37miClientSecu[37mr[37me.cpp:144] [37mc[37monnect(): [37ms[37mtart_ssl_cl[37mi[37ment: -1036[37m8[37m
-[37m15:56:29.852 > 
-[37m15:56:29.852 > Messa[37mg[37me from rel[37ma[37my index:1
-[37m15:56:29.855 > [[37mWSc] Discon[37mn[37mected from[37m [37mrelay: .
-15:56:29.858 > R[37me[37mlay disconn[37me[37mcted: Heap:[37m [37m90468
-15:56:29.861 > 
-15:56:29.861 > Me[37ms[37msage from r[37me[37mlay index:[37m2[37m
-15:56:29.863 > [WSc] Dis[37mc[37monnected f[37mr[37mom relay: .[37m
-[37m15:56:29.867 > Relay disc[37mo[37mnnected: He[37ma[37mp: 132832[37m
-[37m15:56:33.872 > 
-[37m15:56:33.873 > Message [37mf[37mrom relay i[37mn[37mdex:0
-15:56:33.876 > [WS[37mc[37m] Disconnec[37mt[37med from re[37ml[37may: .
-15:56:33.879 > Relay[37m [37mdisconnect[37me[37md: Heap: 17[37m4[37m964

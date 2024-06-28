@@ -37,7 +37,7 @@ bool loadConfig(TSettings* Settings)
             if (configFile)
             {
                 debugln("SPIFS: Loading config file");
-                StaticJsonDocument<1024> json;
+                StaticJsonDocument<512> json;
                 DeserializationError error = deserializeJson(json, configFile);
                 configFile.close();
                 // serializeJsonPretty(json, Serial);
@@ -47,7 +47,8 @@ bool loadConfig(TSettings* Settings)
                     Settings->privkey       = json[JSON_KEY_PRIV]     | Settings->privkey;
                     Settings->pubkey        = json[JSON_KEY_PUB]      | Settings->pubkey;
                     Settings->nrelays       = json[JSON_KEY_RELAYS]   | Settings->nrelays;
-                    Settings->masterpub     = json[JSON_KEY_MASTERPUB]| Settings->masterpub;                    
+                    Settings->masterpub     = json[JSON_KEY_MASTERPUB]| Settings->masterpub;
+                    Settings->name          = json[JSON_KEY_NAME]     | Settings->name;               
                     if (json.containsKey(JSON_KEY_TIMEZONE))
                         Settings->Timezone = json[JSON_KEY_TIMEZONE].as<int>();
                     if (json.containsKey(JSON_KEY_ZAPVALUE))
@@ -59,6 +60,7 @@ bool loadConfig(TSettings* Settings)
                     // Error loading JSON data
                     debugln("SPIFS: Error parsing config file!");
                 }
+                json.clear();
             }
             else
             {
@@ -99,6 +101,8 @@ bool saveConfig(TSettings* Settings)
         json[JSON_KEY_MASTERPUB] = Settings->masterpub;
         json[JSON_KEY_TIMEZONE] = Settings->Timezone;
         json[JSON_KEY_ZAPVALUE] = Settings->zapvalue;
+        json[JSON_KEY_NAME] = Settings->name;
+
         
         // Open config file
         File configFile = SPIFFS.open(JSON_CONFIG_FILE, "w");
@@ -110,7 +114,7 @@ bool saveConfig(TSettings* Settings)
         }
 
         // Serialize JSON data to write to file
-        serializeJsonPretty(json, Serial);
+        // serializeJsonPretty(json, Serial);
         debugln(" ");
         if (serializeJson(json, configFile) == 0)
         {
@@ -219,6 +223,7 @@ void init_WifiManager()
     // Custom elements
 
     // Text box (String) - 80 characters maximum
+    WiFiManagerParameter name_text_box("nameStr", "Nostr Sensor Name", Settings.name.c_str(), 80);
     WiFiManagerParameter privkey_text_box("nstpPriv", "Nostr Private Key", Settings.privkey.c_str(), 80);
     WiFiManagerParameter pubkey_text_box("nstpPub", "Nostr Public Key", Settings.pubkey.c_str(), 80);
     WiFiManagerParameter nrelays_text_box("nstpRalays", "Nostr Relays", Settings.nrelays.c_str(), 150);
@@ -234,6 +239,7 @@ void init_WifiManager()
     WiFiManagerParameter time_text_box_num("TimeZone", "TimeZone fromUTC (-12/+12)", charZone, 3);
 
     // Add all defined parameters
+    wm.addParameter(&name_text_box);
     wm.addParameter(&privkey_text_box);
     wm.addParameter(&pubkey_text_box);
     wm.addParameter(&nrelays_text_box);
@@ -251,6 +257,7 @@ void init_WifiManager()
         {
             //Could be break forced after edditing, so save new config
             debugln("failed to connect and hit timeout");
+            Settings.name    = name_text_box.getValue();
             Settings.privkey = privkey_text_box.getValue();            
             Settings.privkey = privkey_text_box.getValue();
             Settings.pubkey  = pubkey_text_box.getValue();
@@ -275,6 +282,7 @@ void init_WifiManager()
             debugln("Failed to connect to configured WIFI, and hit timeout");
             if (shouldSaveConfig) {
                 // Save new config            
+                Settings.name    = name_text_box.getValue();
                 Settings.privkey = privkey_text_box.getValue();            
                 Settings.privkey = privkey_text_box.getValue();
                 Settings.pubkey  = pubkey_text_box.getValue();
@@ -295,15 +303,21 @@ void init_WifiManager()
         debugln("WiFi connected");
         debug("IP address: ");
         debugln_(WiFi.localIP().toString());
+        debugln_(WiFi.macAddress());
 
         // Lets deal with the user config values
         // Copy the string value
+        Settings.name    = name_text_box.getValue();
         Settings.privkey = privkey_text_box.getValue();            
         Settings.privkey = privkey_text_box.getValue();
         Settings.pubkey  = pubkey_text_box.getValue();
         Settings.nrelays = nrelays_text_box.getValue();
         Settings.Timezone = atoi(time_text_box_num.getValue());
         Settings.zapvalue = atol(zap_text_box_num.getValue());
+        Settings.macaddr = WiFi.macAddress();
+
+        debug("Sensor Name: ");
+        debugln_(Settings.name);
 
         debug("Private Key: ");
         debugln_(Settings.privkey);
