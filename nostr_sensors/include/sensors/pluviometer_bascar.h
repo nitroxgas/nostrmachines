@@ -16,10 +16,12 @@ void pluviometer_read(unsigned long pl_currentMillis);
 
 typedef struct TPluvData
 {
-	volatile float volume;    
+	volatile float volume;
+    #ifndef SIMPLE_READ 
     volatile float sum15;
     volatile float sum1Hour;
     volatile float sum1Day;
+    #endif
 } TPluvData ;
 
 extern TPluvData PluvData;

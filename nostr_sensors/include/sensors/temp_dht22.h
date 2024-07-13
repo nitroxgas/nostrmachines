@@ -10,16 +10,19 @@ void dht22_init();
 bool dht22_PrintJson(bool saveconfig);
 void dht22_read(unsigned long dht22_currentMillis);
 
+
 typedef struct TDHT22Data
 {
 	volatile float temperature;
-    volatile float humidity;    
+    volatile float humidity;
+    #ifndef SIMPLE_READ    
     volatile float tavg15;
     volatile float tavg1Hour;
     volatile float tavg1Day;
     volatile float havg15;
     volatile float havg1Hour;
     volatile float havg1Day;
+    #endif
 } TDHTData;
 
 extern TDHTData DhtData;

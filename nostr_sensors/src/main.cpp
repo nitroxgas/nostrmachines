@@ -120,29 +120,42 @@ char pub_counter = 0;
 void setup() {  
   // put your setup code here, to run once:
   Serial.begin(115200);
+  #ifdef STATUS_LED
+    pinMode(STATUS_LED, OUTPUT);
+  #endif
+  #ifdef VEXT
+    pinMode(VEXT_PIN, OUTPUT);
+    if (VEXT==1) {
+      digitalWrite(VEXT_PIN, LOW);
+    } else {
+      digitalWrite(VEXT_PIN, HIGH);
+    }
+  #endif
+  debugf("Total heap: %d\n", ESP.getHeapSize());
+  debugf("Free heap: %d\n", ESP.getFreeHeap());
+  debugf("Total PSRAM: %d\n", ESP.getPsramSize());
+  debugf("Free PSRAM: %d\n", ESP.getFreePsram());  
   
-  
-
   #ifdef SET_DEEP_SLEEP_SECONDS    
     esp_sleep_wakeup_cause_t wakeup_reason;
     wakeup_reason = esp_sleep_get_wakeup_cause();
     switch(wakeup_reason)
     {
       case ESP_SLEEP_WAKEUP_EXT0 : 
-            Serial.println("Wakeup caused by external signal using RTC_IO"); 
+            debugln("Wakeup caused by external signal using RTC_IO"); 
             #ifdef PLUV
               pluviometer_AddReaging();
             #endif
-            // currentMillisOffSet = INTERVAL_1_MINUTE;
+            currentMillisOffSet = INTERVAL_1_MINUTE / 2;
             break;
       case ESP_SLEEP_WAKEUP_EXT1 : Serial.println("Wakeup caused by external signal using RTC_CNTL"); break;
       case ESP_SLEEP_WAKEUP_TIMER : 
-            Serial.println("Wakeup caused by timer"); 
+            debugln("Wakeup caused by timer"); 
             currentMillisOffSet = INTERVAL_1_MINUTE;
             break;
       case ESP_SLEEP_WAKEUP_TOUCHPAD : Serial.println("Wakeup caused by touchpad"); break;
       case ESP_SLEEP_WAKEUP_ULP : Serial.println("Wakeup caused by ULP program"); break;
-      default : Serial.printf("Wakeup was not caused by deep sleep: %d\n",wakeup_reason); break;
+      default : debugf("Wakeup was not caused by deep sleep: %d\n",wakeup_reason); break;
     }
 
     esp_sleep_enable_timer_wakeup(SET_DEEP_SLEEP_SECONDS * 1000000);
@@ -150,14 +163,16 @@ void setup() {
       esp_sleep_enable_ext0_wakeup(PLUV_GPIO,1);
     #endif
   #endif
-  
-  #ifdef PLUV
-    pluviometer_init();
-  #endif
-  
+   
   init_WifiManager(); 
 
+  #ifdef PLUV
+  // debugln("PLUVINIT");
+    pluviometer_init();
+  #endif
+
   configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
+  debugln("TIMEINIT");
   Settings.name+"_"+Settings.macaddr.substring(10);
   name_mac = Settings.macaddr.substring(9);
   name_mac.replace(":","");
@@ -175,7 +190,7 @@ void setup() {
   #endif
   #ifdef LIDAR_TFMINIPlus
     debugln("SETUP LIDAR");
-    tfmini_init();
+    tfmini_init_task();
   #endif
   #ifdef LIDAR_TFMINIPlusNoLib
     debugln("SETUP LIDAR");
@@ -233,13 +248,26 @@ void setup() {
 void dataCollectionJson(){
     char temp_message[40];
     message_data="";
+    // debugln("RAM");
     #ifdef BOARD_HAS_PSRAM
       SpiRamJsonDocument sensor(50000);
     #else      
       StaticJsonDocument<1024> sensor;
     #endif  
     sensor["Name"] = name_mac;
-    sensor["Date"] = getUnixTimestampLocal();
+    #ifdef NOSTR
+     sensor["Date"] = getUnixTimestamp();
+    #else
+      sensor["Date"] = getUnixTimestampLocal();
+    #endif
+    sensor["ver"]=1;
+    #ifndef SIMPLE_READ
+      sensor["simple_read"]=0;
+    #else    
+      sensor["simple_read"]=1;
+    #endif
+      sensor["RSSI"]=WiFi.RSSI();
+      sensor["ESPtemp"]=temperatureRead();
     // JsonObject sn = doc.createNestedObject("nostrmachines");
     // JsonObject  = doc.createNestedObject("sensor");    
     #ifdef HAS_BATTERY  
@@ -250,7 +278,7 @@ void dataCollectionJson(){
           battery_s["percent"] = heltec_battery_percent();
         #else      
           // sprintf(temp_message,"%d", analogReadMilliVolts(BATTERY_VOLTAGE_DATA) * 2);
-          
+          debugln("Batt");
           int voltage = analogReadMilliVolts(BATTERY_VOLTAGE_DATA) * 2;
           battery_s["voltage"] = voltage; // temp_message;
           battery_s["unit"] = "mV";
@@ -279,10 +307,12 @@ void dataCollectionJson(){
       debugf(" Temperature:%d\n", LidarData.temperature); */    
       JsonObject lidar_s = sensor.createNestedObject("lidar");
       lidar_s["distance"] = LidarData.distance;
+      lidar_s["temp"] = LidarData.temperature;
+      #ifndef SIMPLE_READ    
       lidar_s["avg15"] = LidarData.avg15;
       lidar_s["avg1hour"] = LidarData.avg1Hour;
       lidar_s["avg1day"] = LidarData.avg1Day;
-      lidar_s["temp"] = LidarData.temperature;
+      #endif 
       lidar_s["unit"] = "cm"; 
     #endif
     #ifdef PLUV                             
@@ -290,27 +320,31 @@ void dataCollectionJson(){
       // debugln(temp_message);
       JsonObject pluvi_s = sensor.createNestedObject("pluviometer");
       pluvi_s["volume"] = PluvData.volume;
+      #ifndef SIMPLE_READ    
       pluvi_s["sum15m"] = PluvData.sum15;
       pluvi_s["sum1hour"] = PluvData.sum1Hour;
       pluvi_s["sum1day"] = PluvData.sum1Day;
+      #endif
       pluvi_s["unit"] = "mm";          
     #endif 
     #ifdef DHT22_SENSOR                    
       JsonObject dht_t = sensor.createNestedObject("temperature");      
       dht_t["temperature"] = DhtData.temperature;
+      #ifndef SIMPLE_READ
       dht_t["avg15"] = DhtData.tavg15;
       dht_t["avg1hour"] = DhtData.tavg1Hour;
       dht_t["avg1day"] = DhtData.tavg1Day;
+      #endif
       dht_t["unit"] = "°C";
       JsonObject dht_h = sensor.createNestedObject("humidity");
       dht_h["humidity"] = DhtData.humidity;
+      #ifndef SIMPLE_READ
       dht_h["avg15"] = DhtData.havg15;
       dht_h["avg1hour"] = DhtData.havg1Hour;
       dht_h["avg1day"] = DhtData.havg1Day;
+      #endif
       dht_h["unit"] = "%";            
-    #endif   
-    
-    sensor["ver"]=1;
+    #endif       
 
     char buffer[512];
     size_t n = serializeJson(sensor, buffer);
@@ -327,6 +361,9 @@ void dataCollectionJson(){
         } else {
           debugln("Publicado no MQTT: ");
           pub_counter++;
+          #ifdef PLUV
+            PluvData.volume = 0;
+          #endif
         }
         if (mqtt_monitor>10) ESP.restart();
     #endif
@@ -335,6 +372,7 @@ void dataCollectionJson(){
     debugln_(ESP.getFreeHeap());          
 }
 
+#ifndef SIMPLE_READ    
 void dataCollectionString(){
     char temp_message[256];     
     #ifdef HAS_BATTERY                        
@@ -368,10 +406,20 @@ void dataCollectionString(){
     debug("HEAP 1Min:");
     debugln_(ESP.getFreeHeap());          
 }
+#endif
+
+#ifdef STATUS_LED
+bool ledblink = true;
+#endif
 
 void loop() {
   // put your main code here, to run repeatedly:    
-  currentMillis = millis() + currentMillisOffSet;    
+  currentMillis = millis() + currentMillisOffSet;   
+
+  #ifdef STATUS_LED
+    digitalWrite(STATUS_LED,ledblink);
+    ledblink = !ledblink;
+  #endif
 
   #ifdef MQTT          
     //debug("M");
@@ -380,6 +428,7 @@ void loop() {
   #endif
 
   #ifdef LIDAR_TFMINIPlus 
+  // debug("L");
     tfmini_read(currentMillis);  
   #endif
   #ifdef PLUV
@@ -390,12 +439,13 @@ void loop() {
   #ifdef DHT22_SENSOR
     // debug("D");
     dht22_read(currentMillis);
-    //debug("E:");
+    // debug("E:");
   #endif
   
   
 // Prepare data and publish to mqtt
   if ( currentMillis - pub_previousMillis >= INTERVAL_1_MINUTE ) {
+    debugln("Preparing publication...");
     pub_previousMillis = currentMillis;
     // dataCollectionString(); 
     if(WiFi.status() == WL_CONNECTED) {
@@ -404,6 +454,12 @@ void loop() {
       #ifdef SET_DEEP_SLEEP_SECONDS
         if (pub_counter>=SET_DEEP_SLEEP_PUB) {
           debugln("Sleeping...");
+          #ifdef STATUS_LED
+            digitalWrite(STATUS_LED, LOW);
+          #endif
+          #ifdef VEXT
+            digitalWrite(VEXT_PIN, HIGH);
+          #endif
           vTaskDelay(1000/portTICK_PERIOD_MS);
           esp_deep_sleep_start();
         }
@@ -433,4 +489,5 @@ void loop() {
     #endif     
   #endif    
   vTaskDelay(500 / portTICK_PERIOD_MS);  
+  // debugln("V:");
 }

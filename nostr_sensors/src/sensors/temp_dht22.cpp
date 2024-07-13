@@ -4,16 +4,19 @@
 #ifndef DHTPIN
     #define DHTPIN 33  
 #endif
-#define DHTTYPE DHT22
+
+#ifndef DHTTYPE
+  #define DHTTYPE DHT22
+#endif
 
 // Inicializa o sensor DHT
 DHT dht(DHTPIN, DHTTYPE);
 
 TDHTData DhtData;
 
-
 unsigned long dpreviousMillis1Minute = 0;
 
+#ifndef SIMPLE_READ
 // Vetores para armazenar as leituras
 float temp1Minute[vINTERVAL_15_MINUTES];
 float humidity1Minute[vINTERVAL_15_MINUTES];
@@ -110,13 +113,15 @@ bool dht22_PrintJson(bool saveconfig){
 void dht22_read(unsigned long dht22_currentMillis) {  
   if (dht22_currentMillis - dpreviousMillis1Minute >= INTERVAL_1_MINUTE) {
     dpreviousMillis1Minute = dht22_currentMillis;
-    
+    debugln("DHT sensor!");
     // Ler os dados do sensor DHT22
     float temp = dht.readTemperature();
     float humidity = dht.readHumidity();
 
     if (isnan(temp) || isnan(humidity)) {
       debugln("Failed to read from DHT sensor!");
+      DhtData.temperature = 0;
+      DhtData.humidity = 0;
       return;
     }
 
@@ -159,3 +164,30 @@ void dht22_read(unsigned long dht22_currentMillis) {
     DhtData.havg1Day = calculateAverage(humidity1Hour, vINTERVAL_1_DAY);
   }
 }
+#else
+void dht22_init() {  
+    dht.begin();       
+    debugln("SETUP DHT");   
+    DhtData.temperature = 0;
+    DhtData.humidity = 0;    
+}
+
+void dht22_read(unsigned long dht22_currentMillis) {  
+  if (dht22_currentMillis - dpreviousMillis1Minute >= INTERVAL_1_MINUTE) {
+    dpreviousMillis1Minute = dht22_currentMillis;
+    debugln("DHT sensor!");
+    // Ler os dados do sensor DHT22
+    float temp = dht.readTemperature();
+    float humidity = dht.readHumidity();
+
+    if (isnan(temp) || isnan(humidity)) {
+      debugln("Failed to read from DHT sensor!");
+      DhtData.temperature = 0; 
+      DhtData.humidity = 0;
+      return;
+    }
+    DhtData.temperature = temp;
+    DhtData.humidity = humidity;
+  }
+}
+#endif

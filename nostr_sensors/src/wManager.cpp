@@ -226,7 +226,7 @@ void init_WifiManager()
     WiFiManagerParameter name_text_box("nameStr", "Nostr Sensor Name", Settings.name.c_str(), 80);
     WiFiManagerParameter privkey_text_box("nstpPriv", "Nostr Private Key", Settings.privkey.c_str(), 80);
     WiFiManagerParameter pubkey_text_box("nstpPub", "Nostr Public Key", Settings.pubkey.c_str(), 80);
-    WiFiManagerParameter nrelays_text_box("nstpRalays", "Nostr Relays", Settings.nrelays.c_str(), 150);
+    WiFiManagerParameter nrelays_text_box("nstpRelays", "Nostr Relays", Settings.nrelays.c_str(), 150);
     WiFiManagerParameter master_text_box("nstpMaster", "Nostr Master Pub Key", Settings.privkey.c_str(), 80);
     // Text box (Number) - 2 characters maximum
     char charZap[8];

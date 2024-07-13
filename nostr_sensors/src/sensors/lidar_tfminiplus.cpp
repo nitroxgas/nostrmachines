@@ -1,21 +1,13 @@
 
 #include "sensors/lidar_tfminiplus.h"
 
-// #define RXD2 16
-// #define TXD2 17
-
 TFMiniPlus tfmini;
 
-// Intervalos de tempo em milissegundos
-// const int INTERVAL_1_MINUTE = 60 * 1000;
-/* const int vINTERVAL_1_MINUTE = (60 / (LIDAR_TIME/1000)); 
-const int vINTERVAL_15_MINUTES = 15;
-const int vINTERVAL_1_HOUR = 4;
-const int vINTERVAL_1_DAY = 24; */
-
+bool lidar_started = false;
 unsigned long previousMillisSeconds = 0;
 unsigned long previousMillis1Minute = 0;
 
+#ifndef SIMPLE_READ
 // Vetores para armazenar as leituras
 int distancesSeconds[vINTERVAL_1_MINUTE];
 int distances1Minute[vINTERVAL_15_MINUTES];
@@ -177,59 +169,6 @@ bool saveConfig(){
     return false;
 }
 
-void tfmini_init() {
-  // Start serial port to communicate with the TFMini
-  // Default baud rate is 115200  
-
-  // Pass the Serial class initialized to the tfmini
-  #ifdef LIDAR_SERIAL1
-    Serial1.begin(115200, SERIAL_8N1, RXD1, TXD1);
-    tfmini.begin(&Serial1);
-  #elif defined(LIDAR_SERIAL2)
-    Serial2.begin(115200, SERIAL_8N1, RXD2, TXD2);
-    tfmini.begin(&Serial2);
-  #else
-    tfmini.begin(&Serial);
-  #endif
-  debugln("SETUP LIDAR START");
-  // Set baud rate "Only standard baud rates are supported"
-  //tfmini.setBaudRate(115200);
-
-  // Get firmware version
-  //debugf("Versão: %s\n", tfmini.getVersion());
-
-  // System Reset
-  // tfmini.systemReset();
-
-  // Set the data frame rate 1Hz
-  tfmini.setFrameRate(0);
-
-  // If frame rate is 0 use this method to trigger a data frame
-  // tfmini.triggerDetection();
-
-  // Set ouput distance format to Centimiters
-  tfmini.setMeasurementTo(TFMINI_MEASUREMENT_CM);
-
-  // Set output distance format to Milimeters
-  // tfmini.setMeasurementTo(TFMINI_MEASUREMENT_MM);
-
-  // Disable the device
-  // tfmini.setEnabled(false);
- 
-  // Enable the device
-  // tfmini.setEnabled(true);
-
-  // Restore to factory settings
-  // tfmini.restoreFactorySettings();
-
-  // Persist configuration into the device otherwise will be reset with the next  
-  tfmini.saveSettings();
-
-  loadConfig(&LidarData);
-
-  debugln("SETUP LIDAR END");
-  
-}
 
 /*
 void tfmini_PrintJson(){
@@ -266,9 +205,9 @@ void tfmini_PrintJson(){
 void tfmini_read(unsigned long Lidar_currentMillis) {  
   // read the data frame sent by the mini
   // Enable readings
-  if ( Lidar_currentMillis >= previousMillisSeconds + LIDAR_TIME ) {
-    /* debug("LIDAR Reading:");
-    debugf("%d \n", ESP.getFreeHeap()); */
+  if ( (Lidar_currentMillis >= previousMillisSeconds + LIDAR_TIME)&&(lidar_started==true) ) {
+    debug("LIDAR Reading:");
+    debugf("%d \n", ESP.getFreeHeap());
     //debug(".");
     previousMillisSeconds = millis();
     tfmini.setEnabled(false); 
@@ -311,10 +250,111 @@ void tfmini_read(unsigned long Lidar_currentMillis) {
       LidarData.avg1Hour = calculateAverage(distances15Minutes, vINTERVAL_1_HOUR);
       saveConfig();
     } else {
-      debugln("LIDAR: Falha de leitura");           
+      debugln("LIDAR: Falha de leitura"); 
+      LidarData.distance = 0;
+      debugf("L:%d\n",LidarData.distance);
+      LidarData.strength = 0;
+      LidarData.temperature = 0;           
     }
   // Disable readings, reduces temperature and readings buffer  
   tfmini.setEnabled(true); 
   //debugln("LIDAR FIM");
   }
+}
+#else
+void tfmini_read(unsigned long Lidar_currentMillis) {  
+  if ( (Lidar_currentMillis >= previousMillisSeconds)&&(lidar_started==true) ) {
+    debug("LIDAR Reading:");
+    // debugf("%d \n", ESP.getFreeHeap());
+    //debug(".");
+    previousMillisSeconds = millis();
+    // read the data frame sent by the mini
+    // Enable readings
+    tfmini.setEnabled(false); 
+    tfmini.triggerDetection();
+    if (tfmini.readData()) {
+      LidarData.distance = tfmini.getDistance();
+      // debugf("L:%d\n",LidarData.distance);
+      LidarData.strength = tfmini.getSignalStrength();
+      LidarData.temperature = tfmini.getSensorTemperature();         
+    } else {
+      debugln("LIDAR: Falha de leitura"); 
+      LidarData.distance = 0;      
+      LidarData.strength = 0;
+      LidarData.temperature = 0;           
+    }
+  // Disable readings, reduces temperature and readings buffer  
+  tfmini.setEnabled(true); 
+  //debugln("LIDAR FIM");
+  }
+}
+#endif
+
+void tfmini_init(void *pvParameters) {
+  // Start serial port to communicate with the TFMini
+  // Default baud rate is 115200  
+
+  // Pass the Serial class initialized to the tfmini
+  #ifdef LIDAR_SERIAL1
+    Serial1.begin(115200, SERIAL_8N1, RXD1, TXD1);
+    tfmini.begin(&Serial1);
+  #elif defined(LIDAR_SERIAL2)
+    Serial2.begin(115200, SERIAL_8N1, RXD2, TXD2);
+    tfmini.begin(&Serial2);
+  #else
+    tfmini.begin(&Serial);
+  #endif
+  debugln("SETUP LIDAR START");
+  LidarData.distance = 0;
+  LidarData.strength = 0;
+  LidarData.temperature = 0;  
+  // Set baud rate "Only standard baud rates are supported"
+  //tfmini.setBaudRate(115200);
+
+  // Get firmware version
+  //debugf("Versão: %s\n", tfmini.getVersion());
+
+  // System Reset
+  // tfmini.systemReset();
+
+  // Set the data frame rate 1Hz
+  tfmini.setFrameRate(0);
+
+  // If frame rate is 0 use this method to trigger a data frame
+  // tfmini.triggerDetection();
+
+  // Set ouput distance format to Centimiters
+  tfmini.setMeasurementTo(TFMINI_MEASUREMENT_CM);
+
+  // Set output distance format to Milimeters
+  // tfmini.setMeasurementTo(TFMINI_MEASUREMENT_MM);
+
+  // Disable the device
+  // tfmini.setEnabled(false);
+ 
+  // Enable the device
+  // tfmini.setEnabled(true);
+
+  // Restore to factory settings
+  // tfmini.restoreFactorySettings();
+
+  // Persist configuration into the device otherwise will be reset with the next  
+  tfmini.saveSettings();
+  #ifndef SIMPLE_READ
+    loadConfig(&LidarData);
+  #endif
+  lidar_started = true;
+  debugln("SETUP LIDAR END");
+  
+}
+
+void tfmini_init_task(){
+  xTaskCreatePinnedToCore(
+    tfmini_init,   // Task function. 
+    "TfMiniControlTask",     // String with name of task. 
+    5000,             // Stack size in bytes. 
+    NULL,             // Parameter passed as input of the task 
+    1,                // Priority of the task.
+    NULL,             // Task handle. 
+    0);               // Core where the task should run
 }
