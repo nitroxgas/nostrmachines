@@ -4,8 +4,8 @@
 TFMiniPlus tfmini;
 
 bool lidar_started = false;
-unsigned long previousMillisSeconds = 0;
-unsigned long previousMillis1Minute = 0;
+long previousMillisSeconds = 0;
+long previousMillis1Minute = 0;
 
 #ifndef SIMPLE_READ
 // Vetores para armazenar as leituras
@@ -202,7 +202,7 @@ void tfmini_PrintJson(){
 }
 */
 
-void tfmini_read(unsigned long Lidar_currentMillis) {  
+void tfmini_read(long Lidar_currentMillis) {  
   // read the data frame sent by the mini
   // Enable readings
   if ( (Lidar_currentMillis >= previousMillisSeconds + LIDAR_TIME)&&(lidar_started==true) ) {
@@ -262,7 +262,7 @@ void tfmini_read(unsigned long Lidar_currentMillis) {
   }
 }
 #else
-void tfmini_read(unsigned long Lidar_currentMillis) {  
+void tfmini_read(long Lidar_currentMillis) {  
   if ( (Lidar_currentMillis >= previousMillisSeconds)&&(lidar_started==true) ) {
     debug("LIDAR Reading:");
     // debugf("%d \n", ESP.getFreeHeap());
@@ -344,8 +344,7 @@ void tfmini_init(void *pvParameters) {
     loadConfig(&LidarData);
   #endif
   lidar_started = true;
-  debugln("SETUP LIDAR END");
-  
+  debugln("SETUP LIDAR END");  
 }
 
 void tfmini_init_task(){

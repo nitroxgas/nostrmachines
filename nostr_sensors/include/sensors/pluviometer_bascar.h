@@ -12,7 +12,7 @@
 void pluviometer_AddReaging();
 void pluviometer_init();
 void pluviometer_PrintJson();
-void pluviometer_read(unsigned long pl_currentMillis);
+void pluviometer_read(long pl_currentMillis);
 
 typedef struct TPluvData
 {

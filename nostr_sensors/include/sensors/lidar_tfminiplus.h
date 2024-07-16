@@ -8,7 +8,7 @@
 void tfmini_init(void *pvParameters);
 void tfmini_init_task();
 void tfmini_PrintJson();
-void tfmini_read(unsigned long Lidar_currentMillis);
+void tfmini_read(long Lidar_currentMillis);
 
 typedef struct TLidarData
 {

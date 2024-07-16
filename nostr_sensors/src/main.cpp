@@ -1,6 +1,9 @@
+#ifdef GPIO_VIEW
+#include <gpio_viewer.h> // Must me the first include in your project
+GPIOViewer gpioViewer;
+#endif
+
 #include <Arduino.h>
-
-
 
 #include "sensors.h"
 #include "wManager.h"
@@ -8,6 +11,13 @@
 #include "debug.h"
 // #include "timers.h"
 // freertos
+
+#ifdef OTA_ENABLED
+#include <ESPmDNS.h>
+// #include <NetworkUdp.h>
+#include <ArduinoOTA.h>
+bool wait_ota = false;
+#endif
 
 
 //String read_tmp;
@@ -117,9 +127,48 @@ char pub_counter = 0;
   } */
 #endif
 
+#ifdef OTA_ENABLED
+ void setup_ota(){ 
+  debugln("OTA Setup");
+  ArduinoOTA
+    .onStart([]() {
+      String type;
+      if (ArduinoOTA.getCommand() == U_FLASH) {
+        type = "sketch";
+      } else {  // U_SPIFFS
+        type = "filesystem";
+      }
+      // NOTE: if updating SPIFFS this would be the place to unmount SPIFFS using SPIFFS.end()
+      Serial.println("Start updating " + type);
+    })
+    .onEnd([]() {
+      Serial.println("\nEnd");
+    })
+    .onProgress([](unsigned int progress, unsigned int total) {
+      Serial.printf("Progress: %u%%\r", (progress / (total / 100)));
+    })
+    .onError([](ota_error_t error) {
+      Serial.printf("Error[%u]: ", error);
+      if (error == OTA_AUTH_ERROR) {
+        Serial.println("Auth Failed");
+      } else if (error == OTA_BEGIN_ERROR) {
+        Serial.println("Begin Failed");
+      } else if (error == OTA_CONNECT_ERROR) {
+        Serial.println("Connect Failed");
+      } else if (error == OTA_RECEIVE_ERROR) {
+        Serial.println("Receive Failed");
+      } else if (error == OTA_END_ERROR) {
+        Serial.println("End Failed");
+      } 
+    });
+  ArduinoOTA.begin();
+  }
+#endif
+
 void setup() {  
   // put your setup code here, to run once:
   Serial.begin(115200);
+  Serial.setDebugOutput(true);
   #ifdef STATUS_LED
     pinMode(STATUS_LED, OUTPUT);
   #endif
@@ -151,14 +200,17 @@ void setup() {
       case ESP_SLEEP_WAKEUP_EXT1 : Serial.println("Wakeup caused by external signal using RTC_CNTL"); break;
       case ESP_SLEEP_WAKEUP_TIMER : 
             debugln("Wakeup caused by timer"); 
+            #ifdef MQTT_READ
+            currentMillisOffSet = INTERVAL_1_MINUTE - 5000; // to give time to read mqtt publications
+            #else
             currentMillisOffSet = INTERVAL_1_MINUTE;
+            #endif
             break;
       case ESP_SLEEP_WAKEUP_TOUCHPAD : Serial.println("Wakeup caused by touchpad"); break;
       case ESP_SLEEP_WAKEUP_ULP : Serial.println("Wakeup caused by ULP program"); break;
       default : debugf("Wakeup was not caused by deep sleep: %d\n",wakeup_reason); break;
     }
-
-    esp_sleep_enable_timer_wakeup(SET_DEEP_SLEEP_SECONDS * 1000000);
+    esp_sleep_enable_timer_wakeup(Settings.sleepsec * 1000000);
     #ifdef PLUV
       esp_sleep_enable_ext0_wakeup(PLUV_GPIO,1);
     #endif
@@ -166,6 +218,10 @@ void setup() {
    
   init_WifiManager(); 
 
+  #ifdef GPIO_VIEW
+  gpioViewer.setSamplingInterval(125);
+  gpioViewer.begin();
+  #endif
   #ifdef PLUV
   // debugln("PLUVINIT");
     pluviometer_init();
@@ -179,14 +235,18 @@ void setup() {
   name_mac = Settings.name+"_"+name_mac;
   debugln_(name_mac);
   #ifdef MQTT
-    client_name = name_mac.c_str();
+    client_name = name_mac.c_str();    
+    tag_name = "nostrmachines/"+name_mac;
+    debugln_(tag_name);
     mqtt_init();
   #endif
   #ifdef HAS_BATTERY
     pinMode(BATTERY_VOLTAGE_DATA, INPUT_PULLDOWN);
+    #ifndef LORAV3    
     analogReadResolution(12);
     analogSetPinAttenuation(BATTERY_VOLTAGE_DATA, ADC_ATTENDB_MAX);
     adcAttachPin(BATTERY_VOLTAGE_DATA);
+    #endif
   #endif
   #ifdef LIDAR_TFMINIPlus
     debugln("SETUP LIDAR");
@@ -352,8 +412,8 @@ void dataCollectionJson(){
     // serializeJsonPretty(sensor, Serial);
     sensor.clear();     
     #ifdef MQTT        
-        String tag_mqtt = "nostrmachines/"+name_mac;
-        if (!mqtt_publish(tag_mqtt.c_str(), buffer, true)){
+        // String tag_mqtt = "nostrmachines/"+name_mac;
+        if (!mqtt_publish(tag_name.c_str(), buffer, true)){
           debug("Erro publicacao MQTT: ");
           debugln_(n);  
           debugln_(buffer);
@@ -361,6 +421,7 @@ void dataCollectionJson(){
         } else {
           debugln("Publicado no MQTT: ");
           pub_counter++;
+          vTaskDelay(500 / portTICK_PERIOD_MS);
           #ifdef PLUV
             PluvData.volume = 0;
           #endif
@@ -414,7 +475,9 @@ bool ledblink = true;
 
 void loop() {
   // put your main code here, to run repeatedly:    
-  currentMillis = millis() + currentMillisOffSet;   
+  currentMillis = millis() + currentMillisOffSet; 
+  
+  if (wait_ota) ArduinoOTA.handle();
 
   #ifdef STATUS_LED
     digitalWrite(STATUS_LED,ledblink);
@@ -425,6 +488,32 @@ void loop() {
     //debug("M");
     mqtt_loop();
     // debug("E:");
+    #ifdef MQTT_READ
+      if (has_mqtt_message) {                
+        switch (read_mqtt_topic)
+        {
+        case 1:
+          /* Change Sleep timer */
+          debugln("Changing sleep timer");
+          esp_sleep_enable_timer_wakeup(atoi(read_mqtt_message.c_str()) * 1000000);
+          has_mqtt_message = false;
+          break;   
+        case 2:
+          /* Wait for OTA */
+          debugln("Wait OTA update");
+          // esp_sleep_enable_timer_wakeup(5 * 1000000);
+          currentMillisOffSet = -1 * (INTERVAL_1_MINUTE * atoi(read_mqtt_message.c_str()));
+          // debugln_(currentMillis);
+          currentMillis += currentMillisOffSet;          
+          has_mqtt_message = false;
+          if (!wait_ota) setup_ota();
+          wait_ota = true;
+          break;       
+        default:
+          break;
+        }      
+      }
+    #endif
   #endif
 
   #ifdef LIDAR_TFMINIPlus 
@@ -488,6 +577,6 @@ void loop() {
       nostrRelayManager.broadcastEvents();
     #endif     
   #endif    
-  vTaskDelay(500 / portTICK_PERIOD_MS);  
+  vTaskDelay(500 / portTICK_PERIOD_MS);
   // debugln("V:");
 }

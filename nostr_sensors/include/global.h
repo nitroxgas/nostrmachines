@@ -13,6 +13,9 @@
 #define DEFAULT_ZAPVALUE	10
 #define DEFAULT_NAME		"NOSTRSENSOR"
 #define DEFAULT_MAC			"00:00:00:00:00:00"
+#ifdef SET_DEEP_SLEEP_SECONDS
+#define DEFAULT_SLEEP_SEC	SET_DEEP_SLEEP_SECONDS
+#endif
 
 // JSON config file SPIFFS (different for backward compatibility with existing devices)
 #define JSON_KEY_PRIV		"nostrPrivKey"
@@ -22,6 +25,7 @@
 #define JSON_KEY_TIMEZONE	"gmtZone"
 #define JSON_KEY_ZAPVALUE	"zapValue"
 #define JSON_KEY_NAME		"NOSTRSENSOR"
+#define JSON_KEY_SLEEP		"SLEEPSEC"
 
 // JSON config files
 #define JSON_CONFIG_FILE	"/config.json"
@@ -39,6 +43,9 @@ struct TSettings
 	long zapvalue{ DEFAULT_ZAPVALUE };
 	String name{ DEFAULT_NAME };
 	String macaddr{ DEFAULT_MAC };
+	#ifdef SET_DEEP_SLEEP_SECONDS
+	int sleepsec{ DEFAULT_SLEEP_SEC };	
+	#endif
 };
 
 extern TSettings Settings;

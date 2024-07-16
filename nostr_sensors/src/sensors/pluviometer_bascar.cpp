@@ -228,7 +228,7 @@ void pluviometer_read(unsigned long pl_currentMillis){
 #else
 
 // TODO: Verify behave without deepsleep
-void pluviometer_read(unsigned long pl_currentMillis){    
+void pluviometer_read(long pl_currentMillis){    
         /* #ifndef SET_DEEP_SLEEP_SECONDS_
         if (pl_currentMillis - pl_previousMillis1Minute >= INTERVAL_1_MINUTE) {
           pl_previousMillis1Minute = pl_currentMillis;      

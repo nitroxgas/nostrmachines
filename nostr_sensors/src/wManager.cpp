@@ -52,7 +52,11 @@ bool loadConfig(TSettings* Settings)
                     if (json.containsKey(JSON_KEY_TIMEZONE))
                         Settings->Timezone = json[JSON_KEY_TIMEZONE].as<int>();
                     if (json.containsKey(JSON_KEY_ZAPVALUE))
-                        Settings->zapvalue = json[JSON_KEY_ZAPVALUE].as<long>();                    
+                        Settings->zapvalue = json[JSON_KEY_ZAPVALUE].as<long>();  
+                    #ifdef SET_DEEP_SLEEP_SECONDS
+                    if (json.containsKey(JSON_KEY_SLEEP))
+                        Settings->sleepsec = json[JSON_KEY_SLEEP].as<int>(); 
+                    #endif                                      
                     return true;
                 }
                 else
@@ -102,6 +106,9 @@ bool saveConfig(TSettings* Settings)
         json[JSON_KEY_TIMEZONE] = Settings->Timezone;
         json[JSON_KEY_ZAPVALUE] = Settings->zapvalue;
         json[JSON_KEY_NAME] = Settings->name;
+        #ifdef SET_DEEP_SLEEP_SECONDS        
+        json[JSON_KEY_SLEEP] = Settings->sleepsec;
+        #endif 
 
         
         // Open config file
@@ -238,6 +245,8 @@ void init_WifiManager()
     sprintf(charZone, "%d", Settings.Timezone);
     WiFiManagerParameter time_text_box_num("TimeZone", "TimeZone fromUTC (-12/+12)", charZone, 3);
 
+    
+
     // Add all defined parameters
     wm.addParameter(&name_text_box);
     wm.addParameter(&privkey_text_box);
@@ -246,6 +255,12 @@ void init_WifiManager()
     wm.addParameter(&master_text_box);
     wm.addParameter(&zap_text_box_num);
     wm.addParameter(&time_text_box_num);
+    
+    #ifdef SET_DEEP_SLEEP_SECONDS
+    sprintf(charZone, "%d", Settings.sleepsec);
+    WiFiManagerParameter sleep_text_box_num("SleepSec", "Seconds to sleep", charZone, 3);
+    wm.addParameter(&sleep_text_box_num);
+    #endif
 
     debugln("AllDone: ");
     if (forceConfig)    
@@ -263,7 +278,10 @@ void init_WifiManager()
             Settings.pubkey  = pubkey_text_box.getValue();
             Settings.nrelays = nrelays_text_box.getValue();
             Settings.Timezone = atoi(time_text_box_num.getValue());
-            Settings.zapvalue = atoi(zap_text_box_num.getValue());            
+            Settings.zapvalue = atoi(zap_text_box_num.getValue());  
+            #ifdef SET_DEEP_SLEEP_SECONDS
+            Settings.sleepsec = atoi(sleep_text_box_num.getValue());
+            #endif          
             saveConfig(&Settings);
             delay(3000);
             //reset and try again, or maybe put it to deep sleep
@@ -288,6 +306,9 @@ void init_WifiManager()
                 Settings.pubkey  = pubkey_text_box.getValue();
                 Settings.nrelays = nrelays_text_box.getValue();
                 Settings.Timezone = atoi(time_text_box_num.getValue());
+                #ifdef SET_DEEP_SLEEP_SECONDS
+                Settings.sleepsec = atoi(sleep_text_box_num.getValue());
+                #endif
                 Settings.zapvalue = atoi(zap_text_box_num.getValue()); 
                 saveConfig(&Settings);
                 vTaskDelay(2000 / portTICK_PERIOD_MS);      
@@ -315,6 +336,9 @@ void init_WifiManager()
         Settings.Timezone = atoi(time_text_box_num.getValue());
         Settings.zapvalue = atol(zap_text_box_num.getValue());
         Settings.macaddr = WiFi.macAddress();
+        #ifdef SET_DEEP_SLEEP_SECONDS
+        Settings.sleepsec = atoi(sleep_text_box_num.getValue());
+        #endif
 
         debug("Sensor Name: ");
         debugln_(Settings.name);
@@ -333,6 +357,11 @@ void init_WifiManager()
                 
         debug("TimeZone fromUTC: ");
         debugln_(Settings.Timezone);
+
+        #ifdef SET_DEEP_SLEEP_SECONDS
+        debug("Sleep Seconds: ");
+        debugln_(Settings.sleepsec);
+        #endif
     }
 
     // Save the custom parameters to FS

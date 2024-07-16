@@ -14,7 +14,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 TDHTData DhtData;
 
-unsigned long dpreviousMillis1Minute = 0;
+long dpreviousMillis1Minute = 0;
 
 #ifndef SIMPLE_READ
 // Vetores para armazenar as leituras
@@ -172,7 +172,7 @@ void dht22_init() {
     DhtData.humidity = 0;    
 }
 
-void dht22_read(unsigned long dht22_currentMillis) {  
+void dht22_read(long dht22_currentMillis) {  
   if (dht22_currentMillis - dpreviousMillis1Minute >= INTERVAL_1_MINUTE) {
     dpreviousMillis1Minute = dht22_currentMillis;
     debugln("DHT sensor!");

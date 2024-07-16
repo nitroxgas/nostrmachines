@@ -8,7 +8,7 @@
 
 void dht22_init();
 bool dht22_PrintJson(bool saveconfig);
-void dht22_read(unsigned long dht22_currentMillis);
+void dht22_read(long dht22_currentMillis);
 
 
 typedef struct TDHT22Data
