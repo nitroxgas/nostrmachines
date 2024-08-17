@@ -251,6 +251,7 @@ void setup() {
   #ifdef LIDAR_TFMINIPlus
     debugln("SETUP LIDAR");
     tfmini_init_task();
+    //tfmini_init(NULL);
   #endif
   #ifdef LIDAR_TFMINIPlusNoLib
     debugln("SETUP LIDAR");
@@ -359,8 +360,8 @@ void dataCollectionJson(){
     #endif
     #ifdef LIDAR_TFMINIPlus
     //debugln("READ LIDAR");                         
-      debugf("Distance: D:%d\n", LidarData.distance); //, a15:%d, a1h:%d, a1d:%d");      
       /*
+      debugf("Distance: D:%d\n", LidarData.distance); //, a15:%d, a1h:%d, a1d:%d");            
       debugf(" cm, Avg 15m:%d", LidarData.avg15);
       debugf(" cm, Avg 1h:%d", LidarData.avg1Hour);
       debugf(" cm, Avg 1d:%d", LidarData.avg1Day);

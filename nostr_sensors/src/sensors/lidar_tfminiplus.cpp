@@ -263,25 +263,27 @@ void tfmini_read(long Lidar_currentMillis) {
 }
 #else
 void tfmini_read(long Lidar_currentMillis) {  
-  if ( (Lidar_currentMillis >= previousMillisSeconds)&&(lidar_started==true) ) {
-    debug("LIDAR Reading:");
+  if ( (Lidar_currentMillis - previousMillisSeconds >= INTERVAL_1_MINUTE )&&(lidar_started==true) ) {
+    debugln("LIDAR Reading:");
     // debugf("%d \n", ESP.getFreeHeap());
     //debug(".");
     previousMillisSeconds = millis();
     // read the data frame sent by the mini
     // Enable readings
-    tfmini.setEnabled(false); 
+    tfmini.setEnabled(false);
     tfmini.triggerDetection();
     if (tfmini.readData()) {
-      LidarData.distance = tfmini.getDistance();
-      // debugf("L:%d\n",LidarData.distance);
+      LidarData.distance = tfmini.getDistance();      
       LidarData.strength = tfmini.getSignalStrength();
-      LidarData.temperature = tfmini.getSensorTemperature();         
+      LidarData.temperature = tfmini.getSensorTemperature();   
+      debugf("D:%d\n",LidarData.distance);
+      // debugf("T:%d\n",LidarData.temperature);
+      // debugf("S:%d\n",LidarData.strength);
     } else {
       debugln("LIDAR: Falha de leitura"); 
       LidarData.distance = 0;      
       LidarData.strength = 0;
-      LidarData.temperature = 0;           
+      LidarData.temperature = 0;
     }
   // Disable readings, reduces temperature and readings buffer  
   tfmini.setEnabled(true); 
@@ -291,9 +293,12 @@ void tfmini_read(long Lidar_currentMillis) {
 #endif
 
 void tfmini_init(void *pvParameters) {
+  
+  // ********* this sensor needs 5v *********
+  // 3.3v returns inconsistent mesurements
+
   // Start serial port to communicate with the TFMini
   // Default baud rate is 115200  
-
   // Pass the Serial class initialized to the tfmini
   #ifdef LIDAR_SERIAL1
     Serial1.begin(115200, SERIAL_8N1, RXD1, TXD1);
@@ -304,16 +309,20 @@ void tfmini_init(void *pvParameters) {
   #else
     tfmini.begin(&Serial);
   #endif
+
+  // Restore to factory settings
+  // tfmini.restoreFactorySettings();
+  
   debugln("SETUP LIDAR START");
   LidarData.distance = 0;
   LidarData.strength = 0;
   LidarData.temperature = 0;  
   // Set baud rate "Only standard baud rates are supported"
-  //tfmini.setBaudRate(115200);
+  // tfmini.setBaudRate(115200);
 
   // Get firmware version
-  //debugf("Versão: %s\n", tfmini.getVersion());
-
+  debugf("Versão: %s\n", tfmini.getVersion());
+  // debugln("SETUP LIDAR STEP");
   // System Reset
   // tfmini.systemReset();
 
@@ -329,22 +338,23 @@ void tfmini_init(void *pvParameters) {
   // Set output distance format to Milimeters
   // tfmini.setMeasurementTo(TFMINI_MEASUREMENT_MM);
 
-  // Disable the device
-  // tfmini.setEnabled(false);
- 
-  // Enable the device
-  // tfmini.setEnabled(true);
-
-  // Restore to factory settings
-  // tfmini.restoreFactorySettings();
-
   // Persist configuration into the device otherwise will be reset with the next  
   tfmini.saveSettings();
+  
+  // Disable the device
+  tfmini.setEnabled(true);
+
+  // Enable the device
+  // tfmini.setEnabled(false);
+
   #ifndef SIMPLE_READ
     loadConfig(&LidarData);
   #endif
   lidar_started = true;
   debugln("SETUP LIDAR END");  
+  while (1) {
+    vTaskDelay(10000/portTICK_PERIOD_MS);
+  }
 }
 
 void tfmini_init_task(){
