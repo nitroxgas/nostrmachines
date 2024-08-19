@@ -10,7 +10,7 @@ It should become orange on the display when one of the DM is identified, suggest
 ## 2: A Garage door controller
 A garage door controller to open, close, and notify a user using Nostr DM to proof of authority ( a work in progress );
 
-## 3: A Nostr remote sensor
+## 3: Nostr Sensors
 A client implementation to collect and send data over Nostr, and better, selling the data for satoshis! Imagine an array of sensors collecting data and automatically selling it to any human or AI in need of that information. That´s what we propose here! ( a work in progress );
 
 To-Do:
