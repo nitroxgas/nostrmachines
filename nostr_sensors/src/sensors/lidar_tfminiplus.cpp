@@ -321,7 +321,7 @@ void tfmini_init(void *pvParameters) {
   // tfmini.setBaudRate(115200);
 
   // Get firmware version
-  debugf("Versão: %s\n", tfmini.getVersion());
+  debugf("\nVersion: %s\n", tfmini.getVersion());
   // debugln("SETUP LIDAR STEP");
   // System Reset
   // tfmini.systemReset();

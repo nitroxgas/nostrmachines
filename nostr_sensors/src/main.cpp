@@ -243,9 +243,13 @@ void setup() {
   #ifdef HAS_BATTERY
     pinMode(BATTERY_VOLTAGE_DATA, INPUT_PULLDOWN);
     #ifndef LORAV3    
-    analogReadResolution(12);
-    analogSetPinAttenuation(BATTERY_VOLTAGE_DATA, ADC_ATTENDB_MAX);
-    adcAttachPin(BATTERY_VOLTAGE_DATA);
+      analogReadResolution(12);
+      analogSetPinAttenuation(BATTERY_VOLTAGE_DATA, ADC_ATTENDB_MAX);
+      adcAttachPin(BATTERY_VOLTAGE_DATA);    
+    #endif
+    #ifdef SLOWCLOCK
+    // Better battery performance with WIFI
+      setCpuFrequencyMhz(160);
     #endif
   #endif
   #ifdef LIDAR_TFMINIPlus
@@ -260,7 +264,13 @@ void setup() {
 
   #ifdef DHT22_SENSOR
     dht22_init();
-  #endif     
+  #endif 
+  #ifdef AHT0X_SENSOR
+    aht0x_init();
+  #endif    
+  #ifdef USSENSOR
+    ultrasonic_init();
+  #endif
   #ifdef NOSTR
     // Serial.printf("HEAP:%d\n",ESP.getFreeHeap());
     
@@ -405,7 +415,36 @@ void dataCollectionJson(){
       dht_h["avg1day"] = DhtData.havg1Day;
       #endif
       dht_h["unit"] = "%";            
+    #endif
+    #ifdef AHT0X_SENSOR                    
+      JsonObject aht_t_m = sensor.createNestedObject("AHT0X");
+      JsonObject aht_t = aht_t_m.createNestedObject("temperature");      
+      aht_t["value"] = AhtData.temperature;
+      #ifndef SIMPLE_READ
+      aht_t["avg15"] = AhtData.tavg15;
+      aht_t["avg1hour"] = AhtData.tavg1Hour;
+      aht_t["avg1day"] = AhtData.tavg1Day;
+      #endif
+      aht_t["unit"] = "°C";
+      JsonObject aht_h = aht_t_m.createNestedObject("humidity");
+      aht_h["value"] = AhtData.humidity;
+      #ifndef SIMPLE_READ
+      aht_h["avg15"] = AhtData.havg15;
+      aht_h["avg1hour"] = AhtData.havg1Hour;
+      aht_h["avg1day"] = AhtData.havg1Day;
+      #endif
+      aht_h["unit"] = "%";            
     #endif       
+    #ifdef USSENSOR    
+      JsonObject us_s = sensor.createNestedObject("US");
+      us_s["distance"] = USData.distance;      
+      #ifndef SIMPLE_READ    
+      us_s["avg15"] = USData.avg15;
+      us_s["avg1hour"] = USData.avg1Hour;
+      us_s["avg1day"] = USData.avg1Day;
+      #endif 
+      lidar_s["unit"] = "cm"; 
+    #endif
 
     char buffer[512];
     size_t n = serializeJson(sensor, buffer);
@@ -531,7 +570,16 @@ void loop() {
     dht22_read(currentMillis);
     // debug("E:");
   #endif
-  
+  #ifdef AHT0X_SENSOR
+    // debug("A");
+    aht0x_read(currentMillis);
+    // debug("E:");
+  #endif
+  #ifdef USSENSOR
+    // debug("U");
+    ultrasonic_read(currentMillis);
+    // debug("E:");
+  #endif  
   
 // Prepare data and publish to mqtt
   if ( currentMillis - pub_previousMillis >= INTERVAL_1_MINUTE ) {

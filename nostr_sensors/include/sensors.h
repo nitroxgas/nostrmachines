@@ -14,11 +14,19 @@
 #endif
 #ifdef PLUV
     #include "sensors/pluviometer_bascar.h"
-    long pluv_previousMillis = 0;
+    //long pluv_previousMillis = 0;
 #endif
 #ifdef DHT22_SENSOR
     #include "sensors/temp_dht22.h"
-    long dht22_previousMillis = 0;
+    //long dht22_previousMillis = 0;
+#endif
+#ifdef AHT0X_SENSOR
+    #include "sensors/temp_ahtx0.h"
+    //long dht22_previousMillis = 0;
+#endif
+#ifdef USSENSOR
+    #include "sensors/ultrasonic.h"
+    //long us_previousMillis = 0;
 #endif
 #ifdef HAS_BATTERY
     
