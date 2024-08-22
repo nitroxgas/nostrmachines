@@ -19,7 +19,6 @@ Boards tested:
 * Heltec Lora32 V3 & V2	
 * esp32-s3-devkitc-1
 
-George Alexandre Silva, @nitroxgas
 
 
 
