@@ -1,1 +1,3 @@
 nostr_sensors/logs
+.pio
+.vscode
